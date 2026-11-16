@@ -1,0 +1,8 @@
+{
+  "condition": "control",
+  "corpus_hash": "27acebf78b406edf1793d9d7cee75e6f430a6d895b6a424596c77bf9a71e5c0d",
+  "document_count": 120,
+  "documents_file": "documents.jsonl",
+  "schema_version": "1.0",
+  "split": "pilot"
+}

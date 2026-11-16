@@ -1,0 +1,9 @@
+{
+  "backend": "JsonKVStorage",
+  "layout": "json_shards",
+  "members": [
+    ""
+  ],
+  "schema_version": 1,
+  "storage_uuid": "ae81000d-9914-408d-b890-18ed4fc4f189"
+}

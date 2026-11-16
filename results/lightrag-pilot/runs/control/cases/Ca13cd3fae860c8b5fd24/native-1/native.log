@@ -1,0 +1,46 @@
+INFO: [] Loaded graph from /tmp/gcb-query-_lw3yoh5/native/graph_chunk_entity_relation.graphml with 168 nodes, 120 edges
+INFO: Role LLM Configuration (initialized):
+INFO:  - extract: None/None, host=None, max_async=1, timeout=240
+INFO:  - keyword: None/None, host=None, max_async=1, timeout=240
+INFO:  - query: None/None, host=None, max_async=1, timeout=240
+INFO:  - vlm: None/None, host=None, max_async=1, timeout=240
+INFO: [_lightrag_config] Process 2039 KV load config with 5 records
+INFO: [] Process 2039 KV load full_docs with 120 records
+INFO: [] Process 2039 KV load text_chunks with 120 records
+INFO: [] Process 2039 KV load full_entities with 120 records
+INFO: [] Process 2039 KV load full_relations with 120 records
+INFO: [] Process 2039 KV load entity_chunks with 168 records
+INFO: [] Process 2039 KV load relation_chunks with 120 records
+INFO:nano-vectordb:Load (168, 256) data
+INFO:nano-vectordb:Init {'embedding_dim': 256, 'metric': 'cosine', 'storage_file': '/tmp/gcb-query-_lw3yoh5/native/vdb_entities.json'} 168 data
+INFO:nano-vectordb:Load (120, 256) data
+INFO:nano-vectordb:Init {'embedding_dim': 256, 'metric': 'cosine', 'storage_file': '/tmp/gcb-query-_lw3yoh5/native/vdb_relationships.json'} 120 data
+INFO:nano-vectordb:Load (120, 256) data
+INFO:nano-vectordb:Init {'embedding_dim': 256, 'metric': 'cosine', 'storage_file': '/tmp/gcb-query-_lw3yoh5/native/vdb_chunks.json'} 120 data
+INFO: [] Process 2039 KV load llm_response_cache with 0 records
+INFO: [] Process 2039 doc status load doc_status with 120 records
+INFO: keyword LLM func: 1 new workers initialized (Timeouts: Func: 240s, Worker: 480s, Health Check: 495s)
+INFO: Embedding func: 1 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+INFO: Query nodes: Nf96405a2392fdff9bb1e (top_k:60, cosine:-1.0)
+INFO: Local query: 60 entities, 55 relations
+INFO: Query edges: CONTAINED_IN, SUBREGION_OF, PRECEDES (top_k:60, cosine:-1.0)
+INFO: Global query: 91 entities, 60 relations
+INFO: Raw search results: 112 entities, 81 relations, 0 vector chunks
+INFO: After truncation: 22 entities, 28 relations
+INFO: Selecting 22 from 22 entity-related chunks by vector similarity
+INFO: Find 11 additional chunks in 11 relations (deduplicated 17)
+INFO: Selecting 11 from 11 relation-related chunks by vector similarity
+INFO: Round-robin merged chunks: 33 -> 33 (deduplicated 0)
+INFO: Final context: 22 entities, 28 relations, 33 chunks
+INFO: Final chunks S+F/O: E1/1 R1/1 E2/2 R1/2 E1/3 R1/3 E1/4 R1/4 E1/5 R1/5 E1/6 R1/6 E1/7 R1/7 E1/8 R1/8 E1/9 R1/9 E1/10 R1/10 E2/11 R1/11 E2/12 E2/13 E2/14 E2/15 E2/16 E1/17 E1/18 E2/19 E1/20 E2/21 E1/22
+INFO: extract LLM func: Shutting down priority queue workers
+INFO: extract LLM func: Priority queue workers shutdown complete
+INFO: keyword LLM func: Shutting down priority queue workers
+INFO: keyword LLM func: Priority queue workers shutdown complete
+INFO: query LLM func: Shutting down priority queue workers
+INFO: query LLM func: Priority queue workers shutdown complete
+INFO: vlm LLM func: Shutting down priority queue workers
+INFO: vlm LLM func: Priority queue workers shutdown complete
+INFO: Successfully finalized 13 storages
+INFO: Embedding func: Shutting down priority queue workers
+INFO: Embedding func: Priority queue workers shutdown complete

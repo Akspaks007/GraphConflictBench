@@ -1,0 +1,1 @@
+{"contents":[{"role":"user","parts":[{"text":"offline failure"}]}],"generationConfig":{"temperature":0,"candidateCount":1,"maxOutputTokens":1536,"thinkingConfig":{"thinkingBudget":0,"includeThoughts":false}}}

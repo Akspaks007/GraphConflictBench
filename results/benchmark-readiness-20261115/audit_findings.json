@@ -1,0 +1,234 @@
+{
+  "date_asia_kolkata": "2026-11-15",
+  "pilot_audit": {
+    "status": "passed",
+    "cases": 48,
+    "families": 24,
+    "by_depth_condition": {
+      "1:conflict": 8,
+      "1:control": 8,
+      "2:conflict": 8,
+      "2:control": 8,
+      "3:conflict": 8,
+      "3:control": 8
+    },
+    "documents": 144,
+    "all_certificates_valid": true,
+    "paired_queries_identical": true,
+    "human_audit": "pending",
+    "label_leakage_classifier": "not_run"
+  },
+  "independent_paths_and_labels_checked": 48,
+  "paired_families_checked": 24,
+  "original_artifact_integrity": {
+    "files_checked": 739,
+    "mismatches": []
+  },
+  "native_fixture_fidelity": {
+    "conflict": {
+      "documents": 120,
+      "chunks": 120,
+      "exact_full_documents": 120,
+      "exact_source_chunks": 120,
+      "graph_directed": "undirected",
+      "graph_nodes": 144,
+      "graph_edges": 112,
+      "assertions_found_verbatim_in_attributed_graph_descriptions": 120,
+      "assertions_not_found_verbatim_in_attributed_graph_descriptions": [],
+      "meaning": "Offline fixture snapshot inspection; not a live-model fidelity measurement or native directed proof alignment."
+    },
+    "control": {
+      "documents": 120,
+      "chunks": 120,
+      "exact_full_documents": 120,
+      "exact_source_chunks": 120,
+      "graph_directed": "undirected",
+      "graph_nodes": 168,
+      "graph_edges": 120,
+      "assertions_found_verbatim_in_attributed_graph_descriptions": 120,
+      "assertions_not_found_verbatim_in_attributed_graph_descriptions": [],
+      "meaning": "Offline fixture snapshot inspection; not a live-model fidelity measurement or native directed proof alignment."
+    }
+  },
+  "condition_isolation": {
+    "shared_documents": 96,
+    "conflict_only": 24,
+    "control_only": 24
+  },
+  "saved_prompts_rebuilt_and_checked": 48,
+  "forbidden_gold_fields_in_saved_model_payloads": 0,
+  "wrong_condition_document_ids_in_saved_model_payloads": 0,
+  "evidence_chunk_counts": {
+    "raw_chunks": 1734,
+    "delivered_chunks": 1734,
+    "exact_raw_chunks": 1734,
+    "exact_delivered_chunks": 1734
+  },
+  "retrieval_warning_case_counts": {
+    "native_graph_row_omitted_by_envelope_budget": 48
+  },
+  "fixture_failure_case_ids": [
+    "Ca5cf3e75e3d2fddf1810",
+    "Cd4415c7ca842d8437c46",
+    "C9ad27ae96d1771959b51",
+    "C18c3b347fd4b60f07d70",
+    "C588987f4cc3505b4717d",
+    "Cd232869ea3c6d7941431",
+    "C904e17d3e62812902b13",
+    "C2d191d934a58992b6ebe",
+    "C42ca936fcf6590680a3a"
+  ],
+  "review_flag_counts": {
+    "human_signoff_pending": 48,
+    "synthetic_rule_scope_and_opaque_names": 48,
+    "model_visible_build_timestamp_condition_proxy": 48,
+    "positive_and_denial_share_one_undirected_native_edge": 8,
+    "saved_fixture_retrieval_incomplete": 9,
+    "control_depth_labels_separate_positive_chain": 24
+  },
+  "scorer_role_probe": {
+    "case_id": "C3e26105ec36803f12b2e",
+    "operation": "Swap support and opposing citation lists in memory; no saved prediction was changed.",
+    "exact_proof_set_after_swap": true,
+    "limitation": "The current scorer compares the union of cited assertions and does not validate citation roles."
+  },
+  "smoke": {
+    "audit": {
+      "status": "passed",
+      "cases": 12,
+      "families": 6,
+      "by_depth_condition": {
+        "1:conflict": 2,
+        "1:control": 2,
+        "2:conflict": 2,
+        "2:control": 2,
+        "3:conflict": 2,
+        "3:control": 2
+      },
+      "documents": 36,
+      "all_certificates_valid": true,
+      "paired_queries_identical": true,
+      "human_audit": "pending",
+      "label_leakage_classifier": "not_run"
+    },
+    "relation_counts": {
+      "CONTAINED_IN": 6,
+      "SUBREGION_OF": 6
+    },
+    "case_ids": [
+      "C3e26105ec36803f12b2e",
+      "C96e62542ee1b2f486b9f",
+      "C42bbd4765e6d5519d2b2",
+      "C221076261f1c382e4bda",
+      "C7e7d62477508e2b4388a",
+      "C4bd4688564a242ecf137",
+      "C7ea8d2cba383bd89ac9d",
+      "C5ef6d9ade86682fff037",
+      "C9ad27ae96d1771959b51",
+      "C867476b9eda45605182a",
+      "C18c3b347fd4b60f07d70",
+      "C72bd1b5ee97f58f77f35"
+    ],
+    "overlap_with_pilot_cases": 12,
+    "documents_per_condition": {
+      "conflict": 30,
+      "control": 30
+    }
+  },
+  "cost_estimate": {
+    "kind": "offline_estimate_not_observed_usage",
+    "rates": {
+      "llm_input_per_million_usd": 0.15,
+      "llm_output_per_million_usd": 0.6,
+      "embedding_per_million_usd": 0.02
+    },
+    "stages": [
+      {
+        "stage": "initial extraction",
+        "calls": 60,
+        "input_tokens": 109076,
+        "output_tokens": 18000,
+        "estimated_usd": 0.027161400000000002
+      },
+      {
+        "stage": "one gleaning pass",
+        "calls": 60,
+        "input_tokens": 151376,
+        "output_tokens": 6000,
+        "estimated_usd": 0.026306399999999997
+      },
+      {
+        "stage": "entity/relation summaries allowance",
+        "calls": 12,
+        "input_tokens": 24000,
+        "output_tokens": 4800,
+        "estimated_usd": 0.00648
+      },
+      {
+        "stage": "retrieval keyword extraction",
+        "calls": 12,
+        "input_tokens": 8244,
+        "output_tokens": 1800,
+        "estimated_usd": 0.0023166
+      },
+      {
+        "stage": "final JSON generation",
+        "calls": 12,
+        "input_tokens": 66000,
+        "output_tokens": 9600,
+        "estimated_usd": 0.01566
+      }
+    ],
+    "embedding_tokens_allowance": 50000,
+    "embedding_estimated_usd": 0.001,
+    "central_total_usd": 0.0789244,
+    "estimated_range_usd": [
+      0.05,
+      0.3
+    ],
+    "stress_envelope_usd": 0.454,
+    "proposed_hard_cap_usd": 2.0,
+    "application_can_enforce_hard_cap": false,
+    "default_llm_completion_limit_sent": false,
+    "source_document_tokens_across_both_smoke_conditions": 3416,
+    "initial_extraction_input_tokens_range": [
+      1813,
+      1824
+    ],
+    "note": "Text token counts use cl100k_base; actual model billing tokenizer, native descriptions, embeddings and summaries vary. Output tokens, 12 summaries, 5500 generation input tokens, and embedding allowance are assumptions; no cached-input or Batch discount. Calls are model callback invocations, not a guaranteed HTTP request bound."
+  },
+  "fidelity_problems": [],
+  "human_review_completed": false,
+  "trained_leakage_classifier_run": false,
+  "paid_model_calls": 0,
+  "metadata_leakage": {
+    "kind": "observed_in_sample_condition_proxy_not_a_trained_leakage_classifier",
+    "created_at_ranges": {
+      "conflict": {
+        "min": 1794685336,
+        "max": 1794685341,
+        "rows": 227
+      },
+      "control": {
+        "min": 1794685394,
+        "max": 1794685399,
+        "rows": 328
+      }
+    },
+    "ranges_nonoverlapping": true,
+    "cases_with_visible_timestamps": 48,
+    "delivered_native_graph_row_counts": {
+      "conflict": {
+        "entities": 227,
+        "references": 35,
+        "relationships": 0
+      },
+      "control": {
+        "entities": 328,
+        "references": 31,
+        "relationships": 0
+      }
+    },
+    "recommendation_not_implemented": "Keep raw rows in traces; exclude volatile build timestamps from model-visible envelopes using a reviewed allowlist, then use fresh snapshots. No label, source or proof changes."
+  }
+}

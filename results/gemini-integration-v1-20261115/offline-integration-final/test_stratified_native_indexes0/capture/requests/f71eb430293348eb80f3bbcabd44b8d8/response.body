@@ -1,0 +1,1 @@
+{"modelVersion":"gemini-2.5-flash","candidates":[{"content":{"parts":[{"text":"{\"schema_version\":\"1.0\",\"case_id\":\"C18c3b347fd4b60f07d70\",\"conflict_detected\":false,\"evidence_status\":\"insufficient\",\"conflicts\":[],\"resolution\":\"not_attempted\"}"}]},"finishReason":"STOP"}],"usageMetadata":{"promptTokenCount":10,"candidatesTokenCount":2,"totalTokenCount":12}}

@@ -1,0 +1,66 @@
+{
+  "$meta/storage_identity": {
+    "schema_version": 1,
+    "updated_at": "2026-11-15T09:00:40.595435+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "uuid": "5ffb3d48-15a0-4151-b82d-b21a4633c7ad"
+    },
+    "create_time": 1794733240,
+    "update_time": 1794733240,
+    "_id": "$meta/storage_identity"
+  },
+  "$meta/json_shard": {
+    "schema_version": 1,
+    "updated_at": "2026-11-15T09:00:40.595435+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "workspace": ""
+    },
+    "create_time": 1794733240,
+    "update_time": 1794733240,
+    "_id": "$meta/json_shard"
+  },
+  "$default/embedding/entities": {
+    "schema_version": 1,
+    "workspace": "",
+    "updated_at": "2026-11-15T09:00:40.615614+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "model": "gemini-embedding-001",
+      "dim": 1536,
+      "origin": "empty"
+    },
+    "create_time": 1794733240,
+    "update_time": 1794733240,
+    "_id": "$default/embedding/entities"
+  },
+  "$default/embedding/relationships": {
+    "schema_version": 1,
+    "workspace": "",
+    "updated_at": "2026-11-15T09:00:40.617546+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "model": "gemini-embedding-001",
+      "dim": 1536,
+      "origin": "empty"
+    },
+    "create_time": 1794733240,
+    "update_time": 1794733240,
+    "_id": "$default/embedding/relationships"
+  },
+  "$default/embedding/chunks": {
+    "schema_version": 1,
+    "workspace": "",
+    "updated_at": "2026-11-15T09:00:40.621235+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "model": "gemini-embedding-001",
+      "dim": 1536,
+      "origin": "empty"
+    },
+    "create_time": 1794733240,
+    "update_time": 1794733240,
+    "_id": "$default/embedding/chunks"
+  }
+}

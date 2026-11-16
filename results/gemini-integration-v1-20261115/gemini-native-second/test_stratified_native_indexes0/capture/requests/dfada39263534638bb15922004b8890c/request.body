@@ -1,0 +1,1 @@
+{"model":"models/gemini-embedding-001","content":{"parts":[{"text":"PRECEDES\tNbf627d31a588c1259d80\nNf96405a2392fdff9bb1e\nNf96405a2392fdff9bb1e does not precede Nbf627d31a588c1259d80."}]},"taskType":"SEMANTIC_SIMILARITY","outputDimensionality":1536}

@@ -1,0 +1,1 @@
+{"model":"models/gemini-embedding-001","content":{"parts":[{"text":"CONTAINED_IN\tN6401ff9770356cea0bdf\nNd3a7440e5b8f66ca8744\nNd3a7440e5b8f66ca8744 is contained in N6401ff9770356cea0bdf."}]},"taskType":"SEMANTIC_SIMILARITY","outputDimensionality":1536}

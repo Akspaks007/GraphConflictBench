@@ -1,0 +1,13 @@
+{
+  "parse_error": null,
+  "prediction": {
+    "case_id": "C96e62542ee1b2f486b9f",
+    "conflict_detected": false,
+    "conflicts": [],
+    "evidence_status": "insufficient",
+    "resolution": "not_attempted",
+    "schema_version": "1.0"
+  },
+  "raw": "{\"schema_version\":\"1.0\",\"case_id\":\"C96e62542ee1b2f486b9f\",\"conflict_detected\":false,\"evidence_status\":\"insufficient\",\"conflicts\":[],\"resolution\":\"not_attempted\"}",
+  "usage": []
+}

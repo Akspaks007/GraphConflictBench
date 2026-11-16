@@ -1,0 +1,9 @@
+{
+  "dataset": "results/step4-validity-v2-20261115/stratified-smoke-v2",
+  "eligibility_status": "unverified",
+  "implementation_hash": "0bdd1367169f8bd096af1fcd145e17505e76e127e352d64dd245878cb1afd4de",
+  "live_requests_executed": 0,
+  "policy_sha256": "7a88b4a121f3fb6f62ead537e07075ded57a255caf7d164e01553de4492aea7a",
+  "provider": "gemini",
+  "shared_prompt_sha256": "6f72ad9e8086e3b57ff9d4d6b78c26d58396e2e336cf1e0775016474c0998cd0"
+}

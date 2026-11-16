@@ -1,0 +1,6 @@
+{
+  "cause": "Pytest Windows current junctions aliased numbered test directories and were counted twice. Verification now deduplicates resolved paths.",
+  "earlier_replay_directory": "leakage-replay",
+  "paid_api_calls": 0,
+  "status": "artifact-check correction"
+}

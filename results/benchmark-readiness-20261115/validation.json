@@ -1,0 +1,102 @@
+{
+  "unit_tests": {
+    "tests": "42",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  },
+  "ruff_src_tests_scripts": "All checks passed!",
+  "ruff_review_builder": "All checks passed!",
+  "review_cases": 48,
+  "human_review_decisions_recorded": 0,
+  "html_parse": "passed",
+  "proposal_schema": "passed",
+  "native_metadata_healthcheck": {
+    "native": {
+      "commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+      "python": "3.12.10",
+      "url": "https://github.com/HKUDS/LightRAG.git",
+      "version": "1.5.8"
+    },
+    "status": "available"
+  },
+  "existing_cli_dry_runs": [
+    {
+      "dry_run": true,
+      "plan": {
+        "arch": "lightrag",
+        "command": "index",
+        "condition": "conflict",
+        "config": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\benchmark-readiness-20261115\\real-smoke.proposed.yaml",
+        "dataset": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\benchmark-readiness-20261115\\smoke-dataset",
+        "dry_run": true,
+        "ontology": "configs/ontology.yaml",
+        "output_dir": "indexes/live/smoke-readiness-20261115-v1/conflict",
+        "resume": false,
+        "split": "pilot",
+        "worker_python": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\.venv-lightrag\\Scripts\\python.exe"
+      }
+    },
+    {
+      "dry_run": true,
+      "plan": {
+        "arch": "lightrag",
+        "budget": 4096,
+        "command": "run",
+        "condition": "conflict",
+        "config": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\benchmark-readiness-20261115\\real-smoke.proposed.yaml",
+        "dataset": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\benchmark-readiness-20261115\\smoke-dataset",
+        "dry_run": true,
+        "index_dir": "indexes/live/smoke-readiness-20261115-v1/conflict",
+        "limit": null,
+        "ontology": "configs/ontology.yaml",
+        "output_dir": "runs/live/smoke-readiness-20261115-v1/conflict",
+        "prompt": "configs/prompts/shared_generation.txt",
+        "resume": false,
+        "split": "pilot",
+        "worker_python": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\.venv-lightrag\\Scripts\\python.exe"
+      }
+    },
+    {
+      "dry_run": true,
+      "plan": {
+        "arch": "lightrag",
+        "command": "index",
+        "condition": "control",
+        "config": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\benchmark-readiness-20261115\\real-smoke.proposed.yaml",
+        "dataset": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\benchmark-readiness-20261115\\smoke-dataset",
+        "dry_run": true,
+        "ontology": "configs/ontology.yaml",
+        "output_dir": "indexes/live/smoke-readiness-20261115-v1/control",
+        "resume": false,
+        "split": "pilot",
+        "worker_python": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\.venv-lightrag\\Scripts\\python.exe"
+      }
+    },
+    {
+      "dry_run": true,
+      "plan": {
+        "arch": "lightrag",
+        "budget": 4096,
+        "command": "run",
+        "condition": "control",
+        "config": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\benchmark-readiness-20261115\\real-smoke.proposed.yaml",
+        "dataset": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\benchmark-readiness-20261115\\smoke-dataset",
+        "dry_run": true,
+        "index_dir": "indexes/live/smoke-readiness-20261115-v1/control",
+        "limit": null,
+        "ontology": "configs/ontology.yaml",
+        "output_dir": "runs/live/smoke-readiness-20261115-v1/control",
+        "prompt": "configs/prompts/shared_generation.txt",
+        "resume": false,
+        "split": "pilot",
+        "worker_python": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\.venv-lightrag\\Scripts\\python.exe"
+      }
+    }
+  ],
+  "real_output_paths_exist": false,
+  "original_files_checked": 739,
+  "original_mismatches": [],
+  "native_integration": "Not rerun in this task: adapter unchanged; previous native test passed, see results/recheck-20261115-windows/native-tests.xml.",
+  "paid_requests": 0
+}

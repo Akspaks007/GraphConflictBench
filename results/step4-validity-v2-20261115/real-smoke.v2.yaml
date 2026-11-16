@@ -1,0 +1,26 @@
+# Prepared only. Paid execution requires separate approval and human signoff.
+architecture: lightrag
+provider: openai
+upstream_repository: https://github.com/HKUDS/LightRAG
+upstream_commit: f615931d6ab60b179d5347f92a29f75dcff776a6
+upstream_license: MIT
+python: '>=3.11'
+mode: hybrid
+llm_model: gpt-4o-mini-2024-07-18
+embedding_model: text-embedding-3-small
+embedding_dimension: 1536
+top_k: 60
+chunk_top_k: 40
+max_total_tokens: 8192
+max_entity_tokens: 1024
+max_relation_tokens: 2048
+evidence_budget: 4096
+chunk_token_size: 512
+chunk_overlap_token_size: 0
+max_concurrency: 1
+max_retries: 0
+extract_gleaning: 1
+cosine_threshold: 0.2
+benchmark_eligible: false
+provider_control_file: results/step4-validity-v2-20261115/provider-policy.v2.json
+provider_control_sha256: 40044137c2d0770e40c94dce20beea8c1e3207898a962c4f471ef61890bb963a

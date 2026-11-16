@@ -1,0 +1,2601 @@
+{
+  "architecture": "lightrag",
+  "build_result": {
+    "documents_processed": 30,
+    "native": {
+      "commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+      "python": "3.12.10",
+      "url": "https://github.com/HKUDS/LightRAG.git",
+      "version": "1.5.8"
+    },
+    "status": "complete",
+    "usage": [
+      {
+        "audit_request_id": "7dace66970024b5a97cdd679580c82af",
+        "finish_reason": "STOP",
+        "input_bound": 10910,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "2041361c16fc4e83a6dd90c68d069b13",
+        "finish_reason": "STOP",
+        "input_bound": 15396,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "f2a615aa587d4cb79d321565202671c8",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "a507456db15f46bf87aa3455e0455d0f",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "383e69772d2547b79246f74cdf49c267",
+        "input_bound": 122,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "88735a2e91394c858e0b0e8aa7044334",
+        "input_bound": 245,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "88d0baf32cd940b1b2e4da7bdd303b75",
+        "finish_reason": "STOP",
+        "input_bound": 10923,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "3d3227890b0f4008993015b3b1ca0d9d",
+        "finish_reason": "STOP",
+        "input_bound": 15426,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "6deb54bbcc7b43e7bd06ec67d66df6fa",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "b3a5552c2e3645498d723a5ee265902b",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "e363cebf5a944a14919edced8910e562",
+        "input_bound": 139,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "cdb2cf68c35f46028e9275fe42591d12",
+        "input_bound": 258,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "dbcb065d31c1413e83db7b99677a7321",
+        "finish_reason": "STOP",
+        "input_bound": 10917,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "564e96cb94254fa59393dcbda95d8118",
+        "finish_reason": "STOP",
+        "input_bound": 15414,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "5b7ddba1665341ceb274a0ef298683ff",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "16d522a2d0ca49638f7b432e3e66fa09",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "158b7956da2440eeb7c1a7d7b23b3d5e",
+        "input_bound": 133,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "2396580b9f2b4ae1a2e2cb4951746255",
+        "input_bound": 252,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "a8b3236e524d482dac966085554ae199",
+        "finish_reason": "STOP",
+        "input_bound": 10917,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "1e74c044cec94048b8962c83d326a55b",
+        "finish_reason": "STOP",
+        "input_bound": 15414,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "5347beb51835424e847377ccea112107",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "7b78d031eed841f4bbb55d5f58b35775",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "f0a903fb58d64d6080a7f2258d41108d",
+        "input_bound": 133,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "a336b8d7e7774a4c9297b9dd72aaaa08",
+        "input_bound": 252,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "13fc55b8904944a29966799f5b63590e",
+        "finish_reason": "STOP",
+        "input_bound": 10918,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "1bebcab95a2a49fb9889aee7734468a1",
+        "finish_reason": "STOP",
+        "input_bound": 15412,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "884cba9564e8492c94ed7fd140993df3",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "5e15317570664bf884d70bc7b029ca1e",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "f52161fc766e436295b50a0c3f41e3e6",
+        "input_bound": 130,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "446e6d99a40b4668ac5c2e5cfa2f3a4c",
+        "input_bound": 253,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "3076406f63e747a093e223e4cf3e0e56",
+        "finish_reason": "STOP",
+        "input_bound": 10917,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "64679dbabc42443485a38d37aece2bf8",
+        "finish_reason": "STOP",
+        "input_bound": 15414,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "7adfdb97107944f9860840b8d7833144",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "47cf882a13944932a388d08881026e5c",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "83c1c3cc652e4d01b1b2fc1be488d7f8",
+        "input_bound": 133,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "0957ea6078b141fe910af5da42febe45",
+        "input_bound": 252,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "08130719c043402cb1e51dd1b0b78894",
+        "finish_reason": "STOP",
+        "input_bound": 10918,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "5cc22f443a1645ac931d445d967d07e7",
+        "finish_reason": "STOP",
+        "input_bound": 15412,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "54196d0a056c4c6985e3c8d31b413fe7",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "bc01b6138d714df1a6439e1394de484c",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "a41652efc1864caf98f55c406547ae2c",
+        "input_bound": 130,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "60e1cf11a2f94dd5b8e8de6026c8a42b",
+        "input_bound": 253,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "1ebc0e52496045268336e2d26825e0eb",
+        "finish_reason": "STOP",
+        "input_bound": 10919,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "3791a304dca649f8a2a1850efb16b405",
+        "finish_reason": "STOP",
+        "input_bound": 15418,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "92440dc69dd84081abe0c50594600f09",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "ddb9c93c22ac45e0a167bacc75866d12",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "0a5215b5997e4bf48279df97aed538da",
+        "input_bound": 135,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "e4cb0a0732924faf99c7f67f6ba7d732",
+        "input_bound": 254,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "7a11d6653bbc48c5ae02a7f8d1570428",
+        "finish_reason": "STOP",
+        "input_bound": 10919,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "b7406c41e7104963a7c8354f555dd6eb",
+        "finish_reason": "STOP",
+        "input_bound": 15418,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "f084c0d61de54a5b9b05c77653d913ac",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "3a36208fa68d4dfea274d34487a7ebba",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "ff1eec28eb8844d2872555ac998ddce5",
+        "input_bound": 135,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "643518fb9f194a2c94f9a7ccc0ab0059",
+        "input_bound": 254,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "0a04b1b4fe024b13a2e121c45430010e",
+        "finish_reason": "STOP",
+        "input_bound": 10921,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "19bfae58b6ee4621b3900fd01b833c38",
+        "finish_reason": "STOP",
+        "input_bound": 15422,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "fa4aa6614af842c683574a38e3fe322f",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "a619bf8004b14253b290a6facb083eca",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "91ecd60507794dcf900ff84f0f3d3733",
+        "input_bound": 137,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "21436e1963bf40498d93b898e222534e",
+        "input_bound": 256,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "70460bd2849c4e9b9ddd66385865f030",
+        "finish_reason": "STOP",
+        "input_bound": 10917,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "fa578ee0c9f3453781247d91c95a52e8",
+        "finish_reason": "STOP",
+        "input_bound": 15414,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "7b179d09d25343898e4fd9bf8077f939",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "13f08de269c84e9e91ef28fd11a0514a",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "dedac17e7b15486b9c015646cd2ace9c",
+        "input_bound": 133,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "fe0efa0e9b8e4e74a15bb929648515a1",
+        "input_bound": 252,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "87cf0e28e1294c9093ccb691eb99be7a",
+        "finish_reason": "STOP",
+        "input_bound": 10910,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "63293a4793bd4a9bb11383c3d3f290e0",
+        "finish_reason": "STOP",
+        "input_bound": 15396,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "bb36d226c852444ebc334124c72eb859",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "0ba6a38d871046458bd99f1706a72f9f",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "7fa9f74ba37546779c1d93093e7c7e85",
+        "input_bound": 122,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "4f3b417539f940628074aa02cd369174",
+        "input_bound": 245,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "78fd8966e3b04a9bbdfcf90ad97293c2",
+        "finish_reason": "STOP",
+        "input_bound": 10919,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "2ab99f75a46f4051b037915218946cfc",
+        "finish_reason": "STOP",
+        "input_bound": 15418,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "b0926f97906f484fa537b54652085336",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "a8572c96e16f435992d7136c89cf8d94",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "d63a3cdea16e48fa9b16af53c12e4050",
+        "input_bound": 135,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "4cb96ff0052b42beb25b0b0369cc2a12",
+        "input_bound": 254,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "303bfc33e9a04803907d4e99969fbd3d",
+        "finish_reason": "STOP",
+        "input_bound": 10910,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "03eebc4596b04ea2b9191b368bade18b",
+        "finish_reason": "STOP",
+        "input_bound": 15396,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "d20ab52770694ec9af0e0d304a224574",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "a839adb759fc453890bbc8412fa7749d",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "60ce566a5b7a46e085288d616d80d62a",
+        "input_bound": 122,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "9e05ceb5cc13497491664c6e489b8eab",
+        "input_bound": 245,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "29918065f7bf4dc095cb97da9d02c2e0",
+        "finish_reason": "STOP",
+        "input_bound": 10917,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "b09660a6eac442b4953360a9ca24f8c3",
+        "finish_reason": "STOP",
+        "input_bound": 15414,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "c9e75ee476ed47a6bf5fc59f1d821e87",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "1e53489558a34449b1470bfc9ee7c8d0",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "450ddc17caaa40729780aa38855c5112",
+        "input_bound": 133,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "7e022d8df9fc453da081dd4060f53caf",
+        "input_bound": 252,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "d2f86c2d14b74f2d821441f4699f23bb",
+        "finish_reason": "STOP",
+        "input_bound": 10919,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "bffffa0d273d4a48a9c8f478f6d24b55",
+        "finish_reason": "STOP",
+        "input_bound": 15418,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "b0f0ad915e9a45c3982bc4d083926fa3",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "71a607fbb4bf495aa957087effb75407",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "0f07b15c0e634a9699de058c1fa56ec7",
+        "input_bound": 135,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "702b545b95d546bc9b228802d10ca9b5",
+        "input_bound": 254,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "fd6e10c4d9504110b47cb5a632e0d278",
+        "finish_reason": "STOP",
+        "input_bound": 10919,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "b27aa15f763943d6bf4beda1f49309dc",
+        "finish_reason": "STOP",
+        "input_bound": 15418,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "e616353c6b954dc2a7c4bf47b28184d5",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "7a4659a332cb45218f41166225b2079e",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "bea5207951084e11a809eabe2c5e9926",
+        "input_bound": 135,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "1d63727e75994ab4943c2c37fdf7f00d",
+        "input_bound": 254,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "0338498092a44d89b24f6684ac676f53",
+        "finish_reason": "STOP",
+        "input_bound": 10921,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "54c780b26af24751bd72a67df630aefb",
+        "finish_reason": "STOP",
+        "input_bound": 15422,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "bcc464e7f3c447eca68d89e878fbfe2f",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "bfed60127ec74ecd8b60bd24d1e1bba8",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "707dff83ddb34266ba075f8b2d1566fb",
+        "input_bound": 202,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "3cc007765f1d4208a1e2650345f806fa",
+        "input_bound": 256,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "db6dd14955c94a87936f5ebb1a23e971",
+        "finish_reason": "STOP",
+        "input_bound": 10917,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "ad2036292e7040f88d31bb7861b9c622",
+        "finish_reason": "STOP",
+        "input_bound": 15414,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "2833c53d640f484abf6773553964491f",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "78c0bfee87cc4864b5b7d590ec2a37ca",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "8f5ad0068b794a74ac416be5abef393a",
+        "input_bound": 133,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "56be1b3168f44eefbec7b6cedae43839",
+        "input_bound": 252,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "650985ada0c8426f914fbdfda546be7c",
+        "finish_reason": "STOP",
+        "input_bound": 10919,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "a121a1e65eb64f8e8abf68e0d35cfc0c",
+        "finish_reason": "STOP",
+        "input_bound": 15418,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "4ddd49f3a8a24bf1aad8c13e5f6b3ab1",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "e2e52f989e2a4ffeb724f2ee215a9a25",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "2b407eb1350b46e7842e1922e18978f3",
+        "input_bound": 135,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "bf5a498a048d4873a2bf88063f81d203",
+        "input_bound": 254,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "f6a748eae09245398c1ae21b5e2e7101",
+        "finish_reason": "STOP",
+        "input_bound": 10910,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "1709b266dc3146df93a897ee89ad02d5",
+        "finish_reason": "STOP",
+        "input_bound": 15396,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "5f409811f0634f51964b78291f6c4017",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "cb2268d5144b4e18a1372ec00ae3128e",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "551541e6c903436bae472ec22417f08d",
+        "input_bound": 122,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "9c848c2c05d84f00980993d8fb1df2e8",
+        "input_bound": 245,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "e25e12d778d446a48a31b441dfedcbcd",
+        "finish_reason": "STOP",
+        "input_bound": 10923,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "e4d2286d4a154ad49d32e5d63c5389cb",
+        "finish_reason": "STOP",
+        "input_bound": 15426,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "d961d6b6fe094a26a2684048494e2262",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "7a1be8baa9d9474cacb24c37b5d30597",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "abbdadae20b3453ca9bd23fac0958ddd",
+        "input_bound": 206,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "7ab5d75a2e2a487e9de1b2ea2184571a",
+        "input_bound": 258,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "58eabfdbcb604182a147dd962940cde4",
+        "finish_reason": "STOP",
+        "input_bound": 10919,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "3b3a8ee0ffc0452bb2f9c5fc1f43c8fe",
+        "finish_reason": "STOP",
+        "input_bound": 15418,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "cdb497ee0e674da6a837d3012a4773f7",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "0b77ba4896d0414bad586607b05f3fd8",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "301bcc7725834f71aaf2b2047ad8d43c",
+        "input_bound": 135,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "fcd4f568831f4f979c4896d563f32b5d",
+        "input_bound": 254,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "2ccd4cfa68c94f399ec3358dd6bb40d5",
+        "finish_reason": "STOP",
+        "input_bound": 10910,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "6728ee4fcfbd47068d21b5dc5895503e",
+        "finish_reason": "STOP",
+        "input_bound": 15396,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "ba357767162546a1808743b758f1948c",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "d4a702bb07b549cab37a30bff8dc6ded",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "6e58befcba284a1a94adca7857b6bf30",
+        "input_bound": 122,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "01cc6de91218436bbfd4a8705947bebb",
+        "input_bound": 245,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "381a4e5e823b4a64b8775f4a465d481e",
+        "finish_reason": "STOP",
+        "input_bound": 10910,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "560ea174d40444e4af7ee762bf2ecd47",
+        "finish_reason": "STOP",
+        "input_bound": 15396,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "a58a01102faa413b92413f74c3e09293",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "ae0c4fe857424c51b3700a139cb4c3f6",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "8b0c840ae36347308049390143c9280f",
+        "input_bound": 122,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "81e4bd301aec4eaf808696e131fcbda7",
+        "input_bound": 245,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "95dcbbd5e30e4b1780d8f4182d4e664c",
+        "finish_reason": "STOP",
+        "input_bound": 10910,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "c962f0d95fb24b5db23d24862e8ba4fe",
+        "finish_reason": "STOP",
+        "input_bound": 15396,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "d253e26b1b1946a090afe1dcbfcef039",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "b6e4328c5b0e4f0187c26bb87eae0425",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "714a854c8ff04e0b8fa1d41ad97b852c",
+        "input_bound": 122,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "d7dd9daa82ff42018ecc01e34f334d9e",
+        "input_bound": 245,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "fd3cfb1f3fcb4280a95a4f374bfcc1cc",
+        "finish_reason": "STOP",
+        "input_bound": 10910,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "33afd0834f7643fe872b90bf15d6bd56",
+        "finish_reason": "STOP",
+        "input_bound": 15396,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "1b08744715dd405583322765bfac2a48",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "3c41988eae1c4367b40d7bf542779c85",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "903f4e7bf7cc402ca4eb2dcc05bc4ffd",
+        "input_bound": 122,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "e6ecde686cc64003874c6f6ccbe7ba7d",
+        "input_bound": 245,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "5ac3f78517b84c2688b3f9e38bc33472",
+        "finish_reason": "STOP",
+        "input_bound": 10917,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "fc88617f28f646f4889aeae73526eda4",
+        "finish_reason": "STOP",
+        "input_bound": 15414,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "ec6be7c419db42fb9e89d80aca8cf1de",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "19a3cb6f84cf403fb9e154dbc206f4e4",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "089b6be6d0694d7bb21767a8f80b8732",
+        "input_bound": 133,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "b626386b61a34dfcae8dbda5ecba976d",
+        "input_bound": 252,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "814fdfd1a10d4c63bad7afe82452fa94",
+        "finish_reason": "STOP",
+        "input_bound": 10919,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "649c8273c2cb48cab2c16e0f883dbeb2",
+        "finish_reason": "STOP",
+        "input_bound": 15418,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "0421e64332d449a3a3c1decef41d32dd",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "f05317921ac245b3b4191cbfd52b8588",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "ad49981d92624c519d43f91589d8972a",
+        "input_bound": 135,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "bd69755b717941be8aed7db0d091b376",
+        "input_bound": 254,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "0d6f6e43ea3043c1a984b3f685776f14",
+        "finish_reason": "STOP",
+        "input_bound": 10910,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "4c379ac6c2f24b60a99f5241ff666d15",
+        "finish_reason": "STOP",
+        "input_bound": 15396,
+        "kind": "llm",
+        "model_version": "gemini-2.5-flash",
+        "paid_equivalent_nanodollars": 8000,
+        "provider": "gemini",
+        "provider_usage": {
+          "candidatesTokenCount": 2,
+          "promptTokenCount": 10,
+          "totalTokenCount": 12
+        },
+        "requested_model": "gemini-2.5-flash",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "a2e21c32e05e4851a73eec37c76eff87",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "d3a4e40d405b4f86b4ab301e9ff89114",
+        "input_bound": 82,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "f22d250a5cfa4f29b81cccc7eb1915b5",
+        "input_bound": 122,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      },
+      {
+        "audit_request_id": "486295c5dcee4ffdb79fde55befde2b2",
+        "input_bound": 245,
+        "kind": "embedding",
+        "model_version": null,
+        "paid_equivalent_nanodollars": 1500,
+        "provider": "gemini",
+        "provider_usage": {
+          "promptTokenCount": 10
+        },
+        "requested_model": "gemini-embedding-001",
+        "source": "provider_usage_at_paid_equivalent_rates"
+      }
+    ]
+  },
+  "checksums": {
+    "build\\request.json": "2ab7ea6b30bf33dece7ab376e34c8599a5f2d597b8ed61f2d663f8e02806ac30",
+    "build\\response.json": "6dc02e3dfca4c822e6000091ad0801ee1f3378b8624667c30fd452d1a8635f08",
+    "corpus.jsonl": "be33d91c07addb544c65c6c5a18afd65afb6b373cf4d938810450665fec03d0e",
+    "native\\.lightrag_anchor.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "native\\.lightrag_anchor_bind.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "native\\.lightrag_storage.lock": "f0ccb0533887014c641852f9208d1c7dfe4c81ed91402a5abb04faffa6558f53",
+    "native\\config_storage_anchor.json": "4252996e0d06e3642bc57c68ec8afdcca1b2bdc2ac125c12ac8fa12f0bc6f7cd",
+    "native\\graph_chunk_entity_relation.graphml": "3999e0ddde0cc976a07d1933691fbf7eb4e0e6f26f47ac6cbf03549af7f0b74e",
+    "native\\kv_store_doc_status.json": "13a3114b36cdae9b04d239bdcfffd6857ee2f2ef633476f76d0766b4f47de4f8",
+    "native\\kv_store_entity_chunks.json": "de92700cdf9dcf9f6182e933112258ff18ede19cc74ac661c5dd7716392287fd",
+    "native\\kv_store_full_docs.json": "8b7c8b26aff7dfa65c079b51b265c694c5822a5aff2d844dce97c63897575df3",
+    "native\\kv_store_full_entities.json": "55ad82ee2302c8eae4849b4665e3539808a9876db857f6d5962bb9b6572b5281",
+    "native\\kv_store_full_relations.json": "ce521a9f37bdf8e86a16bc87046e06794aef637e6a29e6331e60f33dd81bdb48",
+    "native\\kv_store_relation_chunks.json": "f45e5be070d95a9bfc95341f33f76773ade832ce3fbc61c0bf16db0e8f9a07ca",
+    "native\\kv_store_text_chunks.json": "0c962e937e053a431b14870bb85ca015b53d7989591a4766b87ddedb602dafd7",
+    "native\\kv_workspace_config.json": "7991d59af4fe3e5540c8187f8a9daf7bd78c538014397bb74deadbfb5f7ae985",
+    "native\\vdb_chunks.json": "9d80891e1f3cb6aee4fa88c0712c110d93c899cad40a5f4fabb86b8e958031c9",
+    "native\\vdb_entities.json": "2b126ac6d5ef81757f7d68a831c595cc1319c3ac0ba1d9652e3d406b8614a136",
+    "native\\vdb_relationships.json": "dfc74aa2dc1195b1b81039974128485c9053d395ed8cf8fa10e5820091cfe655"
+  },
+  "identity": {
+    "condition": "conflict",
+    "config": {
+      "architecture": "lightrag",
+      "benchmark_eligible": false,
+      "chunk_overlap_token_size": 0,
+      "chunk_token_size": 512,
+      "chunk_top_k": 40,
+      "cosine_threshold": 0.2,
+      "embedding_dimension": 1536,
+      "embedding_model": "gemini-embedding-001",
+      "embedding_task_type": "SEMANTIC_SIMILARITY",
+      "evidence_budget": 4096,
+      "extract_gleaning": 1,
+      "llm_model": "gemini-2.5-flash",
+      "max_concurrency": 1,
+      "max_entity_tokens": 1024,
+      "max_relation_tokens": 2048,
+      "max_retries": 0,
+      "max_total_tokens": 8192,
+      "mode": "hybrid",
+      "provider": "gemini",
+      "provider_control_file": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\gemini-integration-v1-20261115\\offline-integration-final\\test_stratified_native_indexes0\\gemini-policy.json",
+      "provider_control_sha256": "8cc2cd4c266cc894c45ccb838bf486d2c212aa08a268ce3682de5284c9b8127a",
+      "python": ">=3.11",
+      "schema_version": "1.0",
+      "top_k": 60,
+      "upstream_commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+      "upstream_license": "MIT",
+      "upstream_repository": "https://github.com/HKUDS/LightRAG"
+    },
+    "config_hash": "a944f34c1d9c526e7ae4cc51d900b6a681cd2b4f3aadb5ed49076e7bf763806f",
+    "corpus_hash": "df36a6d1bea3cc346a3f801fc883240ce105c471f8a181f4501db3953b122743",
+    "implementation_hash": "0bdd1367169f8bd096af1fcd145e17505e76e127e352d64dd245878cb1afd4de",
+    "native": {
+      "commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+      "python": "3.12.10",
+      "url": "https://github.com/HKUDS/LightRAG.git",
+      "version": "1.5.8"
+    },
+    "split": "pilot"
+  },
+  "index_key": "6bcece75e24a79d20bdaceeaacdbf1d78c9128e92a9bbca3dcde213e8956e0af",
+  "schema_version": "1.0",
+  "status": "complete"
+}

@@ -1,0 +1,348 @@
+{
+  "adapter_warnings": [],
+  "architecture": "lightrag",
+  "benchmark_eligible": false,
+  "capture_complete": true,
+  "case_id": "Ca13cd3fae860c8b5fd24",
+  "context_tokens": 2831,
+  "native_answer": null,
+  "native_graph": {
+    "entities": [
+      {
+        "description": "Nf96405a2392fdff9bb1e is a fictional entity.",
+        "entity_name": "Nf96405a2392fdff9bb1e",
+        "entity_type": "other",
+        "file_path": "D25fbde5780c9df0a16a1.txt<SEP>De225409809272256bf02.txt"
+      },
+      {
+        "description": "N0281ead2d0c61309aff9 is a fictional entity.",
+        "entity_name": "N0281ead2d0c61309aff9",
+        "entity_type": "other",
+        "file_path": "Dfdad841b91e6356bb92d.txt"
+      },
+      {
+        "description": "N30a734839dd9c6a7787f is a fictional entity.",
+        "entity_name": "N30a734839dd9c6a7787f",
+        "entity_type": "other",
+        "file_path": "D00aa2f4b14fa5e79bf07.txt<SEP>Dfdad841b91e6356bb92d.txt"
+      },
+      {
+        "description": "Ncbb3d58bd325d505e920 is a fictional entity.",
+        "entity_name": "Ncbb3d58bd325d505e920",
+        "entity_type": "other",
+        "file_path": "De3f35bb5cd2daf23678e.txt<SEP>De791e97b2b1adf07df4f.txt"
+      },
+      {
+        "description": "Nefd4733e55e655e415d1 is a fictional entity.",
+        "entity_name": "Nefd4733e55e655e415d1",
+        "entity_type": "other",
+        "file_path": "De791e97b2b1adf07df4f.txt"
+      },
+      {
+        "description": "Nbc1e5d973b720d379e08 is a fictional entity.",
+        "entity_name": "Nbc1e5d973b720d379e08",
+        "entity_type": "other",
+        "file_path": "Deb75e238ae54da5ebf3e.txt"
+      },
+      {
+        "description": "Nd346fd5ffa2c8ee1067b is a fictional entity.",
+        "entity_name": "Nd346fd5ffa2c8ee1067b",
+        "entity_type": "other",
+        "file_path": "Db9e4de6b351db6a50856.txt<SEP>Deb75e238ae54da5ebf3e.txt"
+      },
+      {
+        "description": "N77f50f6eccafe2ccf18c is a fictional entity.",
+        "entity_name": "N77f50f6eccafe2ccf18c",
+        "entity_type": "other",
+        "file_path": "Db9e4de6b351db6a50856.txt<SEP>Dc9320332e07435936dd6.txt"
+      },
+      {
+        "description": "N59c527434fc54854dad3 is a fictional entity.",
+        "entity_name": "N59c527434fc54854dad3",
+        "entity_type": "other",
+        "file_path": "D00aa2f4b14fa5e79bf07.txt<SEP>De225409809272256bf02.txt"
+      },
+      {
+        "description": "N961ec60d0a387f13599d is a fictional entity.",
+        "entity_name": "N961ec60d0a387f13599d",
+        "entity_type": "other",
+        "file_path": "De3f35bb5cd2daf23678e.txt"
+      },
+      {
+        "description": "N3348662b17667059bb08 is a fictional entity.",
+        "entity_name": "N3348662b17667059bb08",
+        "entity_type": "other",
+        "file_path": "D580955e60cfcced500f1.txt"
+      },
+      {
+        "description": "N50a946b25b186c5bc4a1 is a fictional entity.",
+        "entity_name": "N50a946b25b186c5bc4a1",
+        "entity_type": "other",
+        "file_path": "D580955e60cfcced500f1.txt<SEP>D6af3230e4a34d9d96ade.txt"
+      },
+      {
+        "description": "N75c4a51de4e9bc2ba616 is a fictional entity.",
+        "entity_name": "N75c4a51de4e9bc2ba616",
+        "entity_type": "other",
+        "file_path": "D6af3230e4a34d9d96ade.txt"
+      }
+    ],
+    "references": [
+      {
+        "file_path": "D25fbde5780c9df0a16a1.txt",
+        "reference_id": "1"
+      },
+      {
+        "file_path": "Dc9320332e07435936dd6.txt",
+        "reference_id": "2"
+      },
+      {
+        "file_path": "De225409809272256bf02.txt",
+        "reference_id": "3"
+      },
+      {
+        "file_path": "Dfdad841b91e6356bb92d.txt",
+        "reference_id": "4"
+      },
+      {
+        "file_path": "D00aa2f4b14fa5e79bf07.txt",
+        "reference_id": "5"
+      },
+      {
+        "file_path": "De3f35bb5cd2daf23678e.txt",
+        "reference_id": "6"
+      },
+      {
+        "file_path": "De791e97b2b1adf07df4f.txt",
+        "reference_id": "7"
+      },
+      {
+        "file_path": "Deb75e238ae54da5ebf3e.txt",
+        "reference_id": "8"
+      },
+      {
+        "file_path": "Db9e4de6b351db6a50856.txt",
+        "reference_id": "9"
+      },
+      {
+        "file_path": "D580955e60cfcced500f1.txt",
+        "reference_id": "10"
+      },
+      {
+        "file_path": "D6af3230e4a34d9d96ade.txt",
+        "reference_id": "11"
+      }
+    ],
+    "relationships": [
+      {
+        "description": "Nf96405a2392fdff9bb1e precedes N59c527434fc54854dad3.",
+        "file_path": "De225409809272256bf02.txt",
+        "keywords": "PRECEDES",
+        "src_id": "N59c527434fc54854dad3",
+        "tgt_id": "Nf96405a2392fdff9bb1e"
+      },
+      {
+        "description": "N30a734839dd9c6a7787f precedes N0281ead2d0c61309aff9.",
+        "file_path": "Dfdad841b91e6356bb92d.txt",
+        "keywords": "PRECEDES",
+        "src_id": "N0281ead2d0c61309aff9",
+        "tgt_id": "N30a734839dd9c6a7787f"
+      },
+      {
+        "description": "Nf96405a2392fdff9bb1e does not precede Nbf627d31a588c1259d80.",
+        "file_path": "D25fbde5780c9df0a16a1.txt",
+        "keywords": "PRECEDES",
+        "src_id": "Nbf627d31a588c1259d80",
+        "tgt_id": "Nf96405a2392fdff9bb1e"
+      },
+      {
+        "description": "Ncbb3d58bd325d505e920 precedes Nefd4733e55e655e415d1.",
+        "file_path": "De791e97b2b1adf07df4f.txt",
+        "keywords": "PRECEDES",
+        "src_id": "Ncbb3d58bd325d505e920",
+        "tgt_id": "Nefd4733e55e655e415d1"
+      },
+      {
+        "description": "Nd346fd5ffa2c8ee1067b precedes Nbc1e5d973b720d379e08.",
+        "file_path": "Deb75e238ae54da5ebf3e.txt",
+        "keywords": "PRECEDES",
+        "src_id": "Nbc1e5d973b720d379e08",
+        "tgt_id": "Nd346fd5ffa2c8ee1067b"
+      },
+      {
+        "description": "N77f50f6eccafe2ccf18c precedes Nd346fd5ffa2c8ee1067b.",
+        "file_path": "Db9e4de6b351db6a50856.txt",
+        "keywords": "PRECEDES",
+        "src_id": "N77f50f6eccafe2ccf18c",
+        "tgt_id": "Nd346fd5ffa2c8ee1067b"
+      },
+      {
+        "description": "Ncbb3d58bd325d505e920 precedes N961ec60d0a387f13599d.",
+        "file_path": "De3f35bb5cd2daf23678e.txt",
+        "keywords": "PRECEDES",
+        "src_id": "N961ec60d0a387f13599d",
+        "tgt_id": "Ncbb3d58bd325d505e920"
+      },
+      {
+        "description": "N50a946b25b186c5bc4a1 precedes N3348662b17667059bb08.",
+        "file_path": "D580955e60cfcced500f1.txt",
+        "keywords": "PRECEDES",
+        "src_id": "N3348662b17667059bb08",
+        "tgt_id": "N50a946b25b186c5bc4a1"
+      },
+      {
+        "description": "N59c527434fc54854dad3 precedes N30a734839dd9c6a7787f.",
+        "file_path": "D00aa2f4b14fa5e79bf07.txt",
+        "keywords": "PRECEDES",
+        "src_id": "N30a734839dd9c6a7787f",
+        "tgt_id": "N59c527434fc54854dad3"
+      },
+      {
+        "description": "N50a946b25b186c5bc4a1 precedes N75c4a51de4e9bc2ba616.",
+        "file_path": "D6af3230e4a34d9d96ade.txt",
+        "keywords": "PRECEDES",
+        "src_id": "N50a946b25b186c5bc4a1",
+        "tgt_id": "N75c4a51de4e9bc2ba616"
+      }
+    ]
+  },
+  "native_status": "success",
+  "retrieval_ms": 243.74760000500828,
+  "retrieved_graph_path_length": null,
+  "retrieved_items": [
+    {
+      "doc_id": "D25fbde5780c9df0a16a1",
+      "mapped_assertion_ids": [
+        "E2a2891579f6e1307a206"
+      ],
+      "mapping_status": "exact_quote",
+      "native_chunk_id": "D25fbde5780c9df0a16a1-chunk-000",
+      "native_score": null,
+      "rank": 1,
+      "schema_version": "1.0",
+      "text": "Nf96405a2392fdff9bb1e does not precede Nbf627d31a588c1259d80. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries."
+    },
+    {
+      "doc_id": "Dc9320332e07435936dd6",
+      "mapped_assertion_ids": [
+        "E5077f89b9e44f5c5748b"
+      ],
+      "mapping_status": "exact_quote",
+      "native_chunk_id": "Dc9320332e07435936dd6-chunk-000",
+      "native_score": null,
+      "rank": 2,
+      "schema_version": "1.0",
+      "text": "N77f50f6eccafe2ccf18c does not precede Nf64635cf939347738bb7. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries."
+    },
+    {
+      "doc_id": "De225409809272256bf02",
+      "mapped_assertion_ids": [
+        "E2ece4a4480441f242b4d"
+      ],
+      "mapping_status": "exact_quote",
+      "native_chunk_id": "De225409809272256bf02-chunk-000",
+      "native_score": null,
+      "rank": 3,
+      "schema_version": "1.0",
+      "text": "Nf96405a2392fdff9bb1e precedes N59c527434fc54854dad3. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries."
+    },
+    {
+      "doc_id": "Dfdad841b91e6356bb92d",
+      "mapped_assertion_ids": [
+        "E2eb9eaf480db10d10579"
+      ],
+      "mapping_status": "exact_quote",
+      "native_chunk_id": "Dfdad841b91e6356bb92d-chunk-000",
+      "native_score": null,
+      "rank": 4,
+      "schema_version": "1.0",
+      "text": "N30a734839dd9c6a7787f precedes N0281ead2d0c61309aff9. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries."
+    },
+    {
+      "doc_id": "D00aa2f4b14fa5e79bf07",
+      "mapped_assertion_ids": [
+        "E22b4c4719f980d27c947"
+      ],
+      "mapping_status": "exact_quote",
+      "native_chunk_id": "D00aa2f4b14fa5e79bf07-chunk-000",
+      "native_score": null,
+      "rank": 5,
+      "schema_version": "1.0",
+      "text": "N59c527434fc54854dad3 precedes N30a734839dd9c6a7787f. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries."
+    },
+    {
+      "doc_id": "De3f35bb5cd2daf23678e",
+      "mapped_assertion_ids": [
+        "E469803419936cc5b4633"
+      ],
+      "mapping_status": "exact_quote",
+      "native_chunk_id": "De3f35bb5cd2daf23678e-chunk-000",
+      "native_score": null,
+      "rank": 6,
+      "schema_version": "1.0",
+      "text": "Ncbb3d58bd325d505e920 precedes N961ec60d0a387f13599d. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries."
+    },
+    {
+      "doc_id": "De791e97b2b1adf07df4f",
+      "mapped_assertion_ids": [
+        "Eb83ae5e673752823c88d"
+      ],
+      "mapping_status": "exact_quote",
+      "native_chunk_id": "De791e97b2b1adf07df4f-chunk-000",
+      "native_score": null,
+      "rank": 7,
+      "schema_version": "1.0",
+      "text": "Ncbb3d58bd325d505e920 precedes Nefd4733e55e655e415d1. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries."
+    },
+    {
+      "doc_id": "Deb75e238ae54da5ebf3e",
+      "mapped_assertion_ids": [
+        "E44b01fdf9b58f0708408"
+      ],
+      "mapping_status": "exact_quote",
+      "native_chunk_id": "Deb75e238ae54da5ebf3e-chunk-000",
+      "native_score": null,
+      "rank": 8,
+      "schema_version": "1.0",
+      "text": "Nd346fd5ffa2c8ee1067b precedes Nbc1e5d973b720d379e08. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries."
+    },
+    {
+      "doc_id": "Db9e4de6b351db6a50856",
+      "mapped_assertion_ids": [
+        "E8f40d441db6c2c7f1438"
+      ],
+      "mapping_status": "exact_quote",
+      "native_chunk_id": "Db9e4de6b351db6a50856-chunk-000",
+      "native_score": null,
+      "rank": 9,
+      "schema_version": "1.0",
+      "text": "N77f50f6eccafe2ccf18c precedes Nd346fd5ffa2c8ee1067b. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries."
+    },
+    {
+      "doc_id": "D580955e60cfcced500f1",
+      "mapped_assertion_ids": [
+        "Eef2576d0afd55887432a"
+      ],
+      "mapping_status": "exact_quote",
+      "native_chunk_id": "D580955e60cfcced500f1-chunk-000",
+      "native_score": null,
+      "rank": 10,
+      "schema_version": "1.0",
+      "text": "N50a946b25b186c5bc4a1 precedes N3348662b17667059bb08. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries."
+    },
+    {
+      "doc_id": "D6af3230e4a34d9d96ade",
+      "mapped_assertion_ids": [
+        "Ea78201ca30ac6698cc1e"
+      ],
+      "mapping_status": "exact_quote",
+      "native_chunk_id": "D6af3230e4a34d9d96ade-chunk-000",
+      "native_score": null,
+      "rank": 11,
+      "schema_version": "1.0",
+      "text": "N50a946b25b186c5bc4a1 precedes N75c4a51de4e9bc2ba616. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries."
+    }
+  ],
+  "run_id": "8ad930d64d1b0e832a82",
+  "schema_version": "1.0"
+}

@@ -1,0 +1,8 @@
+{
+  "condition": "conflict",
+  "corpus_hash": "df36a6d1bea3cc346a3f801fc883240ce105c471f8a181f4501db3953b122743",
+  "document_count": 30,
+  "documents_file": "documents.jsonl",
+  "schema_version": "1.0",
+  "split": "pilot"
+}

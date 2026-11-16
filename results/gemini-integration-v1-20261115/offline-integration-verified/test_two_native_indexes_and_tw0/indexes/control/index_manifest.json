@@ -1,0 +1,81 @@
+{
+  "architecture": "lightrag",
+  "build_result": {
+    "documents_processed": 30,
+    "native": {
+      "commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+      "python": "3.12.10",
+      "url": "https://github.com/HKUDS/LightRAG.git",
+      "version": "1.5.8"
+    },
+    "status": "complete",
+    "usage": []
+  },
+  "checksums": {
+    "build\\native.log": "7597acb2861799b8de1aa3bfa9a279d9746e45550c4b794d4d52cc5ca8c792f5",
+    "build\\request.json": "aee622b35502f0d77407b19c2907708c7daeb3224bec7ca10603a8a1a744cc16",
+    "build\\response.json": "34aeaddd08b748d1d4b29f1c459d4ee90b2a6353aeac477c622dd376c723248a",
+    "corpus.jsonl": "0aee8493571747c0f594cccf5414c55e10686f730de7709e38545ade25d2645b",
+    "native\\.lightrag_anchor.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "native\\.lightrag_anchor_bind.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "native\\.lightrag_storage.lock": "d2bd19fc2e1b74b7015e3365b0bb6cfc77a91d8512a7a598652698e170210d9d",
+    "native\\config_storage_anchor.json": "f29d2a126310d117001660b4454a5440307c30e6bc1f7235edbd5990ca6c774c",
+    "native\\graph_chunk_entity_relation.graphml": "18c0b7a94a11fcc7152e063e1057560041a75a39ca845a47dadfa826f9db6da2",
+    "native\\kv_store_doc_status.json": "cbba32adfc5e84698eacd6dfbb8bc0b27654b32fbe3abc0dc2bf2cbdddad13dc",
+    "native\\kv_store_entity_chunks.json": "e33161be7e913b707f8d563b7ad7f97de9c7f205bae88e7a8e56e16ebac2e3a0",
+    "native\\kv_store_full_docs.json": "c00e88044b6d70ce034111d5cb30e73639d488c4c86782db2a23c6751bf70462",
+    "native\\kv_store_full_entities.json": "59f58e1fda03c8d21e327e6acc38fe3c75b0da9308543767ddec08f822dad965",
+    "native\\kv_store_full_relations.json": "9e022b0b7e7f625e68a830336610478ddd8e90d663eb56a41ebc02fbd8f3ea49",
+    "native\\kv_store_relation_chunks.json": "ac10f6017404dc23482b24386128792eded12a0327c58a3def98917cd5f17605",
+    "native\\kv_store_text_chunks.json": "d59e4336554d8cab952f8634d319bec1f97551bc706eaf8a31fcc90ffe406cb0",
+    "native\\kv_workspace_config.json": "807eabf5fc6724e1cf78d9eb204f28ce6d85d7e5394809cd25daabf8fd994ba4",
+    "native\\vdb_chunks.json": "65c2b17905cec9715b07458d5b9cc53eb86201d8293f371d69cf8da027c3c1e1",
+    "native\\vdb_entities.json": "5e3c235995e9a7a21aa557ebd0e3118eeed8e8c576cee449d15cab9c28f9cdbe",
+    "native\\vdb_relationships.json": "c4dd3c993b74169b2a7e17cccb8c093270a93ce9777987543f90dea4dea642c2"
+  },
+  "identity": {
+    "condition": "control",
+    "config": {
+      "architecture": "lightrag",
+      "benchmark_eligible": false,
+      "chunk_overlap_token_size": 0,
+      "chunk_token_size": 512,
+      "chunk_top_k": 40,
+      "cosine_threshold": -1.0,
+      "embedding_dimension": 256,
+      "embedding_model": "fixture-hash-v1",
+      "embedding_task_type": null,
+      "evidence_budget": 4096,
+      "extract_gleaning": 0,
+      "llm_model": "fixture-extractor-v1",
+      "max_concurrency": 1,
+      "max_entity_tokens": 1024,
+      "max_relation_tokens": 2048,
+      "max_retries": 2,
+      "max_total_tokens": 8192,
+      "mode": "hybrid",
+      "provider": "fixture",
+      "provider_control_file": null,
+      "provider_control_sha256": null,
+      "python": ">=3.11",
+      "schema_version": "1.0",
+      "top_k": 60,
+      "upstream_commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+      "upstream_license": "MIT",
+      "upstream_repository": "https://github.com/HKUDS/LightRAG"
+    },
+    "config_hash": "1ccaaf2b2110d47d6e03c5fb03aae5402b05ccf2ec8df005c5b9e93d276af01e",
+    "corpus_hash": "57646769774a8c3e5538490dca8b1c83eba606aca916ba5c39728e851efe3cd3",
+    "implementation_hash": "2af9465ea5be14602c87cebbee1c3562baf71c59e0534646b8477ff4f2bdbac9",
+    "native": {
+      "commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+      "python": "3.12.10",
+      "url": "https://github.com/HKUDS/LightRAG.git",
+      "version": "1.5.8"
+    },
+    "split": "pilot"
+  },
+  "index_key": "4cdb5312dff086b7c487658094a0660a760a22ca37259e4c4a0ce47c8d20137f",
+  "schema_version": "1.0",
+  "status": "complete"
+}

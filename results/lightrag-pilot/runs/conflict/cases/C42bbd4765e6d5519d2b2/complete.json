@@ -1,0 +1,11 @@
+{
+  "checksums": {
+    "native-1/native.log": "addf0bcc34ee72d4dd4ecddf883440b745d8d01baf60058bc14684d73f9c230d",
+    "native-1/request.json": "16542def61b0be58fff1eff73ed9635f6f48f4f573451a83ba991b085b36b47b",
+    "native-1/response.json": "8c1a83143440581562c6b11e31722bb0442d63979b52876e8d9a98bff18d5d56",
+    "prediction.json": "dca5a295cd1add548bfa0a151f0d46630d8f914a06c5964354d1d756ec48b42d",
+    "prompt.json": "d04ff294a6a583e7d5ca22e464e8fedc776c0fd46124b37df24d98f80724e260",
+    "retrieval.json": "8b28d8892893aacf35c2bc4e7a1a250ee804e1d0cc0bc20b14122bd8af1c72f3",
+    "score.json": "d341ddbd4f295d8e4f7724f1d0b1fadad39e8db744a3f6068339fc6010ddd45c"
+  }
+}

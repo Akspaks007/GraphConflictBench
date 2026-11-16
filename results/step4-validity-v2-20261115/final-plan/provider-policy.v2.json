@@ -1,0 +1,13 @@
+{
+  "base_url": "https://api.openai.com/v1",
+  "cap_nanodollars": 2000000000,
+  "embedding_model": "text-embedding-3-small",
+  "embedding_nanodollars_per_token": 20,
+  "llm_input_nanodollars_per_token": 150,
+  "llm_model": "gpt-4o-mini-2024-07-18",
+  "llm_output_nanodollars_per_token": 600,
+  "max_completion_tokens": 1536,
+  "max_request_input_tokens": 128000,
+  "schema_version": "1.0",
+  "state_directory": "live-provider-control-v2"
+}

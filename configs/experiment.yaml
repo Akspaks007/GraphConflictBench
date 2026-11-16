@@ -1,0 +1,11 @@
+schema_version: '1.0'
+seed: 42
+pilot_families: 24
+full_families: 120  # PDF: 240 cases, 40 positive + 40 control at each depth
+handbook_full_families: 180
+design_fraction: 0.2
+dev_fraction: 0.2
+test_fraction: 0.6
+evidence_budget: 4096
+generator_temperature: 0
+

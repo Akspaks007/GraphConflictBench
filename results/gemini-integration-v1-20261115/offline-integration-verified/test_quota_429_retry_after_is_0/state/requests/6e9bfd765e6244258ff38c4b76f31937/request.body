@@ -1,0 +1,1 @@
+{"contents":[{"role":"user","parts":[{"text":"quota"}]}],"generationConfig":{"temperature":0,"candidateCount":1,"maxOutputTokens":1536,"thinkingConfig":{"thinkingBudget":0,"includeThoughts":false}}}

@@ -1,0 +1,1 @@
+{"model":"text-embedding-3-small","input":["source / entity / relationship / retrieval query"],"dimensions":2,"encoding_format":"base64"}

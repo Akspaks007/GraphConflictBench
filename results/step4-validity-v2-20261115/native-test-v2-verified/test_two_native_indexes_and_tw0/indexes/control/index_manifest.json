@@ -1,0 +1,80 @@
+{
+  "architecture": "lightrag",
+  "build_result": {
+    "documents_processed": 30,
+    "native": {
+      "commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+      "python": "3.12.10",
+      "url": "https://github.com/HKUDS/LightRAG.git",
+      "version": "1.5.8"
+    },
+    "status": "complete",
+    "usage": []
+  },
+  "checksums": {
+    "build\\native.log": "4cebc98e8fdf4e39d48a7e51e5ef3263bd9d28d480d933b2332a706ae570bfae",
+    "build\\request.json": "0aa41cc9d976436ddfd77cb4aacaeab1a08280f564d0054fcebc2b59c3bb54d9",
+    "build\\response.json": "34aeaddd08b748d1d4b29f1c459d4ee90b2a6353aeac477c622dd376c723248a",
+    "corpus.jsonl": "0aee8493571747c0f594cccf5414c55e10686f730de7709e38545ade25d2645b",
+    "native\\.lightrag_anchor.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "native\\.lightrag_anchor_bind.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "native\\.lightrag_storage.lock": "d96c2845e45df8fc215e5e3c566f2064585beef5251d2c626e9c8e6e64a94ed9",
+    "native\\config_storage_anchor.json": "3276979e599aa235bee962003e5bfeafb2cc7916d0d52419cd27f51ce8253738",
+    "native\\graph_chunk_entity_relation.graphml": "2eecc1e024b172915e48eb44cdf6a5c59502e9c6f5f0519213de6331f5806a7f",
+    "native\\kv_store_doc_status.json": "98e036458f4fd47509200d879fed4f15287ebd29ed514885643b444f7178da9e",
+    "native\\kv_store_entity_chunks.json": "09a5ea1668441e08d133203f621378aebd2210847b5f67283c81eb1be88109bb",
+    "native\\kv_store_full_docs.json": "90e5fb92391e839856de2259409f6981882c3d478f619cc54988da169c48911a",
+    "native\\kv_store_full_entities.json": "24be590d08a2036bad5f8538ead618830b5d18f2d4d5ceba9240ff8edb306a1f",
+    "native\\kv_store_full_relations.json": "ae2af46a6aaedb45df7d03f92fc7497bdd41f3f6f9094c956caf28f3f2dcc926",
+    "native\\kv_store_relation_chunks.json": "488edb40a65e55ee849b5bf8843c10e1304f4f68b5bbc79bec5dcf3c74a9872e",
+    "native\\kv_store_text_chunks.json": "941882f0946672973e645d43e21fdd17a78ec17f86648586a2f2cd3b3c826900",
+    "native\\kv_workspace_config.json": "7a7a7059b2581ec6395b5ddc28cbd680a82121adb2ac853fd121478ce241cc7c",
+    "native\\vdb_chunks.json": "25a4e2d5ef980f9f699763a119dcbf09cac69e978a56693af837c86db82f37e3",
+    "native\\vdb_entities.json": "62613ea9bd724cca71690c3eb61e5928dc0a56380d50429b4ec4c0558f277448",
+    "native\\vdb_relationships.json": "807aa37541dbf3623552cb86b02264dd7ae5f436592012625ed32d17164385fa"
+  },
+  "identity": {
+    "condition": "control",
+    "config": {
+      "architecture": "lightrag",
+      "benchmark_eligible": false,
+      "chunk_overlap_token_size": 0,
+      "chunk_token_size": 512,
+      "chunk_top_k": 40,
+      "cosine_threshold": -1.0,
+      "embedding_dimension": 256,
+      "embedding_model": "fixture-hash-v1",
+      "evidence_budget": 4096,
+      "extract_gleaning": 0,
+      "llm_model": "fixture-extractor-v1",
+      "max_concurrency": 1,
+      "max_entity_tokens": 1024,
+      "max_relation_tokens": 2048,
+      "max_retries": 2,
+      "max_total_tokens": 8192,
+      "mode": "hybrid",
+      "provider": "fixture",
+      "provider_control_file": null,
+      "provider_control_sha256": null,
+      "python": ">=3.11",
+      "schema_version": "1.0",
+      "top_k": 60,
+      "upstream_commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+      "upstream_license": "MIT",
+      "upstream_repository": "https://github.com/HKUDS/LightRAG"
+    },
+    "config_hash": "9875d75fe741f88e2f7c6329ec6d8106ba2ce90228c7b1509d1c032b210b08cd",
+    "corpus_hash": "57646769774a8c3e5538490dca8b1c83eba606aca916ba5c39728e851efe3cd3",
+    "implementation_hash": "acce950da2ff1cf1127219fab9aa708a2426f4a07a58ef3f36fe4b9151c948e8",
+    "native": {
+      "commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+      "python": "3.12.10",
+      "url": "https://github.com/HKUDS/LightRAG.git",
+      "version": "1.5.8"
+    },
+    "split": "pilot"
+  },
+  "index_key": "586e07ce0c2ab98f77c34c9baa739fd3fa794bf3474b7b9df9592407bd0d86e7",
+  "schema_version": "1.0",
+  "status": "complete"
+}

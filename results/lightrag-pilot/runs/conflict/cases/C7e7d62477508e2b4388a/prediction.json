@@ -1,0 +1,37 @@
+{
+  "parse_error": null,
+  "prediction": {
+    "case_id": "C7e7d62477508e2b4388a",
+    "conflict_detected": true,
+    "conflicts": [
+      {
+        "brief_explanation": "Delivered source statements entail a relationship explicitly denied by another source.",
+        "opposing": [
+          {
+            "doc_id": "D484ceaf31f69109851b6",
+            "quote": "N9e542f5f0372f5925428 is not contained in Nce7afaa048239899b51b.",
+            "schema_version": "1.0"
+          }
+        ],
+        "schema_version": "1.0",
+        "support": [
+          {
+            "doc_id": "Dacb8c3df2f00f4b6989f",
+            "quote": "N9e542f5f0372f5925428 is contained in Neba37e9f6d5110819858.",
+            "schema_version": "1.0"
+          },
+          {
+            "doc_id": "Df64f894e1735c6e17ae6",
+            "quote": "Neba37e9f6d5110819858 is contained in Nce7afaa048239899b51b.",
+            "schema_version": "1.0"
+          }
+        ]
+      }
+    ],
+    "evidence_status": "complete",
+    "resolution": "not_attempted",
+    "schema_version": "1.0"
+  },
+  "raw": "{\"schema_version\":\"1.0\",\"case_id\":\"C7e7d62477508e2b4388a\",\"conflict_detected\":true,\"evidence_status\":\"complete\",\"conflicts\":[{\"schema_version\":\"1.0\",\"support\":[{\"schema_version\":\"1.0\",\"doc_id\":\"Dacb8c3df2f00f4b6989f\",\"quote\":\"N9e542f5f0372f5925428 is contained in Neba37e9f6d5110819858.\"},{\"schema_version\":\"1.0\",\"doc_id\":\"Df64f894e1735c6e17ae6\",\"quote\":\"Neba37e9f6d5110819858 is contained in Nce7afaa048239899b51b.\"}],\"opposing\":[{\"schema_version\":\"1.0\",\"doc_id\":\"D484ceaf31f69109851b6\",\"quote\":\"N9e542f5f0372f5925428 is not contained in Nce7afaa048239899b51b.\"}],\"brief_explanation\":\"Delivered source statements entail a relationship explicitly denied by another source.\"}],\"resolution\":\"not_attempted\"}",
+  "usage": []
+}

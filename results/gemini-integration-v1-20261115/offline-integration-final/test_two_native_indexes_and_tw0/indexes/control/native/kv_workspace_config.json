@@ -1,0 +1,66 @@
+{
+  "$meta/storage_identity": {
+    "schema_version": 1,
+    "updated_at": "2026-11-15T09:05:47.640885+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "uuid": "f879ef1b-356b-4574-8fbf-06600e69c4b0"
+    },
+    "create_time": 1794733547,
+    "update_time": 1794733547,
+    "_id": "$meta/storage_identity"
+  },
+  "$meta/json_shard": {
+    "schema_version": 1,
+    "updated_at": "2026-11-15T09:05:47.640885+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "workspace": ""
+    },
+    "create_time": 1794733547,
+    "update_time": 1794733547,
+    "_id": "$meta/json_shard"
+  },
+  "$default/embedding/entities": {
+    "schema_version": 1,
+    "workspace": "",
+    "updated_at": "2026-11-15T09:05:47.663480+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "model": "fixture-hash-v1",
+      "dim": 256,
+      "origin": "empty"
+    },
+    "create_time": 1794733547,
+    "update_time": 1794733547,
+    "_id": "$default/embedding/entities"
+  },
+  "$default/embedding/relationships": {
+    "schema_version": 1,
+    "workspace": "",
+    "updated_at": "2026-11-15T09:05:47.665536+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "model": "fixture-hash-v1",
+      "dim": 256,
+      "origin": "empty"
+    },
+    "create_time": 1794733547,
+    "update_time": 1794733547,
+    "_id": "$default/embedding/relationships"
+  },
+  "$default/embedding/chunks": {
+    "schema_version": 1,
+    "workspace": "",
+    "updated_at": "2026-11-15T09:05:47.667538+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "model": "fixture-hash-v1",
+      "dim": 256,
+      "origin": "empty"
+    },
+    "create_time": 1794733547,
+    "update_time": 1794733547,
+    "_id": "$default/embedding/chunks"
+  }
+}

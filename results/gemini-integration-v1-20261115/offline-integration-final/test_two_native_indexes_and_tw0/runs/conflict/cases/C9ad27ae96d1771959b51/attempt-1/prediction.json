@@ -1,0 +1,42 @@
+{
+  "parse_error": null,
+  "prediction": {
+    "case_id": "C9ad27ae96d1771959b51",
+    "conflict_detected": true,
+    "conflicts": [
+      {
+        "brief_explanation": "Delivered source statements entail a relationship explicitly denied by another source.",
+        "opposing": [
+          {
+            "doc_id": "D42a6ad15e475e77a44ea",
+            "quote": "N65700a2d6db36d25598a is not contained in N5df6c26f99d2dabea078.",
+            "schema_version": "1.0"
+          }
+        ],
+        "schema_version": "1.0",
+        "support": [
+          {
+            "doc_id": "D3369302a126998523134",
+            "quote": "N65700a2d6db36d25598a is contained in N4f8b6237641fd828e3d1.",
+            "schema_version": "1.0"
+          },
+          {
+            "doc_id": "D810fe8668f225c16c82c",
+            "quote": "N4f8b6237641fd828e3d1 is contained in N5fce270295be035aa745.",
+            "schema_version": "1.0"
+          },
+          {
+            "doc_id": "D6d1b7dca231782eb5c7f",
+            "quote": "N5fce270295be035aa745 is contained in N5df6c26f99d2dabea078.",
+            "schema_version": "1.0"
+          }
+        ]
+      }
+    ],
+    "evidence_status": "complete",
+    "resolution": "not_attempted",
+    "schema_version": "1.0"
+  },
+  "raw": "{\"schema_version\":\"1.0\",\"case_id\":\"C9ad27ae96d1771959b51\",\"conflict_detected\":true,\"evidence_status\":\"complete\",\"conflicts\":[{\"schema_version\":\"1.0\",\"support\":[{\"schema_version\":\"1.0\",\"doc_id\":\"D3369302a126998523134\",\"quote\":\"N65700a2d6db36d25598a is contained in N4f8b6237641fd828e3d1.\"},{\"schema_version\":\"1.0\",\"doc_id\":\"D810fe8668f225c16c82c\",\"quote\":\"N4f8b6237641fd828e3d1 is contained in N5fce270295be035aa745.\"},{\"schema_version\":\"1.0\",\"doc_id\":\"D6d1b7dca231782eb5c7f\",\"quote\":\"N5fce270295be035aa745 is contained in N5df6c26f99d2dabea078.\"}],\"opposing\":[{\"schema_version\":\"1.0\",\"doc_id\":\"D42a6ad15e475e77a44ea\",\"quote\":\"N65700a2d6db36d25598a is not contained in N5df6c26f99d2dabea078.\"}],\"brief_explanation\":\"Delivered source statements entail a relationship explicitly denied by another source.\"}],\"resolution\":\"not_attempted\"}",
+  "usage": []
+}

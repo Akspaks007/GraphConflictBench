@@ -1,0 +1,15 @@
+{
+  "case_id": "C7ea8d2cba383bd89ac9d",
+  "citation_errors": [],
+  "complete_proof_retrieved": true,
+  "edge_mapping_scope": "verbatim_source_chunks_only",
+  "exact_proof_set": true,
+  "failure": null,
+  "localization_f1": 1.0,
+  "mapped_citations": [
+    "E12865dea098d8cc7644e",
+    "Eb8b66fb63a602b3a9e54",
+    "Efe8826c33f9cedcec848"
+  ],
+  "outcome": "tp"
+}

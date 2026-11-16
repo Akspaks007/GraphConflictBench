@@ -1,0 +1,1 @@
+{"model":"models/gemini-embedding-001","content":{"parts":[{"text":"SUBREGION_OF\tN6a09c8b2f74d7ae96dd7\nN8fe9e9640a4262cfd99d\nN8fe9e9640a4262cfd99d is not a subregion of N6a09c8b2f74d7ae96dd7."}]},"taskType":"SEMANTIC_SIMILARITY","outputDimensionality":1536}

@@ -1,0 +1,18 @@
+{
+  "all_certificates_valid": true,
+  "by_depth_condition": {
+    "1:conflict": 2,
+    "1:control": 2,
+    "2:conflict": 2,
+    "2:control": 2,
+    "3:conflict": 2,
+    "3:control": 2
+  },
+  "cases": 12,
+  "documents": 36,
+  "families": 6,
+  "human_audit": "pending",
+  "label_leakage_classifier": "not_run",
+  "paired_queries_identical": true,
+  "status": "passed"
+}

@@ -1,0 +1,1 @@
+{"model":"models/gemini-embedding-001","content":{"parts":[{"text":"retrieval query"}]},"taskType":"SEMANTIC_SIMILARITY","outputDimensionality":1536}

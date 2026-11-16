@@ -1,0 +1,38 @@
+{
+  "checked_date_asia_kolkata": "2026-11-15",
+  "currency": "USD",
+  "pricing_basis": "standard online API rates, no cache/Batch discount, tax or gateway fees",
+  "sources": [
+    {
+      "url": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
+      "facts": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.6,
+        "snapshot": "gpt-4o-mini-2024-07-18",
+        "status": "deprecated"
+      }
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/models/text-embedding-3-small",
+      "facts": {
+        "input_per_million": 0.02
+      }
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "facts": {
+        "gpt_4o_mini_shutdown_date": "2027-01-14",
+        "recommended_replacement": "gpt-6-luna",
+        "replacement_not_adopted_or_validated": true
+      }
+    },
+    {
+      "url": "https://help.openai.com/en/articles/9186755-managing-projects-in-the-api-platform",
+      "facts": {
+        "enforced_project_limits_supported": true,
+        "enforcement_can_lag_and_slightly_exceed_limit": true,
+        "alerts_do_not_stop_requests": true
+      }
+    }
+  ]
+}

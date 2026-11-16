@@ -1,0 +1,1 @@
+{"modelVersion":"gemini-3.5-flash-lite","candidates":[{"content":{"parts":[{"text":"OK"}]},"finishReason":"STOP"}],"usageMetadata":{"promptTokenCount":10,"candidatesTokenCount":2,"totalTokenCount":12}}

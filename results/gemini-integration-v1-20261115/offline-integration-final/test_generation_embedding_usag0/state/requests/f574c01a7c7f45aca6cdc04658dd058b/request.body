@@ -1,0 +1,1 @@
+{"contents":[{"role":"model","parts":[{"text":"earlier"}]},{"role":"user","parts":[{"text":"keywords"}]}],"generationConfig":{"temperature":0,"candidateCount":1,"maxOutputTokens":1536,"thinkingConfig":{"thinkingBudget":0,"includeThoughts":false},"responseMimeType":"application/json"},"systemInstruction":{"parts":[{"text":"shared rules"}]}}

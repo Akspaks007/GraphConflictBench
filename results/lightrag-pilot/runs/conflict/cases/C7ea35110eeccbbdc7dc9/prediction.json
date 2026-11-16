@@ -1,0 +1,37 @@
+{
+  "parse_error": null,
+  "prediction": {
+    "case_id": "C7ea35110eeccbbdc7dc9",
+    "conflict_detected": true,
+    "conflicts": [
+      {
+        "brief_explanation": "Delivered source statements entail a relationship explicitly denied by another source.",
+        "opposing": [
+          {
+            "doc_id": "D213d059cbf8275626d71",
+            "quote": "Nb3157744fbca11401254 does not precede N9917c899684329d6eb7a.",
+            "schema_version": "1.0"
+          }
+        ],
+        "schema_version": "1.0",
+        "support": [
+          {
+            "doc_id": "Df1b1e893965d3f189eb8",
+            "quote": "Nb3157744fbca11401254 precedes Na1d0dcf562bd43f98e5f.",
+            "schema_version": "1.0"
+          },
+          {
+            "doc_id": "De5d52bc41134b6f51dcf",
+            "quote": "Na1d0dcf562bd43f98e5f precedes N9917c899684329d6eb7a.",
+            "schema_version": "1.0"
+          }
+        ]
+      }
+    ],
+    "evidence_status": "complete",
+    "resolution": "not_attempted",
+    "schema_version": "1.0"
+  },
+  "raw": "{\"schema_version\":\"1.0\",\"case_id\":\"C7ea35110eeccbbdc7dc9\",\"conflict_detected\":true,\"evidence_status\":\"complete\",\"conflicts\":[{\"schema_version\":\"1.0\",\"support\":[{\"schema_version\":\"1.0\",\"doc_id\":\"Df1b1e893965d3f189eb8\",\"quote\":\"Nb3157744fbca11401254 precedes Na1d0dcf562bd43f98e5f.\"},{\"schema_version\":\"1.0\",\"doc_id\":\"De5d52bc41134b6f51dcf\",\"quote\":\"Na1d0dcf562bd43f98e5f precedes N9917c899684329d6eb7a.\"}],\"opposing\":[{\"schema_version\":\"1.0\",\"doc_id\":\"D213d059cbf8275626d71\",\"quote\":\"Nb3157744fbca11401254 does not precede N9917c899684329d6eb7a.\"}],\"brief_explanation\":\"Delivered source statements entail a relationship explicitly denied by another source.\"}],\"resolution\":\"not_attempted\"}",
+  "usage": []
+}

@@ -1,0 +1,17 @@
+{
+  "case_id": "C18c3b347fd4b60f07d70",
+  "citation_errors": [],
+  "complete_proof_retrieved": false,
+  "edge_mapping_scope": "verbatim_source_chunks_only",
+  "exact_proof_set": false,
+  "failure": "retrieval_incomplete",
+  "localization_f1": 0.0,
+  "mapped_citations": [],
+  "opposing_localization_f1": 0.0,
+  "outcome": "fn",
+  "role_aware_exact_proof_set": false,
+  "role_aware_localization_f1": 0.0,
+  "role_citation_errors": [],
+  "role_metric_version": "2.0",
+  "support_localization_f1": 0.0
+}

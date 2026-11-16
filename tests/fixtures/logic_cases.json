@@ -1,0 +1,15 @@
+[
+  {"name":"containment-1-positive","relation":"CONTAINED_IN","chain":["A","Z"],"deny":"Z","conflict":true},
+  {"name":"containment-1-control","relation":"CONTAINED_IN","chain":["A","Z"],"deny":"Q","conflict":false},
+  {"name":"containment-2-positive","relation":"CONTAINED_IN","chain":["A","B","Z"],"deny":"Z","conflict":true},
+  {"name":"containment-2-control","relation":"CONTAINED_IN","chain":["A","B","Z"],"deny":"Q","conflict":false},
+  {"name":"containment-3-positive","relation":"CONTAINED_IN","chain":["A","B","C","Z"],"deny":"Z","conflict":true},
+  {"name":"containment-3-control","relation":"CONTAINED_IN","chain":["A","B","C","Z"],"deny":"Q","conflict":false},
+  {"name":"ordering-1-positive","relation":"PRECEDES","chain":["A","Z"],"deny":"Z","conflict":true},
+  {"name":"ordering-1-control","relation":"PRECEDES","chain":["A","Z"],"deny":"Q","conflict":false},
+  {"name":"ordering-2-positive","relation":"PRECEDES","chain":["A","B","Z"],"deny":"Z","conflict":true},
+  {"name":"ordering-2-control","relation":"PRECEDES","chain":["A","B","Z"],"deny":"Q","conflict":false},
+  {"name":"ordering-3-positive","relation":"PRECEDES","chain":["A","B","C","Z"],"deny":"Z","conflict":true},
+  {"name":"ordering-3-control","relation":"PRECEDES","chain":["A","B","C","Z"],"deny":"Q","conflict":false}
+]
+

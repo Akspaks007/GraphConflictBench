@@ -1,0 +1,1 @@
+{"model":"models/gemini-embedding-001","content":{"parts":[{"text":"PRECEDES\tN3348662b17667059bb08\nN50a946b25b186c5bc4a1\nN50a946b25b186c5bc4a1 precedes N3348662b17667059bb08."}]},"taskType":"SEMANTIC_SIMILARITY","outputDimensionality":1536}

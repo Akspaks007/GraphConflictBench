@@ -1,0 +1,24 @@
+{
+  "benchmark_eligible": false,
+  "requests": 1,
+  "response": "OK",
+  "status": "connected",
+  "usage": [
+    {
+      "audit_request_id": "d2618df1639745cb98b1e3af16c66735",
+      "finish_reason": "STOP",
+      "input_bound": 2280,
+      "kind": "llm",
+      "model_version": "gemini-2.5-flash",
+      "paid_equivalent_nanodollars": 8000,
+      "provider": "gemini",
+      "provider_usage": {
+        "candidatesTokenCount": 2,
+        "promptTokenCount": 10,
+        "totalTokenCount": 12
+      },
+      "requested_model": "gemini-2.5-flash",
+      "source": "provider_usage_at_paid_equivalent_rates"
+    }
+  ]
+}

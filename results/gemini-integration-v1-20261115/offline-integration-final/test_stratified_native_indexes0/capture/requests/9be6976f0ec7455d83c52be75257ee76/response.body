@@ -1,0 +1,1 @@
+{"modelVersion":"gemini-2.5-flash","candidates":[{"content":{"parts":[{"text":"{\"high_level_keywords\": [\"CONTAINED_IN\", \"SUBREGION_OF\", \"PRECEDES\"], \"low_level_keywords\": [\"Nf96405a2392fdff9bb1e\"]}"}]},"finishReason":"STOP"}],"usageMetadata":{"promptTokenCount":10,"candidatesTokenCount":2,"totalTokenCount":12}}

@@ -1,0 +1,49 @@
+{
+  "parse_error": null,
+  "prediction": {
+    "case_id": "C42bbd4765e6d5519d2b2",
+    "conflict_detected": true,
+    "conflicts": [
+      {
+        "brief_explanation": "Delivered source statements entail a relationship explicitly denied by another source.",
+        "opposing": [
+          {
+            "doc_id": "Dcf6378293bf1ac388f4e",
+            "quote": "N4142a55c2d046b158499 is not a subregion of Ne66dd9afcc8a121e916d.",
+            "schema_version": "1.0"
+          }
+        ],
+        "schema_version": "1.0",
+        "support": [
+          {
+            "doc_id": "D76413fefe6657c0277f5",
+            "quote": "N4142a55c2d046b158499 is a subregion of Ne66dd9afcc8a121e916d.",
+            "schema_version": "1.0"
+          }
+        ]
+      }
+    ],
+    "evidence_status": "complete",
+    "resolution": "not_attempted",
+    "schema_version": "1.0"
+  },
+  "raw": "{\"schema_version\":\"1.0\",\"case_id\":\"C42bbd4765e6d5519d2b2\",\"conflict_detected\":true,\"evidence_status\":\"complete\",\"conflicts\":[{\"schema_version\":\"1.0\",\"support\":[{\"schema_version\":\"1.0\",\"doc_id\":\"D76413fefe6657c0277f5\",\"quote\":\"N4142a55c2d046b158499 is a subregion of Ne66dd9afcc8a121e916d.\"}],\"opposing\":[{\"schema_version\":\"1.0\",\"doc_id\":\"Dcf6378293bf1ac388f4e\",\"quote\":\"N4142a55c2d046b158499 is not a subregion of Ne66dd9afcc8a121e916d.\"}],\"brief_explanation\":\"Delivered source statements entail a relationship explicitly denied by another source.\"}],\"resolution\":\"not_attempted\"}",
+  "usage": [
+    {
+      "audit_request_id": "1bbc73dfe5284aa986034f5dc6023833",
+      "finish_reason": "STOP",
+      "input_bound": 15440,
+      "kind": "llm",
+      "model_version": "gemini-2.5-flash",
+      "paid_equivalent_nanodollars": 8000,
+      "provider": "gemini",
+      "provider_usage": {
+        "candidatesTokenCount": 2,
+        "promptTokenCount": 10,
+        "totalTokenCount": 12
+      },
+      "requested_model": "gemini-2.5-flash",
+      "source": "provider_usage_at_paid_equivalent_rates"
+    }
+  ]
+}

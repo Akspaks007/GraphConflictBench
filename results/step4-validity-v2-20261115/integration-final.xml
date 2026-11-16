@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="9" time="47.134" timestamp="2026-11-15T12:02:11.036119+05:30" hostname="LAPTOP-L9MENORA"><testcase classname="tests.integration.test_lightrag_native" name="test_two_native_indexes_and_twelve_queries" time="44.616" /><testcase classname="tests.integration.test_provider_transport" name="test_actual_sdk_callbacks_capture_every_stage_in_shared_ledger" time="0.425" /><testcase classname="tests.integration.test_provider_transport" name="test_failures_capture_raw_evidence_and_keep_reservations[http_error]" time="0.052" /><testcase classname="tests.integration.test_provider_transport" name="test_failures_capture_raw_evidence_and_keep_reservations[connection]" time="0.045" /><testcase classname="tests.integration.test_provider_transport" name="test_failures_capture_raw_evidence_and_keep_reservations[missing_usage]" time="0.051" /><testcase classname="tests.integration.test_provider_transport" name="test_failures_capture_raw_evidence_and_keep_reservations[partial_body]" time="0.061" /><testcase classname="tests.integration.test_provider_transport" name="test_exhausted_budget_and_unknown_origin_never_dispatch" time="0.053" /><testcase classname="tests.integration.test_provider_transport" name="test_response_usage_exceeding_bound_freezes_and_keeps_capture" time="0.063" /><testcase classname="tests.integration.test_provider_transport" name="test_sdk_transport_error_is_captured_without_hidden_retries" time="0.068"><failure message="RuntimeError: provider HTTP 500; reservation retained">control = &lt;graphconflictbench.provider_control.ProviderControl object at 0x00000209513498B0&gt;
+monkeypatch = &lt;_pytest.monkeypatch.MonkeyPatch object at 0x00000209513493D0&gt;
+
+    def test_sdk_transport_error_is_captured_without_hidden_retries(control, monkeypatch):
+        from openai import APIConnectionError
+    
+        calls = []
+    
+        def dispatch(request):
+            calls.append(request)
+            return httpx.Response(500, content=b'{"error":"offline server error"}')
+    
+        monkeypatch.setenv("OPENAI_API_KEY", "OFFLINE_FAKE_KEY")
+        monkeypatch.delenv("OPENAI_BASE_URL", raising=False)
+        monkeypatch.setattr(httpx, "AsyncHTTPTransport", lambda **kw: httpx.MockTransport(dispatch))
+        config = {"provider_control_file": str(control.policy_file),
+                  "provider_control_sha256": file_hash(control.policy_file), "max_retries": 0,
+                  "llm_model": control.policy.llm_model, "embedding_model": control.policy.embedding_model}
+    
+        async def invoke():
+            models = OpenAIModels(config)
+            try:
+                with pytest.raises(APIConnectionError):
+                    await models.llm("offline error")
+            finally:
+                await models.client.close()
+&gt;       asyncio.run(invoke())
+
+tests\integration\test_provider_transport.py:184: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Program Files\Python312\Lib\asyncio\runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\asyncio\runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\asyncio\base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests\integration\test_provider_transport.py:181: in invoke
+    await models.llm("offline error")
+src\graphconflictbench\models.py:95: in llm
+    response = await self.client.chat.completions.create(
+.venv-lightrag\Lib\site-packages\openai\resources\chat\completions\completions.py:3414: in create
+    return await self._post(
+.venv-lightrag\Lib\site-packages\openai\_base_client.py:2085: in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv-lightrag\Lib\site-packages\openai\_base_client.py:1805: in request
+    response = await self._send_request(
+.venv-lightrag\Lib\site-packages\openai\_client.py:738: in _send_request
+    return await async_send_request(self, request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv-lightrag\Lib\site-packages\openai\lib\_client_auth.py:794: in async_send_request
+    response = await self._send_with_auth_retry(request, stream=stream, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv-lightrag\Lib\site-packages\openai\_client.py:724: in _send_with_auth_retry
+    return await async_send_with_auth_retry(
+.venv-lightrag\Lib\site-packages\openai\lib\_client_auth.py:779: in async_send_with_auth_retry
+    response = await super(_owner, self)._send_request(request, stream=stream, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv-lightrag\Lib\site-packages\openai\_base_client.py:1722: in _send_request
+    return await self._client.send(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv-lightrag\Lib\site-packages\httpx\_client.py:1629: in send
+    response = await self._send_handling_auth(
+.venv-lightrag\Lib\site-packages\httpx\_client.py:1657: in _send_handling_auth
+    response = await self._send_handling_redirects(
+.venv-lightrag\Lib\site-packages\httpx\_client.py:1694: in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv-lightrag\Lib\site-packages\httpx\_client.py:1730: in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;graphconflictbench.provider_control.audited_http_client.&lt;locals&gt;.AuditedTransport object at 0x00000209519232C0&gt;
+request = &lt;Request('POST', 'https://api.openai.com/v1/chat/completions')&gt;
+
+    async def handle_async_request(self, request):
+        rid = uuid.uuid4().hex
+        directory = control.root / "requests" / rid
+        body = await request.aread()
+        immutable_bytes(directory / "request.body", body)
+        metadata = {"method": request.method, "url": str(request.url),
+                    "headers": headers_without_credentials(request.headers)}
+        immutable_bytes(directory / "request.json", canonical(metadata).encode())
+        reserved = False
+        response_hash = None
+        try:
+            if (request.method != "POST" or request.url.host != "api.openai.com"
+                    or request.url.scheme != "https" or request.url.port not in (None, 443)
+                    or request.url.query):
+                raise ValueError("provider origin/method is not priced")
+            payload = json.loads(body)
+            amount, input_bound, output_bound = control.request_bound(request.url.path, payload, body)
+            control.reserve(rid, amount, capture_hash(directory, "request"))
+            reserved = True
+            response = await self.inner.handle_async_request(request)
+            response_meta = {"status": response.status_code,
+                             "headers": headers_without_credentials(response.headers)}
+            chunks = []
+            complete = False
+            try:
+                async for chunk in response.aiter_bytes():
+                    chunks.append(chunk)
+                complete = True
+            finally:
+                response_body = b"".join(chunks)
+                immutable_bytes(directory / "response.body", response_body)
+                response_meta["body_complete"] = complete
+                immutable_bytes(directory / "response.json", canonical(response_meta).encode())
+                response_hash = capture_hash(directory, "response")
+            if not 200 &lt;= response.status_code &lt; 300:
+&gt;               raise RuntimeError(f"provider HTTP {response.status_code}; reservation retained")
+E               RuntimeError: provider HTTP 500; reservation retained
+
+src\graphconflictbench\provider_control.py:268: RuntimeError</failure></testcase></testsuite></testsuites>

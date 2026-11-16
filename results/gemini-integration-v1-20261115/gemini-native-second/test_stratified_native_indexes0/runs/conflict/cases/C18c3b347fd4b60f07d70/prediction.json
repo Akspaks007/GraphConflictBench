@@ -1,0 +1,30 @@
+{
+  "parse_error": null,
+  "prediction": {
+    "case_id": "C18c3b347fd4b60f07d70",
+    "conflict_detected": false,
+    "conflicts": [],
+    "evidence_status": "insufficient",
+    "resolution": "not_attempted",
+    "schema_version": "1.0"
+  },
+  "raw": "{\"schema_version\":\"1.0\",\"case_id\":\"C18c3b347fd4b60f07d70\",\"conflict_detected\":false,\"evidence_status\":\"insufficient\",\"conflicts\":[],\"resolution\":\"not_attempted\"}",
+  "usage": [
+    {
+      "audit_request_id": "0b829ee60a4f4bd1a48d87f4808a87f6",
+      "finish_reason": "STOP",
+      "input_bound": 15576,
+      "kind": "llm",
+      "model_version": "gemini-2.5-flash",
+      "paid_equivalent_nanodollars": 8000,
+      "provider": "gemini",
+      "provider_usage": {
+        "candidatesTokenCount": 2,
+        "promptTokenCount": 10,
+        "totalTokenCount": 12
+      },
+      "requested_model": "gemini-2.5-flash",
+      "source": "provider_usage_at_paid_equivalent_rates"
+    }
+  ]
+}

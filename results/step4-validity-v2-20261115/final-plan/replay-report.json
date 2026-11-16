@@ -1,0 +1,1316 @@
+{
+  "cases": 48,
+  "cases_detail": [
+    {
+      "case_id": "C3e26105ec36803f12b2e",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 41,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4055
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 8,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4088
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 9,
+        "references": 0,
+        "relationships": 0
+      },
+      "source_chunks": 40,
+      "v2_graph_rows": {
+        "entities": 13,
+        "references": 2,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C96e62542ee1b2f486b9f",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 81,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4015
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 22,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4074
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 14,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 33,
+      "v2_graph_rows": {
+        "entities": 21,
+        "references": 0,
+        "relationships": 1
+      }
+    },
+    {
+      "case_id": "C42bbd4765e6d5519d2b2",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 49,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4047
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 19,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4077
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 9,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 40,
+      "v2_graph_rows": {
+        "entities": 13,
+        "references": 2,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C221076261f1c382e4bda",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 6,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4090
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 85,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4011
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 13,
+        "references": 3,
+        "relationships": 0
+      },
+      "source_chunks": 34,
+      "v2_graph_rows": {
+        "entities": 21,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Cdfdb9e95adde8d038e30",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 41,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4055
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 6,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4090
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 9,
+        "references": 0,
+        "relationships": 0
+      },
+      "source_chunks": 40,
+      "v2_graph_rows": {
+        "entities": 13,
+        "references": 2,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C9ff35c7464e3e294054b",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 2,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4094
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 79,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4017
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 13,
+        "references": 3,
+        "relationships": 0
+      },
+      "source_chunks": 34,
+      "v2_graph_rows": {
+        "entities": 21,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Cec8bb9e3d570ee94ba8e",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 1,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4095
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 21,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4075
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 9,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 40,
+      "v2_graph_rows": {
+        "entities": 14,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Cbe622777f555a0d79985",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 22,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4074
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 30,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4066
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 14,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 33,
+      "v2_graph_rows": {
+        "entities": 22,
+        "references": 1,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C45be00a9a7ad99b996ad",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 4,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4092
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 16,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4080
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 9,
+        "references": 0,
+        "relationships": 0
+      },
+      "source_chunks": 40,
+      "v2_graph_rows": {
+        "entities": 14,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Cb5f1498885e5977e31a0",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 16,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4080
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 3,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4093
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 13,
+        "references": 0,
+        "relationships": 0
+      },
+      "source_chunks": 35,
+      "v2_graph_rows": {
+        "entities": 20,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Ceb082b2014ab0733ca7c",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 0,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4096
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 30,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4066
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 9,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 40,
+      "v2_graph_rows": {
+        "entities": 14,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C9d23b5521dfd594f827d",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 10,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4086
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 16,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4080
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 14,
+        "references": 0,
+        "relationships": 0
+      },
+      "source_chunks": 33,
+      "v2_graph_rows": {
+        "entities": 22,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Cdfa0fc2ed7b9fb7e49cb",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 35,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4061
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 3,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4093
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 9,
+        "references": 0,
+        "relationships": 0
+      },
+      "source_chunks": 40,
+      "v2_graph_rows": {
+        "entities": 13,
+        "references": 1,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C05c58bea507790542472",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 53,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4043
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 57,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4039
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 13,
+        "references": 2,
+        "relationships": 0
+      },
+      "source_chunks": 34,
+      "v2_graph_rows": {
+        "entities": 20,
+        "references": 2,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Cdb61bd674a8718cdab06",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 19,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4077
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 72,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4024
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 8,
+        "references": 3,
+        "relationships": 0
+      },
+      "source_chunks": 40,
+      "v2_graph_rows": {
+        "entities": 13,
+        "references": 1,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Ce9e17b943ef1908e97e1",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 43,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4053
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 59,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4037
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 13,
+        "references": 2,
+        "relationships": 0
+      },
+      "source_chunks": 34,
+      "v2_graph_rows": {
+        "entities": 20,
+        "references": 2,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C7e7d62477508e2b4388a",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 9,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4087
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 46,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4050
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 10,
+        "references": 2,
+        "relationships": 0
+      },
+      "source_chunks": 38,
+      "v2_graph_rows": {
+        "entities": 16,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C4bd4688564a242ecf137",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 14,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4082
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 20,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4076
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 14,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 33,
+      "v2_graph_rows": {
+        "entities": 22,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C7ea8d2cba383bd89ac9d",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 26,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4070
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 61,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4035
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 8,
+        "references": 2,
+        "relationships": 0
+      },
+      "source_chunks": 40,
+      "v2_graph_rows": {
+        "entities": 13,
+        "references": 1,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C5ef6d9ade86682fff037",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 65,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4031
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 0,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4096
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 14,
+        "references": 0,
+        "relationships": 0
+      },
+      "source_chunks": 33,
+      "v2_graph_rows": {
+        "entities": 21,
+        "references": 3,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C284858966dec17b70c96",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 20,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4076
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 69,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4027
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 10,
+        "references": 3,
+        "relationships": 0
+      },
+      "source_chunks": 37,
+      "v2_graph_rows": {
+        "entities": 17,
+        "references": 1,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C85bfbe12307f7f880a90",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 87,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4009
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 30,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4066
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 14,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 33,
+      "v2_graph_rows": {
+        "entities": 21,
+        "references": 0,
+        "relationships": 1
+      }
+    },
+    {
+      "case_id": "C8df4eb422ddda77c47ec",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 4,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4092
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 41,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4055
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 10,
+        "references": 2,
+        "relationships": 0
+      },
+      "source_chunks": 38,
+      "v2_graph_rows": {
+        "entities": 16,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C6522cdd91136ea81cb55",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 14,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4082
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 22,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4074
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 14,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 33,
+      "v2_graph_rows": {
+        "entities": 22,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C4a7e4f1a97759d4e6cc0",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 52,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4044
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 32,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4064
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 10,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 38,
+      "v2_graph_rows": {
+        "entities": 15,
+        "references": 2,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Cd65cb6bb1011932cfaaf",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 65,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4031
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 4,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4092
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 14,
+        "references": 0,
+        "relationships": 0
+      },
+      "source_chunks": 33,
+      "v2_graph_rows": {
+        "entities": 21,
+        "references": 3,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C7ea35110eeccbbdc7dc9",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 12,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4084
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 50,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4046
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 10,
+        "references": 2,
+        "relationships": 0
+      },
+      "source_chunks": 38,
+      "v2_graph_rows": {
+        "entities": 16,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Cfa96317b5e41255c0ec2",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 114,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 3982
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 16,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4080
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 15,
+        "references": 0,
+        "relationships": 0
+      },
+      "source_chunks": 32,
+      "v2_graph_rows": {
+        "entities": 22,
+        "references": 1,
+        "relationships": 1
+      }
+    },
+    {
+      "case_id": "Ca5cf3e75e3d2fddf1810",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 5,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4091
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 56,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4040
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 9,
+        "references": 2,
+        "relationships": 0
+      },
+      "source_chunks": 39,
+      "v2_graph_rows": {
+        "entities": 15,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Cce7e332b5c6ca12c3659",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 7,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4089
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 82,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4014
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 13,
+        "references": 3,
+        "relationships": 0
+      },
+      "source_chunks": 34,
+      "v2_graph_rows": {
+        "entities": 21,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Cd4415c7ca842d8437c46",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 3,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4093
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 40,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4056
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 10,
+        "references": 2,
+        "relationships": 0
+      },
+      "source_chunks": 38,
+      "v2_graph_rows": {
+        "entities": 16,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C4f22a075bbaa8c11d46e",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 99,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 3997
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 22,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4074
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 15,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 32,
+      "v2_graph_rows": {
+        "entities": 22,
+        "references": 0,
+        "relationships": 1
+      }
+    },
+    {
+      "case_id": "C9ad27ae96d1771959b51",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 48,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4048
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 28,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4068
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 10,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 38,
+      "v2_graph_rows": {
+        "entities": 15,
+        "references": 2,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C867476b9eda45605182a",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 55,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4041
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 75,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4021
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 13,
+        "references": 3,
+        "relationships": 0
+      },
+      "source_chunks": 34,
+      "v2_graph_rows": {
+        "entities": 20,
+        "references": 2,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C18c3b347fd4b60f07d70",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 5,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4091
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 46,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4050
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 10,
+        "references": 2,
+        "relationships": 0
+      },
+      "source_chunks": 38,
+      "v2_graph_rows": {
+        "entities": 16,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C72bd1b5ee97f58f77f35",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 85,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4011
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 30,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4066
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 14,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 33,
+      "v2_graph_rows": {
+        "entities": 21,
+        "references": 0,
+        "relationships": 1
+      }
+    },
+    {
+      "case_id": "C45e88caf1e8b13cac59e",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 31,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4065
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 48,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4048
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 11,
+        "references": 2,
+        "relationships": 0
+      },
+      "source_chunks": 37,
+      "v2_graph_rows": {
+        "entities": 17,
+        "references": 1,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Ca13cd3fae860c8b5fd24",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 17,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4079
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 28,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4068
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 14,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 33,
+      "v2_graph_rows": {
+        "entities": 22,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C588987f4cc3505b4717d",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 1,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4095
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 32,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4064
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 9,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 39,
+      "v2_graph_rows": {
+        "entities": 15,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Cda357462e04448e2e7f8",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 5,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4091
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 66,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4030
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 13,
+        "references": 3,
+        "relationships": 0
+      },
+      "source_chunks": 34,
+      "v2_graph_rows": {
+        "entities": 21,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "Cd232869ea3c6d7941431",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 1,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4095
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 70,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4026
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 9,
+        "references": 3,
+        "relationships": 0
+      },
+      "source_chunks": 39,
+      "v2_graph_rows": {
+        "entities": 15,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C8b19850343875fd938d3",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 8,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4088
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 1,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4095
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 14,
+        "references": 0,
+        "relationships": 0
+      },
+      "source_chunks": 34,
+      "v2_graph_rows": {
+        "entities": 21,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C904e17d3e62812902b13",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 10,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4086
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 48,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4048
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 10,
+        "references": 2,
+        "relationships": 0
+      },
+      "source_chunks": 38,
+      "v2_graph_rows": {
+        "entities": 16,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C734bcf501f31be8fc084",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 11,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4085
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 0,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4096
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 14,
+        "references": 0,
+        "relationships": 0
+      },
+      "source_chunks": 34,
+      "v2_graph_rows": {
+        "entities": 21,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C2d191d934a58992b6ebe",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 52,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4044
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 30,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4066
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 10,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 38,
+      "v2_graph_rows": {
+        "entities": 15,
+        "references": 2,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C292080bf6559fd1f67d3",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 51,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4045
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 69,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4027
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 13,
+        "references": 3,
+        "relationships": 0
+      },
+      "source_chunks": 34,
+      "v2_graph_rows": {
+        "entities": 20,
+        "references": 2,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C42ca936fcf6590680a3a",
+      "condition": "conflict",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 5,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4091
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 20,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4076
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 10,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 38,
+      "v2_graph_rows": {
+        "entities": 16,
+        "references": 0,
+        "relationships": 0
+      }
+    },
+    {
+      "case_id": "C003f7fb031839821d2d0",
+      "condition": "control",
+      "diagnostic": {
+        "allowlist_v2": {
+          "remaining_before_relationships": 38,
+          "smallest_native_relationship_increment": 78,
+          "tokens_after_sources_and_retained_entities": 4058
+        },
+        "historical_v1": {
+          "remaining_before_relationships": 31,
+          "smallest_native_relationship_increment": 108,
+          "tokens_after_sources_and_retained_entities": 4065
+        }
+      },
+      "historical_graph_rows": {
+        "entities": 13,
+        "references": 1,
+        "relationships": 0
+      },
+      "source_chunks": 34,
+      "v2_graph_rows": {
+        "entities": 20,
+        "references": 1,
+        "relationships": 0
+      }
+    }
+  ],
+  "evidence_budget": 4096,
+  "historical_relationship_rows": 0,
+  "kind": "offline_presentation_replay_not_new_retrieval_or_generation",
+  "median_remaining_tokens_before_relationships_v1": 30.0,
+  "median_remaining_tokens_before_relationships_v2": 18.0,
+  "packing_order_unchanged": [
+    "sources",
+    "entities",
+    "relationships",
+    "references"
+  ],
+  "source_chunk_occurrences_unchanged": 1734,
+  "v2_cases_with_relationship_rows": 5,
+  "v2_relationship_rows": 5,
+  "volatile_and_gold_field_leakage_cases_after_allowlist": 0
+}

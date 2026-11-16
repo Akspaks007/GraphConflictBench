@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="80.809" timestamp="2026-11-15T03:35:26.411724+05:30" hostname="LAPTOP-L9MENORA"><testcase classname="tests.integration.test_lightrag_native" name="test_two_native_indexes_and_twelve_queries" time="80.682" /></testsuite></testsuites>

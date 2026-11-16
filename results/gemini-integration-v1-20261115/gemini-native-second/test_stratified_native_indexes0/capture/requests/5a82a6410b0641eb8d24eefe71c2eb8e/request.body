@@ -1,0 +1,1 @@
+{"model":"models/gemini-embedding-001","content":{"parts":[{"text":"SUBREGION_OF\tN4d25d1380a1dc3194e5f\nN6c8a83ea31d62164b287\nN6c8a83ea31d62164b287 is a subregion of N4d25d1380a1dc3194e5f."}]},"taskType":"SEMANTIC_SIMILARITY","outputDimensionality":1536}

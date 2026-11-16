@@ -1,0 +1,19 @@
+{
+  "benchmark_eligible": false,
+  "cases": 6,
+  "error": 0,
+  "f1_valid_rows": null,
+  "fn": 0,
+  "fp": 0,
+  "precision": null,
+  "recall_valid_rows": null,
+  "result_kind": "provisional_pilot",
+  "role_aware_exact_proof_cases": 0,
+  "role_metric_version": "2.0",
+  "run_id": "8ad930d64d1b0e832a82",
+  "statistical_evaluation": "not_implemented_in_step_4",
+  "tn": 6,
+  "tokenizer": "cl100k_base",
+  "tp": 0,
+  "valid_output_rate": 1.0
+}

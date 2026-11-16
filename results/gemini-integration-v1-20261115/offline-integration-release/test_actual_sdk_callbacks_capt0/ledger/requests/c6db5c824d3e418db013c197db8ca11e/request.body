@@ -1,0 +1,1 @@
+{"model":"gpt-4o-mini-2024-07-18","messages":[{"role":"user","content":"keywords"}],"max_tokens":1536,"response_format":{"type":"json_object"},"temperature":0}

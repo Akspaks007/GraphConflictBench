@@ -1,0 +1,637 @@
+INFO: Creating working directory C:\Projects\GraphConflictBench_Step4\graphconflictbench\results\step4-validity-v2-20261115\native-test-v2\test_two_native_indexes_and_tw0\indexes\conflict\native
+INFO: [] Created new empty graph file: C:\Projects\GraphConflictBench_Step4\graphconflictbench\results\step4-validity-v2-20261115\native-test-v2\test_two_native_indexes_and_tw0\indexes\conflict\native\graph_chunk_entity_relation.graphml
+INFO: Role LLM Configuration (initialized):
+INFO:  - extract: None/None, host=None, max_async=1, timeout=240
+INFO:  - keyword: None/None, host=None, max_async=1, timeout=240
+INFO:  - query: None/None, host=None, max_async=1, timeout=240
+INFO:  - vlm: None/None, host=None, max_async=1, timeout=240
+WARNING: Could not take the configuration anchor lock C:\Projects\GraphConflictBench_Step4\graphconflictbench\results\step4-validity-v2-20261115\native-test-v2\test_two_native_indexes_and_tw0\indexes\conflict\native\.lightrag_anchor.lock (this platform has no shared file lock); proceeding without it. An offline configuration migration started now could not see this process, so do not run one while it is up.
+INFO: [_lightrag_config] Process 56800 KV load config with 0 records
+WARNING: Bound this deployment to a new JSON configuration group (identity c8b8aa53-7ffd-4e82-aa77-66deb261cd2b); the anchor is C:\Projects\GraphConflictBench_Step4\graphconflictbench\results\step4-validity-v2-20261115\native-test-v2\test_two_native_indexes_and_tw0\indexes\conflict\native\config_storage_anchor.json. No anchor and no configuration snapshot were on record, which is expected on a first start or after the anchor was deliberately deleted. If this deployment has run before, WORKING_DIR did not persist and every recorded baseline is gone. Configuration selected now: JsonKVStorage at C:\Projects\GraphConflictBench_Step4\graphconflictbench\results\step4-validity-v2-20261115\native-test-v2\test_two_native_indexes_and_tw0\indexes\conflict\native.
+INFO: [] Registered this workspace's JSON configuration snapshot JsonKVStorage at C:\Projects\GraphConflictBench_Step4\graphconflictbench\results\step4-validity-v2-20261115\native-test-v2\test_two_native_indexes_and_tw0\indexes\conflict\native in the group c8b8aa53-7ffd-4e82-aa77-66deb261cd2b
+WARNING: [] No embedding baseline is recorded in JsonKVStorage at C:\Projects\GraphConflictBench_Step4\graphconflictbench\results\step4-validity-v2-20261115\native-test-v2\test_two_native_indexes_and_tw0\indexes\conflict\native for this workspace. On a first start that is expected. If this deployment has run before, check that the configuration storage selection (LIGHTRAG_CONFIG_STORAGE and its connection settings) still points at the store that recorded them, and that WORKING_DIR persisted -- an empty or different one reads exactly like a first start. Nothing is adopted on the configured model alone: a baseline is recorded only for a target whose container is confirmed empty or whose stored vectors an adoption probe vouched for.
+INFO: [] Process 56800 KV load full_docs with 0 records
+INFO: [] Process 56800 KV load text_chunks with 0 records
+INFO: [] Process 56800 KV load full_entities with 0 records
+INFO: [] Process 56800 KV load full_relations with 0 records
+INFO: [] Process 56800 KV load entity_chunks with 0 records
+INFO: [] Process 56800 KV load relation_chunks with 0 records
+INFO:nano-vectordb:Init {'embedding_dim': 256, 'metric': 'cosine', 'storage_file': 'C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\step4-validity-v2-20261115\\native-test-v2\\test_two_native_indexes_and_tw0\\indexes\\conflict\\native\\vdb_entities.json'} 0 data
+INFO:nano-vectordb:Init {'embedding_dim': 256, 'metric': 'cosine', 'storage_file': 'C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\step4-validity-v2-20261115\\native-test-v2\\test_two_native_indexes_and_tw0\\indexes\\conflict\\native\\vdb_relationships.json'} 0 data
+INFO:nano-vectordb:Init {'embedding_dim': 256, 'metric': 'cosine', 'storage_file': 'C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\step4-validity-v2-20261115\\native-test-v2\\test_two_native_indexes_and_tw0\\indexes\\conflict\\native\\vdb_chunks.json'} 0 data
+INFO: [] Process 56800 KV load llm_response_cache with 0 records
+INFO: [] Process 56800 doc status load doc_status with 0 records
+INFO: [] Recorded the embedding baseline for entities: model='fixture-hash-v1' dim=256 origin=empty
+INFO: [] Recorded the embedding baseline for relationships: model='fixture-hash-v1' dim=256 origin=empty
+INFO: [] Recorded the embedding baseline for chunks: model='fixture-hash-v1' dim=256 origin=empty
+INFO: Processing 30 document(s)
+INFO: Parsing (native): D0b3092068b267ade7047
+INFO: Parsing (native): D124fdca7dba8c4b80a96
+INFO: Parsing (native): D2934e038681cf53c6fbd
+INFO: Parsing (native): D3369302a126998523134
+INFO: Parsing (native): D36fb5058c4a46729efa4
+INFO: Parsing (native): D3bf755801edbd55b30c7
+INFO: Parsing (native): D3de38f34fc4fd8208986
+INFO: Parsing (native): D4028633f7f07194a89fc
+INFO: Parsing (native): D42a6ad15e475e77a44ea
+INFO: Parsing (native): D484ceaf31f69109851b6
+INFO: Extracting stage 1/30: D0b3092068b267ade7047.txt
+INFO: Processing d-id: D0b3092068b267ade7047
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D0b3092068b267ade7047
+INFO: extract LLM func: 1 new workers initialized (Timeouts: Func: 240s, Worker: 480s, Health Check: 495s)
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D0b3092068b267ade7047-chunk-000
+INFO: Merging stage 1/30: D0b3092068b267ade7047.txt
+INFO: Phase 0: Writing recovery indexes for D0b3092068b267ade7047: 2 candidate entities, 1 candidate relations
+INFO: Parsing (native): D53dcc127c5efac8b5871
+INFO: Parsing (native): D567f46f31d8d3db00fc1
+INFO: Parsing (native): D6ae5922c2a4aebab2026
+INFO: Parsing (native): D6cace2e54ebc61628653
+INFO: Parsing (native): D6d1b7dca231782eb5c7f
+INFO: Phase 1: Processing 2 entities from D0b3092068b267ade7047 (async: 2)
+INFO: Phase 2: Processing 1 relations from D0b3092068b267ade7047 (async: 2)
+INFO: Upserting relation VDB: `N6a09c8b2f74d7ae96dd7->N8fe9e9640a4262cfd99d`
+INFO: Phase 2 relation processing completed for D0b3092068b267ade7047: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: Embedding func: 1 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+INFO: [] Writing graph with 2 nodes, 1 edges
+INFO: Parsing (native): D76413fefe6657c0277f5
+INFO: In memory DB persist to disk
+INFO: Parsing (native): D79e87d2f4d1f958bca1f
+INFO: Parsing (native): D810fe8668f225c16c82c
+INFO: Parsing (native): D84639360e642b7f63859
+INFO: Parsing (native): D8e1819f9a41f64977ff5
+INFO: Completed processing file 1/30: D0b3092068b267ade7047.txt
+INFO: Extracting stage 2/30: D124fdca7dba8c4b80a96.txt
+INFO: Processing d-id: D124fdca7dba8c4b80a96
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D124fdca7dba8c4b80a96
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D124fdca7dba8c4b80a96-chunk-000
+INFO: Merging stage 2/30: D124fdca7dba8c4b80a96.txt
+INFO: Phase 0: Writing recovery indexes for D124fdca7dba8c4b80a96: 2 candidate entities, 1 candidate relations
+INFO: Parsing (native): D92b87fb4dd790a9a0f2f
+INFO: Parsing (native): Da175516fb4d2dd15b1c8
+INFO: Parsing (native): Da7d93ca64ddb2385286a
+INFO: Parsing (native): Dacb8c3df2f00f4b6989f
+INFO: Parsing (native): Db8ef2d8f24e3cb70b9e7
+INFO: Phase 1: Processing 2 entities from D124fdca7dba8c4b80a96 (async: 2)
+INFO: Phase 2: Processing 1 relations from D124fdca7dba8c4b80a96 (async: 2)
+INFO: Upserting relation VDB: `N6401ff9770356cea0bdf->Nd3a7440e5b8f66ca8744`
+INFO: Phase 2 relation processing completed for D124fdca7dba8c4b80a96: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 4 nodes, 2 edges
+INFO: Parsing (native): Dcf6378293bf1ac388f4e
+INFO: In memory DB persist to disk
+INFO: Parsing (native): Dd1b71a1b0a096adfd662
+INFO: Parsing (native): De251762bf8dc191c5046
+INFO: Parsing (native): Df64f894e1735c6e17ae6
+INFO: Parsing (native): Df9188b96fa8391566057
+INFO: Completed processing file 2/30: D124fdca7dba8c4b80a96.txt
+INFO: Extracting stage 3/30: D2934e038681cf53c6fbd.txt
+INFO: Processing d-id: D2934e038681cf53c6fbd
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D2934e038681cf53c6fbd
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D2934e038681cf53c6fbd-chunk-000
+INFO: Merging stage 3/30: D2934e038681cf53c6fbd.txt
+INFO: Phase 0: Writing recovery indexes for D2934e038681cf53c6fbd: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D2934e038681cf53c6fbd (async: 2)
+INFO: Phase 2: Processing 1 relations from D2934e038681cf53c6fbd (async: 2)
+INFO: Upserting relation VDB: `N0b786528fec79853affc->N6d9ef794a20ca01bae91`
+INFO: Phase 2 relation processing completed for D2934e038681cf53c6fbd: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 6 nodes, 3 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 3/30: D2934e038681cf53c6fbd.txt
+INFO: Extracting stage 4/30: D3369302a126998523134.txt
+INFO: Processing d-id: D3369302a126998523134
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D3369302a126998523134
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D3369302a126998523134-chunk-000
+INFO: Merging stage 4/30: D3369302a126998523134.txt
+INFO: Phase 0: Writing recovery indexes for D3369302a126998523134: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D3369302a126998523134 (async: 2)
+INFO: Phase 2: Processing 1 relations from D3369302a126998523134 (async: 2)
+INFO: Upserting relation VDB: `N4f8b6237641fd828e3d1->N65700a2d6db36d25598a`
+INFO: Phase 2 relation processing completed for D3369302a126998523134: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 8 nodes, 4 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 4/30: D3369302a126998523134.txt
+INFO: Extracting stage 5/30: D36fb5058c4a46729efa4.txt
+INFO: Processing d-id: D36fb5058c4a46729efa4
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D36fb5058c4a46729efa4
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D36fb5058c4a46729efa4-chunk-000
+INFO: Merging stage 5/30: D36fb5058c4a46729efa4.txt
+INFO: Phase 0: Writing recovery indexes for D36fb5058c4a46729efa4: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D36fb5058c4a46729efa4 (async: 2)
+INFO: Merged: `N0b786528fec79853affc` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from D36fb5058c4a46729efa4 (async: 2)
+INFO: Upserting relation VDB: `N0b786528fec79853affc->N48d8423b237f1065adf8`
+INFO: Phase 2 relation processing completed for D36fb5058c4a46729efa4: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 9 nodes, 5 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 5/30: D36fb5058c4a46729efa4.txt
+INFO: Extracting stage 6/30: D3bf755801edbd55b30c7.txt
+INFO: Processing d-id: D3bf755801edbd55b30c7
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D3bf755801edbd55b30c7
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D3bf755801edbd55b30c7-chunk-000
+INFO: Merging stage 6/30: D3bf755801edbd55b30c7.txt
+INFO: Phase 0: Writing recovery indexes for D3bf755801edbd55b30c7: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D3bf755801edbd55b30c7 (async: 2)
+INFO: Phase 2: Processing 1 relations from D3bf755801edbd55b30c7 (async: 2)
+INFO: Upserting relation VDB: `N1ccedfeba71398b7cdb9->Nf2b79bb0ae62811bda41`
+INFO: Phase 2 relation processing completed for D3bf755801edbd55b30c7: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 11 nodes, 6 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 6/30: D3bf755801edbd55b30c7.txt
+INFO: Extracting stage 7/30: D3de38f34fc4fd8208986.txt
+INFO: Processing d-id: D3de38f34fc4fd8208986
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D3de38f34fc4fd8208986
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D3de38f34fc4fd8208986-chunk-000
+INFO: Merging stage 7/30: D3de38f34fc4fd8208986.txt
+INFO: Phase 0: Writing recovery indexes for D3de38f34fc4fd8208986: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D3de38f34fc4fd8208986 (async: 2)
+INFO: Merged: `N6a09c8b2f74d7ae96dd7` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from D3de38f34fc4fd8208986 (async: 2)
+INFO: Upserting relation VDB: `N4d25d1380a1dc3194e5f->N6a09c8b2f74d7ae96dd7`
+INFO: Phase 2 relation processing completed for D3de38f34fc4fd8208986: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 12 nodes, 7 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 7/30: D3de38f34fc4fd8208986.txt
+INFO: Extracting stage 8/30: D4028633f7f07194a89fc.txt
+INFO: Processing d-id: D4028633f7f07194a89fc
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D4028633f7f07194a89fc
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D4028633f7f07194a89fc-chunk-000
+INFO: Merging stage 8/30: D4028633f7f07194a89fc.txt
+INFO: Phase 0: Writing recovery indexes for D4028633f7f07194a89fc: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D4028633f7f07194a89fc (async: 2)
+INFO: Phase 2: Processing 1 relations from D4028633f7f07194a89fc (async: 2)
+INFO: Upserting relation VDB: `N608c6ed4328ab6d8bf66->Ncbbbb26b53e20af47e6d`
+INFO: Phase 2 relation processing completed for D4028633f7f07194a89fc: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 14 nodes, 8 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 8/30: D4028633f7f07194a89fc.txt
+INFO: Extracting stage 9/30: D42a6ad15e475e77a44ea.txt
+INFO: Processing d-id: D42a6ad15e475e77a44ea
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D42a6ad15e475e77a44ea
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D42a6ad15e475e77a44ea-chunk-000
+INFO: Merging stage 9/30: D42a6ad15e475e77a44ea.txt
+INFO: Phase 0: Writing recovery indexes for D42a6ad15e475e77a44ea: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D42a6ad15e475e77a44ea (async: 2)
+INFO: Merged: `N65700a2d6db36d25598a` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from D42a6ad15e475e77a44ea (async: 2)
+INFO: Upserting relation VDB: `N5df6c26f99d2dabea078->N65700a2d6db36d25598a`
+INFO: Phase 2 relation processing completed for D42a6ad15e475e77a44ea: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 15 nodes, 9 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 9/30: D42a6ad15e475e77a44ea.txt
+INFO: Extracting stage 10/30: D484ceaf31f69109851b6.txt
+INFO: Processing d-id: D484ceaf31f69109851b6
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D484ceaf31f69109851b6
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D484ceaf31f69109851b6-chunk-000
+INFO: Merging stage 10/30: D484ceaf31f69109851b6.txt
+INFO: Phase 0: Writing recovery indexes for D484ceaf31f69109851b6: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D484ceaf31f69109851b6 (async: 2)
+INFO: Phase 2: Processing 1 relations from D484ceaf31f69109851b6 (async: 2)
+INFO: Upserting relation VDB: `N9e542f5f0372f5925428->Nce7afaa048239899b51b`
+INFO: Phase 2 relation processing completed for D484ceaf31f69109851b6: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 17 nodes, 10 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 10/30: D484ceaf31f69109851b6.txt
+INFO: Extracting stage 11/30: D53dcc127c5efac8b5871.txt
+INFO: Processing d-id: D53dcc127c5efac8b5871
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D53dcc127c5efac8b5871
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D53dcc127c5efac8b5871-chunk-000
+INFO: Merging stage 11/30: D53dcc127c5efac8b5871.txt
+INFO: Phase 0: Writing recovery indexes for D53dcc127c5efac8b5871: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D53dcc127c5efac8b5871 (async: 2)
+INFO: Phase 2: Processing 1 relations from D53dcc127c5efac8b5871 (async: 2)
+INFO: Upserting relation VDB: `N5527bdf69bd05b287e26->Nb2c5d62a052f8aef12e6`
+INFO: Phase 2 relation processing completed for D53dcc127c5efac8b5871: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 19 nodes, 11 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 11/30: D53dcc127c5efac8b5871.txt
+INFO: Extracting stage 12/30: D567f46f31d8d3db00fc1.txt
+INFO: Processing d-id: D567f46f31d8d3db00fc1
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D567f46f31d8d3db00fc1
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D567f46f31d8d3db00fc1-chunk-000
+INFO: Merging stage 12/30: D567f46f31d8d3db00fc1.txt
+INFO: Phase 0: Writing recovery indexes for D567f46f31d8d3db00fc1: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D567f46f31d8d3db00fc1 (async: 2)
+INFO: Phase 2: Processing 1 relations from D567f46f31d8d3db00fc1 (async: 2)
+INFO: Upserting relation VDB: `N022fd25e2d10ef843baf->Nf6af6bea55f905f52c6f`
+INFO: Phase 2 relation processing completed for D567f46f31d8d3db00fc1: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 21 nodes, 12 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 12/30: D567f46f31d8d3db00fc1.txt
+INFO: Extracting stage 13/30: D6ae5922c2a4aebab2026.txt
+INFO: Processing d-id: D6ae5922c2a4aebab2026
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D6ae5922c2a4aebab2026
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D6ae5922c2a4aebab2026-chunk-000
+INFO: Merging stage 13/30: D6ae5922c2a4aebab2026.txt
+INFO: Phase 0: Writing recovery indexes for D6ae5922c2a4aebab2026: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D6ae5922c2a4aebab2026 (async: 2)
+INFO: Phase 2: Processing 1 relations from D6ae5922c2a4aebab2026 (async: 2)
+INFO: Upserting relation VDB: `N0d9c5caa04e6347c154b->Nde4605c89d3cdd2fc4ed`
+INFO: Phase 2 relation processing completed for D6ae5922c2a4aebab2026: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 23 nodes, 13 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 13/30: D6ae5922c2a4aebab2026.txt
+INFO: Extracting stage 14/30: D6cace2e54ebc61628653.txt
+INFO: Processing d-id: D6cace2e54ebc61628653
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D6cace2e54ebc61628653
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D6cace2e54ebc61628653-chunk-000
+INFO: Merging stage 14/30: D6cace2e54ebc61628653.txt
+INFO: Phase 0: Writing recovery indexes for D6cace2e54ebc61628653: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D6cace2e54ebc61628653 (async: 2)
+INFO: Merged: `N022fd25e2d10ef843baf` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from D6cace2e54ebc61628653 (async: 2)
+INFO: Upserting relation VDB: `N022fd25e2d10ef843baf->N4cd9009c6402d4c37d26`
+INFO: Phase 2 relation processing completed for D6cace2e54ebc61628653: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 24 nodes, 14 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 14/30: D6cace2e54ebc61628653.txt
+INFO: Extracting stage 15/30: D6d1b7dca231782eb5c7f.txt
+INFO: Processing d-id: D6d1b7dca231782eb5c7f
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D6d1b7dca231782eb5c7f
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D6d1b7dca231782eb5c7f-chunk-000
+INFO: Merging stage 15/30: D6d1b7dca231782eb5c7f.txt
+INFO: Phase 0: Writing recovery indexes for D6d1b7dca231782eb5c7f: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D6d1b7dca231782eb5c7f (async: 2)
+INFO: Merged: `N5df6c26f99d2dabea078` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from D6d1b7dca231782eb5c7f (async: 2)
+INFO: Upserting relation VDB: `N5df6c26f99d2dabea078->N5fce270295be035aa745`
+INFO: Phase 2 relation processing completed for D6d1b7dca231782eb5c7f: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 25 nodes, 15 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 15/30: D6d1b7dca231782eb5c7f.txt
+INFO: Extracting stage 16/30: D76413fefe6657c0277f5.txt
+INFO: Processing d-id: D76413fefe6657c0277f5
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D76413fefe6657c0277f5
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D76413fefe6657c0277f5-chunk-000
+INFO: Merging stage 16/30: D76413fefe6657c0277f5.txt
+INFO: Phase 0: Writing recovery indexes for D76413fefe6657c0277f5: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D76413fefe6657c0277f5 (async: 2)
+INFO: Phase 2: Processing 1 relations from D76413fefe6657c0277f5 (async: 2)
+INFO: Upserting relation VDB: `N4142a55c2d046b158499->Ne66dd9afcc8a121e916d`
+INFO: Phase 2 relation processing completed for D76413fefe6657c0277f5: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 27 nodes, 16 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 16/30: D76413fefe6657c0277f5.txt
+INFO: Extracting stage 17/30: D79e87d2f4d1f958bca1f.txt
+INFO: Processing d-id: D79e87d2f4d1f958bca1f
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D79e87d2f4d1f958bca1f
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D79e87d2f4d1f958bca1f-chunk-000
+INFO: Merging stage 17/30: D79e87d2f4d1f958bca1f.txt
+INFO: Phase 0: Writing recovery indexes for D79e87d2f4d1f958bca1f: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D79e87d2f4d1f958bca1f (async: 2)
+INFO: Phase 2: Processing 1 relations from D79e87d2f4d1f958bca1f (async: 2)
+INFO: Upserting relation VDB: `Nb311850e0d6f1dfede25->Nc2c0024edfa5578510dc`
+INFO: Phase 2 relation processing completed for D79e87d2f4d1f958bca1f: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 29 nodes, 17 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 17/30: D79e87d2f4d1f958bca1f.txt
+INFO: Extracting stage 18/30: D810fe8668f225c16c82c.txt
+INFO: Processing d-id: D810fe8668f225c16c82c
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D810fe8668f225c16c82c
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D810fe8668f225c16c82c-chunk-000
+INFO: Merging stage 18/30: D810fe8668f225c16c82c.txt
+INFO: Phase 0: Writing recovery indexes for D810fe8668f225c16c82c: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D810fe8668f225c16c82c (async: 2)
+INFO: Merged: `N4f8b6237641fd828e3d1` | 1+0 (dd 1)
+INFO: Merged: `N5fce270295be035aa745` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from D810fe8668f225c16c82c (async: 2)
+INFO: Upserting relation VDB: `N4f8b6237641fd828e3d1->N5fce270295be035aa745`
+INFO: Phase 2 relation processing completed for D810fe8668f225c16c82c: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 29 nodes, 18 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 18/30: D810fe8668f225c16c82c.txt
+INFO: Extracting stage 19/30: D84639360e642b7f63859.txt
+INFO: Processing d-id: D84639360e642b7f63859
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D84639360e642b7f63859
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D84639360e642b7f63859-chunk-000
+INFO: Merging stage 19/30: D84639360e642b7f63859.txt
+INFO: Phase 0: Writing recovery indexes for D84639360e642b7f63859: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D84639360e642b7f63859 (async: 2)
+INFO: Merged: `N4d25d1380a1dc3194e5f` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from D84639360e642b7f63859 (async: 2)
+INFO: Upserting relation VDB: `N4d25d1380a1dc3194e5f->N6c8a83ea31d62164b287`
+INFO: Phase 2 relation processing completed for D84639360e642b7f63859: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 30 nodes, 19 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 19/30: D84639360e642b7f63859.txt
+INFO: Extracting stage 20/30: D8e1819f9a41f64977ff5.txt
+INFO: Processing d-id: D8e1819f9a41f64977ff5
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D8e1819f9a41f64977ff5
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D8e1819f9a41f64977ff5-chunk-000
+INFO: Merging stage 20/30: D8e1819f9a41f64977ff5.txt
+INFO: Phase 0: Writing recovery indexes for D8e1819f9a41f64977ff5: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D8e1819f9a41f64977ff5 (async: 2)
+INFO: Merged: `Nd3a7440e5b8f66ca8744` | 1+0 (dd 1)
+INFO: Merged: `N6401ff9770356cea0bdf` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from D8e1819f9a41f64977ff5 (async: 2)
+INFO: Merged: `N6401ff9770356cea0bdf`~`Nd3a7440e5b8f66ca8744` | 1+1
+INFO: Upserting relation VDB: `N6401ff9770356cea0bdf->Nd3a7440e5b8f66ca8744`
+INFO: Phase 2 relation processing completed for D8e1819f9a41f64977ff5: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 30 nodes, 19 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 20/30: D8e1819f9a41f64977ff5.txt
+INFO: Extracting stage 21/30: D92b87fb4dd790a9a0f2f.txt
+INFO: Processing d-id: D92b87fb4dd790a9a0f2f
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: D92b87fb4dd790a9a0f2f
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel D92b87fb4dd790a9a0f2f-chunk-000
+INFO: Merging stage 21/30: D92b87fb4dd790a9a0f2f.txt
+INFO: Phase 0: Writing recovery indexes for D92b87fb4dd790a9a0f2f: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from D92b87fb4dd790a9a0f2f (async: 2)
+INFO: Merged: `Ncbbbb26b53e20af47e6d` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from D92b87fb4dd790a9a0f2f (async: 2)
+INFO: Upserting relation VDB: `N53ae6479da267416f91d->Ncbbbb26b53e20af47e6d`
+INFO: Phase 2 relation processing completed for D92b87fb4dd790a9a0f2f: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 31 nodes, 20 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 21/30: D92b87fb4dd790a9a0f2f.txt
+INFO: Extracting stage 22/30: Da175516fb4d2dd15b1c8.txt
+INFO: Processing d-id: Da175516fb4d2dd15b1c8
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: Da175516fb4d2dd15b1c8
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel Da175516fb4d2dd15b1c8-chunk-000
+INFO: Merging stage 22/30: Da175516fb4d2dd15b1c8.txt
+INFO: Phase 0: Writing recovery indexes for Da175516fb4d2dd15b1c8: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from Da175516fb4d2dd15b1c8 (async: 2)
+INFO: Merged: `Nc2c0024edfa5578510dc` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from Da175516fb4d2dd15b1c8 (async: 2)
+INFO: Upserting relation VDB: `N73aab90ad43a1c44d8b8->Nc2c0024edfa5578510dc`
+INFO: Phase 2 relation processing completed for Da175516fb4d2dd15b1c8: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 32 nodes, 21 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 22/30: Da175516fb4d2dd15b1c8.txt
+INFO: Extracting stage 23/30: Da7d93ca64ddb2385286a.txt
+INFO: Processing d-id: Da7d93ca64ddb2385286a
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: Da7d93ca64ddb2385286a
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel Da7d93ca64ddb2385286a-chunk-000
+INFO: Merging stage 23/30: Da7d93ca64ddb2385286a.txt
+INFO: Phase 0: Writing recovery indexes for Da7d93ca64ddb2385286a: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from Da7d93ca64ddb2385286a (async: 2)
+INFO: Merged: `N5527bdf69bd05b287e26` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from Da7d93ca64ddb2385286a (async: 2)
+INFO: Upserting relation VDB: `N35e91e1cecb1ca1d2d0c->N5527bdf69bd05b287e26`
+INFO: Phase 2 relation processing completed for Da7d93ca64ddb2385286a: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 33 nodes, 22 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 23/30: Da7d93ca64ddb2385286a.txt
+INFO: Extracting stage 24/30: Dacb8c3df2f00f4b6989f.txt
+INFO: Processing d-id: Dacb8c3df2f00f4b6989f
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: Dacb8c3df2f00f4b6989f
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel Dacb8c3df2f00f4b6989f-chunk-000
+INFO: Merging stage 24/30: Dacb8c3df2f00f4b6989f.txt
+INFO: Phase 0: Writing recovery indexes for Dacb8c3df2f00f4b6989f: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from Dacb8c3df2f00f4b6989f (async: 2)
+INFO: Merged: `N9e542f5f0372f5925428` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from Dacb8c3df2f00f4b6989f (async: 2)
+INFO: Upserting relation VDB: `N9e542f5f0372f5925428->Neba37e9f6d5110819858`
+INFO: Phase 2 relation processing completed for Dacb8c3df2f00f4b6989f: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 34 nodes, 23 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 24/30: Dacb8c3df2f00f4b6989f.txt
+INFO: Extracting stage 25/30: Db8ef2d8f24e3cb70b9e7.txt
+INFO: Processing d-id: Db8ef2d8f24e3cb70b9e7
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: Db8ef2d8f24e3cb70b9e7
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel Db8ef2d8f24e3cb70b9e7-chunk-000
+INFO: Merging stage 25/30: Db8ef2d8f24e3cb70b9e7.txt
+INFO: Phase 0: Writing recovery indexes for Db8ef2d8f24e3cb70b9e7: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from Db8ef2d8f24e3cb70b9e7 (async: 2)
+INFO: Merged: `Nde4605c89d3cdd2fc4ed` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from Db8ef2d8f24e3cb70b9e7 (async: 2)
+INFO: Upserting relation VDB: `N04980f6d1f81f0aefb91->Nde4605c89d3cdd2fc4ed`
+INFO: Phase 2 relation processing completed for Db8ef2d8f24e3cb70b9e7: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 35 nodes, 24 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 25/30: Db8ef2d8f24e3cb70b9e7.txt
+INFO: Extracting stage 26/30: Dcf6378293bf1ac388f4e.txt
+INFO: Processing d-id: Dcf6378293bf1ac388f4e
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: Dcf6378293bf1ac388f4e
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel Dcf6378293bf1ac388f4e-chunk-000
+INFO: Merging stage 26/30: Dcf6378293bf1ac388f4e.txt
+INFO: Phase 0: Writing recovery indexes for Dcf6378293bf1ac388f4e: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from Dcf6378293bf1ac388f4e (async: 2)
+INFO: Merged: `N4142a55c2d046b158499` | 1+0 (dd 1)
+INFO: Merged: `Ne66dd9afcc8a121e916d` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from Dcf6378293bf1ac388f4e (async: 2)
+INFO: Merged: `N4142a55c2d046b158499`~`Ne66dd9afcc8a121e916d` | 1+1
+INFO: Upserting relation VDB: `N4142a55c2d046b158499->Ne66dd9afcc8a121e916d`
+INFO: Phase 2 relation processing completed for Dcf6378293bf1ac388f4e: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 35 nodes, 24 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 26/30: Dcf6378293bf1ac388f4e.txt
+INFO: Extracting stage 27/30: Dd1b71a1b0a096adfd662.txt
+INFO: Processing d-id: Dd1b71a1b0a096adfd662
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: Dd1b71a1b0a096adfd662
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel Dd1b71a1b0a096adfd662-chunk-000
+INFO: Merging stage 27/30: Dd1b71a1b0a096adfd662.txt
+INFO: Phase 0: Writing recovery indexes for Dd1b71a1b0a096adfd662: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from Dd1b71a1b0a096adfd662 (async: 2)
+INFO: Merged: `Nf2b79bb0ae62811bda41` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from Dd1b71a1b0a096adfd662 (async: 2)
+INFO: Upserting relation VDB: `Nb41ba5e6f39521b6e691->Nf2b79bb0ae62811bda41`
+INFO: Phase 2 relation processing completed for Dd1b71a1b0a096adfd662: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 36 nodes, 25 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 27/30: Dd1b71a1b0a096adfd662.txt
+INFO: Extracting stage 28/30: De251762bf8dc191c5046.txt
+INFO: Processing d-id: De251762bf8dc191c5046
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: De251762bf8dc191c5046
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel De251762bf8dc191c5046-chunk-000
+INFO: Merging stage 28/30: De251762bf8dc191c5046.txt
+INFO: Phase 0: Writing recovery indexes for De251762bf8dc191c5046: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from De251762bf8dc191c5046 (async: 2)
+INFO: Merged: `Nb311850e0d6f1dfede25` | 1+0 (dd 1)
+INFO: Merged: `N73aab90ad43a1c44d8b8` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from De251762bf8dc191c5046 (async: 2)
+INFO: Upserting relation VDB: `N73aab90ad43a1c44d8b8->Nb311850e0d6f1dfede25`
+INFO: Phase 2 relation processing completed for De251762bf8dc191c5046: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 36 nodes, 26 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 28/30: De251762bf8dc191c5046.txt
+INFO: Extracting stage 29/30: Df64f894e1735c6e17ae6.txt
+INFO: Processing d-id: Df64f894e1735c6e17ae6
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: Df64f894e1735c6e17ae6
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel Df64f894e1735c6e17ae6-chunk-000
+INFO: Merging stage 29/30: Df64f894e1735c6e17ae6.txt
+INFO: Phase 0: Writing recovery indexes for Df64f894e1735c6e17ae6: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from Df64f894e1735c6e17ae6 (async: 2)
+INFO: Merged: `Neba37e9f6d5110819858` | 1+0 (dd 1)
+INFO: Merged: `Nce7afaa048239899b51b` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from Df64f894e1735c6e17ae6 (async: 2)
+INFO: Upserting relation VDB: `Nce7afaa048239899b51b->Neba37e9f6d5110819858`
+INFO: Phase 2 relation processing completed for Df64f894e1735c6e17ae6: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 36 nodes, 27 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 29/30: Df64f894e1735c6e17ae6.txt
+INFO: Extracting stage 30/30: Df9188b96fa8391566057.txt
+INFO: Processing d-id: Df9188b96fa8391566057
+INFO: Chunking F(legacy): size=512, split_only=False, overlap=0, doc_id: Df9188b96fa8391566057
+INFO: Chunk 1 of 1 extracted 2 Ent + 1 Rel Df9188b96fa8391566057-chunk-000
+INFO: Merging stage 30/30: Df9188b96fa8391566057.txt
+INFO: Phase 0: Writing recovery indexes for Df9188b96fa8391566057: 2 candidate entities, 1 candidate relations
+INFO: Phase 1: Processing 2 entities from Df9188b96fa8391566057 (async: 2)
+INFO: Merged: `N8fe9e9640a4262cfd99d` | 1+0 (dd 1)
+INFO: Merged: `N6c8a83ea31d62164b287` | 1+0 (dd 1)
+INFO: Phase 2: Processing 1 relations from Df9188b96fa8391566057 (async: 2)
+INFO: Upserting relation VDB: `N6c8a83ea31d62164b287->N8fe9e9640a4262cfd99d`
+INFO: Phase 2 relation processing completed for Df9188b96fa8391566057: edges=1 added_entities=0
+INFO: Completed merging: 2 entities, 0 extra entities, 1 relations
+INFO: [] entities flush: embedding 2 vectors in 1 batch(es) (batch_num=10)
+INFO: [] relationships flush: applied 0 deferred deletes (1 queued, 0 awaiting save)
+INFO: [] relationships flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] chunks flush: embedding 1 vectors in 1 batch(es) (batch_num=10)
+INFO: [] Writing graph with 36 nodes, 28 edges
+INFO: In memory DB persist to disk
+INFO: Completed processing file 30/30: Df9188b96fa8391566057.txt
+INFO: Enqueued document processing pipeline stopped
+INFO: extract LLM func: Shutting down priority queue workers
+INFO: extract LLM func: Priority queue workers shutdown complete
+INFO: keyword LLM func: Shutting down priority queue workers
+INFO: keyword LLM func: Priority queue workers shutdown complete
+INFO: query LLM func: Shutting down priority queue workers
+INFO: query LLM func: Priority queue workers shutdown complete
+INFO: vlm LLM func: Shutting down priority queue workers
+INFO: vlm LLM func: Priority queue workers shutdown complete
+INFO: Successfully finalized 13 storages
+INFO: Embedding func: Shutting down priority queue workers
+INFO: Embedding func: Priority queue workers shutdown complete

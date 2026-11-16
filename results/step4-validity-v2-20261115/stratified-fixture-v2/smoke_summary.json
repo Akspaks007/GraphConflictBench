@@ -1,0 +1,40 @@
+{
+  "conflict": {
+    "benchmark_eligible": false,
+    "cases": 6,
+    "error": 0,
+    "f1_valid_rows": 1.0,
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "recall_valid_rows": 1.0,
+    "result_kind": "fixture_integration_check",
+    "role_aware_exact_proof_cases": 6,
+    "role_metric_version": "2.0",
+    "run_id": "3fd2626b3e90e3a1c675",
+    "statistical_evaluation": "not_implemented_in_step_4",
+    "tn": 0,
+    "tokenizer": "cl100k_base",
+    "tp": 6,
+    "valid_output_rate": 1.0
+  },
+  "control": {
+    "benchmark_eligible": false,
+    "cases": 6,
+    "error": 0,
+    "f1_valid_rows": null,
+    "fn": 0,
+    "fp": 0,
+    "precision": null,
+    "recall_valid_rows": null,
+    "result_kind": "fixture_integration_check",
+    "role_aware_exact_proof_cases": 0,
+    "role_metric_version": "2.0",
+    "run_id": "940c3d2f9f0aad25da0f",
+    "statistical_evaluation": "not_implemented_in_step_4",
+    "tn": 6,
+    "tokenizer": "cl100k_base",
+    "tp": 0,
+    "valid_output_rate": 1.0
+  }
+}

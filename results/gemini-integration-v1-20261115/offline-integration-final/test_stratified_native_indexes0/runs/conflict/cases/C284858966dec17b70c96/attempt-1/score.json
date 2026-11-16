@@ -1,0 +1,21 @@
+{
+  "case_id": "C284858966dec17b70c96",
+  "citation_errors": [],
+  "complete_proof_retrieved": true,
+  "edge_mapping_scope": "verbatim_source_chunks_only",
+  "exact_proof_set": true,
+  "failure": null,
+  "localization_f1": 1.0,
+  "mapped_citations": [
+    "E44b01fdf9b58f0708408",
+    "E8f40d441db6c2c7f1438",
+    "Ef8d529946d7970ee72f2"
+  ],
+  "opposing_localization_f1": 1.0,
+  "outcome": "tp",
+  "role_aware_exact_proof_set": true,
+  "role_aware_localization_f1": 1.0,
+  "role_citation_errors": [],
+  "role_metric_version": "2.0",
+  "support_localization_f1": 1.0
+}

@@ -1,0 +1,220 @@
+{
+  "date_asia_kolkata": "2026-11-15",
+  "earlier_failed_test_report_preserved": "integration-final.xml: SDK exception expectation corrected; see CHANGE_REPORT.md",
+  "expected_changed_original_source_files": [
+    "README.md",
+    "src/graphconflictbench/adapters/lightrag_adapter.py",
+    "src/graphconflictbench/adapters/lightrag_worker.py",
+    "src/graphconflictbench/cli.py",
+    "src/graphconflictbench/evidence_mapper.py",
+    "src/graphconflictbench/inference.py",
+    "src/graphconflictbench/metrics.py",
+    "src/graphconflictbench/models.py",
+    "src/graphconflictbench/prompts.py",
+    "src/graphconflictbench/runner.py",
+    "tests/integration/test_lightrag_native.py"
+  ],
+  "forbidden_metadata_or_gold_field_cases": 0,
+  "historical_archive_files_verified": 739,
+  "historical_archive_sha256": "d3eb398f31542401d5651f3f4225eee8726be4aaa0ed9df3b731cc0f10bf587c",
+  "human_review_decisions": 0,
+  "implementation_hash": "acce950da2ff1cf1127219fab9aa708a2426f4a07a58ef3f36fe4b9151c948e8",
+  "integration_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 9
+  },
+  "live_cli_dry_runs": [
+    {
+      "dry_run": true,
+      "plan": {
+        "arch": "lightrag",
+        "command": "index",
+        "condition": "conflict",
+        "config": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\step4-validity-v2-20261115\\final-plan\\real-smoke.v2.yaml",
+        "dataset": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\step4-validity-v2-20261115\\stratified-smoke-v2",
+        "dry_run": true,
+        "ontology": "configs/ontology.yaml",
+        "output_dir": "indexes/live/smoke-step4-v2-20261115/conflict",
+        "resume": false,
+        "split": "pilot",
+        "worker_python": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\.venv-lightrag\\Scripts\\python.exe"
+      }
+    },
+    {
+      "dry_run": true,
+      "plan": {
+        "arch": "lightrag",
+        "budget": 4096,
+        "command": "run",
+        "condition": "conflict",
+        "config": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\step4-validity-v2-20261115\\final-plan\\real-smoke.v2.yaml",
+        "dataset": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\step4-validity-v2-20261115\\stratified-smoke-v2",
+        "dry_run": true,
+        "index_dir": "indexes/live/smoke-step4-v2-20261115/conflict",
+        "limit": null,
+        "ontology": "configs/ontology.yaml",
+        "output_dir": "runs/live/smoke-step4-v2-20261115/conflict",
+        "prompt": "configs/prompts/shared_generation.txt",
+        "resume": false,
+        "split": "pilot",
+        "worker_python": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\.venv-lightrag\\Scripts\\python.exe"
+      }
+    },
+    {
+      "dry_run": true,
+      "plan": {
+        "arch": "lightrag",
+        "command": "index",
+        "condition": "control",
+        "config": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\step4-validity-v2-20261115\\final-plan\\real-smoke.v2.yaml",
+        "dataset": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\step4-validity-v2-20261115\\stratified-smoke-v2",
+        "dry_run": true,
+        "ontology": "configs/ontology.yaml",
+        "output_dir": "indexes/live/smoke-step4-v2-20261115/control",
+        "resume": false,
+        "split": "pilot",
+        "worker_python": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\.venv-lightrag\\Scripts\\python.exe"
+      }
+    },
+    {
+      "dry_run": true,
+      "plan": {
+        "arch": "lightrag",
+        "budget": 4096,
+        "command": "run",
+        "condition": "control",
+        "config": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\step4-validity-v2-20261115\\final-plan\\real-smoke.v2.yaml",
+        "dataset": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\results\\step4-validity-v2-20261115\\stratified-smoke-v2",
+        "dry_run": true,
+        "index_dir": "indexes/live/smoke-step4-v2-20261115/control",
+        "limit": null,
+        "ontology": "configs/ontology.yaml",
+        "output_dir": "runs/live/smoke-step4-v2-20261115/control",
+        "prompt": "configs/prompts/shared_generation.txt",
+        "resume": false,
+        "split": "pilot",
+        "worker_python": "C:\\Projects\\GraphConflictBench_Step4\\graphconflictbench\\.venv-lightrag\\Scripts\\python.exe"
+      }
+    }
+  ],
+  "live_ledger_initialized": false,
+  "native_healthcheck": {
+    "native": {
+      "commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+      "python": "3.12.10",
+      "url": "https://github.com/HKUDS/LightRAG.git",
+      "version": "1.5.8"
+    },
+    "status": "available"
+  },
+  "native_stratified_fixture": {
+    "conflict": {
+      "benchmark_eligible": false,
+      "cases": 6,
+      "error": 0,
+      "f1_valid_rows": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall_valid_rows": 1.0,
+      "result_kind": "fixture_integration_check",
+      "role_aware_exact_proof_cases": 6,
+      "role_metric_version": "2.0",
+      "run_id": "3fd2626b3e90e3a1c675",
+      "statistical_evaluation": "not_implemented_in_step_4",
+      "tn": 0,
+      "tokenizer": "cl100k_base",
+      "tp": 6,
+      "valid_output_rate": 1.0
+    },
+    "control": {
+      "benchmark_eligible": false,
+      "cases": 6,
+      "error": 0,
+      "f1_valid_rows": null,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "recall_valid_rows": null,
+      "result_kind": "fixture_integration_check",
+      "role_aware_exact_proof_cases": 0,
+      "role_metric_version": "2.0",
+      "run_id": "940c3d2f9f0aad25da0f",
+      "statistical_evaluation": "not_implemented_in_step_4",
+      "tn": 6,
+      "tokenizer": "cl100k_base",
+      "tp": 0,
+      "valid_output_rate": 1.0
+    }
+  },
+  "new_native_prompt_leakage_checks": 12,
+  "original_data_config_prompt_result_docs_changes": [],
+  "paid_provider_calls": 0,
+  "pilot_audit": {
+    "all_certificates_valid": true,
+    "by_depth_condition": {
+      "1:conflict": 8,
+      "1:control": 8,
+      "2:conflict": 8,
+      "2:control": 8,
+      "3:conflict": 8,
+      "3:control": 8
+    },
+    "cases": 48,
+    "documents": 144,
+    "families": 24,
+    "human_audit": "pending",
+    "label_leakage_classifier": "not_run",
+    "paired_queries_identical": true,
+    "status": "passed"
+  },
+  "prepared_policy": {
+    "base_url": "https://api.openai.com/v1",
+    "cap_nanodollars": 2000000000,
+    "embedding_model": "text-embedding-3-small",
+    "embedding_nanodollars_per_token": 20,
+    "llm_input_nanodollars_per_token": 150,
+    "llm_model": "gpt-4o-mini-2024-07-18",
+    "llm_output_nanodollars_per_token": 600,
+    "max_completion_tokens": 1536,
+    "max_request_input_tokens": 128000,
+    "schema_version": "1.0",
+    "state_directory": "live-provider-control-v2"
+  },
+  "previous_readiness_artifact_manifest": "unchanged",
+  "replayed_prompt_leakage_checks": 48,
+  "ruff": "passed",
+  "smoke_predicate_case_counts": {
+    "CONTAINED_IN": 4,
+    "PRECEDES": 4,
+    "SUBREGION_OF": 4
+  },
+  "stratified_audit": {
+    "all_certificates_valid": true,
+    "by_depth_condition": {
+      "1:conflict": 2,
+      "1:control": 2,
+      "2:conflict": 2,
+      "2:control": 2,
+      "3:conflict": 2,
+      "3:control": 2
+    },
+    "cases": 12,
+    "documents": 36,
+    "families": 6,
+    "human_audit": "pending",
+    "label_leakage_classifier": "not_run",
+    "paired_queries_identical": true,
+    "status": "passed"
+  },
+  "stratified_record_lineage": "all records and certificates identical to parent pilot",
+  "total_passed": 78,
+  "unit_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 69
+  }
+}

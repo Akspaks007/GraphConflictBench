@@ -1,0 +1,11 @@
+{
+  "case_id": "C2d191d934a58992b6ebe",
+  "citation_errors": [],
+  "complete_proof_retrieved": false,
+  "edge_mapping_scope": "verbatim_source_chunks_only",
+  "exact_proof_set": false,
+  "failure": "retrieval_incomplete",
+  "localization_f1": 0.0,
+  "mapped_citations": [],
+  "outcome": "fn"
+}

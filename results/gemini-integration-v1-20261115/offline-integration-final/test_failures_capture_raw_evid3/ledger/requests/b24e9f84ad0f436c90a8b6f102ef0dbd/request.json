@@ -1,0 +1,1 @@
+{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate","connection":"keep-alive","content-length":"97","content-type":"application/json","host":"api.openai.com","user-agent":"python-httpx/0.28.1"},"method":"POST","url":"https://api.openai.com/v1/chat/completions"}

@@ -1,0 +1,93 @@
+{
+  "billing_enabled_or_modified": false,
+  "date_asia_kolkata": "2026-11-15",
+  "dotenv_core_pin": "1.2.4",
+  "dotenv_native_pin_already_present": "1.2.4",
+  "dotenv_runtime_loading": "repository root; override=False; values never reported",
+  "earlier_failed_native_attempt_preserved": "gemini-native-first; callback-copy semantics fixed before passing reruns",
+  "gemini_rest_final_generation_shared_prompt_checks": 12,
+  "gitignore_user_supplied_rules_preserved": true,
+  "historical_data_result_files_verified_unchanged": 2219,
+  "implementation_hash": "2af9465ea5be14602c87cebbee1c3562baf71c59e0534646b8477ff4f2bdbac9",
+  "integration_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 24
+  },
+  "known_configured_secrets_in_public_artifacts": false,
+  "live_gemini_requests": 0,
+  "metadata_leakage_replays": 48,
+  "native_healthcheck": {
+    "native": {
+      "commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+      "python": "3.12.10",
+      "url": "https://github.com/HKUDS/LightRAG.git",
+      "version": "1.5.8"
+    },
+    "status": "available"
+  },
+  "new_native_prompt_leakage_checks": 24,
+  "original_pilot_regenerated": false,
+  "pilot_audit": {
+    "all_certificates_valid": true,
+    "by_depth_condition": {
+      "1:conflict": 8,
+      "1:control": 8,
+      "2:conflict": 8,
+      "2:control": 8,
+      "3:conflict": 8,
+      "3:control": 8
+    },
+    "cases": 48,
+    "documents": 144,
+    "families": 24,
+    "human_audit": "pending",
+    "label_leakage_classifier": "not_run",
+    "paired_queries_identical": true,
+    "status": "passed"
+  },
+  "private_dotenv_files_copied_hashed_or_archived": false,
+  "project_free_tier_eligibility": "unverified; no project API or billing inquiry",
+  "proposed_live_ledger_initialized": false,
+  "python": "3.12.10",
+  "replay_hashes_match_v2": true,
+  "ruff": "passed",
+  "stratified_smoke_audit": {
+    "all_certificates_valid": true,
+    "by_depth_condition": {
+      "1:conflict": 2,
+      "1:control": 2,
+      "2:conflict": 2,
+      "2:control": 2,
+      "3:conflict": 2,
+      "3:control": 2
+    },
+    "cases": 12,
+    "documents": 36,
+    "families": 6,
+    "human_audit": "pending",
+    "label_leakage_classifier": "not_run",
+    "paired_queries_identical": true,
+    "status": "passed"
+  },
+  "total_passed": 117,
+  "unchanged_openai_v2_research_files": [
+    "src/graphconflictbench/models.py",
+    "src/graphconflictbench/provider_control.py",
+    "src/graphconflictbench/prompts.py",
+    "src/graphconflictbench/metrics.py",
+    "src/graphconflictbench/evidence_mapper.py",
+    "src/graphconflictbench/reasoner.py",
+    "src/graphconflictbench/runner.py",
+    "src/graphconflictbench/schemas.py",
+    "configs/prompts/shared_generation.txt",
+    "configs/ontology.yaml"
+  ],
+  "unit_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 93
+  }
+}

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="2.290" timestamp="2026-11-15T14:29:49.278390+05:30" hostname="LAPTOP-L9MENORA"><testcase classname="tests.integration.test_gemini_native_offline" name="test_stratified_native_indexes_and_all_gemini_callbacks_offline" time="1.658"><failure message="TypeError: cannot pickle '_thread.RLock' object">tmp_path = WindowsPath('C:/Projects/GraphConflictBench_Step4/graphconflictbench/results/gemini-integration-v1-20261115/gemini-native-first/test_stratified_native_indexes0')
+ontology = Ontology(schema_version='1.0', relations={'CONTAINED_IN': Relation(schema_version='1.0', domain='physical_entity', ran...Relation(schema_version='1.0', domain='event', range='event', transitive=True, irreflexive=True, allow_negation=True)})
+monkeypatch = &lt;_pytest.monkeypatch.MonkeyPatch object at 0x000001D055FFD790&gt;
+
+    @pytest.mark.native
+    @pytest.mark.skipif(not os.environ.get("GCB_NATIVE_PYTHON"), reason="native SDK integration is opt-in")
+    def test_stratified_native_indexes_and_all_gemini_callbacks_offline(tmp_path, ontology, monkeypatch):
+        now = [datetime(2026, 11, 15, tzinfo=timezone.utc).timestamp()]
+        monkeypatch.setattr(GeminiControl, "clock", staticmethod(lambda: now[0]))
+    
+        async def advance(self, seconds):
+            now[0] += seconds
+        monkeypatch.setattr(GeminiControl, "sleep", advance)
+        monkeypatch.setenv("GEMINI_API_KEY", "offline-native-gemini-key-59247")
+        policy_file = tmp_path / "gemini-policy.json"
+        write_json(policy_file, GeminiPolicy(
+            state_directory="capture", eligibility_status="free-tier-confirmed",
+            eligibility_reference="offline-native-test-project", eligibility_checked_on="2026-11-15",
+            quotas_reviewed=True,
+        ).model_dump())
+        control = GeminiControl(policy_file)
+        control.initialize()
+        calls = []
+    
+        async def dispatch(request):
+            # Advance only a fake clock, avoiding real waiting while testing persistent rate guards.
+            now[0] += 500
+            payload = json.loads(request.content)
+            calls.append(request.url.path)
+            if request.url.path.endswith(":embedContent"):
+                text = payload["content"]["parts"][0]["text"]
+                vector = await fixture_embedding([text], dimension=1536)
+                return httpx.Response(200, json={"embedding": {"values": vector[0].tolist()},
+                                               "usageMetadata": {"promptTokenCount": 10}})
+            prompt = payload["contents"][-1]["parts"][0]["text"]
+            system = payload.get("systemInstruction", {}).get("parts", [{"text": ""}])[0]["text"]
+            history = [{"role": "assistant" if c["role"] == "model" else "user",
+                        "content": c["parts"][0]["text"]} for c in payload["contents"][:-1]]
+            if prompt.startswith('{"case_id":'):
+                visible = json.loads(prompt)
+                case = SimpleNamespace(case_id=visible["case_id"], query=visible["question"])
+                retrieval = SimpleNamespace(retrieved_items=[SimpleNamespace(**{
+                    "doc_id": d["doc_id"], "text": d["text"],
+                }) for d in visible["evidence"]["sources"]])
+                answer = fixture_prediction(case, retrieval).model_dump_json()
+            else:
+                answer = await fixture_llm(prompt, system_prompt=system, history_messages=history)
+            return httpx.Response(200, json={
+                "modelVersion": "gemini-2.5-flash", "candidates": [{"content": {"parts": [
+                    {"text": answer}]}, "finishReason": "STOP"}],
+                "usageMetadata": {"promptTokenCount": 10, "candidatesTokenCount": 2, "totalTokenCount": 12},
+            })
+        monkeypatch.setattr(httpx, "AsyncHTTPTransport", lambda **kw: httpx.MockTransport(dispatch))
+        config = yaml.safe_load((ROOT / "configs/architectures/lightrag-gemini.yaml").read_text())
+        config.update(provider_control_file=str(policy_file), provider_control_sha256=file_hash(policy_file))
+        config_file = tmp_path / "gemini.yaml"
+        config_file.write_text(yaml.safe_dump(config))
+        adapter = LightRAGAdapter(config_file, os.environ["GCB_NATIVE_PYTHON"])
+    
+        def local_worker(operation, directory, **kwargs):
+            directory = Path(directory)
+            directory.mkdir(parents=True, exist_ok=False)
+            request = {"operation": operation, "config": adapter.config, **kwargs}
+            write_json(directory / "request.json", request)
+            result = ({"status": "available", "native": lightrag_worker.native_metadata()}
+                      if operation == "healthcheck" else asyncio.run(lightrag_worker.execute(request)))
+            write_json(directory / "response.json", result)
+            return result
+        # Same official worker and adapter snapshot logic; HTTP mocking stays in this process.
+        monkeypatch.setattr(adapter, "_call", local_worker)
+        dataset = ROOT / "results/step4-validity-v2-20261115/stratified-smoke-v2"
+        index_keys = []
+        for condition in ("conflict", "control"):
+            index = tmp_path / "indexes" / condition
+&gt;           built = adapter.index(dataset / "corpora/pilot" / condition / "corpus_manifest.json", index)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\integration\test_gemini_native_offline.py:100: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\graphconflictbench\adapters\lightrag_adapter.py:180: in index
+    result = self._call(
+tests\integration\test_gemini_native_offline.py:91: in local_worker
+    if operation == "healthcheck" else asyncio.run(lightrag_worker.execute(request)))
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\asyncio\runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\asyncio\runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\asyncio\base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+src\graphconflictbench\adapters\lightrag_worker.py:37: in execute
+    rag = LightRAG(
+&lt;string&gt;:80: in __init__
+    ???
+.venv-lightrag\Lib\site-packages\lightrag\lightrag.py:2019: in __post_init__
+    global_config = self._build_global_config()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv-lightrag\Lib\site-packages\lightrag\lightrag.py:1708: in _build_global_config
+    global_config = asdict(self)
+                    ^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\dataclasses.py:1329: in asdict
+    return _asdict_inner(obj, dict_factory)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\dataclasses.py:1339: in _asdict_inner
+    f.name: _asdict_inner(getattr(obj, f.name), dict)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\dataclasses.py:1339: in _asdict_inner
+    f.name: _asdict_inner(getattr(obj, f.name), dict)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\dataclasses.py:1386: in _asdict_inner
+    return copy.deepcopy(obj)
+           ^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:136: in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:226: in _deepcopy_method
+    return type(x)(x.__func__, deepcopy(x.__self__, memo))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:162: in deepcopy
+    y = _reconstruct(x, memo, *rv)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:259: in _reconstruct
+    state = deepcopy(state, memo)
+            ^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:136: in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:221: in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+                             ^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:162: in deepcopy
+    y = _reconstruct(x, memo, *rv)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:259: in _reconstruct
+    state = deepcopy(state, memo)
+            ^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:136: in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:221: in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+                             ^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:162: in deepcopy
+    y = _reconstruct(x, memo, *rv)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:259: in _reconstruct
+    state = deepcopy(state, memo)
+            ^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:136: in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:221: in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+                             ^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:162: in deepcopy
+    y = _reconstruct(x, memo, *rv)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:259: in _reconstruct
+    state = deepcopy(state, memo)
+            ^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:136: in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:221: in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+                             ^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:162: in deepcopy
+    y = _reconstruct(x, memo, *rv)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:259: in _reconstruct
+    state = deepcopy(state, memo)
+            ^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:136: in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+C:\Program Files\Python312\Lib\copy.py:221: in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+                             ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+x = &lt;unlocked _thread.RLock object owner=0 count=0 at 0x000001D0643C14C0&gt;
+memo = {1994631224432: &lt;graphconflictbench.gemini_models.GeminiModels object at 0x000001D0694DA570&gt;, 1994631649408: {'control...tbench/results/gemini-integration-v1-20261115/gemini-native-first/test_stratified_native_indexes0/capture'), ...}, ...}
+_nil = []
+
+    def deepcopy(x, memo=None, _nil=[]):
+        """Deep copy operation on arbitrary Python objects.
+    
+        See the module's __doc__ string for more info.
+        """
+    
+        if memo is None:
+            memo = {}
+    
+        d = id(x)
+        y = memo.get(d, _nil)
+        if y is not _nil:
+            return y
+    
+        cls = type(x)
+    
+        copier = _deepcopy_dispatch.get(cls)
+        if copier is not None:
+            y = copier(x, memo)
+        else:
+            if issubclass(cls, type):
+                y = _deepcopy_atomic(x, memo)
+            else:
+                copier = getattr(x, "__deepcopy__", None)
+                if copier is not None:
+                    y = copier(memo)
+                else:
+                    reductor = dispatch_table.get(cls)
+                    if reductor:
+                        rv = reductor(x)
+                    else:
+                        reductor = getattr(x, "__reduce_ex__", None)
+                        if reductor is not None:
+&gt;                           rv = reductor(4)
+                                 ^^^^^^^^^^^
+E                           TypeError: cannot pickle '_thread.RLock' object
+
+C:\Program Files\Python312\Lib\copy.py:151: TypeError</failure></testcase></testsuite></testsuites>

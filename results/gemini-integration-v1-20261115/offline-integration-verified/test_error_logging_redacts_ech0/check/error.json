@@ -1,0 +1,4 @@
+{
+  "message": "Gemini response contained a credential; redacted capture retained and ledger frozen",
+  "type": "GeminiError"
+}

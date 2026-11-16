@@ -1,0 +1,32 @@
+{
+  "parse_error": null,
+  "prediction": {
+    "case_id": "Cec8bb9e3d570ee94ba8e",
+    "conflict_detected": true,
+    "conflicts": [
+      {
+        "brief_explanation": "Delivered source statements entail a relationship explicitly denied by another source.",
+        "opposing": [
+          {
+            "doc_id": "Df5eb887b15569304836e",
+            "quote": "N5c25ba15012717d75075 is not contained in N8b16c886321739295ac2.",
+            "schema_version": "1.0"
+          }
+        ],
+        "schema_version": "1.0",
+        "support": [
+          {
+            "doc_id": "D9af1d40ddbb5b93c6ddf",
+            "quote": "N5c25ba15012717d75075 is contained in N8b16c886321739295ac2.",
+            "schema_version": "1.0"
+          }
+        ]
+      }
+    ],
+    "evidence_status": "complete",
+    "resolution": "not_attempted",
+    "schema_version": "1.0"
+  },
+  "raw": "{\"schema_version\":\"1.0\",\"case_id\":\"Cec8bb9e3d570ee94ba8e\",\"conflict_detected\":true,\"evidence_status\":\"complete\",\"conflicts\":[{\"schema_version\":\"1.0\",\"support\":[{\"schema_version\":\"1.0\",\"doc_id\":\"D9af1d40ddbb5b93c6ddf\",\"quote\":\"N5c25ba15012717d75075 is contained in N8b16c886321739295ac2.\"}],\"opposing\":[{\"schema_version\":\"1.0\",\"doc_id\":\"Df5eb887b15569304836e\",\"quote\":\"N5c25ba15012717d75075 is not contained in N8b16c886321739295ac2.\"}],\"brief_explanation\":\"Delivered source statements entail a relationship explicitly denied by another source.\"}],\"resolution\":\"not_attempted\"}",
+  "usage": []
+}

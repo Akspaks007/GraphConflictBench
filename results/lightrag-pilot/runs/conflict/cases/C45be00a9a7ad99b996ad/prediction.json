@@ -1,0 +1,32 @@
+{
+  "parse_error": null,
+  "prediction": {
+    "case_id": "C45be00a9a7ad99b996ad",
+    "conflict_detected": true,
+    "conflicts": [
+      {
+        "brief_explanation": "Delivered source statements entail a relationship explicitly denied by another source.",
+        "opposing": [
+          {
+            "doc_id": "D0a16265bee860bd48511",
+            "quote": "N324f143dbc083c31fae5 is not a subregion of N813f098a1c1b15ccbe6e.",
+            "schema_version": "1.0"
+          }
+        ],
+        "schema_version": "1.0",
+        "support": [
+          {
+            "doc_id": "D375355d9484fbf6d0145",
+            "quote": "N324f143dbc083c31fae5 is a subregion of N813f098a1c1b15ccbe6e.",
+            "schema_version": "1.0"
+          }
+        ]
+      }
+    ],
+    "evidence_status": "complete",
+    "resolution": "not_attempted",
+    "schema_version": "1.0"
+  },
+  "raw": "{\"schema_version\":\"1.0\",\"case_id\":\"C45be00a9a7ad99b996ad\",\"conflict_detected\":true,\"evidence_status\":\"complete\",\"conflicts\":[{\"schema_version\":\"1.0\",\"support\":[{\"schema_version\":\"1.0\",\"doc_id\":\"D375355d9484fbf6d0145\",\"quote\":\"N324f143dbc083c31fae5 is a subregion of N813f098a1c1b15ccbe6e.\"}],\"opposing\":[{\"schema_version\":\"1.0\",\"doc_id\":\"D0a16265bee860bd48511\",\"quote\":\"N324f143dbc083c31fae5 is not a subregion of N813f098a1c1b15ccbe6e.\"}],\"brief_explanation\":\"Delivered source statements entail a relationship explicitly denied by another source.\"}],\"resolution\":\"not_attempted\"}",
+  "usage": []
+}

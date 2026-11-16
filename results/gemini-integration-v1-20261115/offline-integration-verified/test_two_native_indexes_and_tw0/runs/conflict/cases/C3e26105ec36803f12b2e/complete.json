@@ -1,0 +1,15 @@
+{
+  "checksums": {
+    "attempt-1\\prediction.json": "b405b64772c80342ad23d241a23620f5f4451e28b7b1b5fba5150e556ac899be",
+    "attempt-1\\prompt.json": "6e1286f91904e166e7225f4d751b8a9aa2d15b5228fdb7d9c690aed2532c5d6d",
+    "attempt-1\\retrieval.json": "a4ddcfb7639e18030135f23db71ee8c7b323dc5059e5d4ef23ada149fbe42749",
+    "attempt-1\\score.json": "42ae16e0881caadd8bd221f2042298631510ee95fb5744480257f6ff888e0eb3",
+    "native-1\\native.log": "6f8528e34389b9171776276000409466c94ad731b315f0ca81ef543d0feb87e5",
+    "native-1\\request.json": "da05ce801e41df38f24530a81e569edc7bba8d3fd953261372d053bfb9074ade",
+    "native-1\\response.json": "dec017887feeb7ee373641b1160836d54353acf146bd3e8587b26549506d58c3",
+    "prediction.json": "b405b64772c80342ad23d241a23620f5f4451e28b7b1b5fba5150e556ac899be",
+    "prompt.json": "6e1286f91904e166e7225f4d751b8a9aa2d15b5228fdb7d9c690aed2532c5d6d",
+    "retrieval.json": "a4ddcfb7639e18030135f23db71ee8c7b323dc5059e5d4ef23ada149fbe42749",
+    "score.json": "42ae16e0881caadd8bd221f2042298631510ee95fb5744480257f6ff888e0eb3"
+  }
+}

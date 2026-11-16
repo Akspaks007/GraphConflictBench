@@ -1,0 +1,21 @@
+schema_version: '1.0'
+relations:
+  CONTAINED_IN:
+    domain: physical_entity
+    range: physical_entity
+    transitive: true
+    irreflexive: true
+    allow_negation: true
+  SUBREGION_OF:
+    domain: region
+    range: region
+    transitive: true
+    irreflexive: true
+    allow_negation: true
+  PRECEDES:
+    domain: event
+    range: event
+    transitive: true
+    irreflexive: true
+    allow_negation: true
+

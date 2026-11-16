@@ -1,0 +1,1 @@
+{"llm_model": "gpt-4o-mini-2024-07-18", "embedding_model": "text-embedding-3-small", "cap_nanodollars": 2000000000, "llm_input_nanodollars_per_token": 150, "llm_output_nanodollars_per_token": 600, "embedding_nanodollars_per_token": 20, "max_completion_tokens": 1536, "max_request_input_tokens": 128000, "state_directory": "ledger"}

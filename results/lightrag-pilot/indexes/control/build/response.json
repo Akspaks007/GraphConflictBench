@@ -1,0 +1,11 @@
+{
+  "documents_processed": 120,
+  "native": {
+    "commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+    "python": "3.12.14",
+    "url": "https://github.com/HKUDS/LightRAG.git",
+    "version": "1.5.8"
+  },
+  "status": "complete",
+  "usage": []
+}

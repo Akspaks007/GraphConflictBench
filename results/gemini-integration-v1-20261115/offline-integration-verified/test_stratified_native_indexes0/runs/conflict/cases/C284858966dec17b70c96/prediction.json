@@ -1,0 +1,54 @@
+{
+  "parse_error": null,
+  "prediction": {
+    "case_id": "C284858966dec17b70c96",
+    "conflict_detected": true,
+    "conflicts": [
+      {
+        "brief_explanation": "Delivered source statements entail a relationship explicitly denied by another source.",
+        "opposing": [
+          {
+            "doc_id": "D3987590ecfb6040326d8",
+            "quote": "N77f50f6eccafe2ccf18c does not precede Nbc1e5d973b720d379e08.",
+            "schema_version": "1.0"
+          }
+        ],
+        "schema_version": "1.0",
+        "support": [
+          {
+            "doc_id": "Db9e4de6b351db6a50856",
+            "quote": "N77f50f6eccafe2ccf18c precedes Nd346fd5ffa2c8ee1067b.",
+            "schema_version": "1.0"
+          },
+          {
+            "doc_id": "Deb75e238ae54da5ebf3e",
+            "quote": "Nd346fd5ffa2c8ee1067b precedes Nbc1e5d973b720d379e08.",
+            "schema_version": "1.0"
+          }
+        ]
+      }
+    ],
+    "evidence_status": "complete",
+    "resolution": "not_attempted",
+    "schema_version": "1.0"
+  },
+  "raw": "{\"schema_version\":\"1.0\",\"case_id\":\"C284858966dec17b70c96\",\"conflict_detected\":true,\"evidence_status\":\"complete\",\"conflicts\":[{\"schema_version\":\"1.0\",\"support\":[{\"schema_version\":\"1.0\",\"doc_id\":\"Db9e4de6b351db6a50856\",\"quote\":\"N77f50f6eccafe2ccf18c precedes Nd346fd5ffa2c8ee1067b.\"},{\"schema_version\":\"1.0\",\"doc_id\":\"Deb75e238ae54da5ebf3e\",\"quote\":\"Nd346fd5ffa2c8ee1067b precedes Nbc1e5d973b720d379e08.\"}],\"opposing\":[{\"schema_version\":\"1.0\",\"doc_id\":\"D3987590ecfb6040326d8\",\"quote\":\"N77f50f6eccafe2ccf18c does not precede Nbc1e5d973b720d379e08.\"}],\"brief_explanation\":\"Delivered source statements entail a relationship explicitly denied by another source.\"}],\"resolution\":\"not_attempted\"}",
+  "usage": [
+    {
+      "audit_request_id": "9a9aa6750b634316b4ee43f67896baac",
+      "finish_reason": "STOP",
+      "input_bound": 14375,
+      "kind": "llm",
+      "model_version": "gemini-2.5-flash",
+      "paid_equivalent_nanodollars": 8000,
+      "provider": "gemini",
+      "provider_usage": {
+        "candidatesTokenCount": 2,
+        "promptTokenCount": 10,
+        "totalTokenCount": 12
+      },
+      "requested_model": "gemini-2.5-flash",
+      "source": "provider_usage_at_paid_equivalent_rates"
+    }
+  ]
+}

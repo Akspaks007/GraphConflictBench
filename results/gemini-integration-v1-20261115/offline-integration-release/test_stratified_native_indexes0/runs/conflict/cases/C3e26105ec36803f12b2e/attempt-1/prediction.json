@@ -1,0 +1,49 @@
+{
+  "parse_error": null,
+  "prediction": {
+    "case_id": "C3e26105ec36803f12b2e",
+    "conflict_detected": true,
+    "conflicts": [
+      {
+        "brief_explanation": "Delivered source statements entail a relationship explicitly denied by another source.",
+        "opposing": [
+          {
+            "doc_id": "D8e1819f9a41f64977ff5",
+            "quote": "Nd3a7440e5b8f66ca8744 is not contained in N6401ff9770356cea0bdf.",
+            "schema_version": "1.0"
+          }
+        ],
+        "schema_version": "1.0",
+        "support": [
+          {
+            "doc_id": "D124fdca7dba8c4b80a96",
+            "quote": "Nd3a7440e5b8f66ca8744 is contained in N6401ff9770356cea0bdf.",
+            "schema_version": "1.0"
+          }
+        ]
+      }
+    ],
+    "evidence_status": "complete",
+    "resolution": "not_attempted",
+    "schema_version": "1.0"
+  },
+  "raw": "{\"schema_version\":\"1.0\",\"case_id\":\"C3e26105ec36803f12b2e\",\"conflict_detected\":true,\"evidence_status\":\"complete\",\"conflicts\":[{\"schema_version\":\"1.0\",\"support\":[{\"schema_version\":\"1.0\",\"doc_id\":\"D124fdca7dba8c4b80a96\",\"quote\":\"Nd3a7440e5b8f66ca8744 is contained in N6401ff9770356cea0bdf.\"}],\"opposing\":[{\"schema_version\":\"1.0\",\"doc_id\":\"D8e1819f9a41f64977ff5\",\"quote\":\"Nd3a7440e5b8f66ca8744 is not contained in N6401ff9770356cea0bdf.\"}],\"brief_explanation\":\"Delivered source statements entail a relationship explicitly denied by another source.\"}],\"resolution\":\"not_attempted\"}",
+  "usage": [
+    {
+      "audit_request_id": "1196ab6ef5e5425f9801b75fe829101e",
+      "finish_reason": "STOP",
+      "input_bound": 15432,
+      "kind": "llm",
+      "model_version": "gemini-2.5-flash",
+      "paid_equivalent_nanodollars": 8000,
+      "provider": "gemini",
+      "provider_usage": {
+        "candidatesTokenCount": 2,
+        "promptTokenCount": 10,
+        "totalTokenCount": 12
+      },
+      "requested_model": "gemini-2.5-flash",
+      "source": "provider_usage_at_paid_equivalent_rates"
+    }
+  ]
+}
