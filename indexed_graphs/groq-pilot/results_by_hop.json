@@ -1,0 +1,55 @@
+{
+  "benchmark_eligible": false,
+  "evidence_budget": 3072,
+  "model": "openai/gpt-oss-20b",
+  "provider": "groq",
+  "rows": [
+    {
+      "cases": 8,
+      "complete_proof_retrieved": 6,
+      "condition": "conflict",
+      "error": 4,
+      "exact_proofs": 0,
+      "fn": 2,
+      "hops": 1,
+      "tp": 2
+    },
+    {
+      "cases": 8,
+      "complete_proof_retrieved": 3,
+      "condition": "conflict",
+      "error": 1,
+      "exact_proofs": 0,
+      "fn": 4,
+      "hops": 2,
+      "tp": 3
+    },
+    {
+      "cases": 8,
+      "complete_proof_retrieved": 0,
+      "condition": "conflict",
+      "error": 1,
+      "exact_proofs": 0,
+      "fn": 7,
+      "hops": 3
+    },
+    {
+      "cases": 8,
+      "condition": "control",
+      "hops": 1,
+      "tn": 8
+    },
+    {
+      "cases": 8,
+      "condition": "control",
+      "hops": 2,
+      "tn": 8
+    },
+    {
+      "cases": 8,
+      "condition": "control",
+      "hops": 3,
+      "tn": 8
+    }
+  ]
+}

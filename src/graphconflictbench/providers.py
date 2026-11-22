@@ -1,4 +1,4 @@
-"""Provider selection only; the existing OpenAI wrapper is unchanged."""
+"""Select the configured generation and embedding callbacks."""
 
 from .models import OpenAIModels
 
@@ -12,4 +12,7 @@ def model_provider(config):
     if provider == "gemini":
         from .gemini_models import GeminiModels
         return GeminiModels(config)
+    if provider == "groq":
+        from .groq_models import GroqModels
+        return GroqModels(config)
     raise ValueError("unsupported model provider")

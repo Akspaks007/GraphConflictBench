@@ -34,15 +34,24 @@ async def execute(request):
     if actual["commit"] != config["upstream_commit"]:
         raise ValueError(f"installed LightRAG commit differs from config: {actual}")
     models = model_provider(config)
+
+    # LightRAG deep-copies its configuration. Functions keep the live client
+    # and its non-copyable transport locks outside that snapshot.
+    async def provider_llm(*args, **kwargs):
+        return await models.llm(*args, **kwargs)
+
+    async def provider_embedding(*args, **kwargs):
+        return await models.embedding(*args, **kwargs)
+
     rag = LightRAG(
         working_dir=str(Path(request["native_dir"]).resolve()),
-        llm_model_func=models.llm if models else fixture_llm,
+        llm_model_func=provider_llm if models else fixture_llm,
         llm_model_name=config["llm_model"],
         embedding_func=EmbeddingFunc(
             embedding_dim=config["embedding_dimension"],
-            max_token_size=2048 if config["provider"] == "gemini" else 8192,
+            max_token_size={"gemini": 2048, "groq": 512}.get(config["provider"], 8192),
             model_name=config["embedding_model"],
-            func=models.embedding
+            func=provider_embedding
             if models
             else partial(fixture_embedding, dimension=config["embedding_dimension"]),
         ),
@@ -69,10 +78,11 @@ async def execute(request):
             processed = await rag.doc_status.get_docs_by_statuses(
                 [DocStatus.PROCESSED], strict=True
             )
-            if failed or len(processed) != len(docs):
+            expected = request.get("expected_document_count", len(docs))
+            if failed or len(processed) != expected or any(d["doc_id"] not in processed for d in docs):
                 raise RuntimeError(
                     f"native indexing incomplete: processed={len(processed)}, "
-                    f"expected={len(docs)}, failed={len(failed)}"
+                    f"expected={expected}, failed={len(failed)}"
                 )
             return {
                 "status": "complete",

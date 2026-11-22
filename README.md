@@ -57,6 +57,10 @@ and limitations. Saved logs preserve the original execution paths for provenance
 
 ## Real models
 
+The Groq configuration uses `GROQ_API_KEY` from the environment or the local
+`.env`. Groq supplies chat completions and FastEmbed computes BGE vectors locally.
+See [Groq setup and commands](docs/groq_provider.md).
+
 Step 4 v2 requires a frozen provider-capture/spending policy, an explicitly
 initialized shared ledger and zero SDK retries. The historical
 `configs/architectures/lightrag.yaml` is preserved as a reference and now fails

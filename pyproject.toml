@@ -13,6 +13,7 @@ dependencies = ["pydantic>=2.10,<3", "PyYAML>=6,<7", "tiktoken>=0.7,<1", "python
 dev = ["pytest>=8,<10", "ruff>=0.9,<1"]
 models = ["openai>=2,<4", "numpy>=1.24,<3"]
 gemini = ["httpx>=0.28,<1", "numpy>=1.24,<3"]
+groq = ["openai>=2,<4", "fastembed==0.7.4"]
 
 [project.scripts]
 graphconflictbench = "graphconflictbench.cli:main"

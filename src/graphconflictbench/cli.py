@@ -40,7 +40,9 @@ def parser():
     audit.add_argument("--write-report", action="store_true")
     audit.add_argument("--output-dir", default="results/audit")
     control = sub.add_parser("provider-control", help="offline capture/spending ledger management")
-    control.add_argument("action", choices=["init", "status", "verify"])
+    control.add_argument(
+        "action", choices=["init", "status", "verify", "recover-groq-rate-limit"]
+    )
     control.add_argument("--policy", required=True)
     gemini = sub.add_parser("gemini-control", help="offline Gemini eligibility/quota ledger management")
     gemini.add_argument("action", choices=["init", "status", "verify"])
@@ -62,6 +64,8 @@ def parser():
         command.add_argument("--ontology", default="configs/ontology.yaml")
         if name in ("index", "run"):
             command.add_argument("--condition", choices=["conflict", "control"], required=True)
+        if name == "index":
+            command.add_argument("--batch-size", type=int, help="Index one checkpointed batch")
         if name == "run":
             command.add_argument("--index-dir", required=True)
         if name in ("run", "smoke-adapters"):
@@ -83,6 +87,8 @@ def dispatch(args):
         return {"status": "valid", "relations": list(rules.relations)}
     if args.command == "provider-control":
         control = ProviderControl(args.policy)
+        if args.action == "recover-groq-rate-limit":
+            return control.recover_groq_rate_limit()
         return control.initialize() if args.action == "init" else getattr(control, args.action)()
     if args.command == "gemini-control":
         control = GeminiControl(args.policy)
@@ -130,11 +136,14 @@ def dispatch(args):
             Path(args.dataset) / "corpora" / args.split / args.condition / "corpus_manifest.json",
             output,
             args.resume,
+            args.batch_size,
         )
         return {
             "index_dir": output,
             "index_key": manifest["index_key"],
             "status": manifest["status"],
+            **{name: manifest[name] for name in ("documents_processed", "documents_total")
+               if name in manifest},
         }
     if args.limit is not None and args.limit <= 0:
         raise ValueError("--limit must be positive")

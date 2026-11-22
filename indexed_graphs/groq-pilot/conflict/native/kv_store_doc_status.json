@@ -1,0 +1,3242 @@
+{
+  "D096bf190fbd39b1198a9": {
+    "status": "processed",
+    "content_summary": "N76aeeb51a7c9ddb875d5 precedes N84c4090907f73e3c23fe. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T17:47:24.835426+00:00",
+    "updated_at": "2026-11-22T17:48:02.563311+00:00",
+    "file_path": "D096bf190fbd39b1198a9.txt",
+    "track_id": "insert_20261122_231724_2865afed",
+    "content_hash": "370424b2c2f6ed87e8b847008be6e4ee",
+    "metadata": {
+      "parse_start_time": 1795369644,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369644,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369680,
+      "process_end_time": 1795369682,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D096bf190fbd39b1198a9-chunk-000"
+    ]
+  },
+  "D00aa2f4b14fa5e79bf07": {
+    "status": "processed",
+    "content_summary": "N59c527434fc54854dad3 precedes N30a734839dd9c6a7787f. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T17:47:24.835426+00:00",
+    "updated_at": "2026-11-22T17:47:28.995993+00:00",
+    "file_path": "D00aa2f4b14fa5e79bf07.txt",
+    "track_id": "insert_20261122_231724_2865afed",
+    "content_hash": "ba34333acbf5728631d3a9f91e79132c",
+    "metadata": {
+      "parse_start_time": 1795369644,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369644,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369644,
+      "process_end_time": 1795369648,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D00aa2f4b14fa5e79bf07-chunk-000"
+    ]
+  },
+  "D00acb34e9b7189e2447a": {
+    "status": "processed",
+    "content_summary": "N9a427e3874430f8172ef is contained in Nc91a8abe309bcd9c0856. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:47:24.835426+00:00",
+    "updated_at": "2026-11-22T17:47:30.492060+00:00",
+    "file_path": "D00acb34e9b7189e2447a.txt",
+    "track_id": "insert_20261122_231724_2865afed",
+    "content_hash": "892b09551eb804dae1f722475ee54817",
+    "metadata": {
+      "parse_start_time": 1795369644,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369644,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369649,
+      "process_end_time": 1795369650,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D00acb34e9b7189e2447a-chunk-000"
+    ]
+  },
+  "D0315265825c4b1410658": {
+    "status": "processed",
+    "content_summary": "N7ce66bd22c354bc1a9e5 is a subregion of Nec00b3ac713c6ce591a0. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:47:24.835426+00:00",
+    "updated_at": "2026-11-22T17:48:00.846588+00:00",
+    "file_path": "D0315265825c4b1410658.txt",
+    "track_id": "insert_20261122_231724_2865afed",
+    "content_hash": "f1280c71b0a0e00c7e1c2d87d29d8164",
+    "metadata": {
+      "parse_start_time": 1795369644,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369644,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369676,
+      "process_end_time": 1795369680,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D0315265825c4b1410658-chunk-000"
+    ]
+  },
+  "D02a839711ec43f7a1d26": {
+    "status": "processed",
+    "content_summary": "N91eb61a5627b7001cc20 is a subregion of N8f750e01d50fa995fde6. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:47:24.835426+00:00",
+    "updated_at": "2026-11-22T17:47:56.891497+00:00",
+    "file_path": "D02a839711ec43f7a1d26.txt",
+    "track_id": "insert_20261122_231724_2865afed",
+    "content_hash": "dd992da585b1411693ab802de6f8f466",
+    "metadata": {
+      "parse_start_time": 1795369644,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369644,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369652,
+      "process_end_time": 1795369676,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D02a839711ec43f7a1d26-chunk-000"
+    ]
+  },
+  "D0b3092068b267ade7047": {
+    "status": "processed",
+    "content_summary": "N8fe9e9640a4262cfd99d is not a subregion of N6a09c8b2f74d7ae96dd7. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 242,
+    "created_at": "2026-11-22T17:47:24.835426+00:00",
+    "updated_at": "2026-11-22T17:48:33.960487+00:00",
+    "file_path": "D0b3092068b267ade7047.txt",
+    "track_id": "insert_20261122_231724_2865afed",
+    "content_hash": "24ce222fc5b93f9c36b6010069b77ecc",
+    "metadata": {
+      "parse_start_time": 1795369644,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369644,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369710,
+      "process_end_time": 1795369713,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D0b3092068b267ade7047-chunk-000"
+    ]
+  },
+  "D012c0031b1c2d5f5b85e": {
+    "status": "processed",
+    "content_summary": "Nfdd9917e2c8514e36790 is a subregion of N54cdc918ea4a9e4429d6. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:47:24.835426+00:00",
+    "updated_at": "2026-11-22T17:47:32.221911+00:00",
+    "file_path": "D012c0031b1c2d5f5b85e.txt",
+    "track_id": "insert_20261122_231724_2865afed",
+    "content_hash": "2db2308bdc185eef1a65603e296fb676",
+    "metadata": {
+      "parse_start_time": 1795369644,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369644,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369650,
+      "process_end_time": 1795369652,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D012c0031b1c2d5f5b85e-chunk-000"
+    ]
+  },
+  "D107fc572c438d6005491": {
+    "status": "processed",
+    "content_summary": "N6da7f19259247dae36bf is not a subregion of Nece838c93ffafb4a6d15. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 242,
+    "created_at": "2026-11-22T17:47:24.835426+00:00",
+    "updated_at": "2026-11-22T17:48:57.610836+00:00",
+    "file_path": "D107fc572c438d6005491.txt",
+    "track_id": "insert_20261122_231724_2865afed",
+    "content_hash": "6ec3155cc24e78ce248da5a27429b2df",
+    "metadata": {
+      "parse_start_time": 1795369644,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369644,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369713,
+      "process_end_time": 1795369737,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D107fc572c438d6005491-chunk-000"
+    ]
+  },
+  "D0a9a1b0bfc9101593f71": {
+    "status": "processed",
+    "content_summary": "N6a3495420695c5af6c10 is contained in N89d0dbd404ec6e5dc559. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:47:24.835426+00:00",
+    "updated_at": "2026-11-22T17:48:30.747057+00:00",
+    "file_path": "D0a9a1b0bfc9101593f71.txt",
+    "track_id": "insert_20261122_231724_2865afed",
+    "content_hash": "f226878c360b7ed9fb5320f018b89bba",
+    "metadata": {
+      "parse_start_time": 1795369644,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369644,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369706,
+      "process_end_time": 1795369710,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D0a9a1b0bfc9101593f71-chunk-000"
+    ]
+  },
+  "D0a16265bee860bd48511": {
+    "status": "processed",
+    "content_summary": "N324f143dbc083c31fae5 is not a subregion of N813f098a1c1b15ccbe6e. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 242,
+    "created_at": "2026-11-22T17:47:24.835426+00:00",
+    "updated_at": "2026-11-22T17:48:26.876475+00:00",
+    "file_path": "D0a16265bee860bd48511.txt",
+    "track_id": "insert_20261122_231724_2865afed",
+    "content_hash": "f575f9e668881a475c9ef4e0ea9c257a",
+    "metadata": {
+      "parse_start_time": 1795369644,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369644,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369682,
+      "process_end_time": 1795369706,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D0a16265bee860bd48511-chunk-000"
+    ]
+  },
+  "D29a62f45335d85618f92": {
+    "status": "processed",
+    "content_summary": "Nf96405a2392fdff9bb1e does not precede N0281ead2d0c61309aff9. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 237,
+    "created_at": "2026-11-22T17:49:11.646876+00:00",
+    "updated_at": "2026-11-22T17:50:27.836779+00:00",
+    "file_path": "D29a62f45335d85618f92.txt",
+    "track_id": "insert_20261122_231911_6d871290",
+    "content_hash": "33856e6f334fd73b81f06832f2d8494b",
+    "metadata": {
+      "parse_start_time": 1795369751,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369751,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369818,
+      "process_end_time": 1795369827,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D29a62f45335d85618f92-chunk-000"
+    ]
+  },
+  "D2934e038681cf53c6fbd": {
+    "status": "processed",
+    "content_summary": "N0b786528fec79853affc is contained in N6d9ef794a20ca01bae91. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:49:11.646876+00:00",
+    "updated_at": "2026-11-22T17:50:18.279210+00:00",
+    "file_path": "D2934e038681cf53c6fbd.txt",
+    "track_id": "insert_20261122_231911_6d871290",
+    "content_hash": "91e171c8cfab219fda33bb8514036c94",
+    "metadata": {
+      "parse_start_time": 1795369751,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369751,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369814,
+      "process_end_time": 1795369818,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D2934e038681cf53c6fbd-chunk-000"
+    ]
+  },
+  "D124fdca7dba8c4b80a96": {
+    "status": "processed",
+    "content_summary": "Nd3a7440e5b8f66ca8744 is contained in N6401ff9770356cea0bdf. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:49:11.646876+00:00",
+    "updated_at": "2026-11-22T17:49:27.721490+00:00",
+    "file_path": "D124fdca7dba8c4b80a96.txt",
+    "track_id": "insert_20261122_231911_6d871290",
+    "content_hash": "15b1338db77db2f2bc6c6adc0570bfdc",
+    "metadata": {
+      "parse_start_time": 1795369751,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369751,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369757,
+      "process_end_time": 1795369767,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D124fdca7dba8c4b80a96-chunk-000"
+    ]
+  },
+  "D28f16cd7a54c385b69ca": {
+    "status": "processed",
+    "content_summary": "Ne6ddd40967a46112c8b9 is contained in Nba3a0b991db4fb79cf0f. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:49:11.646876+00:00",
+    "updated_at": "2026-11-22T17:50:14.741956+00:00",
+    "file_path": "D28f16cd7a54c385b69ca.txt",
+    "track_id": "insert_20261122_231911_6d871290",
+    "content_hash": "0f0f221e257d996b2ffc00f6e612afba",
+    "metadata": {
+      "parse_start_time": 1795369751,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369751,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369798,
+      "process_end_time": 1795369814,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D28f16cd7a54c385b69ca-chunk-000"
+    ]
+  },
+  "D117910389e4c95e887bc": {
+    "status": "processed",
+    "content_summary": "N9596269e30f654ebba35 is a subregion of Ncd02037457c0126890b6. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:49:11.646876+00:00",
+    "updated_at": "2026-11-22T17:49:17.943898+00:00",
+    "file_path": "D117910389e4c95e887bc.txt",
+    "track_id": "insert_20261122_231911_6d871290",
+    "content_hash": "acb218e64ef8e168f1d3d1a77d7de0c6",
+    "metadata": {
+      "parse_start_time": 1795369751,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369751,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369755,
+      "process_end_time": 1795369757,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D117910389e4c95e887bc-chunk-000"
+    ]
+  },
+  "D1759848a15f03afde86d": {
+    "status": "processed",
+    "content_summary": "N6da7f19259247dae36bf is a subregion of Ne7800333ede839e48381. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:49:11.646876+00:00",
+    "updated_at": "2026-11-22T17:49:44.958322+00:00",
+    "file_path": "D1759848a15f03afde86d.txt",
+    "track_id": "insert_20261122_231911_6d871290",
+    "content_hash": "5a93e56efc00e20f7667df4ac5bebacc",
+    "metadata": {
+      "parse_start_time": 1795369751,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369751,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369767,
+      "process_end_time": 1795369784,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D1759848a15f03afde86d-chunk-000"
+    ]
+  },
+  "D1e6fcd119ed03eaa5770": {
+    "status": "processed",
+    "content_summary": "N68253ce6d9b195c5dacc is not contained in Ncc69027d69c243c0f5a9. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 240,
+    "created_at": "2026-11-22T17:49:11.646876+00:00",
+    "updated_at": "2026-11-22T17:49:49.138069+00:00",
+    "file_path": "D1e6fcd119ed03eaa5770.txt",
+    "track_id": "insert_20261122_231911_6d871290",
+    "content_hash": "4df97d2f4f6adb2906acd046d0c25054",
+    "metadata": {
+      "parse_start_time": 1795369751,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369751,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369784,
+      "process_end_time": 1795369789,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D1e6fcd119ed03eaa5770-chunk-000"
+    ]
+  },
+  "D10aa6c96159963cc11c5": {
+    "status": "processed",
+    "content_summary": "N923e335cbc8216e66c64 is not contained in N1e8fcad3204036505b14. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 240,
+    "created_at": "2026-11-22T17:49:11.646876+00:00",
+    "updated_at": "2026-11-22T17:49:15.887015+00:00",
+    "file_path": "D10aa6c96159963cc11c5.txt",
+    "track_id": "insert_20261122_231911_6d871290",
+    "content_hash": "0d8b22b8f9d491eaaca6a95f5cba6fad",
+    "metadata": {
+      "parse_start_time": 1795369751,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369751,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369751,
+      "process_end_time": 1795369755,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D10aa6c96159963cc11c5-chunk-000"
+    ]
+  },
+  "D213d059cbf8275626d71": {
+    "status": "processed",
+    "content_summary": "Nb3157744fbca11401254 does not precede N9917c899684329d6eb7a. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 237,
+    "created_at": "2026-11-22T17:49:11.646876+00:00",
+    "updated_at": "2026-11-22T17:49:58.392904+00:00",
+    "file_path": "D213d059cbf8275626d71.txt",
+    "track_id": "insert_20261122_231911_6d871290",
+    "content_hash": "6d4d30924bd1d60f6dfc603fe15eb874",
+    "metadata": {
+      "parse_start_time": 1795369751,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369751,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369789,
+      "process_end_time": 1795369798,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D213d059cbf8275626d71-chunk-000"
+    ]
+  },
+  "D2a2fa858c97ab6d6fbdc": {
+    "status": "processed",
+    "content_summary": "N2d03a1f82ddd8c26d2d9 precedes N4ac05f63fb6dd5f25107. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T17:49:11.646876+00:00",
+    "updated_at": "2026-11-22T17:50:44.745571+00:00",
+    "file_path": "D2a2fa858c97ab6d6fbdc.txt",
+    "track_id": "insert_20261122_231911_6d871290",
+    "content_hash": "e5637599bc409d343b0c3d1c70ce3e6c",
+    "metadata": {
+      "parse_start_time": 1795369751,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369751,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369827,
+      "process_end_time": 1795369844,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D2a2fa858c97ab6d6fbdc-chunk-000"
+    ]
+  },
+  "D36fb5058c4a46729efa4": {
+    "status": "processed",
+    "content_summary": "N0b786528fec79853affc is contained in N48d8423b237f1065adf8. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:50:55.352744+00:00",
+    "updated_at": "2026-11-22T17:51:57.720668+00:00",
+    "file_path": "D36fb5058c4a46729efa4.txt",
+    "track_id": "insert_20261122_232055_633d438f",
+    "content_hash": "3933b8f7f96aa7254b4c7f9a9eb1128d",
+    "metadata": {
+      "parse_start_time": 1795369855,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369855,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369905,
+      "process_end_time": 1795369917,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D36fb5058c4a46729efa4-chunk-000"
+    ]
+  },
+  "D340ca21d12f63d1cd917": {
+    "status": "processed",
+    "content_summary": "Nc86b9a88c224130195ad is contained in Na446443ea668d6e1e6e7. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:50:55.352744+00:00",
+    "updated_at": "2026-11-22T17:51:45.275821+00:00",
+    "file_path": "D340ca21d12f63d1cd917.txt",
+    "track_id": "insert_20261122_232055_633d438f",
+    "content_hash": "b6b904b93528228383f19a2910e5226d",
+    "metadata": {
+      "parse_start_time": 1795369855,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369855,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369891,
+      "process_end_time": 1795369905,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D340ca21d12f63d1cd917-chunk-000"
+    ]
+  },
+  "D375355d9484fbf6d0145": {
+    "status": "processed",
+    "content_summary": "N324f143dbc083c31fae5 is a subregion of N813f098a1c1b15ccbe6e. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:50:55.352744+00:00",
+    "updated_at": "2026-11-22T17:52:01.947398+00:00",
+    "file_path": "D375355d9484fbf6d0145.txt",
+    "track_id": "insert_20261122_232055_633d438f",
+    "content_hash": "4ec941df5b09deb72dfbc33a36a95257",
+    "metadata": {
+      "parse_start_time": 1795369855,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369855,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369917,
+      "process_end_time": 1795369921,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D375355d9484fbf6d0145-chunk-000"
+    ]
+  },
+  "D2b63892f95f58fe7c8b5": {
+    "status": "processed",
+    "content_summary": "N7ec7642684931121b4cf precedes Nd9a8cd333510d81469e3. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T17:50:55.352744+00:00",
+    "updated_at": "2026-11-22T17:50:59.438722+00:00",
+    "file_path": "D2b63892f95f58fe7c8b5.txt",
+    "track_id": "insert_20261122_232055_633d438f",
+    "content_hash": "41ed98e65dbb6eb3de9bc362f4dc27e8",
+    "metadata": {
+      "parse_start_time": 1795369855,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369855,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369855,
+      "process_end_time": 1795369859,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D2b63892f95f58fe7c8b5-chunk-000"
+    ]
+  },
+  "D307f61e2bb61c65dbffa": {
+    "status": "processed",
+    "content_summary": "Nd66233e3482844959e22 precedes N9172d66180b0534b3189. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T17:50:55.352744+00:00",
+    "updated_at": "2026-11-22T17:51:02.283282+00:00",
+    "file_path": "D307f61e2bb61c65dbffa.txt",
+    "track_id": "insert_20261122_232055_633d438f",
+    "content_hash": "f3db152031f6011e2242cd83ec0c7cae",
+    "metadata": {
+      "parse_start_time": 1795369855,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369855,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369859,
+      "process_end_time": 1795369862,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D307f61e2bb61c65dbffa-chunk-000"
+    ]
+  },
+  "D31d7efaecc9dac0459f5": {
+    "status": "processed",
+    "content_summary": "N90de20f96ad7dc946afb is a subregion of Nf2d2929a65de8c7aae4c. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:50:55.352744+00:00",
+    "updated_at": "2026-11-22T17:51:15.542326+00:00",
+    "file_path": "D31d7efaecc9dac0459f5.txt",
+    "track_id": "insert_20261122_232055_633d438f",
+    "content_hash": "ee9ead50d014aa64befb049ba90c97e9",
+    "metadata": {
+      "parse_start_time": 1795369855,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369855,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369862,
+      "process_end_time": 1795369875,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D31d7efaecc9dac0459f5-chunk-000"
+    ]
+  },
+  "D3987590ecfb6040326d8": {
+    "status": "processed",
+    "content_summary": "N77f50f6eccafe2ccf18c does not precede Nbc1e5d973b720d379e08. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 237,
+    "created_at": "2026-11-22T17:50:55.352744+00:00",
+    "updated_at": "2026-11-22T17:52:30.810075+00:00",
+    "file_path": "D3987590ecfb6040326d8.txt",
+    "track_id": "insert_20261122_232055_633d438f",
+    "content_hash": "65ad6625dfb1182fe28e423d53af1594",
+    "metadata": {
+      "parse_start_time": 1795369855,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369855,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369934,
+      "process_end_time": 1795369950,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D3987590ecfb6040326d8-chunk-000"
+    ]
+  },
+  "D32fee42740fc2d3298a6": {
+    "status": "processed",
+    "content_summary": "N7e347bf05f241b885e0f is a subregion of N71582801d1189684c2be. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:50:55.352744+00:00",
+    "updated_at": "2026-11-22T17:51:29.160027+00:00",
+    "file_path": "D32fee42740fc2d3298a6.txt",
+    "track_id": "insert_20261122_232055_633d438f",
+    "content_hash": "36ca6bd89bb626fd77c4781338901e8d",
+    "metadata": {
+      "parse_start_time": 1795369855,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369855,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369875,
+      "process_end_time": 1795369889,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D32fee42740fc2d3298a6-chunk-000"
+    ]
+  },
+  "D3836e288c402128f2f93": {
+    "status": "processed",
+    "content_summary": "N22028d647cf22f381221 is a subregion of Nc38812fc2d03821a4ca0. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:50:55.352744+00:00",
+    "updated_at": "2026-11-22T17:52:14.658212+00:00",
+    "file_path": "D3836e288c402128f2f93.txt",
+    "track_id": "insert_20261122_232055_633d438f",
+    "content_hash": "f8a1ff994c9e9dae6bdb28ace66eaf28",
+    "metadata": {
+      "parse_start_time": 1795369855,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369855,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369921,
+      "process_end_time": 1795369934,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D3836e288c402128f2f93-chunk-000"
+    ]
+  },
+  "D3369302a126998523134": {
+    "status": "processed",
+    "content_summary": "N65700a2d6db36d25598a is contained in N4f8b6237641fd828e3d1. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:50:55.352744+00:00",
+    "updated_at": "2026-11-22T17:51:31.885581+00:00",
+    "file_path": "D3369302a126998523134.txt",
+    "track_id": "insert_20261122_232055_633d438f",
+    "content_hash": "64b7755d21b35b82d12d2f6de47aa9fb",
+    "metadata": {
+      "parse_start_time": 1795369855,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369855,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369889,
+      "process_end_time": 1795369891,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D3369302a126998523134-chunk-000"
+    ]
+  },
+  "D4ff1724729c0dc75dac1": {
+    "status": "processed",
+    "content_summary": "N91eb61a5627b7001cc20 is a subregion of Ndf2fa34d9a303db22621. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:52:38.888469+00:00",
+    "updated_at": "2026-11-22T17:54:01.053033+00:00",
+    "file_path": "D4ff1724729c0dc75dac1.txt",
+    "track_id": "insert_20261122_232238_0504bfef",
+    "content_hash": "3aa98c2460c0e4fbe07b3f986e533b8d",
+    "metadata": {
+      "parse_start_time": 1795369958,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369958,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370022,
+      "process_end_time": 1795370041,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D4ff1724729c0dc75dac1-chunk-000"
+    ]
+  },
+  "D484ceaf31f69109851b6": {
+    "status": "processed",
+    "content_summary": "N9e542f5f0372f5925428 is not contained in Nce7afaa048239899b51b. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 240,
+    "created_at": "2026-11-22T17:52:38.888469+00:00",
+    "updated_at": "2026-11-22T17:53:32.068090+00:00",
+    "file_path": "D484ceaf31f69109851b6.txt",
+    "track_id": "insert_20261122_232238_0504bfef",
+    "content_hash": "3a0e91441267d50232b86a50b8bfb130",
+    "metadata": {
+      "parse_start_time": 1795369958,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369958,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370007,
+      "process_end_time": 1795370012,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D484ceaf31f69109851b6-chunk-000"
+    ]
+  },
+  "D51c37d21d0db8f1e9c74": {
+    "status": "processed",
+    "content_summary": "N250f79801241d60703ac is not contained in Nba3a0b991db4fb79cf0f. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 240,
+    "created_at": "2026-11-22T17:52:38.888469+00:00",
+    "updated_at": "2026-11-22T17:54:18.616131+00:00",
+    "file_path": "D51c37d21d0db8f1e9c74.txt",
+    "track_id": "insert_20261122_232238_0504bfef",
+    "content_hash": "99a9136f92058a33ff4d49959f15ebb2",
+    "metadata": {
+      "parse_start_time": 1795369958,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369958,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370041,
+      "process_end_time": 1795370058,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D51c37d21d0db8f1e9c74-chunk-000"
+    ]
+  },
+  "D42a6ad15e475e77a44ea": {
+    "status": "processed",
+    "content_summary": "N65700a2d6db36d25598a is not contained in N5df6c26f99d2dabea078. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 240,
+    "created_at": "2026-11-22T17:52:38.888469+00:00",
+    "updated_at": "2026-11-22T17:53:12.597460+00:00",
+    "file_path": "D42a6ad15e475e77a44ea.txt",
+    "track_id": "insert_20261122_232238_0504bfef",
+    "content_hash": "0db746b20e290f4f169ca4df9da2c000",
+    "metadata": {
+      "parse_start_time": 1795369958,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369958,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369980,
+      "process_end_time": 1795369992,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D42a6ad15e475e77a44ea-chunk-000"
+    ]
+  },
+  "D3bf755801edbd55b30c7": {
+    "status": "processed",
+    "content_summary": "Nf2b79bb0ae62811bda41 is a subregion of N1ccedfeba71398b7cdb9. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:52:38.888469+00:00",
+    "updated_at": "2026-11-22T17:52:45.741201+00:00",
+    "file_path": "D3bf755801edbd55b30c7.txt",
+    "track_id": "insert_20261122_232238_0504bfef",
+    "content_hash": "910f43cc84fdf3711aa2709b5578f5e8",
+    "metadata": {
+      "parse_start_time": 1795369958,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369958,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369958,
+      "process_end_time": 1795369965,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D3bf755801edbd55b30c7-chunk-000"
+    ]
+  },
+  "D47c49cfab181f97b6a71": {
+    "status": "processed",
+    "content_summary": "N250f79801241d60703ac is contained in N56eb25a25d389374758f. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:52:38.888469+00:00",
+    "updated_at": "2026-11-22T17:53:27.616195+00:00",
+    "file_path": "D47c49cfab181f97b6a71.txt",
+    "track_id": "insert_20261122_232238_0504bfef",
+    "content_hash": "97f3653c1bdd08ed65680125276c7965",
+    "metadata": {
+      "parse_start_time": 1795369958,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369958,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369992,
+      "process_end_time": 1795370007,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D47c49cfab181f97b6a71-chunk-000"
+    ]
+  },
+  "D3de38f34fc4fd8208986": {
+    "status": "processed",
+    "content_summary": "N4d25d1380a1dc3194e5f is a subregion of N6a09c8b2f74d7ae96dd7. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:52:38.888469+00:00",
+    "updated_at": "2026-11-22T17:52:56.648233+00:00",
+    "file_path": "D3de38f34fc4fd8208986.txt",
+    "track_id": "insert_20261122_232238_0504bfef",
+    "content_hash": "8e1e6c2327077ca1c6b9a29caf33bc5f",
+    "metadata": {
+      "parse_start_time": 1795369958,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369958,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369965,
+      "process_end_time": 1795369976,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D3de38f34fc4fd8208986-chunk-000"
+    ]
+  },
+  "D5379b40bbb65d2149d75": {
+    "status": "processed",
+    "content_summary": "N76575f0099b74a526d26 is not a subregion of N9005dee13ae53e890c51. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 242,
+    "created_at": "2026-11-22T17:52:38.888469+00:00",
+    "updated_at": "2026-11-22T17:54:28.354372+00:00",
+    "file_path": "D5379b40bbb65d2149d75.txt",
+    "track_id": "insert_20261122_232238_0504bfef",
+    "content_hash": "275667b2dc7ce318dc3ebf4dd48da1ff",
+    "metadata": {
+      "parse_start_time": 1795369958,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369958,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370058,
+      "process_end_time": 1795370068,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D5379b40bbb65d2149d75-chunk-000"
+    ]
+  },
+  "D4028633f7f07194a89fc": {
+    "status": "processed",
+    "content_summary": "Ncbbbb26b53e20af47e6d is contained in N608c6ed4328ab6d8bf66. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:52:38.888469+00:00",
+    "updated_at": "2026-11-22T17:53:00.525514+00:00",
+    "file_path": "D4028633f7f07194a89fc.txt",
+    "track_id": "insert_20261122_232238_0504bfef",
+    "content_hash": "f6ed3951c4ac58f538f4eeb4db47474a",
+    "metadata": {
+      "parse_start_time": 1795369958,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369958,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795369976,
+      "process_end_time": 1795369980,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D4028633f7f07194a89fc-chunk-000"
+    ]
+  },
+  "D4fecc98249c4af1af3ad": {
+    "status": "processed",
+    "content_summary": "Nc86b9a88c224130195ad is contained in N14289eaa346fdf8e2037. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:52:38.888469+00:00",
+    "updated_at": "2026-11-22T17:53:42.917979+00:00",
+    "file_path": "D4fecc98249c4af1af3ad.txt",
+    "track_id": "insert_20261122_232238_0504bfef",
+    "content_hash": "56923fa16115272e5bc094cd05f46b9a",
+    "metadata": {
+      "parse_start_time": 1795369958,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795369958,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370012,
+      "process_end_time": 1795370022,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D4fecc98249c4af1af3ad-chunk-000"
+    ]
+  },
+  "D5e36db57ddaf9a79ea52": {
+    "status": "processed",
+    "content_summary": "N93f78a4e6d0265362062 is contained in Nd87b5f5caec8e6812340. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:54:37.037647+00:00",
+    "updated_at": "2026-11-22T17:55:28.607387+00:00",
+    "file_path": "D5e36db57ddaf9a79ea52.txt",
+    "track_id": "insert_20261122_232437_1c303400",
+    "content_hash": "de2e665bb26d450fa0f9b0877af9593a",
+    "metadata": {
+      "parse_start_time": 1795370077,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370077,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370116,
+      "process_end_time": 1795370128,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D5e36db57ddaf9a79ea52-chunk-000"
+    ]
+  },
+  "D608a30d0fb87af0d3f49": {
+    "status": "processed",
+    "content_summary": "Nac580aee5d40acb7977c precedes N893b47622caf56edcbc1. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T17:54:37.037647+00:00",
+    "updated_at": "2026-11-22T17:56:10.019528+00:00",
+    "file_path": "D608a30d0fb87af0d3f49.txt",
+    "track_id": "insert_20261122_232437_1c303400",
+    "content_hash": "4942e70241c80619db8eb37b3415f19e",
+    "metadata": {
+      "parse_start_time": 1795370077,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370077,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370158,
+      "process_end_time": 1795370170,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D608a30d0fb87af0d3f49-chunk-000"
+    ]
+  },
+  "D57c55226860aadafa0aa": {
+    "status": "processed",
+    "content_summary": "N893b47622caf56edcbc1 precedes Ne3e274fe0cf169e80492. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T17:54:37.037647+00:00",
+    "updated_at": "2026-11-22T17:54:58.599906+00:00",
+    "file_path": "D57c55226860aadafa0aa.txt",
+    "track_id": "insert_20261122_232437_1c303400",
+    "content_hash": "17721e0b40d4e63600dc442c1c2c0953",
+    "metadata": {
+      "parse_start_time": 1795370077,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370077,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370086,
+      "process_end_time": 1795370098,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D57c55226860aadafa0aa-chunk-000"
+    ]
+  },
+  "D5ef6a4f1888edcc4ba21": {
+    "status": "processed",
+    "content_summary": "N68233fd84827a175ff68 is contained in N0c8b08d1d71a0e68da23. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:54:37.037647+00:00",
+    "updated_at": "2026-11-22T17:55:39.769846+00:00",
+    "file_path": "D5ef6a4f1888edcc4ba21.txt",
+    "track_id": "insert_20261122_232437_1c303400",
+    "content_hash": "83655e72fd40c530b0a2433ce1c01ad8",
+    "metadata": {
+      "parse_start_time": 1795370077,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370077,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370128,
+      "process_end_time": 1795370139,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D5ef6a4f1888edcc4ba21-chunk-000"
+    ]
+  },
+  "D5bd8e791b5bd39d8bab0": {
+    "status": "processed",
+    "content_summary": "N7e347bf05f241b885e0f is a subregion of N51b1f65ecb20100c0101. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:54:37.037647+00:00",
+    "updated_at": "2026-11-22T17:55:16.510683+00:00",
+    "file_path": "D5bd8e791b5bd39d8bab0.txt",
+    "track_id": "insert_20261122_232437_1c303400",
+    "content_hash": "c6d1e2c3e0e2d46ace55c04371009133",
+    "metadata": {
+      "parse_start_time": 1795370077,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370077,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370109,
+      "process_end_time": 1795370116,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D5bd8e791b5bd39d8bab0-chunk-000"
+    ]
+  },
+  "D5fdfb5f7ccc83743e7bc": {
+    "status": "processed",
+    "content_summary": "N6a3495420695c5af6c10 is not contained in N88fadab90a854a2b8210. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 240,
+    "created_at": "2026-11-22T17:54:37.037647+00:00",
+    "updated_at": "2026-11-22T17:55:46.652867+00:00",
+    "file_path": "D5fdfb5f7ccc83743e7bc.txt",
+    "track_id": "insert_20261122_232437_1c303400",
+    "content_hash": "b93dcc0b3660384f6f1bd42256dbd90d",
+    "metadata": {
+      "parse_start_time": 1795370077,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370077,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370139,
+      "process_end_time": 1795370146,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D5fdfb5f7ccc83743e7bc-chunk-000"
+    ]
+  },
+  "D567f46f31d8d3db00fc1": {
+    "status": "processed",
+    "content_summary": "N022fd25e2d10ef843baf is contained in Nf6af6bea55f905f52c6f. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:54:37.037647+00:00",
+    "updated_at": "2026-11-22T17:54:46.424734+00:00",
+    "file_path": "D567f46f31d8d3db00fc1.txt",
+    "track_id": "insert_20261122_232437_1c303400",
+    "content_hash": "c994e7b84801c0a0a99dfc63da1213bd",
+    "metadata": {
+      "parse_start_time": 1795370077,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370077,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370081,
+      "process_end_time": 1795370086,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D567f46f31d8d3db00fc1-chunk-000"
+    ]
+  },
+  "D53dcc127c5efac8b5871": {
+    "status": "processed",
+    "content_summary": "N5527bdf69bd05b287e26 is a subregion of Nb2c5d62a052f8aef12e6. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:54:37.037647+00:00",
+    "updated_at": "2026-11-22T17:54:40.998618+00:00",
+    "file_path": "D53dcc127c5efac8b5871.txt",
+    "track_id": "insert_20261122_232437_1c303400",
+    "content_hash": "21038355af8f902bd3e9802ed2f02bee",
+    "metadata": {
+      "parse_start_time": 1795370077,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370077,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370077,
+      "process_end_time": 1795370080,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D53dcc127c5efac8b5871-chunk-000"
+    ]
+  },
+  "D606ed73f3866f2e4f0d1": {
+    "status": "processed",
+    "content_summary": "N9932b69591573a3c46d1 is not a subregion of Nf2d2929a65de8c7aae4c. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 242,
+    "created_at": "2026-11-22T17:54:37.037647+00:00",
+    "updated_at": "2026-11-22T17:55:58.657138+00:00",
+    "file_path": "D606ed73f3866f2e4f0d1.txt",
+    "track_id": "insert_20261122_232437_1c303400",
+    "content_hash": "955e3cb2e38ec7db2a7a6f538a126b8b",
+    "metadata": {
+      "parse_start_time": 1795370077,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370077,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370146,
+      "process_end_time": 1795370158,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D606ed73f3866f2e4f0d1-chunk-000"
+    ]
+  },
+  "D580955e60cfcced500f1": {
+    "status": "processed",
+    "content_summary": "N50a946b25b186c5bc4a1 precedes N3348662b17667059bb08. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T17:54:37.037647+00:00",
+    "updated_at": "2026-11-22T17:55:09.871354+00:00",
+    "file_path": "D580955e60cfcced500f1.txt",
+    "track_id": "insert_20261122_232437_1c303400",
+    "content_hash": "8c5212a281f13336a36c7277a00f0520",
+    "metadata": {
+      "parse_start_time": 1795370077,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370077,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370098,
+      "process_end_time": 1795370109,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D580955e60cfcced500f1-chunk-000"
+    ]
+  },
+  "D70b465c9b341f3399d62": {
+    "status": "processed",
+    "content_summary": "N89d0dbd404ec6e5dc559 is contained in N8f5bae419445ccead139. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:56:20.512522+00:00",
+    "updated_at": "2026-11-22T17:57:53.680015+00:00",
+    "file_path": "D70b465c9b341f3399d62.txt",
+    "track_id": "insert_20261122_232620_ba049b15",
+    "content_hash": "cd3e31317d8a0716a827c8780aad2403",
+    "metadata": {
+      "parse_start_time": 1795370180,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370180,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370262,
+      "process_end_time": 1795370273,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D70b465c9b341f3399d62-chunk-000"
+    ]
+  },
+  "D64e6b2be5897da8958a4": {
+    "status": "processed",
+    "content_summary": "N7ec7642684931121b4cf precedes Nb1ba64697e47691ad304. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T17:56:20.512522+00:00",
+    "updated_at": "2026-11-22T17:56:24.678549+00:00",
+    "file_path": "D64e6b2be5897da8958a4.txt",
+    "track_id": "insert_20261122_232620_ba049b15",
+    "content_hash": "b01ff1b3f81b82f235bd1e7e447365a8",
+    "metadata": {
+      "parse_start_time": 1795370180,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370180,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370180,
+      "process_end_time": 1795370184,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D64e6b2be5897da8958a4-chunk-000"
+    ]
+  },
+  "D6d1b7dca231782eb5c7f": {
+    "status": "processed",
+    "content_summary": "N5fce270295be035aa745 is contained in N5df6c26f99d2dabea078. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:56:20.512522+00:00",
+    "updated_at": "2026-11-22T17:57:42.554150+00:00",
+    "file_path": "D6d1b7dca231782eb5c7f.txt",
+    "track_id": "insert_20261122_232620_ba049b15",
+    "content_hash": "d78461f6e0b19b3f6747c49579e7098c",
+    "metadata": {
+      "parse_start_time": 1795370180,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370180,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370248,
+      "process_end_time": 1795370262,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D6d1b7dca231782eb5c7f-chunk-000"
+    ]
+  },
+  "D6af3230e4a34d9d96ade": {
+    "status": "processed",
+    "content_summary": "N50a946b25b186c5bc4a1 precedes N75c4a51de4e9bc2ba616. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T17:56:20.512522+00:00",
+    "updated_at": "2026-11-22T17:57:10.165826+00:00",
+    "file_path": "D6af3230e4a34d9d96ade.txt",
+    "track_id": "insert_20261122_232620_ba049b15",
+    "content_hash": "51c409edc5a9766d2a7be1e25c5c9ef3",
+    "metadata": {
+      "parse_start_time": 1795370180,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370180,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370219,
+      "process_end_time": 1795370230,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D6af3230e4a34d9d96ade-chunk-000"
+    ]
+  },
+  "D69ab7fa586361d0bba4c": {
+    "status": "processed",
+    "content_summary": "N9f8e15093ef70a5dad32 is a subregion of Ne355e96ee6408c2dd382. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:56:20.512522+00:00",
+    "updated_at": "2026-11-22T17:56:52.586006+00:00",
+    "file_path": "D69ab7fa586361d0bba4c.txt",
+    "track_id": "insert_20261122_232620_ba049b15",
+    "content_hash": "1ba2efe0185a8297fe2d7abd5961e9bc",
+    "metadata": {
+      "parse_start_time": 1795370180,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370180,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370188,
+      "process_end_time": 1795370212,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D69ab7fa586361d0bba4c-chunk-000"
+    ]
+  },
+  "D6807e269f2e431450192": {
+    "status": "processed",
+    "content_summary": "Nbee61c7b321945a2c257 precedes Nac580aee5d40acb7977c. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T17:56:20.512522+00:00",
+    "updated_at": "2026-11-22T17:56:28.621502+00:00",
+    "file_path": "D6807e269f2e431450192.txt",
+    "track_id": "insert_20261122_232620_ba049b15",
+    "content_hash": "24482c17b3212dba04f0ee302a8e1ea2",
+    "metadata": {
+      "parse_start_time": 1795370180,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370180,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370184,
+      "process_end_time": 1795370188,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D6807e269f2e431450192-chunk-000"
+    ]
+  },
+  "D6cace2e54ebc61628653": {
+    "status": "processed",
+    "content_summary": "N022fd25e2d10ef843baf is contained in N4cd9009c6402d4c37d26. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:56:20.512522+00:00",
+    "updated_at": "2026-11-22T17:57:28.458650+00:00",
+    "file_path": "D6cace2e54ebc61628653.txt",
+    "track_id": "insert_20261122_232620_ba049b15",
+    "content_hash": "227257ae9a636d38913b339ae96742f8",
+    "metadata": {
+      "parse_start_time": 1795370180,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370180,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370243,
+      "process_end_time": 1795370248,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D6cace2e54ebc61628653-chunk-000"
+    ]
+  },
+  "D76413fefe6657c0277f5": {
+    "status": "processed",
+    "content_summary": "N4142a55c2d046b158499 is a subregion of Ne66dd9afcc8a121e916d. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:56:20.512522+00:00",
+    "updated_at": "2026-11-22T17:57:59.864244+00:00",
+    "file_path": "D76413fefe6657c0277f5.txt",
+    "track_id": "insert_20261122_232620_ba049b15",
+    "content_hash": "8c2af41004be2b5c94000f6b1a36e006",
+    "metadata": {
+      "parse_start_time": 1795370180,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370180,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370273,
+      "process_end_time": 1795370279,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D76413fefe6657c0277f5-chunk-000"
+    ]
+  },
+  "D6ae5922c2a4aebab2026": {
+    "status": "processed",
+    "content_summary": "Nde4605c89d3cdd2fc4ed is a subregion of N0d9c5caa04e6347c154b. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:56:20.512522+00:00",
+    "updated_at": "2026-11-22T17:56:59.197092+00:00",
+    "file_path": "D6ae5922c2a4aebab2026.txt",
+    "track_id": "insert_20261122_232620_ba049b15",
+    "content_hash": "7eed59f7898cfb1193a23e6fe6704568",
+    "metadata": {
+      "parse_start_time": 1795370180,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370180,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370212,
+      "process_end_time": 1795370219,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D6ae5922c2a4aebab2026-chunk-000"
+    ]
+  },
+  "D6bb1b6280699474cd4da": {
+    "status": "processed",
+    "content_summary": "N9f8e15093ef70a5dad32 is a subregion of N85b67e18c541fe99adfa. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:56:20.512522+00:00",
+    "updated_at": "2026-11-22T17:57:23.507156+00:00",
+    "file_path": "D6bb1b6280699474cd4da.txt",
+    "track_id": "insert_20261122_232620_ba049b15",
+    "content_hash": "7c37441123c8a64fc9f53c9596a48ce3",
+    "metadata": {
+      "parse_start_time": 1795370180,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370180,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370230,
+      "process_end_time": 1795370243,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D6bb1b6280699474cd4da-chunk-000"
+    ]
+  },
+  "D813a5727276cc4bd97d1": {
+    "status": "processed",
+    "content_summary": "N394641f8aa4c154a2289 is a subregion of N5feecaf16ad1883937a8. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:58:11.632204+00:00",
+    "updated_at": "2026-11-22T17:58:45.938004+00:00",
+    "file_path": "D813a5727276cc4bd97d1.txt",
+    "track_id": "insert_20261122_232811_a2b3dd2a",
+    "content_hash": "ce555279b1a0f9abc91bf16f9ef407bd",
+    "metadata": {
+      "parse_start_time": 1795370291,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370291,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370308,
+      "process_end_time": 1795370325,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D813a5727276cc4bd97d1-chunk-000"
+    ]
+  },
+  "D871bca2b3ebe8857e3c7": {
+    "status": "processed",
+    "content_summary": "Nf8b1c7505d9b986a8b38 precedes N3a17ed1d7b8c474915fd. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T17:58:11.632204+00:00",
+    "updated_at": "2026-11-22T17:58:58.675093+00:00",
+    "file_path": "D871bca2b3ebe8857e3c7.txt",
+    "track_id": "insert_20261122_232811_a2b3dd2a",
+    "content_hash": "9abab1bf524bd38cd8c3aa282b026932",
+    "metadata": {
+      "parse_start_time": 1795370291,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370291,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370333,
+      "process_end_time": 1795370338,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D871bca2b3ebe8857e3c7-chunk-000"
+    ]
+  },
+  "D79e87d2f4d1f958bca1f": {
+    "status": "processed",
+    "content_summary": "Nc2c0024edfa5578510dc is a subregion of Nb311850e0d6f1dfede25. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:58:11.632204+00:00",
+    "updated_at": "2026-11-22T17:58:16.193241+00:00",
+    "file_path": "D79e87d2f4d1f958bca1f.txt",
+    "track_id": "insert_20261122_232811_a2b3dd2a",
+    "content_hash": "a9685f5c474a92c251d1a80011a2e1d0",
+    "metadata": {
+      "parse_start_time": 1795370291,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370291,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370291,
+      "process_end_time": 1795370296,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D79e87d2f4d1f958bca1f-chunk-000"
+    ]
+  },
+  "D8e1819f9a41f64977ff5": {
+    "status": "processed",
+    "content_summary": "Nd3a7440e5b8f66ca8744 is not contained in N6401ff9770356cea0bdf. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 240,
+    "created_at": "2026-11-22T17:58:11.632204+00:00",
+    "updated_at": "2026-11-22T17:59:48.140467+00:00",
+    "file_path": "D8e1819f9a41f64977ff5.txt",
+    "track_id": "insert_20261122_232811_a2b3dd2a",
+    "content_hash": "9509d566adedab3090674d97be63a5b3",
+    "metadata": {
+      "parse_start_time": 1795370291,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370291,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370367,
+      "process_end_time": 1795370388,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D8e1819f9a41f64977ff5-chunk-000"
+    ]
+  },
+  "D8c8029e8c48a14776585": {
+    "status": "processed",
+    "content_summary": "N78393c88903f75efa53e is contained in N9c09fa856f253442f548. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:58:11.632204+00:00",
+    "updated_at": "2026-11-22T17:59:27.722250+00:00",
+    "file_path": "D8c8029e8c48a14776585.txt",
+    "track_id": "insert_20261122_232811_a2b3dd2a",
+    "content_hash": "e7b41372657215e8ef6ccc45a2cdb74d",
+    "metadata": {
+      "parse_start_time": 1795370291,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370291,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370355,
+      "process_end_time": 1795370367,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D8c8029e8c48a14776585-chunk-000"
+    ]
+  },
+  "D84639360e642b7f63859": {
+    "status": "processed",
+    "content_summary": "N6c8a83ea31d62164b287 is a subregion of N4d25d1380a1dc3194e5f. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:58:11.632204+00:00",
+    "updated_at": "2026-11-22T17:58:53.759867+00:00",
+    "file_path": "D84639360e642b7f63859.txt",
+    "track_id": "insert_20261122_232811_a2b3dd2a",
+    "content_hash": "1a331470bc55f52ac150e2edbc9967b8",
+    "metadata": {
+      "parse_start_time": 1795370291,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370291,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370325,
+      "process_end_time": 1795370333,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D84639360e642b7f63859-chunk-000"
+    ]
+  },
+  "D87e6c533b79da8158b89": {
+    "status": "processed",
+    "content_summary": "N6f3308560cee97d3b9e5 is contained in Na45fe2dc5514ade260d4. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:58:11.632204+00:00",
+    "updated_at": "2026-11-22T17:59:15.334976+00:00",
+    "file_path": "D87e6c533b79da8158b89.txt",
+    "track_id": "insert_20261122_232811_a2b3dd2a",
+    "content_hash": "32b65a4245e087ae9e5f88c3d83f43c4",
+    "metadata": {
+      "parse_start_time": 1795370291,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370291,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370338,
+      "process_end_time": 1795370355,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D87e6c533b79da8158b89-chunk-000"
+    ]
+  },
+  "D92b87fb4dd790a9a0f2f": {
+    "status": "processed",
+    "content_summary": "Ncbbbb26b53e20af47e6d is contained in N53ae6479da267416f91d. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:58:11.632204+00:00",
+    "updated_at": "2026-11-22T17:59:54.063858+00:00",
+    "file_path": "D92b87fb4dd790a9a0f2f.txt",
+    "track_id": "insert_20261122_232811_a2b3dd2a",
+    "content_hash": "5356a185d964faed9d7d825ba7c0f2b3",
+    "metadata": {
+      "parse_start_time": 1795370291,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370291,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370388,
+      "process_end_time": 1795370394,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D92b87fb4dd790a9a0f2f-chunk-000"
+    ]
+  },
+  "D810fe8668f225c16c82c": {
+    "status": "processed",
+    "content_summary": "N4f8b6237641fd828e3d1 is contained in N5fce270295be035aa745. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T17:58:11.632204+00:00",
+    "updated_at": "2026-11-22T17:58:28.296524+00:00",
+    "file_path": "D810fe8668f225c16c82c.txt",
+    "track_id": "insert_20261122_232811_a2b3dd2a",
+    "content_hash": "8745eecbd595811af147fbfe5b55efe2",
+    "metadata": {
+      "parse_start_time": 1795370291,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370291,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370303,
+      "process_end_time": 1795370308,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D810fe8668f225c16c82c-chunk-000"
+    ]
+  },
+  "D7d1d491e6a497690f61d": {
+    "status": "processed",
+    "content_summary": "Ne7800333ede839e48381 is a subregion of Naec278f805d922d2146d. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T17:58:11.632204+00:00",
+    "updated_at": "2026-11-22T17:58:23.615935+00:00",
+    "file_path": "D7d1d491e6a497690f61d.txt",
+    "track_id": "insert_20261122_232811_a2b3dd2a",
+    "content_hash": "18fa56a0fbf8100f29fd19f1ce167301",
+    "metadata": {
+      "parse_start_time": 1795370291,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370291,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370296,
+      "process_end_time": 1795370303,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D7d1d491e6a497690f61d-chunk-000"
+    ]
+  },
+  "Db2bea032f721a1121d41": {
+    "status": "processed",
+    "content_summary": "N7ce66bd22c354bc1a9e5 is a subregion of Nfe39df2af3064056734d. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T18:00:05.359927+00:00",
+    "updated_at": "2026-11-22T18:01:36.716625+00:00",
+    "file_path": "Db2bea032f721a1121d41.txt",
+    "track_id": "insert_20261122_233005_0d7dca1e",
+    "content_hash": "7c7863556ecf7ed7e9efde28488d0fd1",
+    "metadata": {
+      "parse_start_time": 1795370405,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370405,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370482,
+      "process_end_time": 1795370496,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Db2bea032f721a1121d41-chunk-000"
+    ]
+  },
+  "Da175516fb4d2dd15b1c8": {
+    "status": "processed",
+    "content_summary": "Nc2c0024edfa5578510dc is not a subregion of N73aab90ad43a1c44d8b8. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 242,
+    "created_at": "2026-11-22T18:00:05.359927+00:00",
+    "updated_at": "2026-11-22T18:00:52.481050+00:00",
+    "file_path": "Da175516fb4d2dd15b1c8.txt",
+    "track_id": "insert_20261122_233005_0d7dca1e",
+    "content_hash": "82cb71661121036fc023c7ba85a95de1",
+    "metadata": {
+      "parse_start_time": 1795370405,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370405,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370438,
+      "process_end_time": 1795370452,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Da175516fb4d2dd15b1c8-chunk-000"
+    ]
+  },
+  "Db384c386a21952382238": {
+    "status": "processed",
+    "content_summary": "N56eb25a25d389374758f is contained in Ne6ddd40967a46112c8b9. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:00:05.359927+00:00",
+    "updated_at": "2026-11-22T18:01:43.024401+00:00",
+    "file_path": "Db384c386a21952382238.txt",
+    "track_id": "insert_20261122_233005_0d7dca1e",
+    "content_hash": "29d17c8ca126c6ddae394dd7623cd7cc",
+    "metadata": {
+      "parse_start_time": 1795370405,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370405,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370496,
+      "process_end_time": 1795370503,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Db384c386a21952382238-chunk-000"
+    ]
+  },
+  "Dafb6461438342fc8247c": {
+    "status": "processed",
+    "content_summary": "Nd47b24f40ae4a0788925 is a subregion of N9005dee13ae53e890c51. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T18:00:05.359927+00:00",
+    "updated_at": "2026-11-22T18:01:21.998609+00:00",
+    "file_path": "Dafb6461438342fc8247c.txt",
+    "track_id": "insert_20261122_233005_0d7dca1e",
+    "content_hash": "feba22080ce6a8cd5cfe4660004340bb",
+    "metadata": {
+      "parse_start_time": 1795370405,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370405,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370474,
+      "process_end_time": 1795370481,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dafb6461438342fc8247c-chunk-000"
+    ]
+  },
+  "D999f35a71e98b3acc633": {
+    "status": "processed",
+    "content_summary": "N78393c88903f75efa53e is contained in N276de54cc68d39328341. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:00:05.359927+00:00",
+    "updated_at": "2026-11-22T18:00:10.202932+00:00",
+    "file_path": "D999f35a71e98b3acc633.txt",
+    "track_id": "insert_20261122_233005_0d7dca1e",
+    "content_hash": "82e40fe95603de47cd7adc1a552592c7",
+    "metadata": {
+      "parse_start_time": 1795370405,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370405,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370405,
+      "process_end_time": 1795370410,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D999f35a71e98b3acc633-chunk-000"
+    ]
+  },
+  "Dacb8c3df2f00f4b6989f": {
+    "status": "processed",
+    "content_summary": "N9e542f5f0372f5925428 is contained in Neba37e9f6d5110819858. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:00:05.359927+00:00",
+    "updated_at": "2026-11-22T18:01:14.711027+00:00",
+    "file_path": "Dacb8c3df2f00f4b6989f.txt",
+    "track_id": "insert_20261122_233005_0d7dca1e",
+    "content_hash": "4bb7b2c1eb2fca3de506b7a60530f440",
+    "metadata": {
+      "parse_start_time": 1795370405,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370405,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370466,
+      "process_end_time": 1795370474,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dacb8c3df2f00f4b6989f-chunk-000"
+    ]
+  },
+  "D9a3ed82160e45022573d": {
+    "status": "processed",
+    "content_summary": "N05b206f4e6dc4af2486b is a subregion of N9596269e30f654ebba35. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T18:00:05.359927+00:00",
+    "updated_at": "2026-11-22T18:00:16.918270+00:00",
+    "file_path": "D9a3ed82160e45022573d.txt",
+    "track_id": "insert_20261122_233005_0d7dca1e",
+    "content_hash": "ce533e2e204d4f94bf739cef3ab39419",
+    "metadata": {
+      "parse_start_time": 1795370405,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370405,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370410,
+      "process_end_time": 1795370416,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D9a3ed82160e45022573d-chunk-000"
+    ]
+  },
+  "Da7d93ca64ddb2385286a": {
+    "status": "processed",
+    "content_summary": "N5527bdf69bd05b287e26 is a subregion of N35e91e1cecb1ca1d2d0c. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T18:00:05.359927+00:00",
+    "updated_at": "2026-11-22T18:01:06.698073+00:00",
+    "file_path": "Da7d93ca64ddb2385286a.txt",
+    "track_id": "insert_20261122_233005_0d7dca1e",
+    "content_hash": "30ffdec941ce842f967907344eb77ef8",
+    "metadata": {
+      "parse_start_time": 1795370405,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370405,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370452,
+      "process_end_time": 1795370466,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Da7d93ca64ddb2385286a-chunk-000"
+    ]
+  },
+  "D9af1d40ddbb5b93c6ddf": {
+    "status": "processed",
+    "content_summary": "N5c25ba15012717d75075 is contained in N8b16c886321739295ac2. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:00:05.359927+00:00",
+    "updated_at": "2026-11-22T18:00:23.779109+00:00",
+    "file_path": "D9af1d40ddbb5b93c6ddf.txt",
+    "track_id": "insert_20261122_233005_0d7dca1e",
+    "content_hash": "e22b2652ab274985a838027006892331",
+    "metadata": {
+      "parse_start_time": 1795370405,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370405,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370416,
+      "process_end_time": 1795370423,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D9af1d40ddbb5b93c6ddf-chunk-000"
+    ]
+  },
+  "D9f759ab27061c634112b": {
+    "status": "processed",
+    "content_summary": "N9932b69591573a3c46d1 is a subregion of N90de20f96ad7dc946afb. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T18:00:05.359927+00:00",
+    "updated_at": "2026-11-22T18:00:38.423523+00:00",
+    "file_path": "D9f759ab27061c634112b.txt",
+    "track_id": "insert_20261122_233005_0d7dca1e",
+    "content_hash": "51801a27bc49f9512733e154f2dfba60",
+    "metadata": {
+      "parse_start_time": 1795370405,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370405,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370423,
+      "process_end_time": 1795370438,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "D9f759ab27061c634112b-chunk-000"
+    ]
+  },
+  "Dbb866ffea43863d04da8": {
+    "status": "processed",
+    "content_summary": "N27a21b96b1491171f92c is contained in Ncc69027d69c243c0f5a9. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:01:53.303915+00:00",
+    "updated_at": "2026-11-22T18:02:44.378797+00:00",
+    "file_path": "Dbb866ffea43863d04da8.txt",
+    "track_id": "insert_20261122_233153_e07ea22d",
+    "content_hash": "dc9c028e525500f0b3158aff33e3a694",
+    "metadata": {
+      "parse_start_time": 1795370513,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370513,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370557,
+      "process_end_time": 1795370564,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dbb866ffea43863d04da8-chunk-000"
+    ]
+  },
+  "Db4656d39a9d08594c964": {
+    "status": "processed",
+    "content_summary": "N68253ce6d9b195c5dacc is contained in N27a21b96b1491171f92c. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:01:53.303915+00:00",
+    "updated_at": "2026-11-22T18:01:57.853766+00:00",
+    "file_path": "Db4656d39a9d08594c964.txt",
+    "track_id": "insert_20261122_233153_e07ea22d",
+    "content_hash": "ad86d78eae19b64049b63023de026188",
+    "metadata": {
+      "parse_start_time": 1795370513,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370513,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370513,
+      "process_end_time": 1795370517,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Db4656d39a9d08594c964-chunk-000"
+    ]
+  },
+  "Dca9d139657d87fcd8fd5": {
+    "status": "processed",
+    "content_summary": "N592bdd6359cf7d78ac5e is not a subregion of Ncd02037457c0126890b6. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 242,
+    "created_at": "2026-11-22T18:01:53.303915+00:00",
+    "updated_at": "2026-11-22T18:03:12.717972+00:00",
+    "file_path": "Dca9d139657d87fcd8fd5.txt",
+    "track_id": "insert_20261122_233153_e07ea22d",
+    "content_hash": "c9e4a9fb5f8ce903026349fcffd10207",
+    "metadata": {
+      "parse_start_time": 1795370513,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370513,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370587,
+      "process_end_time": 1795370592,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dca9d139657d87fcd8fd5-chunk-000"
+    ]
+  },
+  "Dc91305e56ad8347c54e2": {
+    "status": "processed",
+    "content_summary": "Nb7e9348d316c6a286896 precedes N0c65c4abc3b732a7934d. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T18:01:53.303915+00:00",
+    "updated_at": "2026-11-22T18:03:07.360993+00:00",
+    "file_path": "Dc91305e56ad8347c54e2.txt",
+    "track_id": "insert_20261122_233153_e07ea22d",
+    "content_hash": "57ddc4599588173413c44194dea74d5d",
+    "metadata": {
+      "parse_start_time": 1795370513,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370513,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370578,
+      "process_end_time": 1795370587,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dc91305e56ad8347c54e2-chunk-000"
+    ]
+  },
+  "Dbae378b505543854ddd0": {
+    "status": "processed",
+    "content_summary": "N923e335cbc8216e66c64 is contained in N1e8fcad3204036505b14. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:01:53.303915+00:00",
+    "updated_at": "2026-11-22T18:02:25.886200+00:00",
+    "file_path": "Dbae378b505543854ddd0.txt",
+    "track_id": "insert_20261122_233153_e07ea22d",
+    "content_hash": "eb27c9f6b2a13d20a601f9b330fd44bc",
+    "metadata": {
+      "parse_start_time": 1795370513,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370513,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370534,
+      "process_end_time": 1795370545,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dbae378b505543854ddd0-chunk-000"
+    ]
+  },
+  "Db9e4de6b351db6a50856": {
+    "status": "processed",
+    "content_summary": "N77f50f6eccafe2ccf18c precedes Nd346fd5ffa2c8ee1067b. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T18:01:53.303915+00:00",
+    "updated_at": "2026-11-22T18:02:14.111386+00:00",
+    "file_path": "Db9e4de6b351db6a50856.txt",
+    "track_id": "insert_20261122_233153_e07ea22d",
+    "content_hash": "020553a2149c5a13464cd0e325533e52",
+    "metadata": {
+      "parse_start_time": 1795370513,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370513,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370528,
+      "process_end_time": 1795370534,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Db9e4de6b351db6a50856-chunk-000"
+    ]
+  },
+  "Dcdabb513ad63e698f478": {
+    "status": "processed",
+    "content_summary": "N8f5bae419445ccead139 is contained in N88fadab90a854a2b8210. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:01:53.303915+00:00",
+    "updated_at": "2026-11-22T18:03:26.136926+00:00",
+    "file_path": "Dcdabb513ad63e698f478.txt",
+    "track_id": "insert_20261122_233153_e07ea22d",
+    "content_hash": "c1690938cda7d8ebfb5f3574e77c987a",
+    "metadata": {
+      "parse_start_time": 1795370513,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370513,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370592,
+      "process_end_time": 1795370606,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dcdabb513ad63e698f478-chunk-000"
+    ]
+  },
+  "Db8ef2d8f24e3cb70b9e7": {
+    "status": "processed",
+    "content_summary": "Nde4605c89d3cdd2fc4ed is a subregion of N04980f6d1f81f0aefb91. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T18:01:53.303915+00:00",
+    "updated_at": "2026-11-22T18:02:08.547267+00:00",
+    "file_path": "Db8ef2d8f24e3cb70b9e7.txt",
+    "track_id": "insert_20261122_233153_e07ea22d",
+    "content_hash": "0ae382f237e520b77ef80fc37f87a107",
+    "metadata": {
+      "parse_start_time": 1795370513,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370513,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370517,
+      "process_end_time": 1795370528,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Db8ef2d8f24e3cb70b9e7-chunk-000"
+    ]
+  },
+  "Dc3ec77827ceea4dcff0a": {
+    "status": "processed",
+    "content_summary": "N394641f8aa4c154a2289 is a subregion of Ne3baeb4e132f3fbdb536. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T18:01:53.303915+00:00",
+    "updated_at": "2026-11-22T18:02:58.377196+00:00",
+    "file_path": "Dc3ec77827ceea4dcff0a.txt",
+    "track_id": "insert_20261122_233153_e07ea22d",
+    "content_hash": "b022e943cb48581e5df7656dae9d1d5b",
+    "metadata": {
+      "parse_start_time": 1795370513,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370513,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370564,
+      "process_end_time": 1795370578,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dc3ec77827ceea4dcff0a-chunk-000"
+    ]
+  },
+  "Dbafebf997bd9cd9d8308": {
+    "status": "processed",
+    "content_summary": "N95fb109be72efd322e6f is not contained in Nc91a8abe309bcd9c0856. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 240,
+    "created_at": "2026-11-22T18:01:53.303915+00:00",
+    "updated_at": "2026-11-22T18:02:37.726729+00:00",
+    "file_path": "Dbafebf997bd9cd9d8308.txt",
+    "track_id": "insert_20261122_233153_e07ea22d",
+    "content_hash": "ef1f0b0f140eb2353d2734b93b9c4131",
+    "metadata": {
+      "parse_start_time": 1795370513,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370513,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370545,
+      "process_end_time": 1795370557,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dbafebf997bd9cd9d8308-chunk-000"
+    ]
+  },
+  "Dd9fb9c37159b590d129d": {
+    "status": "processed",
+    "content_summary": "N8b368e8ce401a33308d5 is contained in Na2022016b5a2dce20bf4. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:03:36.212527+00:00",
+    "updated_at": "2026-11-22T18:05:14.839149+00:00",
+    "file_path": "Dd9fb9c37159b590d129d.txt",
+    "track_id": "insert_20261122_233336_0c89b426",
+    "content_hash": "c88d8c593e1789a59ef8bbdab92add1f",
+    "metadata": {
+      "parse_start_time": 1795370616,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370616,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370696,
+      "process_end_time": 1795370714,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dd9fb9c37159b590d129d-chunk-000"
+    ]
+  },
+  "Dcf6378293bf1ac388f4e": {
+    "status": "processed",
+    "content_summary": "N4142a55c2d046b158499 is not a subregion of Ne66dd9afcc8a121e916d. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 242,
+    "created_at": "2026-11-22T18:03:36.212527+00:00",
+    "updated_at": "2026-11-22T18:03:43.122388+00:00",
+    "file_path": "Dcf6378293bf1ac388f4e.txt",
+    "track_id": "insert_20261122_233336_0c89b426",
+    "content_hash": "19f498347d6a4908225f726dc01d5f8f",
+    "metadata": {
+      "parse_start_time": 1795370616,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370616,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370620,
+      "process_end_time": 1795370623,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dcf6378293bf1ac388f4e-chunk-000"
+    ]
+  },
+  "Dd4eb22dad1731a072aee": {
+    "status": "processed",
+    "content_summary": "Naec278f805d922d2146d is a subregion of Nece838c93ffafb4a6d15. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T18:03:36.212527+00:00",
+    "updated_at": "2026-11-22T18:04:43.333211+00:00",
+    "file_path": "Dd4eb22dad1731a072aee.txt",
+    "track_id": "insert_20261122_233336_0c89b426",
+    "content_hash": "c5fbd0c9de9105234ca4375bb5df4df8",
+    "metadata": {
+      "parse_start_time": 1795370616,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370616,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370681,
+      "process_end_time": 1795370683,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dd4eb22dad1731a072aee-chunk-000"
+    ]
+  },
+  "Dd1e9c4f46e9c0f800549": {
+    "status": "processed",
+    "content_summary": "N592bdd6359cf7d78ac5e is a subregion of N05b206f4e6dc4af2486b. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T18:03:36.212527+00:00",
+    "updated_at": "2026-11-22T18:04:41.285024+00:00",
+    "file_path": "Dd1e9c4f46e9c0f800549.txt",
+    "track_id": "insert_20261122_233336_0c89b426",
+    "content_hash": "0106d28fe2d2ab039bc1909c4c11d4af",
+    "metadata": {
+      "parse_start_time": 1795370616,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370616,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370668,
+      "process_end_time": 1795370681,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dd1e9c4f46e9c0f800549-chunk-000"
+    ]
+  },
+  "Ddc7a70b23d3d5d8f9979": {
+    "status": "processed",
+    "content_summary": "N68233fd84827a175ff68 is contained in N809fff7bccb145da2c73. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:03:36.212527+00:00",
+    "updated_at": "2026-11-22T18:05:24.734775+00:00",
+    "file_path": "Ddc7a70b23d3d5d8f9979.txt",
+    "track_id": "insert_20261122_233336_0c89b426",
+    "content_hash": "4b973b5216f519ad68f8464def8bcee8",
+    "metadata": {
+      "parse_start_time": 1795370616,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370616,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370714,
+      "process_end_time": 1795370724,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Ddc7a70b23d3d5d8f9979-chunk-000"
+    ]
+  },
+  "Dd1b71a1b0a096adfd662": {
+    "status": "processed",
+    "content_summary": "Nf2b79bb0ae62811bda41 is a subregion of Nb41ba5e6f39521b6e691. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T18:03:36.212527+00:00",
+    "updated_at": "2026-11-22T18:04:28.273476+00:00",
+    "file_path": "Dd1b71a1b0a096adfd662.txt",
+    "track_id": "insert_20261122_233336_0c89b426",
+    "content_hash": "21b7f1d3a159825babec3f62c17668fd",
+    "metadata": {
+      "parse_start_time": 1795370616,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370616,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370652,
+      "process_end_time": 1795370668,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dd1b71a1b0a096adfd662-chunk-000"
+    ]
+  },
+  "Dd1555d1f4e34553d103d": {
+    "status": "processed",
+    "content_summary": "Nbee61c7b321945a2c257 does not precede Ne3e274fe0cf169e80492. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 237,
+    "created_at": "2026-11-22T18:03:36.212527+00:00",
+    "updated_at": "2026-11-22T18:04:10.339764+00:00",
+    "file_path": "Dd1555d1f4e34553d103d.txt",
+    "track_id": "insert_20261122_233336_0c89b426",
+    "content_hash": "4a5b999ced3c5a4de5a0c03196aa40df",
+    "metadata": {
+      "parse_start_time": 1795370616,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370616,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370623,
+      "process_end_time": 1795370650,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dd1555d1f4e34553d103d-chunk-000"
+    ]
+  },
+  "Dd6372989d953584ef556": {
+    "status": "processed",
+    "content_summary": "N22028d647cf22f381221 is a subregion of Nd949fe095751f5117a32. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T18:03:36.212527+00:00",
+    "updated_at": "2026-11-22T18:04:56.861115+00:00",
+    "file_path": "Dd6372989d953584ef556.txt",
+    "track_id": "insert_20261122_233336_0c89b426",
+    "content_hash": "8effd51b1894c2987539a9c47399a156",
+    "metadata": {
+      "parse_start_time": 1795370616,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370616,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370683,
+      "process_end_time": 1795370696,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dd6372989d953584ef556-chunk-000"
+    ]
+  },
+  "Dcecdd5235c39808adf00": {
+    "status": "processed",
+    "content_summary": "N76aeeb51a7c9ddb875d5 precedes N53efff33c7b277554005. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T18:03:36.212527+00:00",
+    "updated_at": "2026-11-22T18:03:40.753936+00:00",
+    "file_path": "Dcecdd5235c39808adf00.txt",
+    "track_id": "insert_20261122_233336_0c89b426",
+    "content_hash": "b470a0c83ee8185777553daac72ebbdc",
+    "metadata": {
+      "parse_start_time": 1795370616,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370616,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370616,
+      "process_end_time": 1795370620,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dcecdd5235c39808adf00-chunk-000"
+    ]
+  },
+  "Dd1960a17d8787a3b1cee": {
+    "status": "processed",
+    "content_summary": "N93f78a4e6d0265362062 is contained in N099894cda8f2f6a2b5b2. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:03:36.212527+00:00",
+    "updated_at": "2026-11-22T18:04:12.033435+00:00",
+    "file_path": "Dd1960a17d8787a3b1cee.txt",
+    "track_id": "insert_20261122_233336_0c89b426",
+    "content_hash": "32c214012e05597eccdb278bf8eb6010",
+    "metadata": {
+      "parse_start_time": 1795370616,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370616,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370650,
+      "process_end_time": 1795370652,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dd1960a17d8787a3b1cee-chunk-000"
+    ]
+  },
+  "De225409809272256bf02": {
+    "status": "processed",
+    "content_summary": "Nf96405a2392fdff9bb1e precedes N59c527434fc54854dad3. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T18:05:33.658545+00:00",
+    "updated_at": "2026-11-22T18:06:05.002569+00:00",
+    "file_path": "De225409809272256bf02.txt",
+    "track_id": "insert_20261122_233533_1366fcea",
+    "content_hash": "6d49ad9ced76e6dcf9c34a6b2a9fccb7",
+    "metadata": {
+      "parse_start_time": 1795370733,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370733,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370747,
+      "process_end_time": 1795370765,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "De225409809272256bf02-chunk-000"
+    ]
+  },
+  "Ddf4508c438a35f9493ca": {
+    "status": "processed",
+    "content_summary": "N76575f0099b74a526d26 is a subregion of Nd47b24f40ae4a0788925. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T18:05:33.658545+00:00",
+    "updated_at": "2026-11-22T18:05:47.230693+00:00",
+    "file_path": "Ddf4508c438a35f9493ca.txt",
+    "track_id": "insert_20261122_233533_1366fcea",
+    "content_hash": "e863a9bfafae0a51aa2bfe164f1dcea4",
+    "metadata": {
+      "parse_start_time": 1795370733,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370733,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370741,
+      "process_end_time": 1795370747,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Ddf4508c438a35f9493ca-chunk-000"
+    ]
+  },
+  "De6504e4466c5e590a4d1": {
+    "status": "processed",
+    "content_summary": "N2d03a1f82ddd8c26d2d9 precedes Nca4b0e1cb75f547231b1. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T18:05:33.658545+00:00",
+    "updated_at": "2026-11-22T18:07:13.433592+00:00",
+    "file_path": "De6504e4466c5e590a4d1.txt",
+    "track_id": "insert_20261122_233533_1366fcea",
+    "content_hash": "c021a11b4abca362ec84e7ef24b8773c",
+    "metadata": {
+      "parse_start_time": 1795370733,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370733,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370831,
+      "process_end_time": 1795370833,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "De6504e4466c5e590a4d1-chunk-000"
+    ]
+  },
+  "De3f35bb5cd2daf23678e": {
+    "status": "processed",
+    "content_summary": "Ncbb3d58bd325d505e920 precedes N961ec60d0a387f13599d. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T18:05:33.658545+00:00",
+    "updated_at": "2026-11-22T18:06:39.389605+00:00",
+    "file_path": "De3f35bb5cd2daf23678e.txt",
+    "track_id": "insert_20261122_233533_1366fcea",
+    "content_hash": "95d4f5f96cd8e0d7e50be4ad0a8880ce",
+    "metadata": {
+      "parse_start_time": 1795370733,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370733,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370786,
+      "process_end_time": 1795370799,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "De3f35bb5cd2daf23678e-chunk-000"
+    ]
+  },
+  "De4e2983cbee815e6065b": {
+    "status": "processed",
+    "content_summary": "N6f3308560cee97d3b9e5 is contained in N25bda654e37ec2f0a046. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:05:33.658545+00:00",
+    "updated_at": "2026-11-22T18:06:44.809796+00:00",
+    "file_path": "De4e2983cbee815e6065b.txt",
+    "track_id": "insert_20261122_233533_1366fcea",
+    "content_hash": "eb1d43bfd31e28ed5e7fbfe591ac9af9",
+    "metadata": {
+      "parse_start_time": 1795370733,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370733,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370799,
+      "process_end_time": 1795370804,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "De4e2983cbee815e6065b-chunk-000"
+    ]
+  },
+  "De5d52bc41134b6f51dcf": {
+    "status": "processed",
+    "content_summary": "Na1d0dcf562bd43f98e5f precedes N9917c899684329d6eb7a. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T18:05:33.658545+00:00",
+    "updated_at": "2026-11-22T18:07:11.368098+00:00",
+    "file_path": "De5d52bc41134b6f51dcf.txt",
+    "track_id": "insert_20261122_233533_1366fcea",
+    "content_hash": "435534c03bc9d1fb9829c908991305ba",
+    "metadata": {
+      "parse_start_time": 1795370733,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370733,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370804,
+      "process_end_time": 1795370831,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "De5d52bc41134b6f51dcf-chunk-000"
+    ]
+  },
+  "De251762bf8dc191c5046": {
+    "status": "processed",
+    "content_summary": "Nb311850e0d6f1dfede25 is a subregion of N73aab90ad43a1c44d8b8. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T18:05:33.658545+00:00",
+    "updated_at": "2026-11-22T18:06:26.401868+00:00",
+    "file_path": "De251762bf8dc191c5046.txt",
+    "track_id": "insert_20261122_233533_1366fcea",
+    "content_hash": "d0088f2a86548e0e0d6378853313d956",
+    "metadata": {
+      "parse_start_time": 1795370733,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370733,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370772,
+      "process_end_time": 1795370786,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "De251762bf8dc191c5046-chunk-000"
+    ]
+  },
+  "De791e97b2b1adf07df4f": {
+    "status": "processed",
+    "content_summary": "Ncbb3d58bd325d505e920 precedes Nefd4733e55e655e415d1. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T18:05:33.658545+00:00",
+    "updated_at": "2026-11-22T18:07:29.942696+00:00",
+    "file_path": "De791e97b2b1adf07df4f.txt",
+    "track_id": "insert_20261122_233533_1366fcea",
+    "content_hash": "ecd79f2bfa8f97890b8e430f71e9cbeb",
+    "metadata": {
+      "parse_start_time": 1795370733,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370733,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370833,
+      "process_end_time": 1795370849,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "De791e97b2b1adf07df4f-chunk-000"
+    ]
+  },
+  "Ddd90b4110e833cad50f5": {
+    "status": "processed",
+    "content_summary": "Nd66233e3482844959e22 does not precede N9172d66180b0534b3189. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 237,
+    "created_at": "2026-11-22T18:05:33.658545+00:00",
+    "updated_at": "2026-11-22T18:05:41.232720+00:00",
+    "file_path": "Ddd90b4110e833cad50f5.txt",
+    "track_id": "insert_20261122_233533_1366fcea",
+    "content_hash": "106fb90290f9ab0cfd1f353ff537c46a",
+    "metadata": {
+      "parse_start_time": 1795370733,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370733,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370733,
+      "process_end_time": 1795370741,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Ddd90b4110e833cad50f5-chunk-000"
+    ]
+  },
+  "De23b7cd8d19e6364adcf": {
+    "status": "processed",
+    "content_summary": "Nfdd9917e2c8514e36790 is not a subregion of N54cdc918ea4a9e4429d6. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 242,
+    "created_at": "2026-11-22T18:05:33.658545+00:00",
+    "updated_at": "2026-11-22T18:06:12.331391+00:00",
+    "file_path": "De23b7cd8d19e6364adcf.txt",
+    "track_id": "insert_20261122_233533_1366fcea",
+    "content_hash": "a59f967f9644c2eb22482e415bbfd8f3",
+    "metadata": {
+      "parse_start_time": 1795370733,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370733,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370765,
+      "process_end_time": 1795370772,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "De23b7cd8d19e6364adcf-chunk-000"
+    ]
+  },
+  "De86dcf6f0a1c8071d14f": {
+    "status": "processed",
+    "content_summary": "Nb7e9348d316c6a286896 does not precede N0c65c4abc3b732a7934d. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 237,
+    "created_at": "2026-11-22T18:07:38.984235+00:00",
+    "updated_at": "2026-11-22T18:07:43.265191+00:00",
+    "file_path": "De86dcf6f0a1c8071d14f.txt",
+    "track_id": "insert_20261122_233738_a3342444",
+    "content_hash": "4dc3cde6b8e0f3d82e4f18508208f436",
+    "metadata": {
+      "parse_start_time": 1795370859,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370859,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370859,
+      "process_end_time": 1795370863,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "De86dcf6f0a1c8071d14f-chunk-000"
+    ]
+  },
+  "Df9188b96fa8391566057": {
+    "status": "processed",
+    "content_summary": "N8fe9e9640a4262cfd99d is a subregion of N6c8a83ea31d62164b287. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 238,
+    "created_at": "2026-11-22T18:07:38.984235+00:00",
+    "updated_at": "2026-11-22T18:08:46.699926+00:00",
+    "file_path": "Df9188b96fa8391566057.txt",
+    "track_id": "insert_20261122_233738_a3342444",
+    "content_hash": "68377bb15e32ae7fa655d7d597800048",
+    "metadata": {
+      "parse_start_time": 1795370859,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370859,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370924,
+      "process_end_time": 1795370926,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Df9188b96fa8391566057-chunk-000"
+    ]
+  },
+  "Deb75e238ae54da5ebf3e": {
+    "status": "processed",
+    "content_summary": "Nd346fd5ffa2c8ee1067b precedes Nbc1e5d973b720d379e08. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T18:07:38.984235+00:00",
+    "updated_at": "2026-11-22T18:08:11.469561+00:00",
+    "file_path": "Deb75e238ae54da5ebf3e.txt",
+    "track_id": "insert_20261122_233738_a3342444",
+    "content_hash": "4920b2ba6ef229b1b41e9eccc5435ebc",
+    "metadata": {
+      "parse_start_time": 1795370859,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370859,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370865,
+      "process_end_time": 1795370891,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Deb75e238ae54da5ebf3e-chunk-000"
+    ]
+  },
+  "Df08f83e6fbc691cf3e31": {
+    "status": "processed",
+    "content_summary": "Nf8b1c7505d9b986a8b38 precedes N0a1e47343b8c7af38d5a. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T18:07:38.984235+00:00",
+    "updated_at": "2026-11-22T18:08:15.113126+00:00",
+    "file_path": "Df08f83e6fbc691cf3e31.txt",
+    "track_id": "insert_20261122_233738_a3342444",
+    "content_hash": "6b1c485f8a0893e99ed4ea6b31630a72",
+    "metadata": {
+      "parse_start_time": 1795370859,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370859,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370891,
+      "process_end_time": 1795370895,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Df08f83e6fbc691cf3e31-chunk-000"
+    ]
+  },
+  "Df64f894e1735c6e17ae6": {
+    "status": "processed",
+    "content_summary": "Neba37e9f6d5110819858 is contained in Nce7afaa048239899b51b. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:07:38.984235+00:00",
+    "updated_at": "2026-11-22T18:08:44.029737+00:00",
+    "file_path": "Df64f894e1735c6e17ae6.txt",
+    "track_id": "insert_20261122_233738_a3342444",
+    "content_hash": "d3628644aaa347c21294716eae84ebb0",
+    "metadata": {
+      "parse_start_time": 1795370859,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370859,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370920,
+      "process_end_time": 1795370924,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Df64f894e1735c6e17ae6-chunk-000"
+    ]
+  },
+  "Dfdad841b91e6356bb92d": {
+    "status": "processed",
+    "content_summary": "N30a734839dd9c6a7787f precedes N0281ead2d0c61309aff9. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T18:07:38.984235+00:00",
+    "updated_at": "2026-11-22T18:09:14.247335+00:00",
+    "file_path": "Dfdad841b91e6356bb92d.txt",
+    "track_id": "insert_20261122_233738_a3342444",
+    "content_hash": "9702a7ea93a7721ef63950d35f9c649b",
+    "metadata": {
+      "parse_start_time": 1795370859,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370859,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370951,
+      "process_end_time": 1795370954,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dfdad841b91e6356bb92d-chunk-000"
+    ]
+  },
+  "Df1b1e893965d3f189eb8": {
+    "status": "processed",
+    "content_summary": "Nb3157744fbca11401254 precedes Na1d0dcf562bd43f98e5f. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 229,
+    "created_at": "2026-11-22T18:07:38.984235+00:00",
+    "updated_at": "2026-11-22T18:08:16.786533+00:00",
+    "file_path": "Df1b1e893965d3f189eb8.txt",
+    "track_id": "insert_20261122_233738_a3342444",
+    "content_hash": "b9299a8dc97cc35b7b49860436cc3006",
+    "metadata": {
+      "parse_start_time": 1795370859,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370859,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370895,
+      "process_end_time": 1795370896,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Df1b1e893965d3f189eb8-chunk-000"
+    ]
+  },
+  "Dfa8525393f12be468392": {
+    "status": "processed",
+    "content_summary": "N8b368e8ce401a33308d5 is contained in Ne141e08ab8016fa7e93a. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:07:38.984235+00:00",
+    "updated_at": "2026-11-22T18:09:11.215810+00:00",
+    "file_path": "Dfa8525393f12be468392.txt",
+    "track_id": "insert_20261122_233738_a3342444",
+    "content_hash": "f815d5c7477f4d03dc019e898b64c4dd",
+    "metadata": {
+      "parse_start_time": 1795370859,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370859,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370926,
+      "process_end_time": 1795370951,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Dfa8525393f12be468392-chunk-000"
+    ]
+  },
+  "Deaad463ce80c534b1f76": {
+    "status": "processed",
+    "content_summary": "N95fb109be72efd322e6f is contained in N9a427e3874430f8172ef. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 236,
+    "created_at": "2026-11-22T18:07:38.984235+00:00",
+    "updated_at": "2026-11-22T18:07:45.167749+00:00",
+    "file_path": "Deaad463ce80c534b1f76.txt",
+    "track_id": "insert_20261122_233738_a3342444",
+    "content_hash": "86b5568afe721db4e9cbc224fa276a26",
+    "metadata": {
+      "parse_start_time": 1795370859,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370859,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370863,
+      "process_end_time": 1795370865,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Deaad463ce80c534b1f76-chunk-000"
+    ]
+  },
+  "Df5eb887b15569304836e": {
+    "status": "processed",
+    "content_summary": "N5c25ba15012717d75075 is not contained in N8b16c886321739295ac2. This registry entry describes the stated relationship in the current fictional reference world. The entry records a source assertion without evaluating other registry entries.",
+    "content_length": 240,
+    "created_at": "2026-11-22T18:07:38.984235+00:00",
+    "updated_at": "2026-11-22T18:08:40.216223+00:00",
+    "file_path": "Df5eb887b15569304836e.txt",
+    "track_id": "insert_20261122_233738_a3342444",
+    "content_hash": "419f9bdaf7069f863d6d88954bb9e668",
+    "metadata": {
+      "parse_start_time": 1795370859,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1795370859,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1795370896,
+      "process_end_time": 1795370920,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=0"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "Df5eb887b15569304836e-chunk-000"
+    ]
+  }
+}

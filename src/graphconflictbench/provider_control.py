@@ -4,32 +4,44 @@ Money is integer nanodollars. One SQLite ledger is shared by every worker and
 generation process. No network client is constructed by init/status/verify.
 """
 
+import asyncio
 import hashlib
 import json
 import os
 import sqlite3
+import time
 import uuid
 from contextlib import closing, contextmanager
 from pathlib import Path
 from typing import Literal
+from urllib.parse import urlsplit
 
-from pydantic import Field
+from pydantic import Field, model_validator
 
+from .environment import redact, redact_bytes
 from .manifests import canonical, digest, file_hash
 from .schemas import Record
 
 
 class ProviderPolicy(Record):
-    base_url: Literal["https://api.openai.com/v1"] = "https://api.openai.com/v1"
+    base_url: Literal["https://api.openai.com/v1", "https://api.groq.com/openai/v1"] = (
+        "https://api.openai.com/v1"
+    )
     llm_model: str
     embedding_model: str
     cap_nanodollars: int = Field(gt=0, le=2_000_000_000)
     llm_input_nanodollars_per_token: int = Field(gt=0)
     llm_output_nanodollars_per_token: int = Field(gt=0)
-    embedding_nanodollars_per_token: int = Field(gt=0)
+    embedding_nanodollars_per_token: int = Field(ge=0)
     max_completion_tokens: int = Field(gt=0, le=16384)
     max_request_input_tokens: int = Field(gt=0, le=128000)
     state_directory: str
+
+    @model_validator(mode="after")
+    def embedding_price(self):
+        if self.base_url == "https://api.openai.com/v1" and not self.embedding_nanodollars_per_token:
+            raise ValueError("OpenAI embeddings require a positive price")
+        return self
 
 
 def immutable_bytes(path, data):
@@ -83,16 +95,25 @@ class ProviderControl:
 
     def request_bound(self, endpoint, payload, body):
         p = self.policy
+        groq = p.base_url == "https://api.groq.com/openai/v1"
+        if groq:
+            if endpoint != "/openai/v1/chat/completions":
+                raise ValueError("unpriced Groq endpoint")
+            endpoint = "/v1/chat/completions"
         if endpoint == "/v1/chat/completions":
-            if set(payload) - {"model", "messages", "temperature", "max_tokens", "response_format"}:
+            limit = "max_completion_tokens" if groq else "max_tokens"
+            options = {"model", "messages", "temperature", limit, "response_format"}
+            if groq:
+                options.add("reasoning_effort")
+            if set(payload) - options or (groq and payload.get("reasoning_effort") != "low"):
                 raise ValueError("unpriced chat request options")
             if payload.get("model") != p.llm_model:
                 raise ValueError("unpriced LLM model")
             if payload.get("stream") or payload.get("n", 1) != 1 or payload.get("tools"):
                 raise ValueError("streaming, multiple completions and tools are not budgeted")
-            output = payload.get("max_tokens")
+            output = payload.get(limit)
             if type(output) is not int or not 0 < output <= p.max_completion_tokens:
-                raise ValueError("a bounded max_tokens is mandatory")
+                raise ValueError(f"a bounded {limit} is mandatory")
             messages = payload.get("messages")
             if not isinstance(messages, list) or not all(
                 isinstance(m, dict) and isinstance(m.get("content"), str)
@@ -121,7 +142,7 @@ class ProviderControl:
             raise ValueError("request exceeds conservative input-token reservation limit")
         return reserved, bound, output
 
-    def reserve(self, request_id, amount, request_hash):
+    def reserve(self, request_id, amount, request_hash, key_count=0, key_interval=0):
         if type(amount) is not int or amount <= 0:
             raise ValueError("reservation must be positive integer nanodollars")
         with self.connect() as db:
@@ -134,6 +155,25 @@ class ProviderControl:
                 raise RuntimeError("provider spending cap reached or ledger frozen")
             db.execute("INSERT INTO requests VALUES (?,?,NULL,'reserved',?,NULL,NULL)",
                        (request_id, amount, request_hash))
+            if key_count:
+                # Allocate in the reservation transaction so all workers share one sequence.
+                db.execute("CREATE TABLE IF NOT EXISTS key_rotation "
+                           "(id INTEGER PRIMARY KEY CHECK (id = 1), next_request INTEGER NOT NULL)")
+                db.execute("INSERT OR IGNORE INTO key_rotation VALUES (1, 0)")
+                sequence = db.execute("SELECT next_request FROM key_rotation WHERE id=1").fetchone()[0]
+                db.execute("UPDATE key_rotation SET next_request=next_request+1 WHERE id=1")
+                slot = sequence % key_count
+                if not key_interval:
+                    return slot, 0
+                db.execute("CREATE TABLE IF NOT EXISTS key_pacing "
+                           "(slot INTEGER PRIMARY KEY, dispatch_at REAL NOT NULL)")
+                previous = db.execute(
+                    "SELECT dispatch_at FROM key_pacing WHERE slot=?", (slot,)
+                ).fetchone()
+                now = time.time()
+                dispatch_at = max(now, previous[0] + key_interval) if previous else now
+                db.execute("INSERT OR REPLACE INTO key_pacing VALUES (?,?)", (slot, dispatch_at))
+                return slot, dispatch_at - now
 
     def settle(self, request_id, amount, response_hash):
         with self.connect() as db:
@@ -177,6 +217,38 @@ class ProviderControl:
         with self.connect() as db:
             db.execute("UPDATE meta SET frozen=1")
 
+    def recover_groq_rate_limit(self):
+        if self.policy.base_url != "https://api.groq.com/openai/v1":
+            raise ValueError("rate-limit recovery is only available for Groq")
+        self.verify()
+        with self.connect() as db:
+            db.execute("BEGIN IMMEDIATE")
+            if not db.execute("SELECT frozen FROM meta").fetchone()[0]:
+                raise ValueError("provider ledger is already open")
+            latest = db.execute(
+                "SELECT id,status,response_hash FROM requests WHERE status!='denied' "
+                "ORDER BY rowid DESC LIMIT 1"
+            ).fetchone()
+            if not latest or latest[1] != "uncertain" or not latest[2]:
+                raise ValueError("the latest dispatched request has no captured rate-limit response")
+            rid, _, expected = latest
+            directory = self.root / "requests" / rid
+            if capture_hash(directory, "response") != expected:
+                raise ValueError("rate-limit response capture changed")
+            response_path = directory / "response.json"
+            response = json.loads(response_path.read_bytes())
+            if response.get("status") != 429 or not response.get("body_complete"):
+                raise ValueError("the latest dispatched request did not capture a complete HTTP 429")
+            retry_after = int(response["headers"]["retry-after"])
+            now = time.time()
+            if retry_after < 0 or now < response_path.stat().st_mtime + retry_after:
+                raise ValueError("Groq Retry-After interval has not elapsed")
+            db.execute("CREATE TABLE IF NOT EXISTS rate_limit_recoveries "
+                       "(request_id TEXT PRIMARY KEY, recovered_at REAL NOT NULL)")
+            db.execute("INSERT INTO rate_limit_recoveries VALUES (?,?)", (rid, now))
+            db.execute("UPDATE meta SET frozen=0")
+        return self.verify()
+
     def verify(self):
         with self.connect() as db:
             ids = {r[0] for r in db.execute("SELECT id FROM requests")}
@@ -214,13 +286,20 @@ def capture_hash(directory, stem):
     return digest({ext: file_hash(directory / (stem + ext)) for ext in (".body", ".json")})
 
 
-def audited_http_client(control, transport=None):
+def audited_http_client(control, transport=None, *, rotating_keys=()):
     """Wrap the actual HTTP dispatch, including SDK errors; lazy optional import.
 
     Authentication headers are excluded. Bodies are captured byte-for-byte at
     the HTTP client boundary (response content after HTTP decompression).
     """
     import httpx
+
+    host = urlsplit(control.policy.base_url).hostname
+    if rotating_keys and host != "api.groq.com":
+        raise ValueError("credential rotation is only configured for Groq")
+    key_interval = int(os.environ.get("GCB_GROQ_MIN_KEY_INTERVAL_SECONDS", "0")) if rotating_keys else 0
+    if not 0 <= key_interval <= 60:
+        raise ValueError("Groq key interval must be between 0 and 60 seconds")
 
     def headers_without_credentials(headers):
         secrets = {"authorization", "proxy-authorization", "api-key", "x-api-key", "cookie", "set-cookie"}
@@ -234,21 +313,29 @@ def audited_http_client(control, transport=None):
             rid = uuid.uuid4().hex
             directory = control.root / "requests" / rid
             body = await request.aread()
-            immutable_bytes(directory / "request.body", body)
+            immutable_bytes(directory / "request.body", redact_bytes(body))
             metadata = {"method": request.method, "url": str(request.url),
                         "headers": headers_without_credentials(request.headers)}
-            immutable_bytes(directory / "request.json", canonical(metadata).encode())
+            immutable_bytes(directory / "request.json", redact_bytes(canonical(metadata).encode()))
             reserved = False
             response_hash = None
             try:
-                if (request.method != "POST" or request.url.host != "api.openai.com"
+                if (request.method != "POST" or request.url.host != host
                         or request.url.scheme != "https" or request.url.port not in (None, 443)
                         or request.url.query):
                     raise ValueError("provider origin/method is not priced")
                 payload = json.loads(body)
                 amount, input_bound, output_bound = control.request_bound(request.url.path, payload, body)
-                control.reserve(rid, amount, capture_hash(directory, "request"))
+                assignment = control.reserve(
+                    rid, amount, capture_hash(directory, "request"),
+                    key_count=len(rotating_keys), key_interval=key_interval,
+                )
                 reserved = True
+                if assignment is not None:
+                    key_index, delay = assignment
+                    if delay:
+                        await asyncio.sleep(delay)
+                    request.headers["Authorization"] = f"Bearer {rotating_keys[key_index]}"
                 response = await self.inner.handle_async_request(request)
                 response_meta = {"status": response.status_code,
                                  "headers": headers_without_credentials(response.headers)}
@@ -260,12 +347,18 @@ def audited_http_client(control, transport=None):
                     complete = True
                 finally:
                     response_body = b"".join(chunks)
-                    immutable_bytes(directory / "response.body", response_body)
+                    immutable_bytes(directory / "response.body", redact_bytes(response_body))
                     response_meta["body_complete"] = complete
-                    immutable_bytes(directory / "response.json", canonical(response_meta).encode())
+                    immutable_bytes(directory / "response.json",
+                                    redact_bytes(canonical(response_meta).encode()))
                     response_hash = capture_hash(directory, "response")
                 if not 200 <= response.status_code < 300:
+                    if host == "api.groq.com":
+                        control.freeze()
                     raise RuntimeError(f"provider HTTP {response.status_code}; reservation retained")
+                if redact_bytes(response_body) != response_body:
+                    control.freeze()
+                    raise RuntimeError("credential echoed in provider response; ledger frozen")
                 cost = control.usage_cost(request.url.path, json.loads(response_body), input_bound, output_bound)
                 control.settle(rid, cost, response_hash)
                 await response.aclose()
@@ -274,7 +367,7 @@ def audited_http_client(control, transport=None):
                 return httpx.Response(response.status_code, headers=headers,
                                       content=response_body, request=request)
             except BaseException as error:
-                encoded = canonical({"type": type(error).__name__, "message": str(error)}).encode()
+                encoded = canonical({"type": type(error).__name__, "message": redact(error)}).encode()
                 immutable_bytes(directory / "error.json", encoded)
                 if reserved:
                     control.uncertain(rid, hashlib.sha256(encoded).hexdigest(), response_hash)

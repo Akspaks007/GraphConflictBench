@@ -1,0 +1,82 @@
+{
+  "build_result": {
+    "documents_processed": 120,
+    "native": {
+      "commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+      "python": "3.12.13",
+      "url": "https://github.com/HKUDS/LightRAG.git",
+      "version": "1.5.8"
+    },
+    "status": "complete",
+    "usage": []
+  },
+  "checksums": {
+    "corpus.jsonl": "f6bb1ba89fd937703c3bf939aa9bdd1bd0fbbf52276b020b5252971964fd48cd",
+    "native/config_storage_anchor.json": "24a4113c4eee1fb603509f22a38fb4bf77e7b47f9ad736113bddb7987895de8c",
+    "native/graph_chunk_entity_relation.graphml": "6722b6dfc209b78b67b7fd03989e58c1fb9254e02f51905d24d603412c5409ec",
+    "native/kv_store_doc_status.json": "51ca761738251c0d9a0141e50629555a7686296a660cbd8448831919689fee7f",
+    "native/kv_store_entity_chunks.json": "3cad8e84854747823ca688ca3f692ed7c1832c2eaea684035b778acb81a1b1ce",
+    "native/kv_store_full_docs.json": "42d16accfb6d172fe10e7832ff425c7c05a6be1ae6d2b08cfc1fb39874269dfc",
+    "native/kv_store_full_entities.json": "47c5fcd434dffe7c689744d37cc0155422025ae68edf0bc8a3f8203ecbc3633c",
+    "native/kv_store_full_relations.json": "6510157e14e5adb5c73be54dd989711754a072fbf3eb3369a0605ef6c8c16b60",
+    "native/kv_store_relation_chunks.json": "639a6ec2dbb95358fbc7ec996f1531311030c64aeef961f7998eec05e88ffc80",
+    "native/kv_store_text_chunks.json": "10ae218dfce2778cc812de7d3620c0280909236f7673b96509c77a67bd36acd0",
+    "native/kv_workspace_config.json": "90e8b9f3fc465ddd588027fc4d818d96d0ea4e63e5f1b0ff57c6a53f11e9a14f",
+    "native/vdb_chunks.json": "39b98e27c6d9c679d39200b67b403b0fdbf821205a02bbcdcb23d5b4f79ec762",
+    "native/vdb_entities.json": "a7f07d23f1a04b49d3d1eb31d4fc74884a00ec716361e579d861e06f2f5d23ea",
+    "native/vdb_relationships.json": "2610ea2df4c830ba5969a94b2fe59044150888052d07c4132d4bf5e2ea9c712e"
+  },
+  "condition": "control",
+  "config": {
+    "architecture": "lightrag",
+    "benchmark_eligible": false,
+    "chunk_overlap_token_size": 0,
+    "chunk_token_size": 512,
+    "chunk_top_k": 40,
+    "cosine_threshold": 0.2,
+    "embedding_dimension": 384,
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "embedding_task_type": null,
+    "evidence_budget": 4096,
+    "extract_gleaning": 1,
+    "llm_model": "openai/gpt-oss-20b",
+    "max_concurrency": 1,
+    "max_entity_tokens": 1024,
+    "max_relation_tokens": 2048,
+    "max_retries": 0,
+    "max_total_tokens": 8192,
+    "mode": "hybrid",
+    "provider": "groq",
+    "provider_control_file": "groq-policy.json",
+    "provider_control_sha256": "c61f4b0399a4619c6bce20e475147f86bed2887828dc51ac5cbdf8f84b9fdc87",
+    "python": ">=3.11",
+    "schema_version": "1.0",
+    "top_k": 60,
+    "upstream_commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+    "upstream_license": "MIT",
+    "upstream_repository": "https://github.com/HKUDS/LightRAG"
+  },
+  "corpus_hash": "27acebf78b406edf1793d9d7cee75e6f430a6d895b6a424596c77bf9a71e5c0d",
+  "documents_processed": 120,
+  "embedding_cache": {
+    "checksums": {
+      "config.json": "13582bcf2effc85b7bf3d3f5532e686bc1c9ce86bb009d10f0ec33cbe92299dd",
+      "model_optimized.onnx": "51f1bd0addd6e859e42c2c8021a5e5461385bb676a649f4b269aa445449f2431",
+      "special_tokens_map.json": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+      "tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "tokenizer_config.json": "0b29c7bfc889e53b36d9dd3e686dd4300f6525110eaa98c76a5dafceb2029f53"
+    },
+    "directory": "models--qdrant--bge-small-en-v1.5-onnx-q",
+    "revision": "aa8f8b060edb00e03bfdd08813a2949946c8ba55"
+  },
+  "native": {
+    "commit": "f615931d6ab60b179d5347f92a29f75dcff776a6",
+    "python": "3.12.13",
+    "url": "https://github.com/HKUDS/LightRAG.git",
+    "version": "1.5.8"
+  },
+  "original_index_key": "9e5087009dbd990d2a7429d01542326426b1e36fbaa9a3bdf3e25a3dabaa7877",
+  "original_manifest_sha256": "3269975fc6eb6a61130e4e5e6ed630cae83ceeee034df469d9341d568334b19f",
+  "source_sha256": "baba809d98d9058a5e7905bd404bc5c40f32db364c2b90a4d9f7550f3bbc91f4",
+  "split": "pilot"
+}

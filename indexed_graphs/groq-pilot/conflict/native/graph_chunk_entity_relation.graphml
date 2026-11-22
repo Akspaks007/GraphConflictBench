@@ -1,0 +1,2804 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="N59c527434fc54854dad3">
+      <data key="d0">N59c527434fc54854dad3</data>
+      <data key="d1">other</data>
+      <data key="d2">Registry entry that precedes another entry in the fictional reference world.&lt;SEP&gt;Identifier of a registry entry that is preceded by Nf96405a2392fdff9bb1e.</data>
+      <data key="d3">D00aa2f4b14fa5e79bf07-chunk-000&lt;SEP&gt;De225409809272256bf02-chunk-000</data>
+      <data key="d4">D00aa2f4b14fa5e79bf07.txt&lt;SEP&gt;De225409809272256bf02.txt</data>
+      <data key="d5">1795370764</data>
+      <data key="d6" />
+    </node>
+    <node id="N30a734839dd9c6a7787f">
+      <data key="d0">N30a734839dd9c6a7787f</data>
+      <data key="d1">other</data>
+      <data key="d2">Registry entry that follows the preceding entry in the fictional reference world.&lt;SEP&gt;Identifier of a registry entry in the fictional reference world.</data>
+      <data key="d3">D00aa2f4b14fa5e79bf07-chunk-000&lt;SEP&gt;Dfdad841b91e6356bb92d-chunk-000</data>
+      <data key="d4">D00aa2f4b14fa5e79bf07.txt&lt;SEP&gt;Dfdad841b91e6356bb92d.txt</data>
+      <data key="d5">1795370953</data>
+      <data key="d6" />
+    </node>
+    <node id="N9a427e3874430f8172ef">
+      <data key="d0">N9a427e3874430f8172ef</data>
+      <data key="d1">other</data>
+      <data key="d2">A registry entry identified by the alphanumeric code N9a427e3874430f8172ef.&lt;SEP&gt;Identifier N9a427e3874430f8172ef, a registry entry that is contained by another registry entry.</data>
+      <data key="d3">D00acb34e9b7189e2447a-chunk-000&lt;SEP&gt;Deaad463ce80c534b1f76-chunk-000</data>
+      <data key="d4">D00acb34e9b7189e2447a.txt&lt;SEP&gt;Deaad463ce80c534b1f76.txt</data>
+      <data key="d5">1795370864</data>
+      <data key="d6" />
+    </node>
+    <node id="Nc91a8abe309bcd9c0856">
+      <data key="d0">Nc91a8abe309bcd9c0856</data>
+      <data key="d1">other</data>
+      <data key="d2">A registry entry identified by the alphanumeric code Nc91a8abe309bcd9c0856.&lt;SEP&gt;An identifier that contains N95fb109be72efd322e6f.</data>
+      <data key="d3">D00acb34e9b7189e2447a-chunk-000&lt;SEP&gt;Dbafebf997bd9cd9d8308-chunk-000</data>
+      <data key="d4">D00acb34e9b7189e2447a.txt&lt;SEP&gt;Dbafebf997bd9cd9d8308.txt</data>
+      <data key="d5">1795370556</data>
+      <data key="d6" />
+    </node>
+    <node id="Nfdd9917e2c8514e36790">
+      <data key="d0">Nfdd9917e2c8514e36790</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A subregion identified by the code Nfdd9917e2c8514e36790 within the fictional reference world.&lt;SEP&gt;Registry entry identifier representing a fictional reference world object.</data>
+      <data key="d3">D012c0031b1c2d5f5b85e-chunk-000&lt;SEP&gt;De23b7cd8d19e6364adcf-chunk-000</data>
+      <data key="d4">D012c0031b1c2d5f5b85e.txt&lt;SEP&gt;De23b7cd8d19e6364adcf.txt</data>
+      <data key="d5">1795370771</data>
+      <data key="d6" />
+    </node>
+    <node id="N54cdc918ea4a9e4429d6">
+      <data key="d0">N54cdc918ea4a9e4429d6</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A region identified by the code N54cdc918ea4a9e4429d6 within the fictional reference world.&lt;SEP&gt;Registry entry identifier representing a fictional reference world object.</data>
+      <data key="d3">D012c0031b1c2d5f5b85e-chunk-000&lt;SEP&gt;De23b7cd8d19e6364adcf-chunk-000</data>
+      <data key="d4">D012c0031b1c2d5f5b85e.txt&lt;SEP&gt;De23b7cd8d19e6364adcf.txt</data>
+      <data key="d5">1795370771</data>
+      <data key="d6" />
+    </node>
+    <node id="N91eb61a5627b7001cc20">
+      <data key="d0">N91eb61a5627b7001cc20</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An identifier representing a registry entry that is a subregion of another registry entry.</data>
+      <data key="d3">D02a839711ec43f7a1d26-chunk-000&lt;SEP&gt;D4ff1724729c0dc75dac1-chunk-000</data>
+      <data key="d4">D02a839711ec43f7a1d26.txt&lt;SEP&gt;D4ff1724729c0dc75dac1.txt</data>
+      <data key="d5">1795370036</data>
+      <data key="d6" />
+    </node>
+    <node id="N8f750e01d50fa995fde6">
+      <data key="d0">N8f750e01d50fa995fde6</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An identifier representing a registry entry that serves as the parent region for N91eb61a5627b7001cc20.</data>
+      <data key="d3">D02a839711ec43f7a1d26-chunk-000</data>
+      <data key="d4">D02a839711ec43f7a1d26.txt</data>
+      <data key="d5">1795369676</data>
+      <data key="d6" />
+    </node>
+    <node id="N7ce66bd22c354bc1a9e5">
+      <data key="d0">N7ce66bd22c354bc1a9e5</data>
+      <data key="d1">location</data>
+      <data key="d2">A subregion identified by the code N7ce66bd22c354bc1a9e5 within a fictional reference world.&lt;SEP&gt;A subregion identified by the code N7ce66bd22c354bc1a9e5 within the fictional reference world.</data>
+      <data key="d3">D0315265825c4b1410658-chunk-000&lt;SEP&gt;Db2bea032f721a1121d41-chunk-000</data>
+      <data key="d4">D0315265825c4b1410658.txt&lt;SEP&gt;Db2bea032f721a1121d41.txt</data>
+      <data key="d5">1795370496</data>
+      <data key="d6" />
+    </node>
+    <node id="Nec00b3ac713c6ce591a0">
+      <data key="d0">Nec00b3ac713c6ce591a0</data>
+      <data key="d1">location</data>
+      <data key="d2">A larger region identified by the code Nec00b3ac713c6ce591a0 within a fictional reference world.</data>
+      <data key="d3">D0315265825c4b1410658-chunk-000</data>
+      <data key="d4">D0315265825c4b1410658.txt</data>
+      <data key="d5">1795369680</data>
+      <data key="d6" />
+    </node>
+    <node id="N76aeeb51a7c9ddb875d5">
+      <data key="d0">N76aeeb51a7c9ddb875d5</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier of a registry entry that precedes another entry.&lt;SEP&gt;Identifier of a registry entry that precedes another entry in the fictional reference world.</data>
+      <data key="d3">D096bf190fbd39b1198a9-chunk-000&lt;SEP&gt;Dcecdd5235c39808adf00-chunk-000</data>
+      <data key="d4">D096bf190fbd39b1198a9.txt&lt;SEP&gt;Dcecdd5235c39808adf00.txt</data>
+      <data key="d5">1795370618</data>
+      <data key="d6" />
+    </node>
+    <node id="N84c4090907f73e3c23fe">
+      <data key="d0">N84c4090907f73e3c23fe</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier of a registry entry that follows another entry.</data>
+      <data key="d3">D096bf190fbd39b1198a9-chunk-000</data>
+      <data key="d4">D096bf190fbd39b1198a9.txt</data>
+      <data key="d5">1795369682</data>
+      <data key="d6" />
+    </node>
+    <node id="N324f143dbc083c31fae5">
+      <data key="d0">N324f143dbc083c31fae5</data>
+      <data key="d1">location</data>
+      <data key="d2">A registry entry identifier representing a specific record in a fictional reference world.&lt;SEP&gt;A subregion identified by the code N324f143dbc083c31fae5, described as part of a registry entry in a fictional reference world.</data>
+      <data key="d3">D0a16265bee860bd48511-chunk-000&lt;SEP&gt;D375355d9484fbf6d0145-chunk-000</data>
+      <data key="d4">D0a16265bee860bd48511.txt&lt;SEP&gt;D375355d9484fbf6d0145.txt</data>
+      <data key="d5">1795369921</data>
+      <data key="d6" />
+    </node>
+    <node id="N813f098a1c1b15ccbe6e">
+      <data key="d0">N813f098a1c1b15ccbe6e</data>
+      <data key="d1">location</data>
+      <data key="d2">A registry entry identifier representing a specific record in a fictional reference world.&lt;SEP&gt;A region identified by the code N813f098a1c1b15ccbe6e, referenced as the parent region of N324f143dbc083c31fae5 in the registry entry.</data>
+      <data key="d3">D0a16265bee860bd48511-chunk-000&lt;SEP&gt;D375355d9484fbf6d0145-chunk-000</data>
+      <data key="d4">D0a16265bee860bd48511.txt&lt;SEP&gt;D375355d9484fbf6d0145.txt</data>
+      <data key="d5">1795369921</data>
+      <data key="d6" />
+    </node>
+    <node id="N6a3495420695c5af6c10">
+      <data key="d0">N6a3495420695c5af6c10</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An identifier representing a registry entry that is contained within another registry entry.&lt;SEP&gt;A registry entry identified by the alphanumeric code N6a3495420695c5af6c10, which is not contained within another registry entry.</data>
+      <data key="d3">D0a9a1b0bfc9101593f71-chunk-000&lt;SEP&gt;D5fdfb5f7ccc83743e7bc-chunk-000</data>
+      <data key="d4">D0a9a1b0bfc9101593f71.txt&lt;SEP&gt;D5fdfb5f7ccc83743e7bc.txt</data>
+      <data key="d5">1795370146</data>
+      <data key="d6" />
+    </node>
+    <node id="N89d0dbd404ec6e5dc559">
+      <data key="d0">N89d0dbd404ec6e5dc559</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing a registry entry that contains another registry entry.&lt;SEP&gt;A registry entry identified by the alphanumeric code N89d0dbd404ec6e5dc559, which is described as being contained within another registry entry.</data>
+      <data key="d3">D0a9a1b0bfc9101593f71-chunk-000&lt;SEP&gt;D70b465c9b341f3399d62-chunk-000</data>
+      <data key="d4">D0a9a1b0bfc9101593f71.txt&lt;SEP&gt;D70b465c9b341f3399d62.txt</data>
+      <data key="d5">1795370273</data>
+      <data key="d6" />
+    </node>
+    <node id="N8fe9e9640a4262cfd99d">
+      <data key="d0">N8fe9e9640a4262cfd99d</data>
+      <data key="d1">location</data>
+      <data key="d2">Identifier representing an entity that is not a subregion of N6a09c8b2f74d7ae96dd7.&lt;SEP&gt;A subregion identified by the code N8fe9e9640a4262cfd99d, described as part of a larger region.</data>
+      <data key="d3">D0b3092068b267ade7047-chunk-000&lt;SEP&gt;Df9188b96fa8391566057-chunk-000</data>
+      <data key="d4">D0b3092068b267ade7047.txt&lt;SEP&gt;Df9188b96fa8391566057.txt</data>
+      <data key="d5">1795370926</data>
+      <data key="d6" />
+    </node>
+    <node id="N6a09c8b2f74d7ae96dd7">
+      <data key="d0">N6a09c8b2f74d7ae96dd7</data>
+      <data key="d1">location</data>
+      <data key="d2">Identifier representing an entity that could be a subregion of N8fe9e9640a4262cfd99d.&lt;SEP&gt;A region identified by the code N6a09c8b2f74d7ae96dd7 within the fictional reference world.</data>
+      <data key="d3">D0b3092068b267ade7047-chunk-000&lt;SEP&gt;D3de38f34fc4fd8208986-chunk-000</data>
+      <data key="d4">D0b3092068b267ade7047.txt&lt;SEP&gt;D3de38f34fc4fd8208986.txt</data>
+      <data key="d5">1795369976</data>
+      <data key="d6" />
+    </node>
+    <node id="Registry Entry">
+      <data key="d0">Registry Entry</data>
+      <data key="d1">concept</data>
+      <data key="d2">**Registry Entry**
+
+A registry entry is a formal record stored within a registry system that documents a stated relationship between two identifiers, such as a subregion and a larger region or other related entities. The entry captures the nature of the relationship and includes a source assertion that indicates the provenance or reference supporting the claim. By recording both the relationship and its source, the registry entry provides a verifiable link between the entities involved and the evidence that establishes the connection. This documentation is essential for maintaining accurate, traceable, and authoritative information within the registry, ensuring that users can assess the validity and context of the asserted relationships. In the context of a fictional reference world, a registry entry records information about subregions and their relationships to larger regions, describing the connections between identifiers while noting the source assertion without evaluating other registry entries. The entry serves as a generic record that holds information about a registry item, its relationships, and the supporting evidence. It may also contain information about another registry entry, thereby linking related records within the system.&lt;SEP&gt;A record in a registry that stores information about other entries.</data>
+      <data key="d3">D0b3092068b267ade7047-chunk-000&lt;SEP&gt;D1759848a15f03afde86d-chunk-000&lt;SEP&gt;D1e6fcd119ed03eaa5770-chunk-000&lt;SEP&gt;D213d059cbf8275626d71-chunk-000&lt;SEP&gt;D307f61e2bb61c65dbffa-chunk-000&lt;SEP&gt;D31d7efaecc9dac0459f5-chunk-000&lt;SEP&gt;D32fee42740fc2d3298a6-chunk-000&lt;SEP&gt;D3987590ecfb6040326d8-chunk-000&lt;SEP&gt;D3bf755801edbd55b30c7-chunk-000&lt;SEP&gt;D47c49cfab181f97b6a71-chunk-000&lt;SEP&gt;D484ceaf31f69109851b6-chunk-000&lt;SEP&gt;D4ff1724729c0dc75dac1-chunk-000&lt;SEP&gt;D51c37d21d0db8f1e9c74-chunk-000&lt;SEP&gt;D69ab7fa586361d0bba4c-chunk-000&lt;SEP&gt;D6ae5922c2a4aebab2026-chunk-000&lt;SEP&gt;D6d1b7dca231782eb5c7f-chunk-000&lt;SEP&gt;D76413fefe6657c0277f5-chunk-000&lt;SEP&gt;D813a5727276cc4bd97d1-chunk-000&lt;SEP&gt;D8c8029e8c48a14776585-chunk-000&lt;SEP&gt;D8e1819f9a41f64977ff5-chunk-000&lt;SEP&gt;D9a3ed82160e45022573d-chunk-000&lt;SEP&gt;Da175516fb4d2dd15b1c8-chunk-000&lt;SEP&gt;Dacb8c3df2f00f4b6989f-chunk-000&lt;SEP&gt;Db8ef2d8f24e3cb70b9e7-chunk-000&lt;SEP&gt;Dbafebf997bd9cd9d8308-chunk-000&lt;SEP&gt;Dbb866ffea43863d04da8-chunk-000&lt;SEP&gt;Dc3ec77827ceea4dcff0a-chunk-000&lt;SEP&gt;Dd1555d1f4e34553d103d-chunk-000&lt;SEP&gt;Dd1b71a1b0a096adfd662-chunk-000&lt;SEP&gt;Dd9fb9c37159b590d129d-chunk-000&lt;SEP&gt;Ddd90b4110e833cad50f5-chunk-000&lt;SEP&gt;Ddf4508c438a35f9493ca-chunk-000&lt;SEP&gt;De251762bf8dc191c5046-chunk-000&lt;SEP&gt;De3f35bb5cd2daf23678e-chunk-000&lt;SEP&gt;De5d52bc41134b6f51dcf-chunk-000&lt;SEP&gt;De791e97b2b1adf07df4f-chunk-000&lt;SEP&gt;Deb75e238ae54da5ebf3e-chunk-000&lt;SEP&gt;Df08f83e6fbc691cf3e31-chunk-000</data>
+      <data key="d4">D0b3092068b267ade7047.txt&lt;SEP&gt;D1759848a15f03afde86d.txt&lt;SEP&gt;D1e6fcd119ed03eaa5770.txt&lt;SEP&gt;D213d059cbf8275626d71.txt&lt;SEP&gt;D307f61e2bb61c65dbffa.txt&lt;SEP&gt;D31d7efaecc9dac0459f5.txt&lt;SEP&gt;D32fee42740fc2d3298a6.txt&lt;SEP&gt;D3987590ecfb6040326d8.txt&lt;SEP&gt;D3bf755801edbd55b30c7.txt&lt;SEP&gt;D47c49cfab181f97b6a71.txt&lt;SEP&gt;D484ceaf31f69109851b6.txt&lt;SEP&gt;D4ff1724729c0dc75dac1.txt&lt;SEP&gt;D51c37d21d0db8f1e9c74.txt&lt;SEP&gt;D69ab7fa586361d0bba4c.txt&lt;SEP&gt;D6ae5922c2a4aebab2026.txt&lt;SEP&gt;D6d1b7dca231782eb5c7f.txt&lt;SEP&gt;D76413fefe6657c0277f5.txt&lt;SEP&gt;D813a5727276cc4bd97d1.txt&lt;SEP&gt;D8c8029e8c48a14776585.txt&lt;SEP&gt;D8e1819f9a41f64977ff5.txt&lt;SEP&gt;D9a3ed82160e45022573d.txt&lt;SEP&gt;Da175516fb4d2dd15b1c8.txt&lt;SEP&gt;Dacb8c3df2f00f4b6989f.txt&lt;SEP&gt;Db8ef2d8f24e3cb70b9e7.txt&lt;SEP&gt;Dbafebf997bd9cd9d8308.txt&lt;SEP&gt;Dbb866ffea43863d04da8.txt&lt;SEP&gt;Dc3ec77827ceea4dcff0a.txt&lt;SEP&gt;Dd1555d1f4e34553d103d.txt&lt;SEP&gt;Dd1b71a1b0a096adfd662.txt&lt;SEP&gt;Dd9fb9c37159b590d129d.txt&lt;SEP&gt;Ddd90b4110e833cad50f5.txt&lt;SEP&gt;Ddf4508c438a35f9493ca.txt&lt;SEP&gt;De251762bf8dc191c5046.txt&lt;SEP&gt;De3f35bb5cd2daf23678e.txt&lt;SEP&gt;De5d52bc41134b6f51dcf.txt&lt;SEP&gt;De791e97b2b1adf07df4f.txt&lt;SEP&gt;Deb75e238ae54da5ebf3e.txt&lt;SEP&gt;Df08f83e6fbc691cf3e31.txt</data>
+      <data key="d5">1795370894</data>
+      <data key="d6" />
+    </node>
+    <node id="N6da7f19259247dae36bf">
+      <data key="d0">N6da7f19259247dae36bf</data>
+      <data key="d1">other</data>
+      <data key="d2">A registry entry identifier representing a record in the fictional reference world.&lt;SEP&gt;Identifier representing a subregion in the fictional reference world.</data>
+      <data key="d3">D107fc572c438d6005491-chunk-000&lt;SEP&gt;D1759848a15f03afde86d-chunk-000</data>
+      <data key="d4">D107fc572c438d6005491.txt&lt;SEP&gt;D1759848a15f03afde86d.txt</data>
+      <data key="d5">1795369784</data>
+      <data key="d6" />
+    </node>
+    <node id="Nece838c93ffafb4a6d15">
+      <data key="d0">Nece838c93ffafb4a6d15</data>
+      <data key="d1">location</data>
+      <data key="d2">A registry entry identifier representing a record in the fictional reference world.&lt;SEP&gt;a region that contains the subregion Naec278f805d922d2146d</data>
+      <data key="d3">D107fc572c438d6005491-chunk-000&lt;SEP&gt;Dd4eb22dad1731a072aee-chunk-000</data>
+      <data key="d4">D107fc572c438d6005491.txt&lt;SEP&gt;Dd4eb22dad1731a072aee.txt</data>
+      <data key="d5">1795370682</data>
+      <data key="d6" />
+    </node>
+    <node id="N923e335cbc8216e66c64">
+      <data key="d0">N923e335cbc8216e66c64</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the unique identifier N923e335cbc8216e66c64.&lt;SEP&gt;An identifier representing a registry entry that is contained within another registry entry.</data>
+      <data key="d3">D10aa6c96159963cc11c5-chunk-000&lt;SEP&gt;Dbae378b505543854ddd0-chunk-000</data>
+      <data key="d4">D10aa6c96159963cc11c5.txt&lt;SEP&gt;Dbae378b505543854ddd0.txt</data>
+      <data key="d5">1795370545</data>
+      <data key="d6" />
+    </node>
+    <node id="N1e8fcad3204036505b14">
+      <data key="d0">N1e8fcad3204036505b14</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the unique identifier N1e8fcad3204036505b14.&lt;SEP&gt;An identifier representing a registry entry that contains the entry N923e335cbc8216e66c64.</data>
+      <data key="d3">D10aa6c96159963cc11c5-chunk-000&lt;SEP&gt;Dbae378b505543854ddd0-chunk-000</data>
+      <data key="d4">D10aa6c96159963cc11c5.txt&lt;SEP&gt;Dbae378b505543854ddd0.txt</data>
+      <data key="d5">1795370545</data>
+      <data key="d6" />
+    </node>
+    <node id="N9596269e30f654ebba35">
+      <data key="d0">N9596269e30f654ebba35</data>
+      <data key="d1">location</data>
+      <data key="d2">A subregion identified by the code N9596269e30f654ebba35 within the fictional reference world.&lt;SEP&gt;A larger region identified by the code N9596269e30f654ebba35 within the fictional reference world.</data>
+      <data key="d3">D117910389e4c95e887bc-chunk-000&lt;SEP&gt;D9a3ed82160e45022573d-chunk-000</data>
+      <data key="d4">D117910389e4c95e887bc.txt&lt;SEP&gt;D9a3ed82160e45022573d.txt</data>
+      <data key="d5">1795370414</data>
+      <data key="d6" />
+    </node>
+    <node id="Ncd02037457c0126890b6">
+      <data key="d0">Ncd02037457c0126890b6</data>
+      <data key="d1">other</data>
+      <data key="d2">A region identified by the code Ncd02037457c0126890b6 within the fictional reference world.&lt;SEP&gt;An identifier representing a region that is referenced as the parent region in the registry entry.</data>
+      <data key="d3">D117910389e4c95e887bc-chunk-000&lt;SEP&gt;Dca9d139657d87fcd8fd5-chunk-000</data>
+      <data key="d4">D117910389e4c95e887bc.txt&lt;SEP&gt;Dca9d139657d87fcd8fd5.txt</data>
+      <data key="d5">1795370592</data>
+      <data key="d6" />
+    </node>
+    <node id="Nd3a7440e5b8f66ca8744">
+      <data key="d0">Nd3a7440e5b8f66ca8744</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier representing a registry entry that is contained in N6401ff9770356cea0bdf.&lt;SEP&gt;An identifier that is not contained in another registry entry.</data>
+      <data key="d3">D124fdca7dba8c4b80a96-chunk-000&lt;SEP&gt;D8e1819f9a41f64977ff5-chunk-000</data>
+      <data key="d4">D124fdca7dba8c4b80a96.txt&lt;SEP&gt;D8e1819f9a41f64977ff5.txt</data>
+      <data key="d5">1795370383</data>
+      <data key="d6" />
+    </node>
+    <node id="N6401ff9770356cea0bdf">
+      <data key="d0">N6401ff9770356cea0bdf</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier representing a registry entry that contains Nd3a7440e5b8f66ca8744.&lt;SEP&gt;An identifier that contains the first identifier.</data>
+      <data key="d3">D124fdca7dba8c4b80a96-chunk-000&lt;SEP&gt;D8e1819f9a41f64977ff5-chunk-000</data>
+      <data key="d4">D124fdca7dba8c4b80a96.txt&lt;SEP&gt;D8e1819f9a41f64977ff5.txt</data>
+      <data key="d5">1795370383</data>
+      <data key="d6" />
+    </node>
+    <node id="Ne7800333ede839e48381">
+      <data key="d0">Ne7800333ede839e48381</data>
+      <data key="d1">location</data>
+      <data key="d2">Identifier representing a region in the fictional reference world.&lt;SEP&gt;A subregion identified by the code Ne7800333ede839e48381 within the fictional reference world.</data>
+      <data key="d3">D1759848a15f03afde86d-chunk-000&lt;SEP&gt;D7d1d491e6a497690f61d-chunk-000</data>
+      <data key="d4">D1759848a15f03afde86d.txt&lt;SEP&gt;D7d1d491e6a497690f61d.txt</data>
+      <data key="d5">1795370303</data>
+      <data key="d6" />
+    </node>
+    <node id="N68253ce6d9b195c5dacc">
+      <data key="d0">N68253ce6d9b195c5dacc</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier that is not contained in another registry entry.&lt;SEP&gt;Identifier N68253ce6d9b195c5dacc is a registry entry that is contained in N27a21b96b1491171f92c.</data>
+      <data key="d3">D1e6fcd119ed03eaa5770-chunk-000&lt;SEP&gt;Db4656d39a9d08594c964-chunk-000</data>
+      <data key="d4">D1e6fcd119ed03eaa5770.txt&lt;SEP&gt;Db4656d39a9d08594c964.txt</data>
+      <data key="d5">1795370515</data>
+      <data key="d6" />
+    </node>
+    <node id="Ncc69027d69c243c0f5a9">
+      <data key="d0">Ncc69027d69c243c0f5a9</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier that contains the first identifier.&lt;SEP&gt;An identifier that contains the identifier N27a21b96b1491171f92c.</data>
+      <data key="d3">D1e6fcd119ed03eaa5770-chunk-000&lt;SEP&gt;Dbb866ffea43863d04da8-chunk-000</data>
+      <data key="d4">D1e6fcd119ed03eaa5770.txt&lt;SEP&gt;Dbb866ffea43863d04da8.txt</data>
+      <data key="d5">1795370562</data>
+      <data key="d6" />
+    </node>
+    <node id="Relationship">
+      <data key="d0">Relationship</data>
+      <data key="d1">concept</data>
+      <data key="d2">A stated connection between two entities within a registry.&lt;SEP&gt;The stated relationship described by a registry entry.&lt;SEP&gt;A stated connection between two identifiers within a registry entry.&lt;SEP&gt;The stated connection between two identifiers as described in the registry entry.</data>
+      <data key="d3">D1e6fcd119ed03eaa5770-chunk-000&lt;SEP&gt;D3bf755801edbd55b30c7-chunk-000&lt;SEP&gt;D6d1b7dca231782eb5c7f-chunk-000&lt;SEP&gt;D8e1819f9a41f64977ff5-chunk-000&lt;SEP&gt;Ddf4508c438a35f9493ca-chunk-000</data>
+      <data key="d4">D1e6fcd119ed03eaa5770.txt&lt;SEP&gt;D3bf755801edbd55b30c7.txt&lt;SEP&gt;D6d1b7dca231782eb5c7f.txt&lt;SEP&gt;D8e1819f9a41f64977ff5.txt</data>
+      <data key="d5">1795370383</data>
+      <data key="d6" />
+    </node>
+    <node id="Fictional Reference World">
+      <data key="d0">Fictional Reference World</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Fictional Reference World is a conceptual, abstract setting employed within the registry to host and organize entries and their interrelationships. It serves as an imagined backdrop where registry entries, subregions, and the relationships among them are defined and referenced. Explicitly described as fictional, this world functions as the current reference context for all registry operations and definitions, providing a unified backdrop for the registry’s structure and interactions. In this hypothetical environment, the registry entry and its relationships are defined, making the Fictional Reference World the conceptual geographic setting that underpins the registry’s organization.&lt;SEP&gt;A fictional world referenced by the registry entry.&lt;SEP&gt;The conceptual world in which the registry entry exists.&lt;SEP&gt;A hypothetical or imagined world used as a context for the registry entries.&lt;SEP&gt;A conceptual setting referred to as the current fictional reference world in which registry entries describe relationships.</data>
+      <data key="d3">D1e6fcd119ed03eaa5770-chunk-000&lt;SEP&gt;D31d7efaecc9dac0459f5-chunk-000&lt;SEP&gt;D340ca21d12f63d1cd917-chunk-000&lt;SEP&gt;D3987590ecfb6040326d8-chunk-000&lt;SEP&gt;D3bf755801edbd55b30c7-chunk-000&lt;SEP&gt;D47c49cfab181f97b6a71-chunk-000&lt;SEP&gt;D484ceaf31f69109851b6-chunk-000&lt;SEP&gt;D4ff1724729c0dc75dac1-chunk-000&lt;SEP&gt;D51c37d21d0db8f1e9c74-chunk-000&lt;SEP&gt;D69ab7fa586361d0bba4c-chunk-000&lt;SEP&gt;D6ae5922c2a4aebab2026-chunk-000&lt;SEP&gt;D6d1b7dca231782eb5c7f-chunk-000&lt;SEP&gt;D76413fefe6657c0277f5-chunk-000&lt;SEP&gt;D87e6c533b79da8158b89-chunk-000&lt;SEP&gt;D8e1819f9a41f64977ff5-chunk-000&lt;SEP&gt;D9a3ed82160e45022573d-chunk-000&lt;SEP&gt;Dacb8c3df2f00f4b6989f-chunk-000&lt;SEP&gt;Db8ef2d8f24e3cb70b9e7-chunk-000&lt;SEP&gt;Db9e4de6b351db6a50856-chunk-000&lt;SEP&gt;Dbb866ffea43863d04da8-chunk-000&lt;SEP&gt;Dc3ec77827ceea4dcff0a-chunk-000&lt;SEP&gt;Dd1555d1f4e34553d103d-chunk-000&lt;SEP&gt;Dd1b71a1b0a096adfd662-chunk-000&lt;SEP&gt;Dd6372989d953584ef556-chunk-000&lt;SEP&gt;Dd9fb9c37159b590d129d-chunk-000&lt;SEP&gt;Ddd90b4110e833cad50f5-chunk-000&lt;SEP&gt;Ddf4508c438a35f9493ca-chunk-000&lt;SEP&gt;De3f35bb5cd2daf23678e-chunk-000&lt;SEP&gt;De4e2983cbee815e6065b-chunk-000&lt;SEP&gt;De5d52bc41134b6f51dcf-chunk-000&lt;SEP&gt;De791e97b2b1adf07df4f-chunk-000&lt;SEP&gt;Deb75e238ae54da5ebf3e-chunk-000&lt;SEP&gt;Df08f83e6fbc691cf3e31-chunk-000&lt;SEP&gt;Dfa8525393f12be468392-chunk-000</data>
+      <data key="d4">D1e6fcd119ed03eaa5770.txt&lt;SEP&gt;D31d7efaecc9dac0459f5.txt&lt;SEP&gt;D340ca21d12f63d1cd917.txt&lt;SEP&gt;D3987590ecfb6040326d8.txt&lt;SEP&gt;D3bf755801edbd55b30c7.txt&lt;SEP&gt;D47c49cfab181f97b6a71.txt&lt;SEP&gt;D484ceaf31f69109851b6.txt&lt;SEP&gt;D4ff1724729c0dc75dac1.txt&lt;SEP&gt;D51c37d21d0db8f1e9c74.txt&lt;SEP&gt;D69ab7fa586361d0bba4c.txt&lt;SEP&gt;D6ae5922c2a4aebab2026.txt&lt;SEP&gt;D6d1b7dca231782eb5c7f.txt&lt;SEP&gt;D76413fefe6657c0277f5.txt&lt;SEP&gt;D87e6c533b79da8158b89.txt&lt;SEP&gt;D8e1819f9a41f64977ff5.txt&lt;SEP&gt;D9a3ed82160e45022573d.txt&lt;SEP&gt;Dacb8c3df2f00f4b6989f.txt&lt;SEP&gt;Db8ef2d8f24e3cb70b9e7.txt&lt;SEP&gt;Db9e4de6b351db6a50856.txt&lt;SEP&gt;Dbb866ffea43863d04da8.txt&lt;SEP&gt;Dc3ec77827ceea4dcff0a.txt&lt;SEP&gt;Dd1555d1f4e34553d103d.txt&lt;SEP&gt;Dd1b71a1b0a096adfd662.txt&lt;SEP&gt;Dd6372989d953584ef556.txt&lt;SEP&gt;Dd9fb9c37159b590d129d.txt&lt;SEP&gt;Ddd90b4110e833cad50f5.txt&lt;SEP&gt;Ddf4508c438a35f9493ca.txt&lt;SEP&gt;De3f35bb5cd2daf23678e.txt&lt;SEP&gt;De4e2983cbee815e6065b.txt&lt;SEP&gt;De5d52bc41134b6f51dcf.txt&lt;SEP&gt;De791e97b2b1adf07df4f.txt&lt;SEP&gt;Deb75e238ae54da5ebf3e.txt&lt;SEP&gt;Df08f83e6fbc691cf3e31.txt&lt;SEP&gt;Dfa8525393f12be468392.txt</data>
+      <data key="d5">1795370950</data>
+      <data key="d6" />
+    </node>
+    <node id="Source Assertion">
+      <data key="d0">Source Assertion</data>
+      <data key="d1">concept</data>
+      <data key="d2">Source Assertion
+
+A source assertion is a statement recorded by a registry entry that asserts a fact or relationship. It is documented within that entry and stands independently, without being evaluated against or cross‑checked with other registry entries. The assertion may originate from the entry itself or from an external source cited by the entry, but it does not involve any validation or comparison with additional registry data. In essence, a source assertion serves as a source within the registry entry, providing a conceptual statement that is recorded without evaluating other entries. It may identify the relationship between a subregion and its parent region or simply assert a relationship, but in all cases the assertion is not evaluated against other entries.&lt;SEP&gt;Assertion that is recorded by the registry entry.&lt;SEP&gt;An assertion recorded by a registry entry that is not evaluated against other registry entries.&lt;SEP&gt;A statement that claims a fact without evaluating other registry entries.</data>
+      <data key="d3">D1e6fcd119ed03eaa5770-chunk-000&lt;SEP&gt;D213d059cbf8275626d71-chunk-000&lt;SEP&gt;D31d7efaecc9dac0459f5-chunk-000&lt;SEP&gt;D32fee42740fc2d3298a6-chunk-000&lt;SEP&gt;D3987590ecfb6040326d8-chunk-000&lt;SEP&gt;D3bf755801edbd55b30c7-chunk-000&lt;SEP&gt;D484ceaf31f69109851b6-chunk-000&lt;SEP&gt;D4ff1724729c0dc75dac1-chunk-000&lt;SEP&gt;D51c37d21d0db8f1e9c74-chunk-000&lt;SEP&gt;D69ab7fa586361d0bba4c-chunk-000&lt;SEP&gt;D6ae5922c2a4aebab2026-chunk-000&lt;SEP&gt;D6d1b7dca231782eb5c7f-chunk-000&lt;SEP&gt;D813a5727276cc4bd97d1-chunk-000&lt;SEP&gt;D87e6c533b79da8158b89-chunk-000&lt;SEP&gt;D8c8029e8c48a14776585-chunk-000&lt;SEP&gt;D8e1819f9a41f64977ff5-chunk-000&lt;SEP&gt;D9a3ed82160e45022573d-chunk-000&lt;SEP&gt;Dacb8c3df2f00f4b6989f-chunk-000&lt;SEP&gt;Db8ef2d8f24e3cb70b9e7-chunk-000&lt;SEP&gt;Db9e4de6b351db6a50856-chunk-000&lt;SEP&gt;Dbb866ffea43863d04da8-chunk-000&lt;SEP&gt;Dc3ec77827ceea4dcff0a-chunk-000&lt;SEP&gt;Dd1555d1f4e34553d103d-chunk-000&lt;SEP&gt;Dd1b71a1b0a096adfd662-chunk-000&lt;SEP&gt;Dd6372989d953584ef556-chunk-000&lt;SEP&gt;Dd9fb9c37159b590d129d-chunk-000&lt;SEP&gt;Ddd90b4110e833cad50f5-chunk-000&lt;SEP&gt;De251762bf8dc191c5046-chunk-000&lt;SEP&gt;De4e2983cbee815e6065b-chunk-000&lt;SEP&gt;De5d52bc41134b6f51dcf-chunk-000&lt;SEP&gt;De791e97b2b1adf07df4f-chunk-000&lt;SEP&gt;Deb75e238ae54da5ebf3e-chunk-000&lt;SEP&gt;Df08f83e6fbc691cf3e31-chunk-000</data>
+      <data key="d4">D1e6fcd119ed03eaa5770.txt&lt;SEP&gt;D213d059cbf8275626d71.txt&lt;SEP&gt;D31d7efaecc9dac0459f5.txt&lt;SEP&gt;D32fee42740fc2d3298a6.txt&lt;SEP&gt;D3987590ecfb6040326d8.txt&lt;SEP&gt;D3bf755801edbd55b30c7.txt&lt;SEP&gt;D484ceaf31f69109851b6.txt&lt;SEP&gt;D4ff1724729c0dc75dac1.txt&lt;SEP&gt;D51c37d21d0db8f1e9c74.txt&lt;SEP&gt;D69ab7fa586361d0bba4c.txt&lt;SEP&gt;D6ae5922c2a4aebab2026.txt&lt;SEP&gt;D6d1b7dca231782eb5c7f.txt&lt;SEP&gt;D813a5727276cc4bd97d1.txt&lt;SEP&gt;D87e6c533b79da8158b89.txt&lt;SEP&gt;D8c8029e8c48a14776585.txt&lt;SEP&gt;D8e1819f9a41f64977ff5.txt&lt;SEP&gt;D9a3ed82160e45022573d.txt&lt;SEP&gt;Dacb8c3df2f00f4b6989f.txt&lt;SEP&gt;Db8ef2d8f24e3cb70b9e7.txt&lt;SEP&gt;Db9e4de6b351db6a50856.txt&lt;SEP&gt;Dbb866ffea43863d04da8.txt&lt;SEP&gt;Dc3ec77827ceea4dcff0a.txt&lt;SEP&gt;Dd1555d1f4e34553d103d.txt&lt;SEP&gt;Dd1b71a1b0a096adfd662.txt&lt;SEP&gt;Dd6372989d953584ef556.txt&lt;SEP&gt;Dd9fb9c37159b590d129d.txt&lt;SEP&gt;Ddd90b4110e833cad50f5.txt&lt;SEP&gt;De251762bf8dc191c5046.txt&lt;SEP&gt;De4e2983cbee815e6065b.txt&lt;SEP&gt;De5d52bc41134b6f51dcf.txt&lt;SEP&gt;De791e97b2b1adf07df4f.txt&lt;SEP&gt;Deb75e238ae54da5ebf3e.txt&lt;SEP&gt;Df08f83e6fbc691cf3e31.txt</data>
+      <data key="d5">1795370894</data>
+      <data key="d6" />
+    </node>
+    <node id="Other Registry Entries">
+      <data key="d0">Other Registry Entries</data>
+      <data key="d1">other</data>
+      <data key="d2">Registry entries that are not evaluated by the source assertion.&lt;SEP&gt;A plural reference to additional registry items not evaluated by the source assertion.&lt;SEP&gt;Other registry entries that are not evaluated by the source assertion&lt;SEP&gt;Other registry entries that are not evaluated by the current entry.&lt;SEP&gt;Registry entries that are not the primary entry being described.&lt;SEP&gt;Additional registry entries that are not evaluated by the current entry.</data>
+      <data key="d3">D1e6fcd119ed03eaa5770-chunk-000&lt;SEP&gt;D484ceaf31f69109851b6-chunk-000&lt;SEP&gt;D51c37d21d0db8f1e9c74-chunk-000&lt;SEP&gt;D813a5727276cc4bd97d1-chunk-000&lt;SEP&gt;D8c8029e8c48a14776585-chunk-000&lt;SEP&gt;D8e1819f9a41f64977ff5-chunk-000&lt;SEP&gt;Dd9fb9c37159b590d129d-chunk-000&lt;SEP&gt;De5d52bc41134b6f51dcf-chunk-000</data>
+      <data key="d4">D1e6fcd119ed03eaa5770.txt&lt;SEP&gt;D484ceaf31f69109851b6.txt&lt;SEP&gt;D51c37d21d0db8f1e9c74.txt&lt;SEP&gt;D813a5727276cc4bd97d1.txt&lt;SEP&gt;D8c8029e8c48a14776585.txt&lt;SEP&gt;D8e1819f9a41f64977ff5.txt&lt;SEP&gt;Dd9fb9c37159b590d129d.txt&lt;SEP&gt;De5d52bc41134b6f51dcf.txt</data>
+      <data key="d5">1795370824</data>
+      <data key="d6" />
+    </node>
+    <node id="Nb3157744fbca11401254">
+      <data key="d0">Nb3157744fbca11401254</data>
+      <data key="d1">content</data>
+      <data key="d2">Identifier representing an item that does not precede another identifier in the registry.&lt;SEP&gt;A registry entry identified by the code Nb3157744fbca11401254 that records a source assertion in a fictional reference world.</data>
+      <data key="d3">D213d059cbf8275626d71-chunk-000&lt;SEP&gt;Df1b1e893965d3f189eb8-chunk-000</data>
+      <data key="d4">D213d059cbf8275626d71.txt&lt;SEP&gt;Df1b1e893965d3f189eb8.txt</data>
+      <data key="d5">1795370896</data>
+      <data key="d6" />
+    </node>
+    <node id="N9917c899684329d6eb7a">
+      <data key="d0">N9917c899684329d6eb7a</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier representing an item that is preceded by the first identifier in the registry.&lt;SEP&gt;An identifier that follows the identifier Na1d0dcf562bd43f98e5f in a registry entry.</data>
+      <data key="d3">D213d059cbf8275626d71-chunk-000&lt;SEP&gt;De5d52bc41134b6f51dcf-chunk-000</data>
+      <data key="d4">D213d059cbf8275626d71.txt&lt;SEP&gt;De5d52bc41134b6f51dcf.txt</data>
+      <data key="d5">1795370814</data>
+      <data key="d6" />
+    </node>
+    <node id="Current Fictional Reference World">
+      <data key="d0">Current Fictional Reference World</data>
+      <data key="d1">concept</data>
+      <data key="d2">Geographic context referred to as the fictional reference world in which the registry entry is situated.&lt;SEP&gt;A fictional world context in which the registry entry and its relationships are defined.&lt;SEP&gt;The fictional reference world referenced in the registry entry.&lt;SEP&gt;The fictional setting in which the registry entries exist.&lt;SEP&gt;The fictional setting in which the registry entries and subregion relationships are defined.&lt;SEP&gt;The specific fictional setting referenced by the registry entry.</data>
+      <data key="d3">D213d059cbf8275626d71-chunk-000&lt;SEP&gt;D32fee42740fc2d3298a6-chunk-000&lt;SEP&gt;D813a5727276cc4bd97d1-chunk-000&lt;SEP&gt;D8c8029e8c48a14776585-chunk-000&lt;SEP&gt;De251762bf8dc191c5046-chunk-000&lt;SEP&gt;De5d52bc41134b6f51dcf-chunk-000</data>
+      <data key="d4">D213d059cbf8275626d71.txt&lt;SEP&gt;D32fee42740fc2d3298a6.txt&lt;SEP&gt;D813a5727276cc4bd97d1.txt&lt;SEP&gt;D8c8029e8c48a14776585.txt&lt;SEP&gt;De251762bf8dc191c5046.txt&lt;SEP&gt;De5d52bc41134b6f51dcf.txt</data>
+      <data key="d5">1795370824</data>
+      <data key="d6" />
+    </node>
+    <node id="Ne6ddd40967a46112c8b9">
+      <data key="d0">Ne6ddd40967a46112c8b9</data>
+      <data key="d1">other</data>
+      <data key="d2">A registry entry identified by the unique key Ne6ddd40967a46112c8b9, which records a source assertion and describes a stated relationship within a fictional reference world.&lt;SEP&gt;Identifier representing a registry entry that contains the first entry.</data>
+      <data key="d3">D28f16cd7a54c385b69ca-chunk-000&lt;SEP&gt;Db384c386a21952382238-chunk-000</data>
+      <data key="d4">D28f16cd7a54c385b69ca.txt&lt;SEP&gt;Db384c386a21952382238.txt</data>
+      <data key="d5">1795370502</data>
+      <data key="d6" />
+    </node>
+    <node id="Nba3a0b991db4fb79cf0f">
+      <data key="d0">Nba3a0b991db4fb79cf0f</data>
+      <data key="d1">other</data>
+      <data key="d2">A registry entry identified by the unique key Nba3a0b991db4fb79cf0f, which serves as the container for other registry entries and holds descriptive information about relationships.&lt;SEP&gt;Identifier that contains the first identifier</data>
+      <data key="d3">D28f16cd7a54c385b69ca-chunk-000&lt;SEP&gt;D51c37d21d0db8f1e9c74-chunk-000</data>
+      <data key="d4">D28f16cd7a54c385b69ca.txt&lt;SEP&gt;D51c37d21d0db8f1e9c74.txt</data>
+      <data key="d5">1795370053</data>
+      <data key="d6" />
+    </node>
+    <node id="N0b786528fec79853affc">
+      <data key="d0">N0b786528fec79853affc</data>
+      <data key="d1">other</data>
+      <data key="d2">A registry entry identified by the unique identifier N0b786528fec79853affc.&lt;SEP&gt;Identifier N0b786528fec79853affc, a registry entry that is contained in another registry entry.</data>
+      <data key="d3">D2934e038681cf53c6fbd-chunk-000&lt;SEP&gt;D36fb5058c4a46729efa4-chunk-000</data>
+      <data key="d4">D2934e038681cf53c6fbd.txt&lt;SEP&gt;D36fb5058c4a46729efa4.txt</data>
+      <data key="d5">1795369917</data>
+      <data key="d6" />
+    </node>
+    <node id="N6d9ef794a20ca01bae">
+      <data key="d0">N6d9ef794a20ca01bae</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the unique identifier N6d9ef794a20ca01bae.</data>
+      <data key="d3">D2934e038681cf53c6fbd-chunk-000</data>
+      <data key="d4">D2934e038681cf53c6fbd.txt</data>
+      <data key="d5">1795369817</data>
+      <data key="d6" />
+    </node>
+    <node id="N6d9ef794a20ca01bae91">
+      <data key="d0">N6d9ef794a20ca01bae91</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the unique identifier N6d9ef794a20ca01bae91.</data>
+      <data key="d3">D2934e038681cf53c6fbd-chunk-000</data>
+      <data key="d4">D2934e038681cf53c6fbd.txt</data>
+      <data key="d5">1795369817</data>
+      <data key="d6" />
+    </node>
+    <node id="Nf96405a2392fdff9bb1e">
+      <data key="d0">Nf96405a2392fdff9bb1e</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing a registry entry that asserts a relationship but does not evaluate other entries.&lt;SEP&gt;Identifier of a registry entry that records a source assertion without evaluating other registry entries.</data>
+      <data key="d3">D29a62f45335d85618f92-chunk-000&lt;SEP&gt;De225409809272256bf02-chunk-000</data>
+      <data key="d4">D29a62f45335d85618f92.txt&lt;SEP&gt;De225409809272256bf02.txt</data>
+      <data key="d5">1795370764</data>
+      <data key="d6" />
+    </node>
+    <node id="N0281ead2d0c61309aff9">
+      <data key="d0">N0281ead2d0c61309aff9</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing a registry entry that is referenced as not preceded by the first entry.&lt;SEP&gt;Identifier of a registry entry in the fictional reference world.</data>
+      <data key="d3">D29a62f45335d85618f92-chunk-000&lt;SEP&gt;Dfdad841b91e6356bb92d-chunk-000</data>
+      <data key="d4">D29a62f45335d85618f92.txt&lt;SEP&gt;Dfdad841b91e6356bb92d.txt</data>
+      <data key="d5">1795370953</data>
+      <data key="d6" />
+    </node>
+    <node id="N2d03a1f82ddd8c26d2d9">
+      <data key="d0">N2d03a1f82ddd8c26d2d9</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier of a registry entry that precedes another entry in the fictional reference world.&lt;SEP&gt;Identifier of a registry entry in the fictional reference world.</data>
+      <data key="d3">D2a2fa858c97ab6d6fbdc-chunk-000&lt;SEP&gt;De6504e4466c5e590a4d1-chunk-000</data>
+      <data key="d4">D2a2fa858c97ab6d6fbdc.txt&lt;SEP&gt;De6504e4466c5e590a4d1.txt</data>
+      <data key="d5">1795370833</data>
+      <data key="d6" />
+    </node>
+    <node id="N4ac05f63fb6dd5f25107">
+      <data key="d0">N4ac05f63fb6dd5f25107</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier of a registry entry that follows another entry in the fictional reference world.</data>
+      <data key="d3">D2a2fa858c97ab6d6fbdc-chunk-000</data>
+      <data key="d4">D2a2fa858c97ab6d6fbdc.txt</data>
+      <data key="d5">1795369844</data>
+      <data key="d6" />
+    </node>
+    <node id="N7ec7642684931121b4cf">
+      <data key="d0">N7ec7642684931121b4cf</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Registry entry that precedes Nd9a8cd333510d81469e3 in the fictional reference world.&lt;SEP&gt;A registry entry identified by the unique key N7ec7642684931121b4cf, representing a record in a fictional reference world.</data>
+      <data key="d3">D2b63892f95f58fe7c8b5-chunk-000&lt;SEP&gt;D64e6b2be5897da8958a4-chunk-000</data>
+      <data key="d4">D2b63892f95f58fe7c8b5.txt&lt;SEP&gt;D64e6b2be5897da8958a4.txt</data>
+      <data key="d5">1795370182</data>
+      <data key="d6" />
+    </node>
+    <node id="Nd9a8cd333510d81469e3">
+      <data key="d0">Nd9a8cd333510d81469e3</data>
+      <data key="d1">other</data>
+      <data key="d2">Registry entry that is preceded by N7ec7642684931121b4cf in the fictional reference world.</data>
+      <data key="d3">D2b63892f95f58fe7c8b5-chunk-000</data>
+      <data key="d4">D2b63892f95f58fe7c8b5.txt</data>
+      <data key="d5">1795369857</data>
+      <data key="d6" />
+    </node>
+    <node id="Nd66233e3482844959e22">
+      <data key="d0">Nd66233e3482844959e22</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier that precedes another identifier in the registry entry.&lt;SEP&gt;Identifier that does not precede N9172d66180b0534b3189 in the fictional reference world.</data>
+      <data key="d3">D307f61e2bb61c65dbffa-chunk-000&lt;SEP&gt;Ddd90b4110e833cad50f5-chunk-000</data>
+      <data key="d4">D307f61e2bb61c65dbffa.txt&lt;SEP&gt;Ddd90b4110e833cad50f5.txt</data>
+      <data key="d5">1795370737</data>
+      <data key="d6" />
+    </node>
+    <node id="N9172d66180b0534b3189">
+      <data key="d0">N9172d66180b0534b3189</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier that follows Nd66233e3482844959e22 in the registry entry.&lt;SEP&gt;Identifier that is not preceded by Nd66233e3482844959e22 in the fictional reference world.</data>
+      <data key="d3">D307f61e2bb61c65dbffa-chunk-000&lt;SEP&gt;Ddd90b4110e833cad50f5-chunk-000</data>
+      <data key="d4">D307f61e2bb61c65dbffa.txt&lt;SEP&gt;Ddd90b4110e833cad50f5.txt</data>
+      <data key="d5">1795370737</data>
+      <data key="d6" />
+    </node>
+    <node id="N90de20f96ad7dc946afb">
+      <data key="d0">N90de20f96ad7dc946afb</data>
+      <data key="d1">location</data>
+      <data key="d2">A subregion identified by the code N90de20f96ad7dc946afb within the fictional reference world.&lt;SEP&gt;A region identified by the code N90de20f96ad7dc946afb within the fictional reference world.</data>
+      <data key="d3">D31d7efaecc9dac0459f5-chunk-000&lt;SEP&gt;D9f759ab27061c634112b-chunk-000</data>
+      <data key="d4">D31d7efaecc9dac0459f5.txt&lt;SEP&gt;D9f759ab27061c634112b.txt</data>
+      <data key="d5">1795370438</data>
+      <data key="d6" />
+    </node>
+    <node id="Nf2d2929a65de8c7aae4c">
+      <data key="d0">Nf2d2929a65de8c7aae4c</data>
+      <data key="d1">other</data>
+      <data key="d2">A region identified by the code Nf2d2929a65de8c7aae4c within the fictional reference world.&lt;SEP&gt;Identifier representing a region in a fictional reference world.</data>
+      <data key="d3">D31d7efaecc9dac0459f5-chunk-000&lt;SEP&gt;D606ed73f3866f2e4f0d1-chunk-000</data>
+      <data key="d4">D31d7efaecc9dac0459f5.txt&lt;SEP&gt;D606ed73f3866f2e4f0d1.txt</data>
+      <data key="d5">1795370158</data>
+      <data key="d6" />
+    </node>
+    <node id="N7e347bf05f241b885e0f">
+      <data key="d0">N7e347bf05f241b885e0f</data>
+      <data key="d1">location</data>
+      <data key="d2">A subregion identified by the code N7e347bf05f241b885e0f.&lt;SEP&gt;A subregion identified by the code N7e347bf05f241b885e0f, referenced within a fictional registry entry.</data>
+      <data key="d3">D32fee42740fc2d3298a6-chunk-000&lt;SEP&gt;D5bd8e791b5bd39d8bab0-chunk-000</data>
+      <data key="d4">D32fee42740fc2d3298a6.txt&lt;SEP&gt;D5bd8e791b5bd39d8bab0.txt</data>
+      <data key="d5">1795370116</data>
+      <data key="d6" />
+    </node>
+    <node id="N71582801d1189684c2be">
+      <data key="d0">N71582801d1189684c2be</data>
+      <data key="d1">location</data>
+      <data key="d2">A region identified by the code N71582801d1189684c2be.</data>
+      <data key="d3">D32fee42740fc2d3298a6-chunk-000</data>
+      <data key="d4">D32fee42740fc2d3298a6.txt</data>
+      <data key="d5">1795369887</data>
+      <data key="d6" />
+    </node>
+    <node id="Stated Relationship">
+      <data key="d0">Stated Relationship</data>
+      <data key="d1">other</data>
+      <data key="d2">The specific relationship described by the registry entry between the subregion and its parent region.&lt;SEP&gt;The specific relationship described by the registry entry.&lt;SEP&gt;A relationship that is explicitly described within a registry entry.&lt;SEP&gt;Relationship that is described by the registry entry.</data>
+      <data key="d3">D32fee42740fc2d3298a6-chunk-000&lt;SEP&gt;D484ceaf31f69109851b6-chunk-000&lt;SEP&gt;D51c37d21d0db8f1e9c74-chunk-000&lt;SEP&gt;Dacb8c3df2f00f4b6989f-chunk-000&lt;SEP&gt;Dd9fb9c37159b590d129d-chunk-000&lt;SEP&gt;De791e97b2b1adf07df4f-chunk-000</data>
+      <data key="d4">D32fee42740fc2d3298a6.txt&lt;SEP&gt;D484ceaf31f69109851b6.txt&lt;SEP&gt;Dd9fb9c37159b590d129d.txt&lt;SEP&gt;De791e97b2b1adf07df4f.txt</data>
+      <data key="d5">1795370846</data>
+      <data key="d6" />
+    </node>
+    <node id="N65700a2d6db36d25598a">
+      <data key="d0">N65700a2d6db36d25598a</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the code N65700a2d6db36d25598a that is contained within another registry entry.&lt;SEP&gt;A registry entry identified by the alphanumeric code N65700a2d6db36d25598a, representing a record in a fictional reference system.</data>
+      <data key="d3">D3369302a126998523134-chunk-000&lt;SEP&gt;D42a6ad15e475e77a44ea-chunk-000</data>
+      <data key="d4">D3369302a126998523134.txt&lt;SEP&gt;D42a6ad15e475e77a44ea.txt</data>
+      <data key="d5">1795369992</data>
+      <data key="d6" />
+    </node>
+    <node id="N4f8b6237641fd828e3d1">
+      <data key="d0">N4f8b6237641fd828e3d1</data>
+      <data key="d1">other</data>
+      <data key="d2">A registry entry identified by the code N4f8b6237641fd828e3d1 that contains the registry entry N65700a2d6db36d25598a.&lt;SEP&gt;Identifier representing an item contained within another registry entry.</data>
+      <data key="d3">D3369302a126998523134-chunk-000&lt;SEP&gt;D810fe8668f225c16c82c-chunk-000</data>
+      <data key="d4">D3369302a126998523134.txt&lt;SEP&gt;D810fe8668f225c16c82c.txt</data>
+      <data key="d5">1795370308</data>
+      <data key="d6" />
+    </node>
+    <node id="Nc86b9a88c224130195ad">
+      <data key="d0">Nc86b9a88c224130195ad</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing a registry entry that is contained within another registry entry.</data>
+      <data key="d3">D340ca21d12f63d1cd917-chunk-000&lt;SEP&gt;D4fecc98249c4af1af3ad-chunk-000</data>
+      <data key="d4">D340ca21d12f63d1cd917.txt&lt;SEP&gt;D4fecc98249c4af1af3ad.txt</data>
+      <data key="d5">1795370022</data>
+      <data key="d6" />
+    </node>
+    <node id="Na446443ea668d6e1e6e7">
+      <data key="d0">Na446443ea668d6e1e6e7</data>
+      <data key="d1">other</data>
+      <data key="d2">A registry entry that contains the identifier Nc86b9a88c224130195ad and describes a stated relationship in a fictional reference world.</data>
+      <data key="d3">D340ca21d12f63d1cd917-chunk-000</data>
+      <data key="d4">D340ca21d12f63d1cd917.txt</data>
+      <data key="d5">1795369904</data>
+      <data key="d6" />
+    </node>
+    <node id="N48d8423b237f1065adf8">
+      <data key="d0">N48d8423b237f1065adf8</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier N48d8423b237f1065adf8, a registry entry that contains another registry entry.</data>
+      <data key="d3">D36fb5058c4a46729efa4-chunk-000</data>
+      <data key="d4">D36fb5058c4a46729efa4.txt</data>
+      <data key="d5">1795369917</data>
+      <data key="d6" />
+    </node>
+    <node id="N22028d647cf22f381221">
+      <data key="d0">N22028d647cf22f381221</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A subregion identified by the code N22028d647cf22f381221, which is part of the larger region Nc38812fc2d03821a4ca0.&lt;SEP&gt;A registry entry identified by the code N22028d647cf22f381221, representing a subregion within another registry entry.</data>
+      <data key="d3">D3836e288c402128f2f93-chunk-000&lt;SEP&gt;Dd6372989d953584ef556-chunk-000</data>
+      <data key="d4">D3836e288c402128f2f93.txt&lt;SEP&gt;Dd6372989d953584ef556.txt</data>
+      <data key="d5">1795370695</data>
+      <data key="d6" />
+    </node>
+    <node id="Nc38812fc2d03821a4ca0">
+      <data key="d0">Nc38812fc2d03821a4ca0</data>
+      <data key="d1">location</data>
+      <data key="d2">A region identified by the code Nc38812fc2d03821a4ca0, which contains the subregion N22028d647cf22f381221.</data>
+      <data key="d3">D3836e288c402128f2f93-chunk-000</data>
+      <data key="d4">D3836e288c402128f2f93.txt</data>
+      <data key="d5">1795369934</data>
+      <data key="d6" />
+    </node>
+    <node id="N77f50f6eccafe2ccf18c">
+      <data key="d0">N77f50f6eccafe2ccf18c</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An identifier used in the registry entry to denote a specific item or concept.&lt;SEP&gt;Registry entry identified by N77f50f6eccafe2ccf18c that precedes Nd346fd5ffa2c8ee1067b.</data>
+      <data key="d3">D3987590ecfb6040326d8-chunk-000&lt;SEP&gt;Db9e4de6b351db6a50856-chunk-000</data>
+      <data key="d4">D3987590ecfb6040326d8.txt&lt;SEP&gt;Db9e4de6b351db6a50856.txt</data>
+      <data key="d5">1795370533</data>
+      <data key="d6" />
+    </node>
+    <node id="Nbc1e5d973b720d379e08">
+      <data key="d0">Nbc1e5d973b720d379e08</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier used in the registry entry to denote a specific item or concept.&lt;SEP&gt;An identifier that follows another identifier in a registry entry.</data>
+      <data key="d3">D3987590ecfb6040326d8-chunk-000&lt;SEP&gt;Deb75e238ae54da5ebf3e-chunk-000</data>
+      <data key="d4">D3987590ecfb6040326d8.txt&lt;SEP&gt;Deb75e238ae54da5ebf3e.txt</data>
+      <data key="d5">1795370874</data>
+      <data key="d6" />
+    </node>
+    <node id="Nf2b79bb0ae62811bda41">
+      <data key="d0">Nf2b79bb0ae62811bda41</data>
+      <data key="d1">location</data>
+      <data key="d2">A subregion identified by the code Nf2b79bb0ae62811bda41 within a fictional reference world.&lt;SEP&gt;A subregion identified by the code Nf2b79bb0ae62811bda41, which is part of the larger region Nb41ba5e6f39521b6e691.</data>
+      <data key="d3">D3bf755801edbd55b30c7-chunk-000&lt;SEP&gt;Dd1b71a1b0a096adfd662-chunk-000</data>
+      <data key="d4">D3bf755801edbd55b30c7.txt&lt;SEP&gt;Dd1b71a1b0a096adfd662.txt</data>
+      <data key="d5">1795370664</data>
+      <data key="d6" />
+    </node>
+    <node id="N1ccedfeba71398b7cdb9">
+      <data key="d0">N1ccedfeba71398b7cdb9</data>
+      <data key="d1">location</data>
+      <data key="d2">A region identified by the code N1ccedfeba71398b7cdb9 within a fictional reference world.</data>
+      <data key="d3">D3bf755801edbd55b30c7-chunk-000</data>
+      <data key="d4">D3bf755801edbd55b30c7.txt</data>
+      <data key="d5">1795369963</data>
+      <data key="d6" />
+    </node>
+    <node id="N4d25d1380a1dc3194e5f">
+      <data key="d0">N4d25d1380a1dc3194e5f</data>
+      <data key="d1">location</data>
+      <data key="d2">A subregion identified by the code N4d25d1380a1dc3194e5f within the fictional reference world.&lt;SEP&gt;A larger region identified by the code N4d25d1380a1dc3194e5f within the fictional reference world.</data>
+      <data key="d3">D3de38f34fc4fd8208986-chunk-000&lt;SEP&gt;D84639360e642b7f63859-chunk-000</data>
+      <data key="d4">D3de38f34fc4fd8208986.txt&lt;SEP&gt;D84639360e642b7f63859.txt</data>
+      <data key="d5">1795370333</data>
+      <data key="d6" />
+    </node>
+    <node id="Ncbbbb26b53e20af47e6d">
+      <data key="d0">Ncbbbb26b53e20af47e6d</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing a registry entry that is contained within another registry entry.</data>
+      <data key="d3">D4028633f7f07194a89fc-chunk-000&lt;SEP&gt;D92b87fb4dd790a9a0f2f-chunk-000</data>
+      <data key="d4">D4028633f7f07194a89fc.txt&lt;SEP&gt;D92b87fb4dd790a9a0f2f.txt</data>
+      <data key="d5">1795370393</data>
+      <data key="d6" />
+    </node>
+    <node id="N608c6ed4328ab6d8bf66">
+      <data key="d0">N608c6ed4328ab6d8bf66</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing a registry entry that contains another registry entry.</data>
+      <data key="d3">D4028633f7f07194a89fc-chunk-000</data>
+      <data key="d4">D4028633f7f07194a89fc.txt</data>
+      <data key="d5">1795369980</data>
+      <data key="d6" />
+    </node>
+    <node id="N5df6c26f99d2dabea078">
+      <data key="d0">N5df6c26f99d2dabea078</data>
+      <data key="d1">other</data>
+      <data key="d2">A registry entry identified by the alphanumeric code N5df6c26f99d2dabea078, representing a record in a fictional reference system.&lt;SEP&gt;An identifier representing a registry entry that contains the first identifier.</data>
+      <data key="d3">D42a6ad15e475e77a44ea-chunk-000&lt;SEP&gt;D6d1b7dca231782eb5c7f-chunk-000</data>
+      <data key="d4">D42a6ad15e475e77a44ea.txt&lt;SEP&gt;D6d1b7dca231782eb5c7f.txt</data>
+      <data key="d5">1795370260</data>
+      <data key="d6" />
+    </node>
+    <node id="N250f79801241d60703ac">
+      <data key="d0">N250f79801241d60703ac</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier that is contained within the identifier N56eb25a25d389374758f.&lt;SEP&gt;Identifier not contained in another registry entry</data>
+      <data key="d3">D47c49cfab181f97b6a71-chunk-000&lt;SEP&gt;D51c37d21d0db8f1e9c74-chunk-000</data>
+      <data key="d4">D47c49cfab181f97b6a71.txt&lt;SEP&gt;D51c37d21d0db8f1e9c74.txt</data>
+      <data key="d5">1795370053</data>
+      <data key="d6" />
+    </node>
+    <node id="N56eb25a25d389374758f">
+      <data key="d0">N56eb25a25d389374758f</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier that contains the identifier N250f79801241d60703ac.&lt;SEP&gt;Identifier representing a registry entry that is contained within another registry entry.</data>
+      <data key="d3">D47c49cfab181f97b6a71-chunk-000&lt;SEP&gt;Db384c386a21952382238-chunk-000</data>
+      <data key="d4">D47c49cfab181f97b6a71.txt&lt;SEP&gt;Db384c386a21952382238.txt</data>
+      <data key="d5">1795370502</data>
+      <data key="d6" />
+    </node>
+    <node id="N9e542f5f0372f5925428">
+      <data key="d0">N9e542f5f0372f5925428</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing a registry entry that is not contained within another registry entry.&lt;SEP&gt;An identifier that is contained within another registry entry.</data>
+      <data key="d3">D484ceaf31f69109851b6-chunk-000&lt;SEP&gt;Dacb8c3df2f00f4b6989f-chunk-000</data>
+      <data key="d4">D484ceaf31f69109851b6.txt&lt;SEP&gt;Dacb8c3df2f00f4b6989f.txt</data>
+      <data key="d5">1795370472</data>
+      <data key="d6" />
+    </node>
+    <node id="Nce7afaa048239899b51b">
+      <data key="d0">Nce7afaa048239899b51b</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An identifier representing a registry entry that contains another registry entry.&lt;SEP&gt;A registry entry identified by the unique identifier Nce7afaa048239899b51b.</data>
+      <data key="d3">D484ceaf31f69109851b6-chunk-000&lt;SEP&gt;Df64f894e1735c6e17ae6-chunk-000</data>
+      <data key="d4">D484ceaf31f69109851b6.txt&lt;SEP&gt;Df64f894e1735c6e17ae6.txt</data>
+      <data key="d5">1795370923</data>
+      <data key="d6" />
+    </node>
+    <node id="N14289eaa346fdf8e2037">
+      <data key="d0">N14289eaa346fdf8e2037</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing a registry entry that contains another registry entry.</data>
+      <data key="d3">D4fecc98249c4af1af3ad-chunk-000</data>
+      <data key="d4">D4fecc98249c4af1af3ad.txt</data>
+      <data key="d5">1795370022</data>
+      <data key="d6" />
+    </node>
+    <node id="Ndf2fa34d9a303db22621">
+      <data key="d0">Ndf2fa34d9a303db22621</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An identifier representing a registry entry that serves as the parent region for another registry entry.</data>
+      <data key="d3">D4ff1724729c0dc75dac1-chunk-000</data>
+      <data key="d4">D4ff1724729c0dc75dac1.txt</data>
+      <data key="d5">1795370036</data>
+      <data key="d6" />
+    </node>
+    <node id="N76575f0099b74a526d26">
+      <data key="d0">N76575f0099b74a526d26</data>
+      <data key="d1">location</data>
+      <data key="d2">A registry entry identifier representing a specific record in a fictional reference world.&lt;SEP&gt;A subregion identified by the code N76575f0099b74a526d26 within a fictional reference world.</data>
+      <data key="d3">D5379b40bbb65d2149d75-chunk-000&lt;SEP&gt;Ddf4508c438a35f9493ca-chunk-000</data>
+      <data key="d4">D5379b40bbb65d2149d75.txt&lt;SEP&gt;Ddf4508c438a35f9493ca.txt</data>
+      <data key="d5">1795370742</data>
+      <data key="d6" />
+    </node>
+    <node id="N9005dee13ae53e890c51">
+      <data key="d0">N9005dee13ae53e890c51</data>
+      <data key="d1">location</data>
+      <data key="d2">A registry entry identifier representing another specific record in the same fictional reference world.&lt;SEP&gt;A larger region identified by the code N9005dee13ae53e890c51 within the fictional reference world.</data>
+      <data key="d3">D5379b40bbb65d2149d75-chunk-000&lt;SEP&gt;Dafb6461438342fc8247c-chunk-000</data>
+      <data key="d4">D5379b40bbb65d2149d75.txt&lt;SEP&gt;Dafb6461438342fc8247c.txt</data>
+      <data key="d5">1795370481</data>
+      <data key="d6" />
+    </node>
+    <node id="N5527bdf69bd05b287e26">
+      <data key="d0">N5527bdf69bd05b287e26</data>
+      <data key="d1">location</data>
+      <data key="d2">An identifier representing a subregion within the fictional reference world.&lt;SEP&gt;A subregion identified by the code N5527bdf69bd05b287e26 within a fictional reference world.</data>
+      <data key="d3">D53dcc127c5efac8b5871-chunk-000&lt;SEP&gt;Da7d93ca64ddb2385286a-chunk-000</data>
+      <data key="d4">D53dcc127c5efac8b5871.txt&lt;SEP&gt;Da7d93ca64ddb2385286a.txt</data>
+      <data key="d5">1795370466</data>
+      <data key="d6" />
+    </node>
+    <node id="Nb2c5d62a052f8aef12e6">
+      <data key="d0">Nb2c5d62a052f8aef12e6</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing a larger region within the fictional reference world.</data>
+      <data key="d3">D53dcc127c5efac8b5871-chunk-000</data>
+      <data key="d4">D53dcc127c5efac8b5871.txt</data>
+      <data key="d5">1795370079</data>
+      <data key="d6" />
+    </node>
+    <node id="N022fd25e2d10ef843baf">
+      <data key="d0">N022fd25e2d10ef843baf</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Identifier contained in Nf6af6bea55f905f52c6f.&lt;SEP&gt;A registry entry identified by the code N022fd25e2d10ef843baf, which is contained within another registry entry.</data>
+      <data key="d3">D567f46f31d8d3db00fc1-chunk-000&lt;SEP&gt;D6cace2e54ebc61628653-chunk-000</data>
+      <data key="d4">D567f46f31d8d3db00fc1.txt&lt;SEP&gt;D6cace2e54ebc61628653.txt</data>
+      <data key="d5">1795370248</data>
+      <data key="d6" />
+    </node>
+    <node id="Nf6af6bea55f905f52c6f">
+      <data key="d0">Nf6af6bea55f905f52c6f</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier that contains N022fd25e2d10ef843baf.</data>
+      <data key="d3">D567f46f31d8d3db00fc1-chunk-000</data>
+      <data key="d4">D567f46f31d8d3db00fc1.txt</data>
+      <data key="d5">1795370086</data>
+      <data key="d6" />
+    </node>
+    <node id="N893b47622caf56edcbc1">
+      <data key="d0">N893b47622caf56edcbc1</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the code N893b47622caf56edcbc1, representing a record in a fictional reference world.&lt;SEP&gt;A registry entry identifier representing a specific record in a fictional reference system.</data>
+      <data key="d3">D57c55226860aadafa0aa-chunk-000&lt;SEP&gt;D608a30d0fb87af0d3f49-chunk-000</data>
+      <data key="d4">D57c55226860aadafa0aa.txt&lt;SEP&gt;D608a30d0fb87af0d3f49.txt</data>
+      <data key="d5">1795370169</data>
+      <data key="d6" />
+    </node>
+    <node id="Ne3e274fe0cf169e80492">
+      <data key="d0">Ne3e274fe0cf169e80492</data>
+      <data key="d1">other</data>
+      <data key="d2">A registry entry identified by the code Ne3e274fe0cf169e80492, representing a record in a fictional reference world.&lt;SEP&gt;An identifier representing another entity in the fictional reference world.</data>
+      <data key="d3">D57c55226860aadafa0aa-chunk-000&lt;SEP&gt;Dd1555d1f4e34553d103d-chunk-000</data>
+      <data key="d4">D57c55226860aadafa0aa.txt&lt;SEP&gt;Dd1555d1f4e34553d103d.txt</data>
+      <data key="d5">1795370636</data>
+      <data key="d6" />
+    </node>
+    <node id="N50a946b25b186c5bc4a1">
+      <data key="d0">N50a946b25b186c5bc4a1</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier representing an entity that precedes another identifier in a registry entry.&lt;SEP&gt;Identifier that precedes another identifier in a registry entry.</data>
+      <data key="d3">D580955e60cfcced500f1-chunk-000&lt;SEP&gt;D6af3230e4a34d9d96ade-chunk-000</data>
+      <data key="d4">D580955e60cfcced500f1.txt&lt;SEP&gt;D6af3230e4a34d9d96ade.txt</data>
+      <data key="d5">1795370229</data>
+      <data key="d6" />
+    </node>
+    <node id="N3348662b17667059bb08">
+      <data key="d0">N3348662b17667059bb08</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier representing an entity that follows another identifier in a registry entry.</data>
+      <data key="d3">D580955e60cfcced500f1-chunk-000</data>
+      <data key="d4">D580955e60cfcced500f1.txt</data>
+      <data key="d5">1795370109</data>
+      <data key="d6" />
+    </node>
+    <node id="N51b1f65ecb20100c0101">
+      <data key="d0">N51b1f65ecb20100c0101</data>
+      <data key="d1">location</data>
+      <data key="d2">A larger region identified by the code N51b1f65ecb20100c0101, serving as the parent region for N7e347bf05f241b885e0f.</data>
+      <data key="d3">D5bd8e791b5bd39d8bab0-chunk-000</data>
+      <data key="d4">D5bd8e791b5bd39d8bab0.txt</data>
+      <data key="d5">1795370116</data>
+      <data key="d6" />
+    </node>
+    <node id="N93f78a4e6d0265362062">
+      <data key="d0">N93f78a4e6d0265362062</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the alphanumeric code N93f78a4e6d0265362062.&lt;SEP&gt;An identifier representing a registry entry that is contained within another registry entry.</data>
+      <data key="d3">D5e36db57ddaf9a79ea52-chunk-000&lt;SEP&gt;Dd1960a17d8787a3b1cee-chunk-000</data>
+      <data key="d4">D5e36db57ddaf9a79ea52.txt&lt;SEP&gt;Dd1960a17d8787a3b1cee.txt</data>
+      <data key="d5">1795370651</data>
+      <data key="d6" />
+    </node>
+    <node id="Nd87b5f5caec8e6812340">
+      <data key="d0">Nd87b5f5caec8e6812340</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the alphanumeric code Nd87b5f5caec8e6812340.</data>
+      <data key="d3">D5e36db57ddaf9a79ea52-chunk-000</data>
+      <data key="d4">D5e36db57ddaf9a79ea52.txt</data>
+      <data key="d5">1795370128</data>
+      <data key="d6" />
+    </node>
+    <node id="N68233fd84827a175ff68">
+      <data key="d0">N68233fd84827a175ff68</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An identifier that is contained within the identifier N0c8b08d1d71a0e68da23.&lt;SEP&gt;A registry entry identified by the hexadecimal string N68233fd84827a175ff68, which is contained within another registry entry.</data>
+      <data key="d3">D5ef6a4f1888edcc4ba21-chunk-000&lt;SEP&gt;Ddc7a70b23d3d5d8f9979-chunk-000</data>
+      <data key="d4">D5ef6a4f1888edcc4ba21.txt&lt;SEP&gt;Ddc7a70b23d3d5d8f9979.txt</data>
+      <data key="d5">1795370724</data>
+      <data key="d6" />
+    </node>
+    <node id="N0c8b08d1d71a0e68da23">
+      <data key="d0">N0c8b08d1d71a0e68da23</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier that contains the identifier N68233fd84827a175ff68.</data>
+      <data key="d3">D5ef6a4f1888edcc4ba21-chunk-000</data>
+      <data key="d4">D5ef6a4f1888edcc4ba21.txt</data>
+      <data key="d5">1795370139</data>
+      <data key="d6" />
+    </node>
+    <node id="N88fadab90a854a2b8210">
+      <data key="d0">N88fadab90a854a2b8210</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the alphanumeric code N88fadab90a854a2b8210, which contains the entry N6a3495420695c5af6c10.&lt;SEP&gt;A registry entry identified by the hexadecimal string N88fadab90a854a2b8210, representing a data artifact within a fictional reference world.</data>
+      <data key="d3">D5fdfb5f7ccc83743e7bc-chunk-000&lt;SEP&gt;Dcdabb513ad63e698f478-chunk-000</data>
+      <data key="d4">D5fdfb5f7ccc83743e7bc.txt&lt;SEP&gt;Dcdabb513ad63e698f478.txt</data>
+      <data key="d5">1795370605</data>
+      <data key="d6" />
+    </node>
+    <node id="N9932b69591573a3c46d1">
+      <data key="d0">N9932b69591573a3c46d1</data>
+      <data key="d1">location</data>
+      <data key="d2">Identifier representing a region or subregion in a fictional reference world.&lt;SEP&gt;A subregion identified by the code N9932b69591573a3c46d1 within the fictional reference world.</data>
+      <data key="d3">D606ed73f3866f2e4f0d1-chunk-000&lt;SEP&gt;D9f759ab27061c634112b-chunk-000</data>
+      <data key="d4">D606ed73f3866f2e4f0d1.txt&lt;SEP&gt;D9f759ab27061c634112b.txt</data>
+      <data key="d5">1795370438</data>
+      <data key="d6" />
+    </node>
+    <node id="Nac580aee5d40acb7977c">
+      <data key="d0">Nac580aee5d40acb7977c</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identifier representing a specific record in a fictional reference system.&lt;SEP&gt;Registry entry identifier that follows another registry entry in the fictional reference world.</data>
+      <data key="d3">D608a30d0fb87af0d3f49-chunk-000&lt;SEP&gt;D6807e269f2e431450192-chunk-000</data>
+      <data key="d4">D608a30d0fb87af0d3f49.txt&lt;SEP&gt;D6807e269f2e431450192.txt</data>
+      <data key="d5">1795370188</data>
+      <data key="d6" />
+    </node>
+    <node id="Nb1ba64697e47691ad304">
+      <data key="d0">Nb1ba64697e47691ad304</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the unique key Nb1ba64697e47691ad304, representing a record in a fictional reference world.</data>
+      <data key="d3">D64e6b2be5897da8958a4-chunk-000</data>
+      <data key="d4">D64e6b2be5897da8958a4.txt</data>
+      <data key="d5">1795370182</data>
+      <data key="d6" />
+    </node>
+    <node id="Nbee61c7b321945a2c257">
+      <data key="d0">Nbee61c7b321945a2c257</data>
+      <data key="d1">other</data>
+      <data key="d2">Registry entry identifier that precedes another registry entry in the fictional reference world.&lt;SEP&gt;An identifier representing an entity in the fictional reference world.</data>
+      <data key="d3">D6807e269f2e431450192-chunk-000&lt;SEP&gt;Dd1555d1f4e34553d103d-chunk-000</data>
+      <data key="d4">D6807e269f2e431450192.txt&lt;SEP&gt;Dd1555d1f4e34553d103d.txt</data>
+      <data key="d5">1795370636</data>
+      <data key="d6" />
+    </node>
+    <node id="N9f8e15093ef70a5dad32">
+      <data key="d0">N9f8e15093ef70a5dad32</data>
+      <data key="d1">location</data>
+      <data key="d2">A subregion identified by the code N9f8e15093ef70a5dad32 within the fictional reference world.</data>
+      <data key="d3">D69ab7fa586361d0bba4c-chunk-000&lt;SEP&gt;D6bb1b6280699474cd4da-chunk-000</data>
+      <data key="d4">D69ab7fa586361d0bba4c.txt&lt;SEP&gt;D6bb1b6280699474cd4da.txt</data>
+      <data key="d5">1795370243</data>
+      <data key="d6" />
+    </node>
+    <node id="Ne355e96ee6408c2dd382">
+      <data key="d0">Ne355e96ee6408c2dd382</data>
+      <data key="d1">location</data>
+      <data key="d2">A region identified by the code Ne355e96ee6408c2dd382 within the fictional reference world.</data>
+      <data key="d3">D69ab7fa586361d0bba4c-chunk-000</data>
+      <data key="d4">D69ab7fa586361d0bba4c.txt</data>
+      <data key="d5">1795370200</data>
+      <data key="d6" />
+    </node>
+    <node id="Nde4605c89d3cdd2fc4ed">
+      <data key="d0">Nde4605c89d3cdd2fc4ed</data>
+      <data key="d1">location</data>
+      <data key="d2">A subregion identified by the code Nde4605c89d3cdd2fc4ed, belonging to a larger region.&lt;SEP&gt;A subregion identified by the code Nde4605c89d3cdd2fc4ed.</data>
+      <data key="d3">D6ae5922c2a4aebab2026-chunk-000&lt;SEP&gt;Db8ef2d8f24e3cb70b9e7-chunk-000</data>
+      <data key="d4">D6ae5922c2a4aebab2026.txt&lt;SEP&gt;Db8ef2d8f24e3cb70b9e7.txt</data>
+      <data key="d5">1795370526</data>
+      <data key="d6" />
+    </node>
+    <node id="N0d9c5caa04e6347c154b">
+      <data key="d0">N0d9c5caa04e6347c154b</data>
+      <data key="d1">location</data>
+      <data key="d2">A region identified by the code N0d9c5caa04e6347c154b, which contains the subregion Nde4605c89d3cdd2fc4ed.</data>
+      <data key="d3">D6ae5922c2a4aebab2026-chunk-000</data>
+      <data key="d4">D6ae5922c2a4aebab2026.txt</data>
+      <data key="d5">1795370216</data>
+      <data key="d6" />
+    </node>
+    <node id="N75c4a51de4e9bc2ba616">
+      <data key="d0">N75c4a51de4e9bc2ba616</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier that follows another identifier in a registry entry.</data>
+      <data key="d3">D6af3230e4a34d9d96ade-chunk-000</data>
+      <data key="d4">D6af3230e4a34d9d96ade.txt</data>
+      <data key="d5">1795370229</data>
+      <data key="d6" />
+    </node>
+    <node id="N85b67e18c541fe99adfa">
+      <data key="d0">N85b67e18c541fe99adfa</data>
+      <data key="d1">location</data>
+      <data key="d2">A region identified by the code N85b67e18c541fe99adfa within the fictional reference world.</data>
+      <data key="d3">D6bb1b6280699474cd4da-chunk-000</data>
+      <data key="d4">D6bb1b6280699474cd4da.txt</data>
+      <data key="d5">1795370243</data>
+      <data key="d6" />
+    </node>
+    <node id="N4cd9009c6402d4c37d26">
+      <data key="d0">N4cd9009c6402d4c37d26</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the code N4cd9009c6402d4c37d26, which contains the entry N022fd25e2d10ef843baf.</data>
+      <data key="d3">D6cace2e54ebc61628653-chunk-000</data>
+      <data key="d4">D6cace2e54ebc61628653.txt</data>
+      <data key="d5">1795370248</data>
+      <data key="d6" />
+    </node>
+    <node id="N5fce270295be035aa745">
+      <data key="d0">N5fce270295be035aa745</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing an item that is contained within another registry entry.&lt;SEP&gt;Identifier representing a registry entry that contains the first identifier.</data>
+      <data key="d3">D6d1b7dca231782eb5c7f-chunk-000&lt;SEP&gt;D810fe8668f225c16c82c-chunk-000</data>
+      <data key="d4">D6d1b7dca231782eb5c7f.txt&lt;SEP&gt;D810fe8668f225c16c82c.txt</data>
+      <data key="d5">1795370308</data>
+      <data key="d6" />
+    </node>
+    <node id="N8f5bae419445ccead139">
+      <data key="d0">N8f5bae419445ccead139</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the alphanumeric code N8f5bae419445ccead139, which serves as the container for the entry N89d0dbd404ec6e5dc559.&lt;SEP&gt;A registry entry identified by the hexadecimal string N8f5bae419445ccead139, representing a data artifact within a fictional reference world.</data>
+      <data key="d3">D70b465c9b341f3399d62-chunk-000&lt;SEP&gt;Dcdabb513ad63e698f478-chunk-000</data>
+      <data key="d4">D70b465c9b341f3399d62.txt&lt;SEP&gt;Dcdabb513ad63e698f478.txt</data>
+      <data key="d5">1795370605</data>
+      <data key="d6" />
+    </node>
+    <node id="N4142a55c2d046b158499">
+      <data key="d0">N4142a55c2d046b158499</data>
+      <data key="d1">other</data>
+      <data key="d2">A unique identifier representing a subregion within a larger geographic area in the fictional reference world.&lt;SEP&gt;Identifier representing a region in the fictional reference world.</data>
+      <data key="d3">D76413fefe6657c0277f5-chunk-000&lt;SEP&gt;Dcf6378293bf1ac388f4e-chunk-000</data>
+      <data key="d4">D76413fefe6657c0277f5.txt&lt;SEP&gt;Dcf6378293bf1ac388f4e.txt</data>
+      <data key="d5">1795370622</data>
+      <data key="d6" />
+    </node>
+    <node id="Ne66dd9afcc8a121e916d">
+      <data key="d0">Ne66dd9afcc8a121e916d</data>
+      <data key="d1">other</data>
+      <data key="d2">A unique identifier representing a larger geographic area that contains the subregion N4142a55c2d046b158499.&lt;SEP&gt;Identifier representing another region in the fictional reference world.</data>
+      <data key="d3">D76413fefe6657c0277f5-chunk-000&lt;SEP&gt;Dcf6378293bf1ac388f4e-chunk-000</data>
+      <data key="d4">D76413fefe6657c0277f5.txt&lt;SEP&gt;Dcf6378293bf1ac388f4e.txt</data>
+      <data key="d5">1795370622</data>
+      <data key="d6" />
+    </node>
+    <node id="Nc2c0024edfa5578510dc">
+      <data key="d0">Nc2c0024edfa5578510dc</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing a subregion within the fictional reference world.&lt;SEP&gt;Identifier representing a registry entry in the fictional reference world.</data>
+      <data key="d3">D79e87d2f4d1f958bca1f-chunk-000&lt;SEP&gt;Da175516fb4d2dd15b1c8-chunk-000</data>
+      <data key="d4">D79e87d2f4d1f958bca1f.txt&lt;SEP&gt;Da175516fb4d2dd15b1c8.txt</data>
+      <data key="d5">1795370444</data>
+      <data key="d6" />
+    </node>
+    <node id="Nb311850e0d6f1dfede25">
+      <data key="d0">Nb311850e0d6f1dfede25</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An identifier representing a larger region within the fictional reference world.&lt;SEP&gt;An identifier representing a subregion within the fictional reference world, noted as a subregion of N73aab90ad43a1c44d8b8.</data>
+      <data key="d3">D79e87d2f4d1f958bca1f-chunk-000&lt;SEP&gt;De251762bf8dc191c5046-chunk-000</data>
+      <data key="d4">D79e87d2f4d1f958bca1f.txt&lt;SEP&gt;De251762bf8dc191c5046.txt</data>
+      <data key="d5">1795370775</data>
+      <data key="d6" />
+    </node>
+    <node id="Naec278f805d922d2146d">
+      <data key="d0">Naec278f805d922d2146d</data>
+      <data key="d1">location</data>
+      <data key="d2">A region identified by the code Naec278f805d922d2146d within the fictional reference world.&lt;SEP&gt;a subregion of Nece838c93ffafb4a6d15</data>
+      <data key="d3">D7d1d491e6a497690f61d-chunk-000&lt;SEP&gt;Dd4eb22dad1731a072aee-chunk-000</data>
+      <data key="d4">D7d1d491e6a497690f61d.txt&lt;SEP&gt;Dd4eb22dad1731a072aee.txt</data>
+      <data key="d5">1795370682</data>
+      <data key="d6" />
+    </node>
+    <node id="N394641f8aa4c154a2289">
+      <data key="d0">N394641f8aa4c154a2289</data>
+      <data key="d1">location</data>
+      <data key="d2">A subregion identified by the code N394641f8aa4c154a2289 within the fictional reference world.</data>
+      <data key="d3">D813a5727276cc4bd97d1-chunk-000&lt;SEP&gt;Dc3ec77827ceea4dcff0a-chunk-000</data>
+      <data key="d4">D813a5727276cc4bd97d1.txt&lt;SEP&gt;Dc3ec77827ceea4dcff0a.txt</data>
+      <data key="d5">1795370575</data>
+      <data key="d6" />
+    </node>
+    <node id="N5feecaf16ad1883937a8">
+      <data key="d0">N5feecaf16ad1883937a8</data>
+      <data key="d1">location</data>
+      <data key="d2">A region identified by the code N5feecaf16ad1883937a8 within the fictional reference world.</data>
+      <data key="d3">D813a5727276cc4bd97d1-chunk-000</data>
+      <data key="d4">D813a5727276cc4bd97d1.txt</data>
+      <data key="d5">1795370324</data>
+      <data key="d6" />
+    </node>
+    <node id="N6c8a83ea31d62164b287">
+      <data key="d0">N6c8a83ea31d62164b287</data>
+      <data key="d1">location</data>
+      <data key="d2">A subregion identified by the code N6c8a83ea31d62164b287 within the fictional reference world.&lt;SEP&gt;A region identified by the code N6c8a83ea31d62164b287, serving as the parent region for N8fe9e9640a4262cfd99d.</data>
+      <data key="d3">D84639360e642b7f63859-chunk-000&lt;SEP&gt;Df9188b96fa8391566057-chunk-000</data>
+      <data key="d4">D84639360e642b7f63859.txt&lt;SEP&gt;Df9188b96fa8391566057.txt</data>
+      <data key="d5">1795370926</data>
+      <data key="d6" />
+    </node>
+    <node id="registry entry">
+      <data key="d0">registry entry</data>
+      <data key="d1">content</data>
+      <data key="d2">A record describing the stated relationship in the fictional reference world.</data>
+      <data key="d3">D84639360e642b7f63859-chunk-000</data>
+      <data key="d4">D84639360e642b7f63859.txt</data>
+      <data key="d5">1795370333</data>
+      <data key="d6" />
+    </node>
+    <node id="fictional reference world">
+      <data key="d0">fictional reference world</data>
+      <data key="d1">concept</data>
+      <data key="d2">An imagined setting in which the registry entries exist.</data>
+      <data key="d3">D84639360e642b7f63859-chunk-000</data>
+      <data key="d4">D84639360e642b7f63859.txt</data>
+      <data key="d5">1795370333</data>
+      <data key="d6" />
+    </node>
+    <node id="source assertion">
+      <data key="d0">source assertion</data>
+      <data key="d1">content</data>
+      <data key="d2">An assertion recorded in the registry entry that is not evaluated against other entries.</data>
+      <data key="d3">D84639360e642b7f63859-chunk-000</data>
+      <data key="d4">D84639360e642b7f63859.txt</data>
+      <data key="d5">1795370333</data>
+      <data key="d6" />
+    </node>
+    <node id="Nf8b1c7505d9b986a8b38">
+      <data key="d0">Nf8b1c7505d9b986a8b38</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing a registry entry that precedes another entry in the fictional reference world.&lt;SEP&gt;Identifier representing a registry entry in the fictional reference world.</data>
+      <data key="d3">D871bca2b3ebe8857e3c7-chunk-000&lt;SEP&gt;Df08f83e6fbc691cf3e31-chunk-000</data>
+      <data key="d4">D871bca2b3ebe8857e3c7.txt&lt;SEP&gt;Df08f83e6fbc691cf3e31.txt</data>
+      <data key="d5">1795370894</data>
+      <data key="d6" />
+    </node>
+    <node id="N3a17ed1d7b8c474915fd">
+      <data key="d0">N3a17ed1d7b8c474915fd</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing a registry entry that follows the entry Nf8b1c7505d9b986a8b38 in the fictional reference world.</data>
+      <data key="d3">D871bca2b3ebe8857e3c7-chunk-000</data>
+      <data key="d4">D871bca2b3ebe8857e3c7.txt</data>
+      <data key="d5">1795370338</data>
+      <data key="d6" />
+    </node>
+    <node id="N6f3308560cee97d3b9e5">
+      <data key="d0">N6f3308560cee97d3b9e5</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Registry entry identified by N6f3308560cee97d3b9e5, contained within Na45fe2dc5514ade260d4.&lt;SEP&gt;A registry entry identified by the alphanumeric code N6f3308560cee97d3b9e5, which is referenced within the fictional reference world.</data>
+      <data key="d3">D87e6c533b79da8158b89-chunk-000&lt;SEP&gt;De4e2983cbee815e6065b-chunk-000</data>
+      <data key="d4">D87e6c533b79da8158b89.txt&lt;SEP&gt;De4e2983cbee815e6065b.txt</data>
+      <data key="d5">1795370803</data>
+      <data key="d6" />
+    </node>
+    <node id="Na45fe2dc5514ade260d4">
+      <data key="d0">Na45fe2dc5514ade260d4</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Registry entry identified by Na45fe2dc5514ade260d4, containing N6f3308560cee97d3b9e5.</data>
+      <data key="d3">D87e6c533b79da8158b89-chunk-000</data>
+      <data key="d4">D87e6c533b79da8158b89.txt</data>
+      <data key="d5">1795370354</data>
+      <data key="d6" />
+    </node>
+    <node id="N78393c88903f75efa53e">
+      <data key="d0">N78393c88903f75efa53e</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier that is contained within another identifier.&lt;SEP&gt;A registry entry identifier that is contained within another registry entry.</data>
+      <data key="d3">D8c8029e8c48a14776585-chunk-000&lt;SEP&gt;D999f35a71e98b3acc633-chunk-000</data>
+      <data key="d4">D8c8029e8c48a14776585.txt&lt;SEP&gt;D999f35a71e98b3acc633.txt</data>
+      <data key="d5">1795370408</data>
+      <data key="d6" />
+    </node>
+    <node id="N9c09fa856f253442f548">
+      <data key="d0">N9c09fa856f253442f548</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier that contains another identifier.</data>
+      <data key="d3">D8c8029e8c48a14776585-chunk-000</data>
+      <data key="d4">D8c8029e8c48a14776585.txt</data>
+      <data key="d5">1795370363</data>
+      <data key="d6" />
+    </node>
+    <node id="N53ae6479da267416f91d">
+      <data key="d0">N53ae6479da267416f91d</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing a registry entry that contains another registry entry.</data>
+      <data key="d3">D92b87fb4dd790a9a0f2f-chunk-000</data>
+      <data key="d4">D92b87fb4dd790a9a0f2f.txt</data>
+      <data key="d5">1795370393</data>
+      <data key="d6" />
+    </node>
+    <node id="N276de54cc68d39328341">
+      <data key="d0">N276de54cc68d39328341</data>
+      <data key="d1">other</data>
+      <data key="d2">A registry entry identifier that contains another registry entry.</data>
+      <data key="d3">D999f35a71e98b3acc633-chunk-000</data>
+      <data key="d4">D999f35a71e98b3acc633.txt</data>
+      <data key="d5">1795370408</data>
+      <data key="d6" />
+    </node>
+    <node id="N05b206f4e6dc4af2486b">
+      <data key="d0">N05b206f4e6dc4af2486b</data>
+      <data key="d1">location</data>
+      <data key="d2">A subregion identified by the code N05b206f4e6dc4af2486b within the fictional reference world.&lt;SEP&gt;A larger region identified by the code N05b206f4e6dc4af2486b, which contains the subregion N592bdd6359cf7d78ac5e.</data>
+      <data key="d3">D9a3ed82160e45022573d-chunk-000&lt;SEP&gt;Dd1e9c4f46e9c0f800549-chunk-000</data>
+      <data key="d4">D9a3ed82160e45022573d.txt&lt;SEP&gt;Dd1e9c4f46e9c0f800549.txt</data>
+      <data key="d5">1795370680</data>
+      <data key="d6" />
+    </node>
+    <node id="N5c25ba15012717d75075">
+      <data key="d0">N5c25ba15012717d75075</data>
+      <data key="d1">other</data>
+      <data key="d2">A registry entry that is contained in N8b16c886321739295ac2.&lt;SEP&gt;An identifier representing a registry entry that is not contained within another registry entry.</data>
+      <data key="d3">D9af1d40ddbb5b93c6ddf-chunk-000&lt;SEP&gt;Df5eb887b15569304836e-chunk-000</data>
+      <data key="d4">D9af1d40ddbb5b93c6ddf.txt&lt;SEP&gt;Df5eb887b15569304836e.txt</data>
+      <data key="d5">1795370920</data>
+      <data key="d6" />
+    </node>
+    <node id="N8b16c886321739295ac2">
+      <data key="d0">N8b16c886321739295ac2</data>
+      <data key="d1">other</data>
+      <data key="d2">A registry entry that contains N5c25ba15012717d75075.&lt;SEP&gt;An identifier representing a registry entry that contains another registry entry.</data>
+      <data key="d3">D9af1d40ddbb5b93c6ddf-chunk-000&lt;SEP&gt;Df5eb887b15569304836e-chunk-000</data>
+      <data key="d4">D9af1d40ddbb5b93c6ddf.txt&lt;SEP&gt;Df5eb887b15569304836e.txt</data>
+      <data key="d5">1795370920</data>
+      <data key="d6" />
+    </node>
+    <node id="N73aab90ad43a1c44d8b8">
+      <data key="d0">N73aab90ad43a1c44d8b8</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Identifier representing a registry entry in the fictional reference world.&lt;SEP&gt;An identifier representing a larger region within the fictional reference world, serving as the parent region of Nb311850e0d6f1dfede25.</data>
+      <data key="d3">Da175516fb4d2dd15b1c8-chunk-000&lt;SEP&gt;De251762bf8dc191c5046-chunk-000</data>
+      <data key="d4">Da175516fb4d2dd15b1c8.txt&lt;SEP&gt;De251762bf8dc191c5046.txt</data>
+      <data key="d5">1795370775</data>
+      <data key="d6" />
+    </node>
+    <node id="N35e91e1cecb1ca1d2d0c">
+      <data key="d0">N35e91e1cecb1ca1d2d0c</data>
+      <data key="d1">location</data>
+      <data key="d2">A region identified by the code N35e91e1cecb1ca1d2d0c within a fictional reference world.</data>
+      <data key="d3">Da7d93ca64ddb2385286a-chunk-000</data>
+      <data key="d4">Da7d93ca64ddb2385286a.txt</data>
+      <data key="d5">1795370466</data>
+      <data key="d6" />
+    </node>
+    <node id="Neba37e9f6d5110819858">
+      <data key="d0">Neba37e9f6d5110819858</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An identifier that contains the first identifier as part of its registry entry.&lt;SEP&gt;A registry entry identified by the unique identifier Neba37e9f6d5110819858.</data>
+      <data key="d3">Dacb8c3df2f00f4b6989f-chunk-000&lt;SEP&gt;Df64f894e1735c6e17ae6-chunk-000</data>
+      <data key="d4">Dacb8c3df2f00f4b6989f.txt&lt;SEP&gt;Df64f894e1735c6e17ae6.txt</data>
+      <data key="d5">1795370923</data>
+      <data key="d6" />
+    </node>
+    <node id="Nd47b24f40ae4a0788925">
+      <data key="d0">Nd47b24f40ae4a0788925</data>
+      <data key="d1">location</data>
+      <data key="d2">A subregion identified by the code Nd47b24f40ae4a0788925 within the fictional reference world.&lt;SEP&gt;A region identified by the code Nd47b24f40ae4a0788925 within a fictional reference world.</data>
+      <data key="d3">Dafb6461438342fc8247c-chunk-000&lt;SEP&gt;Ddf4508c438a35f9493ca-chunk-000</data>
+      <data key="d4">Dafb6461438342fc8247c.txt&lt;SEP&gt;Ddf4508c438a35f9493ca.txt</data>
+      <data key="d5">1795370742</data>
+      <data key="d6" />
+    </node>
+    <node id="Nfe39df2af3064056734d">
+      <data key="d0">Nfe39df2af3064056734d</data>
+      <data key="d1">location</data>
+      <data key="d2">A region identified by the code Nfe39df2af3064056734d within the fictional reference world.</data>
+      <data key="d3">Db2bea032f721a1121d41-chunk-000</data>
+      <data key="d4">Db2bea032f721a1121d41.txt</data>
+      <data key="d5">1795370496</data>
+      <data key="d6" />
+    </node>
+    <node id="N27a21b96b1491171f92c">
+      <data key="d0">N27a21b96b1491171f92c</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier N27a21b96b1491171f92c is a registry entry that contains N68253ce6d9b195c5dacc.&lt;SEP&gt;An identifier that is contained within the identifier Ncc69027d69c243c0f5a9.</data>
+      <data key="d3">Db4656d39a9d08594c964-chunk-000&lt;SEP&gt;Dbb866ffea43863d04da8-chunk-000</data>
+      <data key="d4">Db4656d39a9d08594c964.txt&lt;SEP&gt;Dbb866ffea43863d04da8.txt</data>
+      <data key="d5">1795370562</data>
+      <data key="d6" />
+    </node>
+    <node id="N04980f6d1f81f0aefb91">
+      <data key="d0">N04980f6d1f81f0aefb91</data>
+      <data key="d1">location</data>
+      <data key="d2">A region identified by the code N04980f6d1f81f0aefb91.</data>
+      <data key="d3">Db8ef2d8f24e3cb70b9e7-chunk-000</data>
+      <data key="d4">Db8ef2d8f24e3cb70b9e7.txt</data>
+      <data key="d5">1795370526</data>
+      <data key="d6" />
+    </node>
+    <node id="Nd346fd5ffa2c8ee1067b">
+      <data key="d0">Nd346fd5ffa2c8ee1067b</data>
+      <data key="d1">other</data>
+      <data key="d2">Registry entry identified by Nd346fd5ffa2c8ee1067b that follows N77f50f6eccafe2ccf18c.&lt;SEP&gt;An identifier that precedes another identifier in a registry entry.</data>
+      <data key="d3">Db9e4de6b351db6a50856-chunk-000&lt;SEP&gt;Deb75e238ae54da5ebf3e-chunk-000</data>
+      <data key="d4">Db9e4de6b351db6a50856.txt&lt;SEP&gt;Deb75e238ae54da5ebf3e.txt</data>
+      <data key="d5">1795370874</data>
+      <data key="d6" />
+    </node>
+    <node id="N95fb109be72efd322e6f">
+      <data key="d0">N95fb109be72efd322e6f</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier that is not contained in Nc91a8abe309bcd9c0856.&lt;SEP&gt;Identifier N95fb109be72efd322e6f, a registry entry that contains another registry entry.</data>
+      <data key="d3">Dbafebf997bd9cd9d8308-chunk-000&lt;SEP&gt;Deaad463ce80c534b1f76-chunk-000</data>
+      <data key="d4">Dbafebf997bd9cd9d8308.txt&lt;SEP&gt;Deaad463ce80c534b1f76.txt</data>
+      <data key="d5">1795370864</data>
+      <data key="d6" />
+    </node>
+    <node id="Ne3baeb4e132f3fbdb536">
+      <data key="d0">Ne3baeb4e132f3fbdb536</data>
+      <data key="d1">location</data>
+      <data key="d2">A larger region identified by the code Ne3baeb4e132f3fbdb536 within the fictional reference world.</data>
+      <data key="d3">Dc3ec77827ceea4dcff0a-chunk-000</data>
+      <data key="d4">Dc3ec77827ceea4dcff0a.txt</data>
+      <data key="d5">1795370575</data>
+      <data key="d6" />
+    </node>
+    <node id="Nb7e9348d316c6a286896">
+      <data key="d0">Nb7e9348d316c6a286896</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier of a registry entry that precedes another entry.&lt;SEP&gt;Identifier of a registry entry that does not precede another entry.</data>
+      <data key="d3">Dc91305e56ad8347c54e2-chunk-000&lt;SEP&gt;De86dcf6f0a1c8071d14f-chunk-000</data>
+      <data key="d4">Dc91305e56ad8347c54e2.txt&lt;SEP&gt;De86dcf6f0a1c8071d14f.txt</data>
+      <data key="d5">1795370861</data>
+      <data key="d6" />
+    </node>
+    <node id="N0c65c4abc3b732a7934d">
+      <data key="d0">N0c65c4abc3b732a7934d</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier of a registry entry that follows the first entry.&lt;SEP&gt;Identifier of a registry entry that is not preceded by the first entry.</data>
+      <data key="d3">Dc91305e56ad8347c54e2-chunk-000&lt;SEP&gt;De86dcf6f0a1c8071d14f-chunk-000</data>
+      <data key="d4">Dc91305e56ad8347c54e2.txt&lt;SEP&gt;De86dcf6f0a1c8071d14f.txt</data>
+      <data key="d5">1795370861</data>
+      <data key="d6" />
+    </node>
+    <node id="N592bdd6359cf7d78ac5e">
+      <data key="d0">N592bdd6359cf7d78ac5e</data>
+      <data key="d1">location</data>
+      <data key="d2">An identifier representing a region that is not a subregion of another region in the fictional reference world.&lt;SEP&gt;A subregion identified by the code N592bdd6359cf7d78ac5e, which is part of a larger region.</data>
+      <data key="d3">Dca9d139657d87fcd8fd5-chunk-000&lt;SEP&gt;Dd1e9c4f46e9c0f800549-chunk-000</data>
+      <data key="d4">Dca9d139657d87fcd8fd5.txt&lt;SEP&gt;Dd1e9c4f46e9c0f800549.txt</data>
+      <data key="d5">1795370680</data>
+      <data key="d6" />
+    </node>
+    <node id="N53efff33c7b277554005">
+      <data key="d0">N53efff33c7b277554005</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier of a registry entry that follows the entry N76aeeb51a7c9ddb875d5 in the fictional reference world.</data>
+      <data key="d3">Dcecdd5235c39808adf00-chunk-000</data>
+      <data key="d4">Dcecdd5235c39808adf00.txt</data>
+      <data key="d5">1795370618</data>
+      <data key="d6" />
+    </node>
+    <node id="Registry Entries">
+      <data key="d0">Registry Entries</data>
+      <data key="d1">content</data>
+      <data key="d2">Multiple registry records that may be referenced or evaluated.</data>
+      <data key="d3">Dd1555d1f4e34553d103d-chunk-000</data>
+      <data key="d4">Dd1555d1f4e34553d103d.txt</data>
+      <data key="d5">1795370636</data>
+      <data key="d6" />
+    </node>
+    <node id="N099894cda8f2f6a2b5b2">
+      <data key="d0">N099894cda8f2f6a2b5b2</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An identifier representing a registry entry that contains another registry entry.</data>
+      <data key="d3">Dd1960a17d8787a3b1cee-chunk-000</data>
+      <data key="d4">Dd1960a17d8787a3b1cee.txt</data>
+      <data key="d5">1795370651</data>
+      <data key="d6" />
+    </node>
+    <node id="Nb41ba5e6f39521b6e691">
+      <data key="d0">Nb41ba5e6f39521b6e691</data>
+      <data key="d1">location</data>
+      <data key="d2">A region identified by the code Nb41ba5e6f39521b6e691, which contains the subregion Nf2b79bb0ae62811bda41.</data>
+      <data key="d3">Dd1b71a1b0a096adfd662-chunk-000</data>
+      <data key="d4">Dd1b71a1b0a096adfd662.txt</data>
+      <data key="d5">1795370664</data>
+      <data key="d6" />
+    </node>
+    <node id="Nd949fe095751f5117a32">
+      <data key="d0">Nd949fe095751f5117a32</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the code Nd949fe095751f5117a32, serving as the parent region for other subregion entries.</data>
+      <data key="d3">Dd6372989d953584ef556-chunk-000</data>
+      <data key="d4">Dd6372989d953584ef556.txt</data>
+      <data key="d5">1795370695</data>
+      <data key="d6" />
+    </node>
+    <node id="N8b368e8ce401a33308d5">
+      <data key="d0">N8b368e8ce401a33308d5</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier that is contained within another registry entry.&lt;SEP&gt;An identifier representing a registry entry component that is contained within another registry entry.</data>
+      <data key="d3">Dd9fb9c37159b590d129d-chunk-000&lt;SEP&gt;Dfa8525393f12be468392-chunk-000</data>
+      <data key="d4">Dd9fb9c37159b590d129d.txt&lt;SEP&gt;Dfa8525393f12be468392.txt</data>
+      <data key="d5">1795370950</data>
+      <data key="d6" />
+    </node>
+    <node id="Na2022016b5a2dce20bf4">
+      <data key="d0">Na2022016b5a2dce20bf4</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier that contains the entry N8b368e8ce401a33308d5.</data>
+      <data key="d3">Dd9fb9c37159b590d129d-chunk-000</data>
+      <data key="d4">Dd9fb9c37159b590d129d.txt</data>
+      <data key="d5">1795370711</data>
+      <data key="d6" />
+    </node>
+    <node id="N809fff7bccb145da2c73">
+      <data key="d0">N809fff7bccb145da2c73</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the hexadecimal string N809fff7bccb145da2c73, which contains the entry N68233fd84827a175ff68.</data>
+      <data key="d3">Ddc7a70b23d3d5d8f9979-chunk-000</data>
+      <data key="d4">Ddc7a70b23d3d5d8f9979.txt</data>
+      <data key="d5">1795370724</data>
+      <data key="d6" />
+    </node>
+    <node id="Ncbb3d58bd325d505e920">
+      <data key="d0">Ncbb3d58bd325d505e920</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier preceding another identifier in the registry entry.&lt;SEP&gt;Identifier that precedes Nefd4733e55e655e415d1 in a registry entry.</data>
+      <data key="d3">De3f35bb5cd2daf23678e-chunk-000&lt;SEP&gt;De791e97b2b1adf07df4f-chunk-000</data>
+      <data key="d4">De3f35bb5cd2daf23678e.txt&lt;SEP&gt;De791e97b2b1adf07df4f.txt</data>
+      <data key="d5">1795370846</data>
+      <data key="d6" />
+    </node>
+    <node id="N961ec60d0a387f13599d">
+      <data key="d0">N961ec60d0a387f13599d</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier that follows the first identifier in the registry entry.</data>
+      <data key="d3">De3f35bb5cd2daf23678e-chunk-000</data>
+      <data key="d4">De3f35bb5cd2daf23678e.txt</data>
+      <data key="d5">1795370797</data>
+      <data key="d6" />
+    </node>
+    <node id="N25bda654e37ec2f0a046">
+      <data key="d0">N25bda654e37ec2f0a046</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A registry entry identified by the alphanumeric code N25bda654e37ec2f0a046, serving as the container for other entries.</data>
+      <data key="d3">De4e2983cbee815e6065b-chunk-000</data>
+      <data key="d4">De4e2983cbee815e6065b.txt</data>
+      <data key="d5">1795370803</data>
+      <data key="d6" />
+    </node>
+    <node id="Na1d0dcf562bd43f98e5f">
+      <data key="d0">Na1d0dcf562bd43f98e5f</data>
+      <data key="d1">content</data>
+      <data key="d2">An identifier that precedes another identifier in a registry entry.&lt;SEP&gt;A registry entry identified by the code Na1d0dcf562bd43f98e5f that is referenced by another entry in a fictional reference world.</data>
+      <data key="d3">De5d52bc41134b6f51dcf-chunk-000&lt;SEP&gt;Df1b1e893965d3f189eb8-chunk-000</data>
+      <data key="d4">De5d52bc41134b6f51dcf.txt&lt;SEP&gt;Df1b1e893965d3f189eb8.txt</data>
+      <data key="d5">1795370896</data>
+      <data key="d6" />
+    </node>
+    <node id="Nca4b0e1cb75f547231b1">
+      <data key="d0">Nca4b0e1cb75f547231b1</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier of a registry entry in the fictional reference world.</data>
+      <data key="d3">De6504e4466c5e590a4d1-chunk-000</data>
+      <data key="d4">De6504e4466c5e590a4d1.txt</data>
+      <data key="d5">1795370833</data>
+      <data key="d6" />
+    </node>
+    <node id="Nefd4733e55e655e415d1">
+      <data key="d0">Nefd4733e55e655e415d1</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier that follows Ncbb3d58bd325d505e920 in a registry entry.</data>
+      <data key="d3">De791e97b2b1adf07df4f-chunk-000</data>
+      <data key="d4">De791e97b2b1adf07df4f.txt</data>
+      <data key="d5">1795370846</data>
+      <data key="d6" />
+    </node>
+    <node id="N0a1e47343b8c7af38d5a">
+      <data key="d0">N0a1e47343b8c7af38d5a</data>
+      <data key="d1">other</data>
+      <data key="d2">Identifier representing a registry entry in the fictional reference world.</data>
+      <data key="d3">Df08f83e6fbc691cf3e31-chunk-000</data>
+      <data key="d4">Df08f83e6fbc691cf3e31.txt</data>
+      <data key="d5">1795370894</data>
+      <data key="d6" />
+    </node>
+    <node id="Ne141e08ab8016fa7e93a">
+      <data key="d0">Ne141e08ab8016fa7e93a</data>
+      <data key="d1">other</data>
+      <data key="d2">An identifier representing a registry entry that describes a stated relationship in a fictional reference world.</data>
+      <data key="d3">Dfa8525393f12be468392-chunk-000</data>
+      <data key="d4">Dfa8525393f12be468392.txt</data>
+      <data key="d5">1795370950</data>
+      <data key="d6" />
+    </node>
+    <edge source="N59c527434fc54854dad3" target="N30a734839dd9c6a7787f">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the first registry entry occurs before the second in the fictional reference world.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">D00aa2f4b14fa5e79bf07-chunk-000</data>
+      <data key="d11">D00aa2f4b14fa5e79bf07.txt</data>
+      <data key="d12">1795369646</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N59c527434fc54854dad3" target="Nf96405a2392fdff9bb1e">
+      <data key="d7">1.0</data>
+      <data key="d8">Nf96405a2392fdff9bb1e precedes N59c527434fc54854dad3 in the registry.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">De225409809272256bf02-chunk-000</data>
+      <data key="d11">De225409809272256bf02.txt</data>
+      <data key="d12">1795370764</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N30a734839dd9c6a7787f" target="N0281ead2d0c61309aff9">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the first registry entry occurs before the second in the fictional reference world.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">Dfdad841b91e6356bb92d-chunk-000</data>
+      <data key="d11">Dfdad841b91e6356bb92d.txt</data>
+      <data key="d12">1795370953</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N9a427e3874430f8172ef" target="Nc91a8abe309bcd9c0856">
+      <data key="d7">1.0</data>
+      <data key="d8">The entry N9a427e3874430f8172ef is contained within the entry Nc91a8abe309bcd9c0856.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D00acb34e9b7189e2447a-chunk-000</data>
+      <data key="d11">D00acb34e9b7189e2447a.txt</data>
+      <data key="d12">1795369650</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N9a427e3874430f8172ef" target="N95fb109be72efd322e6f">
+      <data key="d7">1.0</data>
+      <data key="d8">N95fb109be72efd322e6f contains N9a427e3874430f8172ef.</data>
+      <data key="d9">contains</data>
+      <data key="d10">Deaad463ce80c534b1f76-chunk-000</data>
+      <data key="d11">Deaad463ce80c534b1f76.txt</data>
+      <data key="d12">1795370864</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nc91a8abe309bcd9c0856" target="N95fb109be72efd322e6f">
+      <data key="d7">1.0</data>
+      <data key="d8">N95fb109be72efd322e6f is not contained in Nc91a8abe309bcd9c0856.</data>
+      <data key="d9">containment,negation</data>
+      <data key="d10">Dbafebf997bd9cd9d8308-chunk-000</data>
+      <data key="d11">Dbafebf997bd9cd9d8308.txt</data>
+      <data key="d12">1795370556</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nfdd9917e2c8514e36790" target="N54cdc918ea4a9e4429d6">
+      <data key="d7">2.0</data>
+      <data key="d8">Nfdd9917e2c8514e36790 is a subregion of N54cdc918ea4a9e4429d6.&lt;SEP&gt;The registry entry Nfdd9917e2c8514e36790 is explicitly stated to not be a subregion of the registry entry N54cdc918ea4a9e4429d6.</data>
+      <data key="d9">not subregion of,subregion of</data>
+      <data key="d10">D012c0031b1c2d5f5b85e-chunk-000&lt;SEP&gt;De23b7cd8d19e6364adcf-chunk-000</data>
+      <data key="d11">D012c0031b1c2d5f5b85e.txt&lt;SEP&gt;De23b7cd8d19e6364adcf.txt</data>
+      <data key="d12">1795370771</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N91eb61a5627b7001cc20" target="N8f750e01d50fa995fde6">
+      <data key="d7">1.0</data>
+      <data key="d8">N91eb61a5627b7001cc20 is a subregion of N8f750e01d50fa995fde6.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">D02a839711ec43f7a1d26-chunk-000</data>
+      <data key="d11">D02a839711ec43f7a1d26.txt</data>
+      <data key="d12">1795369676</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N91eb61a5627b7001cc20" target="Ndf2fa34d9a303db22621">
+      <data key="d7">1.0</data>
+      <data key="d8">N91eb61a5627b7001cc20 is a subregion of Ndf2fa34d9a303db22621.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">D4ff1724729c0dc75dac1-chunk-000</data>
+      <data key="d11">D4ff1724729c0dc75dac1.txt</data>
+      <data key="d12">1795370040</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N7ce66bd22c354bc1a9e5" target="Nec00b3ac713c6ce591a0">
+      <data key="d7">1.0</data>
+      <data key="d8">N7ce66bd22c354bc1a9e5 is a subregion of Nec00b3ac713c6ce591a0.</data>
+      <data key="d9">subregion of</data>
+      <data key="d10">D0315265825c4b1410658-chunk-000</data>
+      <data key="d11">D0315265825c4b1410658.txt</data>
+      <data key="d12">1795369680</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N7ce66bd22c354bc1a9e5" target="Nfe39df2af3064056734d">
+      <data key="d7">1.0</data>
+      <data key="d8">N7ce66bd22c354bc1a9e5 is a subregion of Nfe39df2af3064056734d.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">Db2bea032f721a1121d41-chunk-000</data>
+      <data key="d11">Db2bea032f721a1121d41.txt</data>
+      <data key="d12">1795370496</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N76aeeb51a7c9ddb875d5" target="N84c4090907f73e3c23fe">
+      <data key="d7">1.0</data>
+      <data key="d8">N76aeeb51a7c9ddb875d5 precedes N84c4090907f73e3c23fe.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">D096bf190fbd39b1198a9-chunk-000</data>
+      <data key="d11">D096bf190fbd39b1198a9.txt</data>
+      <data key="d12">1795369682</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N76aeeb51a7c9ddb875d5" target="N53efff33c7b277554005">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the entry N76aeeb51a7c9ddb875d5 occurs before the entry N53efff33c7b277554005.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">Dcecdd5235c39808adf00-chunk-000</data>
+      <data key="d11">Dcecdd5235c39808adf00.txt</data>
+      <data key="d12">1795370618</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N324f143dbc083c31fae5" target="N813f098a1c1b15ccbe6e">
+      <data key="d7">2.0</data>
+      <data key="d8">Indicates that the first registry entry is not a subregion of the second registry entry.&lt;SEP&gt;N324f143dbc083c31fae5 is a subregion of N813f098a1c1b15ccbe6e.</data>
+      <data key="d9">not subregion,subregion of</data>
+      <data key="d10">D0a16265bee860bd48511-chunk-000&lt;SEP&gt;D375355d9484fbf6d0145-chunk-000</data>
+      <data key="d11">D0a16265bee860bd48511.txt&lt;SEP&gt;D375355d9484fbf6d0145.txt</data>
+      <data key="d12">1795369921</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N6a3495420695c5af6c10" target="N89d0dbd404ec6e5dc559">
+      <data key="d7">1.0</data>
+      <data key="d8">N6a3495420695c5af6c10 is contained in N89d0dbd404ec6e5dc559.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D0a9a1b0bfc9101593f71-chunk-000</data>
+      <data key="d11">D0a9a1b0bfc9101593f71.txt</data>
+      <data key="d12">1795369710</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N6a3495420695c5af6c10" target="N88fadab90a854a2b8210">
+      <data key="d7">1.0</data>
+      <data key="d8">The entry N6a3495420695c5af6c10 is explicitly stated to be not contained within the entry N88fadab90a854a2b8210.</data>
+      <data key="d9">containment,exclusion</data>
+      <data key="d10">D5fdfb5f7ccc83743e7bc-chunk-000</data>
+      <data key="d11">D5fdfb5f7ccc83743e7bc.txt</data>
+      <data key="d12">1795370146</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N89d0dbd404ec6e5dc559" target="N8f5bae419445ccead139">
+      <data key="d7">1.0</data>
+      <data key="d8">N89d0dbd404ec6e5dc559 is contained in N8f5bae419445ccead139.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D70b465c9b341f3399d62-chunk-000</data>
+      <data key="d11">D70b465c9b341f3399d62.txt</data>
+      <data key="d12">1795370273</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N8fe9e9640a4262cfd99d" target="N6a09c8b2f74d7ae96dd7">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that N8fe9e9640a4262cfd99d is not a subregion of N6a09c8b2f74d7ae96dd7.</data>
+      <data key="d9">not a subregion of</data>
+      <data key="d10">D0b3092068b267ade7047-chunk-000</data>
+      <data key="d11">D0b3092068b267ade7047.txt</data>
+      <data key="d12">1795369713</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N8fe9e9640a4262cfd99d" target="Registry Entry">
+      <data key="d7">1.0</data>
+      <data key="d8">Registry Entry documents the relationship that N8fe9e9640a4262cfd99d is not a subregion of N6a09c8b2f74d7ae96dd7.</data>
+      <data key="d9">describes,records</data>
+      <data key="d10">D0b3092068b267ade7047-chunk-000</data>
+      <data key="d11">D0b3092068b267ade7047.txt</data>
+      <data key="d12">1795369713</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N8fe9e9640a4262cfd99d" target="N6c8a83ea31d62164b287">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that N8fe9e9640a4262cfd99d is a subregion of N6c8a83ea31d62164b287.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">Df9188b96fa8391566057-chunk-000</data>
+      <data key="d11">Df9188b96fa8391566057.txt</data>
+      <data key="d12">1795370926</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N6a09c8b2f74d7ae96dd7" target="Registry Entry">
+      <data key="d7">1.0</data>
+      <data key="d8">Registry Entry documents the relationship that N8fe9e9640a4262cfd99d is not a subregion of N6a09c8b2f74d7ae96dd7.</data>
+      <data key="d9">describes,records</data>
+      <data key="d10">D0b3092068b267ade7047-chunk-000</data>
+      <data key="d11">D0b3092068b267ade7047.txt</data>
+      <data key="d12">1795369713</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N6a09c8b2f74d7ae96dd7" target="N4d25d1380a1dc3194e5f">
+      <data key="d7">1.0</data>
+      <data key="d8">N4d25d1380a1dc3194e5f is a subregion of N6a09c8b2f74d7ae96dd7.</data>
+      <data key="d9">subregion of</data>
+      <data key="d10">D3de38f34fc4fd8208986-chunk-000</data>
+      <data key="d11">D3de38f34fc4fd8208986.txt</data>
+      <data key="d12">1795369976</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="N6da7f19259247dae36bf">
+      <data key="d7">1.0</data>
+      <data key="d8">Registry Entry records the existence of N6da7f19259247dae36bf.</data>
+      <data key="d9">describes</data>
+      <data key="d10">D1759848a15f03afde86d-chunk-000</data>
+      <data key="d11">D1759848a15f03afde86d.txt</data>
+      <data key="d12">1795369784</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Ne7800333ede839e48381">
+      <data key="d7">1.0</data>
+      <data key="d8">Registry Entry records the existence of Ne7800333ede839e48381.</data>
+      <data key="d9">describes</data>
+      <data key="d10">D1759848a15f03afde86d-chunk-000</data>
+      <data key="d11">D1759848a15f03afde86d.txt</data>
+      <data key="d12">1795369784</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Relationship">
+      <data key="d7">5.0</data>
+      <data key="d8">Registry Entry describes the stated Relationship.&lt;SEP&gt;Registry Entry contains the description of the stated relationship.&lt;SEP&gt;The registry entry contains a description of the relationship.&lt;SEP&gt;The registry entry describes the stated relationship.&lt;SEP&gt;The registry entry records a source assertion without evaluating other registry entries.</data>
+      <data key="d9">contains,describes,records,relation</data>
+      <data key="d10">D1e6fcd119ed03eaa5770-chunk-000&lt;SEP&gt;D3bf755801edbd55b30c7-chunk-000&lt;SEP&gt;D6d1b7dca231782eb5c7f-chunk-000&lt;SEP&gt;D8e1819f9a41f64977ff5-chunk-000&lt;SEP&gt;Ddf4508c438a35f9493ca-chunk-000</data>
+      <data key="d11">D1e6fcd119ed03eaa5770.txt&lt;SEP&gt;D3bf755801edbd55b30c7.txt&lt;SEP&gt;D6d1b7dca231782eb5c7f.txt&lt;SEP&gt;D8e1819f9a41f64977ff5.txt&lt;SEP&gt;Ddf4508c438a35f9493ca.txt</data>
+      <data key="d12">1795370745</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Source Assertion">
+      <data key="d7">26.0</data>
+      <data key="d8">The relation (Registry Entry, Source Assertion) specifies that a registry entry records a source assertion. In this relationship, the source assertion is part of the registry entry, and the registry entry serves as a container that documents the assertion independently of any other entries in the registry. The registry entry contains the source assertion, capturing it without evaluating other registry entries. This relationship indicates that the registry entry records and holds the source assertion, thereby preserving the assertion’s information within the registry.&lt;SEP&gt;The registry entry records a source assertion.&lt;SEP&gt;Registry Entry records a source assertion.</data>
+      <data key="d9">assertion,asserts,contained_in,contains,describes,records,relation</data>
+      <data key="d10">D1e6fcd119ed03eaa5770-chunk-000&lt;SEP&gt;D213d059cbf8275626d71-chunk-000&lt;SEP&gt;D31d7efaecc9dac0459f5-chunk-000&lt;SEP&gt;D32fee42740fc2d3298a6-chunk-000&lt;SEP&gt;D3987590ecfb6040326d8-chunk-000&lt;SEP&gt;D3bf755801edbd55b30c7-chunk-000&lt;SEP&gt;D484ceaf31f69109851b6-chunk-000&lt;SEP&gt;D4ff1724729c0dc75dac1-chunk-000&lt;SEP&gt;D51c37d21d0db8f1e9c74-chunk-000&lt;SEP&gt;D69ab7fa586361d0bba4c-chunk-000&lt;SEP&gt;D6ae5922c2a4aebab2026-chunk-000&lt;SEP&gt;D6d1b7dca231782eb5c7f-chunk-000&lt;SEP&gt;D813a5727276cc4bd97d1-chunk-000&lt;SEP&gt;D8c8029e8c48a14776585-chunk-000&lt;SEP&gt;D8e1819f9a41f64977ff5-chunk-000&lt;SEP&gt;D9a3ed82160e45022573d-chunk-000&lt;SEP&gt;Dacb8c3df2f00f4b6989f-chunk-000&lt;SEP&gt;Db8ef2d8f24e3cb70b9e7-chunk-000&lt;SEP&gt;Dc3ec77827ceea4dcff0a-chunk-000&lt;SEP&gt;Dd1b71a1b0a096adfd662-chunk-000&lt;SEP&gt;Dd9fb9c37159b590d129d-chunk-000&lt;SEP&gt;Ddd90b4110e833cad50f5-chunk-000&lt;SEP&gt;De251762bf8dc191c5046-chunk-000&lt;SEP&gt;De5d52bc41134b6f51dcf-chunk-000&lt;SEP&gt;De791e97b2b1adf07df4f-chunk-000&lt;SEP&gt;Deb75e238ae54da5ebf3e-chunk-000</data>
+      <data key="d11">D1e6fcd119ed03eaa5770.txt&lt;SEP&gt;D213d059cbf8275626d71.txt&lt;SEP&gt;D31d7efaecc9dac0459f5.txt&lt;SEP&gt;D32fee42740fc2d3298a6.txt&lt;SEP&gt;D3987590ecfb6040326d8.txt&lt;SEP&gt;D3bf755801edbd55b30c7.txt&lt;SEP&gt;D484ceaf31f69109851b6.txt&lt;SEP&gt;D4ff1724729c0dc75dac1.txt&lt;SEP&gt;D51c37d21d0db8f1e9c74.txt&lt;SEP&gt;D69ab7fa586361d0bba4c.txt&lt;SEP&gt;D6ae5922c2a4aebab2026.txt&lt;SEP&gt;D6d1b7dca231782eb5c7f.txt&lt;SEP&gt;D813a5727276cc4bd97d1.txt&lt;SEP&gt;D8c8029e8c48a14776585.txt&lt;SEP&gt;D8e1819f9a41f64977ff5.txt&lt;SEP&gt;D9a3ed82160e45022573d.txt&lt;SEP&gt;Dacb8c3df2f00f4b6989f.txt&lt;SEP&gt;Db8ef2d8f24e3cb70b9e7.txt&lt;SEP&gt;Dc3ec77827ceea4dcff0a.txt&lt;SEP&gt;Dd1b71a1b0a096adfd662.txt&lt;SEP&gt;Dd9fb9c37159b590d129d.txt&lt;SEP&gt;Ddd90b4110e833cad50f5.txt&lt;SEP&gt;De251762bf8dc191c5046.txt&lt;SEP&gt;De5d52bc41134b6f51dcf.txt&lt;SEP&gt;De791e97b2b1adf07df4f.txt&lt;SEP&gt;Deb75e238ae54da5ebf3e.txt</data>
+      <data key="d12">1795370890</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Other Registry Entries">
+      <data key="d7">3.0</data>
+      <data key="d8">Registry Entry references Other Registry Entries.&lt;SEP&gt;The registry entry references other registry entries.&lt;SEP&gt;Registry Entry does not evaluate Other Registry Entries.</data>
+      <data key="d9">does not evaluate,references,relation</data>
+      <data key="d10">D1e6fcd119ed03eaa5770-chunk-000&lt;SEP&gt;D813a5727276cc4bd97d1-chunk-000&lt;SEP&gt;Dd9fb9c37159b590d129d-chunk-000</data>
+      <data key="d11">D1e6fcd119ed03eaa5770.txt&lt;SEP&gt;D813a5727276cc4bd97d1.txt&lt;SEP&gt;Dd9fb9c37159b590d129d.txt</data>
+      <data key="d12">1795370712</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Fictional Reference World">
+      <data key="d7">20.0</data>
+      <data key="d8">The relation **(Fictional Reference World, Registry Entry)** indicates that a registry entry is situated within the Fictional Reference World. It confirms the entry’s location inside this world and specifies that the entry describes a relationship that is part of that fictional context. The relation therefore serves to both locate the registry entry within the Fictional Reference World and to define the nature of the relationship it records.&lt;SEP&gt;The registry entry describes the relationship within the fictional reference world.&lt;SEP&gt;The registry entry is situated within the fictional reference world.&lt;SEP&gt;Registry entry describes the relationship within the fictional reference world.</data>
+      <data key="d9">context,describes,describes in,describes relationship in,describes_in,exists in,exists_in,in,located in,location,relation,set_in</data>
+      <data key="d10">D1e6fcd119ed03eaa5770-chunk-000&lt;SEP&gt;D31d7efaecc9dac0459f5-chunk-000&lt;SEP&gt;D3bf755801edbd55b30c7-chunk-000&lt;SEP&gt;D47c49cfab181f97b6a71-chunk-000&lt;SEP&gt;D484ceaf31f69109851b6-chunk-000&lt;SEP&gt;D4ff1724729c0dc75dac1-chunk-000&lt;SEP&gt;D51c37d21d0db8f1e9c74-chunk-000&lt;SEP&gt;D69ab7fa586361d0bba4c-chunk-000&lt;SEP&gt;D6ae5922c2a4aebab2026-chunk-000&lt;SEP&gt;D6d1b7dca231782eb5c7f-chunk-000&lt;SEP&gt;D8e1819f9a41f64977ff5-chunk-000&lt;SEP&gt;Db8ef2d8f24e3cb70b9e7-chunk-000&lt;SEP&gt;Dc3ec77827ceea4dcff0a-chunk-000&lt;SEP&gt;Dd1555d1f4e34553d103d-chunk-000&lt;SEP&gt;Dd1b71a1b0a096adfd662-chunk-000&lt;SEP&gt;Ddd90b4110e833cad50f5-chunk-000&lt;SEP&gt;Ddf4508c438a35f9493ca-chunk-000&lt;SEP&gt;De3f35bb5cd2daf23678e-chunk-000&lt;SEP&gt;De5d52bc41134b6f51dcf-chunk-000&lt;SEP&gt;De791e97b2b1adf07df4f-chunk-000</data>
+      <data key="d11">D1e6fcd119ed03eaa5770.txt&lt;SEP&gt;D31d7efaecc9dac0459f5.txt&lt;SEP&gt;D3bf755801edbd55b30c7.txt&lt;SEP&gt;D47c49cfab181f97b6a71.txt&lt;SEP&gt;D484ceaf31f69109851b6.txt&lt;SEP&gt;D4ff1724729c0dc75dac1.txt&lt;SEP&gt;D51c37d21d0db8f1e9c74.txt&lt;SEP&gt;D69ab7fa586361d0bba4c.txt&lt;SEP&gt;D6ae5922c2a4aebab2026.txt&lt;SEP&gt;D6d1b7dca231782eb5c7f.txt&lt;SEP&gt;D8e1819f9a41f64977ff5.txt&lt;SEP&gt;Db8ef2d8f24e3cb70b9e7.txt&lt;SEP&gt;Dc3ec77827ceea4dcff0a.txt&lt;SEP&gt;Dd1555d1f4e34553d103d.txt&lt;SEP&gt;Dd1b71a1b0a096adfd662.txt&lt;SEP&gt;Ddd90b4110e833cad50f5.txt&lt;SEP&gt;Ddf4508c438a35f9493ca.txt&lt;SEP&gt;De3f35bb5cd2daf23678e.txt&lt;SEP&gt;De5d52bc41134b6f51dcf.txt&lt;SEP&gt;De791e97b2b1adf07df4f.txt</data>
+      <data key="d12">1795370846</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Current Fictional Reference World">
+      <data key="d7">5.0</data>
+      <data key="d8">Registry Entry describes the current fictional reference world.&lt;SEP&gt;The registry entry describes the current fictional reference world.&lt;SEP&gt;The registry entry exists within the current fictional reference world.&lt;SEP&gt;The registry entry documents relationships within the current fictional reference world.&lt;SEP&gt;The registry entry is situated within the current fictional reference world.</data>
+      <data key="d9">describes,describes_in,exists in</data>
+      <data key="d10">D213d059cbf8275626d71-chunk-000&lt;SEP&gt;D813a5727276cc4bd97d1-chunk-000&lt;SEP&gt;D8c8029e8c48a14776585-chunk-000&lt;SEP&gt;De251762bf8dc191c5046-chunk-000&lt;SEP&gt;De5d52bc41134b6f51dcf-chunk-000</data>
+      <data key="d11">D213d059cbf8275626d71.txt&lt;SEP&gt;D813a5727276cc4bd97d1.txt&lt;SEP&gt;D8c8029e8c48a14776585.txt&lt;SEP&gt;De251762bf8dc191c5046.txt&lt;SEP&gt;De5d52bc41134b6f51dcf.txt</data>
+      <data key="d12">1795370827</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Nd66233e3482844959e22">
+      <data key="d7">1.0</data>
+      <data key="d8">Registry Entry records and describes Nd66233e3482844959e22.</data>
+      <data key="d9">describes</data>
+      <data key="d10">D307f61e2bb61c65dbffa-chunk-000</data>
+      <data key="d11">D307f61e2bb61c65dbffa.txt</data>
+      <data key="d12">1795369861</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="N9172d66180b0534b3189">
+      <data key="d7">1.0</data>
+      <data key="d8">Registry Entry records and describes N9172d66180b0534b3189.</data>
+      <data key="d9">describes</data>
+      <data key="d10">D307f61e2bb61c65dbffa-chunk-000</data>
+      <data key="d11">D307f61e2bb61c65dbffa.txt</data>
+      <data key="d12">1795369861</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Stated Relationship">
+      <data key="d7">6.0</data>
+      <data key="d8">The registry entry describes the stated relationship.&lt;SEP&gt;The registry entry provides a description of the stated relationship.&lt;SEP&gt;Registry entry describes the stated relationship between identifiers&lt;SEP&gt;The registry entry describes the stated relationship between the identifiers.&lt;SEP&gt;Registry Entry describes the Stated Relationship.&lt;SEP&gt;Registry Entry describes the stated relationship.</data>
+      <data key="d9">describes,relationship</data>
+      <data key="d10">D32fee42740fc2d3298a6-chunk-000&lt;SEP&gt;D484ceaf31f69109851b6-chunk-000&lt;SEP&gt;D51c37d21d0db8f1e9c74-chunk-000&lt;SEP&gt;Dacb8c3df2f00f4b6989f-chunk-000&lt;SEP&gt;Dd9fb9c37159b590d129d-chunk-000&lt;SEP&gt;De791e97b2b1adf07df4f-chunk-000</data>
+      <data key="d11">D32fee42740fc2d3298a6.txt&lt;SEP&gt;D484ceaf31f69109851b6.txt&lt;SEP&gt;D51c37d21d0db8f1e9c74.txt&lt;SEP&gt;Dacb8c3df2f00f4b6989f.txt&lt;SEP&gt;Dd9fb9c37159b590d129d.txt&lt;SEP&gt;De791e97b2b1adf07df4f.txt</data>
+      <data key="d12">1795370846</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="N77f50f6eccafe2ccf18c">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry records the stated relationship involving N77f50f6eccafe2ccf18c.</data>
+      <data key="d9">describes,relationship</data>
+      <data key="d10">D3987590ecfb6040326d8-chunk-000</data>
+      <data key="d11">D3987590ecfb6040326d8.txt</data>
+      <data key="d12">1795369950</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Nbc1e5d973b720d379e08">
+      <data key="d7">2.0</data>
+      <data key="d8">The registry entry records the stated relationship involving Nbc1e5d973b720d379e08.&lt;SEP&gt;Registry Entry records the relationship involving Nbc1e5d973b720d379e08.</data>
+      <data key="d9">describes,relationship</data>
+      <data key="d10">D3987590ecfb6040326d8-chunk-000&lt;SEP&gt;Deb75e238ae54da5ebf3e-chunk-000</data>
+      <data key="d11">D3987590ecfb6040326d8.txt&lt;SEP&gt;Deb75e238ae54da5ebf3e.txt</data>
+      <data key="d12">1795370890</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="N4142a55c2d046b158499">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry records a source assertion that describes the relationship of N4142a55c2d046b158499 to Ne66dd9afcc8a121e916d.</data>
+      <data key="d9">describes</data>
+      <data key="d10">D76413fefe6657c0277f5-chunk-000</data>
+      <data key="d11">D76413fefe6657c0277f5.txt</data>
+      <data key="d12">1795370278</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Ne66dd9afcc8a121e916d">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry records a source assertion that describes the relationship of N4142a55c2d046b158499 to Ne66dd9afcc8a121e916d.</data>
+      <data key="d9">describes</data>
+      <data key="d10">D76413fefe6657c0277f5-chunk-000</data>
+      <data key="d11">D76413fefe6657c0277f5.txt</data>
+      <data key="d12">1795370278</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="N394641f8aa4c154a2289">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry describes the relationship between N394641f8aa4c154a2289 and N5feecaf16ad1883937a8.</data>
+      <data key="d9">describes relationship</data>
+      <data key="d10">D813a5727276cc4bd97d1-chunk-000</data>
+      <data key="d11">D813a5727276cc4bd97d1.txt</data>
+      <data key="d12">1795370324</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="N95fb109be72efd322e6f">
+      <data key="d7">1.0</data>
+      <data key="d8">Registry Entry records the stated relationship between N95fb109be72efd322e6f and Nc91a8abe309bcd9c0856.</data>
+      <data key="d9">description,relationship</data>
+      <data key="d10">Dbafebf997bd9cd9d8308-chunk-000</data>
+      <data key="d11">Dbafebf997bd9cd9d8308.txt</data>
+      <data key="d12">1795370556</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Nbee61c7b321945a2c257">
+      <data key="d7">1.0</data>
+      <data key="d8">Registry Entry records the relationship involving Nbee61c7b321945a2c257.</data>
+      <data key="d9">description</data>
+      <data key="d10">Dd1555d1f4e34553d103d-chunk-000</data>
+      <data key="d11">Dd1555d1f4e34553d103d.txt</data>
+      <data key="d12">1795370647</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Ne3e274fe0cf169e80492">
+      <data key="d7">1.0</data>
+      <data key="d8">Registry Entry records the relationship involving Ne3e274fe0cf169e80492.</data>
+      <data key="d9">description</data>
+      <data key="d10">Dd1555d1f4e34553d103d-chunk-000</data>
+      <data key="d11">Dd1555d1f4e34553d103d.txt</data>
+      <data key="d12">1795370647</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Ncbb3d58bd325d505e920">
+      <data key="d7">2.0</data>
+      <data key="d8">The registry entry records a source assertion about the first identifier.&lt;SEP&gt;Registry entry records the source assertion involving identifier Ncbb3d58bd325d505e920.</data>
+      <data key="d9">describes,records</data>
+      <data key="d10">De3f35bb5cd2daf23678e-chunk-000&lt;SEP&gt;De791e97b2b1adf07df4f-chunk-000</data>
+      <data key="d11">De3f35bb5cd2daf23678e.txt&lt;SEP&gt;De791e97b2b1adf07df4f.txt</data>
+      <data key="d12">1795370846</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="N961ec60d0a387f13599d">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry records a source assertion about the second identifier.</data>
+      <data key="d9">records</data>
+      <data key="d10">De3f35bb5cd2daf23678e-chunk-000</data>
+      <data key="d11">De3f35bb5cd2daf23678e.txt</data>
+      <data key="d12">1795370797</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Na1d0dcf562bd43f98e5f">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry records a source assertion about Na1d0dcf562bd43f98e5f.</data>
+      <data key="d9">describes</data>
+      <data key="d10">De5d52bc41134b6f51dcf-chunk-000</data>
+      <data key="d11">De5d52bc41134b6f51dcf.txt</data>
+      <data key="d12">1795370827</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="N9917c899684329d6eb7a">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry records a source assertion about N9917c899684329d6eb7a.</data>
+      <data key="d9">describes</data>
+      <data key="d10">De5d52bc41134b6f51dcf-chunk-000</data>
+      <data key="d11">De5d52bc41134b6f51dcf.txt</data>
+      <data key="d12">1795370827</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Nefd4733e55e655e415d1">
+      <data key="d7">1.0</data>
+      <data key="d8">Registry entry records the source assertion involving identifier Nefd4733e55e655e415d1.</data>
+      <data key="d9">describes,records</data>
+      <data key="d10">De791e97b2b1adf07df4f-chunk-000</data>
+      <data key="d11">De791e97b2b1adf07df4f.txt</data>
+      <data key="d12">1795370846</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Registry Entry" target="Nd346fd5ffa2c8ee1067b">
+      <data key="d7">1.0</data>
+      <data key="d8">Registry Entry records the relationship involving Nd346fd5ffa2c8ee1067b.</data>
+      <data key="d9">describes</data>
+      <data key="d10">Deb75e238ae54da5ebf3e-chunk-000</data>
+      <data key="d11">Deb75e238ae54da5ebf3e.txt</data>
+      <data key="d12">1795370890</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N6da7f19259247dae36bf" target="Nece838c93ffafb4a6d15">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the first entry is not a subregion of the second entry.</data>
+      <data key="d9">not subregion</data>
+      <data key="d10">D107fc572c438d6005491-chunk-000</data>
+      <data key="d11">D107fc572c438d6005491.txt</data>
+      <data key="d12">1795369737</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N6da7f19259247dae36bf" target="Ne7800333ede839e48381">
+      <data key="d7">1.0</data>
+      <data key="d8">N6da7f19259247dae36bf is a subregion of Ne7800333ede839e48381.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">D1759848a15f03afde86d-chunk-000</data>
+      <data key="d11">D1759848a15f03afde86d.txt</data>
+      <data key="d12">1795369784</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nece838c93ffafb4a6d15" target="Naec278f805d922d2146d">
+      <data key="d7">1.0</data>
+      <data key="d8">Naec278f805d922d2146d is a subregion of Nece838c93ffafb4a6d15, indicating a hierarchical part‑of relationship.</data>
+      <data key="d9">part_of,subregion</data>
+      <data key="d10">Dd4eb22dad1731a072aee-chunk-000</data>
+      <data key="d11">Dd4eb22dad1731a072aee.txt</data>
+      <data key="d12">1795370682</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N923e335cbc8216e66c64" target="N1e8fcad3204036505b14">
+      <data key="d7">2.0</data>
+      <data key="d8">N923e335cbc8216e66c64 is not contained in N1e8fcad3204036505b14.&lt;SEP&gt;The entry N923e335cbc8216e66c64 is contained within the entry N1e8fcad3204036505b14.</data>
+      <data key="d9">contained in,containment,not contained</data>
+      <data key="d10">D10aa6c96159963cc11c5-chunk-000&lt;SEP&gt;Dbae378b505543854ddd0-chunk-000</data>
+      <data key="d11">D10aa6c96159963cc11c5.txt&lt;SEP&gt;Dbae378b505543854ddd0.txt</data>
+      <data key="d12">1795370545</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N9596269e30f654ebba35" target="Ncd02037457c0126890b6">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that N9596269e30f654ebba35 is a subregion of Ncd02037457c0126890b6.</data>
+      <data key="d9">subregion</data>
+      <data key="d10">D117910389e4c95e887bc-chunk-000</data>
+      <data key="d11">D117910389e4c95e887bc.txt</data>
+      <data key="d12">1795369757</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N9596269e30f654ebba35" target="N05b206f4e6dc4af2486b">
+      <data key="d7">1.0</data>
+      <data key="d8">N05b206f4e6dc4af2486b is a subregion of N9596269e30f654ebba35.</data>
+      <data key="d9">subregion of</data>
+      <data key="d10">D9a3ed82160e45022573d-chunk-000</data>
+      <data key="d11">D9a3ed82160e45022573d.txt</data>
+      <data key="d12">1795370414</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ncd02037457c0126890b6" target="N592bdd6359cf7d78ac5e">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the first region is not a subregion of the second region.</data>
+      <data key="d9">not,subregion</data>
+      <data key="d10">Dca9d139657d87fcd8fd5-chunk-000</data>
+      <data key="d11">Dca9d139657d87fcd8fd5.txt</data>
+      <data key="d12">1795370592</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nd3a7440e5b8f66ca8744" target="N6401ff9770356cea0bdf">
+      <data key="d7">2.0</data>
+      <data key="d8">Nd3a7440e5b8f66ca8744 is contained within N6401ff9770356cea0bdf.&lt;SEP&gt;The first identifier is explicitly stated as not being contained within the second identifier.</data>
+      <data key="d9">contained in,not contained in</data>
+      <data key="d10">D124fdca7dba8c4b80a96-chunk-000&lt;SEP&gt;D8e1819f9a41f64977ff5-chunk-000</data>
+      <data key="d11">D124fdca7dba8c4b80a96.txt&lt;SEP&gt;D8e1819f9a41f64977ff5.txt</data>
+      <data key="d12">1795370384</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ne7800333ede839e48381" target="Naec278f805d922d2146d">
+      <data key="d7">1.0</data>
+      <data key="d8">Ne7800333ede839e48381 is a subregion of Naec278f805d922d2146d.</data>
+      <data key="d9">subregion of</data>
+      <data key="d10">D7d1d491e6a497690f61d-chunk-000</data>
+      <data key="d11">D7d1d491e6a497690f61d.txt</data>
+      <data key="d12">1795370303</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N68253ce6d9b195c5dacc" target="Ncc69027d69c243c0f5a9">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the first identifier is not contained within the second identifier.</data>
+      <data key="d9">containment,exclusion</data>
+      <data key="d10">D1e6fcd119ed03eaa5770-chunk-000</data>
+      <data key="d11">D1e6fcd119ed03eaa5770.txt</data>
+      <data key="d12">1795369788</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N68253ce6d9b195c5dacc" target="N27a21b96b1491171f92c">
+      <data key="d7">1.0</data>
+      <data key="d8">N68253ce6d9b195c5dacc is contained in N27a21b96b1491171f92c.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">Db4656d39a9d08594c964-chunk-000</data>
+      <data key="d11">Db4656d39a9d08594c964.txt</data>
+      <data key="d12">1795370515</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ncc69027d69c243c0f5a9" target="N27a21b96b1491171f92c">
+      <data key="d7">1.0</data>
+      <data key="d8">The identifier N27a21b96b1491171f92c is contained within Ncc69027d69c243c0f5a9.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">Dbb866ffea43863d04da8-chunk-000</data>
+      <data key="d11">Dbb866ffea43863d04da8.txt</data>
+      <data key="d12">1795370562</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Fictional Reference World" target="Na446443ea668d6e1e6e7">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry Na446443ea668d6e1e6e7 describes the stated relationship within the Fictional Reference World.</data>
+      <data key="d9">describes in</data>
+      <data key="d10">D340ca21d12f63d1cd917-chunk-000</data>
+      <data key="d11">D340ca21d12f63d1cd917.txt</data>
+      <data key="d12">1795369904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Fictional Reference World" target="N6f3308560cee97d3b9e5">
+      <data key="d7">2.0</data>
+      <data key="d8">The entry describes the stated relationship in the current fictional reference world.&lt;SEP&gt;Shows that the registry entry N6f3308560cee97d3b9e5 refers to or is situated within the fictional reference world.</data>
+      <data key="d9">describes</data>
+      <data key="d10">D87e6c533b79da8158b89-chunk-000&lt;SEP&gt;De4e2983cbee815e6065b-chunk-000</data>
+      <data key="d11">D87e6c533b79da8158b89.txt&lt;SEP&gt;De4e2983cbee815e6065b.txt</data>
+      <data key="d12">1795370803</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Fictional Reference World" target="N77f50f6eccafe2ccf18c">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry N77f50f6eccafe2ccf18c describes its relationship within the fictional reference world.</data>
+      <data key="d9">describes</data>
+      <data key="d10">Db9e4de6b351db6a50856-chunk-000</data>
+      <data key="d11">Db9e4de6b351db6a50856.txt</data>
+      <data key="d12">1795370533</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Fictional Reference World" target="Source Assertion">
+      <data key="d7">1.0</data>
+      <data key="d8">Shows that the source assertion is situated within the fictional reference world.</data>
+      <data key="d9">located in</data>
+      <data key="d10">Dc3ec77827ceea4dcff0a-chunk-000</data>
+      <data key="d11">Dc3ec77827ceea4dcff0a.txt</data>
+      <data key="d12">1795370575</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Fictional Reference World" target="N22028d647cf22f381221">
+      <data key="d7">1.0</data>
+      <data key="d8">Shows that the registry entry N22028d647cf22f381221 describes its relationship within the fictional reference world.</data>
+      <data key="d9">contextualizes,describes</data>
+      <data key="d10">Dd6372989d953584ef556-chunk-000</data>
+      <data key="d11">Dd6372989d953584ef556.txt</data>
+      <data key="d12">1795370695</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Fictional Reference World" target="Ne141e08ab8016fa7e93a">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry identified by Ne141e08ab8016fa7e93a describes a stated relationship within the Fictional Reference World.</data>
+      <data key="d9">describes in</data>
+      <data key="d10">Dfa8525393f12be468392-chunk-000</data>
+      <data key="d11">Dfa8525393f12be468392.txt</data>
+      <data key="d12">1795370950</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Source Assertion" target="Other Registry Entries">
+      <data key="d7">4.0</data>
+      <data key="d8">The source assertion does not evaluate other registry entries.&lt;SEP&gt;Source assertion does not evaluate other registry entries&lt;SEP&gt;The source assertion is made without evaluating other registry entries.</data>
+      <data key="d9">does not evaluate,evaluation,without evaluating</data>
+      <data key="d10">D484ceaf31f69109851b6-chunk-000&lt;SEP&gt;D51c37d21d0db8f1e9c74-chunk-000&lt;SEP&gt;D8e1819f9a41f64977ff5-chunk-000&lt;SEP&gt;De5d52bc41134b6f51dcf-chunk-000</data>
+      <data key="d11">D484ceaf31f69109851b6.txt&lt;SEP&gt;D51c37d21d0db8f1e9c74.txt&lt;SEP&gt;D8e1819f9a41f64977ff5.txt&lt;SEP&gt;De5d52bc41134b6f51dcf.txt</data>
+      <data key="d12">1795370827</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Source Assertion" target="N6f3308560cee97d3b9e5">
+      <data key="d7">2.0</data>
+      <data key="d8">The entry records a source assertion without evaluating other registry entries.&lt;SEP&gt;Indicates that the registry entry N6f3308560cee97d3b9e5 contains or states the source assertion.</data>
+      <data key="d9">describes,records</data>
+      <data key="d10">D87e6c533b79da8158b89-chunk-000&lt;SEP&gt;De4e2983cbee815e6065b-chunk-000</data>
+      <data key="d11">D87e6c533b79da8158b89.txt&lt;SEP&gt;De4e2983cbee815e6065b.txt</data>
+      <data key="d12">1795370803</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Source Assertion" target="N77f50f6eccafe2ccf18c">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry N77f50f6eccafe2ccf18c records a source assertion.</data>
+      <data key="d9">records</data>
+      <data key="d10">Db9e4de6b351db6a50856-chunk-000</data>
+      <data key="d11">Db9e4de6b351db6a50856.txt</data>
+      <data key="d12">1795370533</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Source Assertion" target="Registry Entries">
+      <data key="d7">1.0</data>
+      <data key="d8">Source Assertion does not evaluate other Registry Entries.</data>
+      <data key="d9">evaluation</data>
+      <data key="d10">Dd1555d1f4e34553d103d-chunk-000</data>
+      <data key="d11">Dd1555d1f4e34553d103d.txt</data>
+      <data key="d12">1795370647</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Source Assertion" target="N22028d647cf22f381221">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the registry entry N22028d647cf22f381221 records a source assertion.</data>
+      <data key="d9">asserts,records</data>
+      <data key="d10">Dd6372989d953584ef556-chunk-000</data>
+      <data key="d11">Dd6372989d953584ef556.txt</data>
+      <data key="d12">1795370695</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nb3157744fbca11401254" target="N9917c899684329d6eb7a">
+      <data key="d7">1.0</data>
+      <data key="d8">Identifier Nb3157744fbca11401254 does not precede identifier N9917c899684329d6eb7a in the registry.</data>
+      <data key="d9">does not precede</data>
+      <data key="d10">D213d059cbf8275626d71-chunk-000</data>
+      <data key="d11">D213d059cbf8275626d71.txt</data>
+      <data key="d12">1795369797</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nb3157744fbca11401254" target="Na1d0dcf562bd43f98e5f">
+      <data key="d7">1.0</data>
+      <data key="d8">The entry Nb3157744fbca11401254 is stated to precede the entry Na1d0dcf562bd43f98e5f in the fictional reference world.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">Df1b1e893965d3f189eb8-chunk-000</data>
+      <data key="d11">Df1b1e893965d3f189eb8.txt</data>
+      <data key="d12">1795370896</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N9917c899684329d6eb7a" target="Na1d0dcf562bd43f98e5f">
+      <data key="d7">1.0</data>
+      <data key="d8">Na1d0dcf562bd43f98e5f is positioned before N9917c899684329d6eb7a in the registry entry.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">De5d52bc41134b6f51dcf-chunk-000</data>
+      <data key="d11">De5d52bc41134b6f51dcf.txt</data>
+      <data key="d12">1795370827</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Current Fictional Reference World" target="Stated Relationship">
+      <data key="d7">1.0</data>
+      <data key="d8">The stated relationship exists within the current fictional reference world.</data>
+      <data key="d9">exists in</data>
+      <data key="d10">D32fee42740fc2d3298a6-chunk-000</data>
+      <data key="d11">D32fee42740fc2d3298a6.txt</data>
+      <data key="d12">1795369887</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ne6ddd40967a46112c8b9" target="Nba3a0b991db4fb79cf0f">
+      <data key="d7">1.0</data>
+      <data key="d8">Ne6ddd40967a46112c8b9 is contained within Nba3a0b991db4fb79cf0f, indicating that the former registry entry is stored inside the latter.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D28f16cd7a54c385b69ca-chunk-000</data>
+      <data key="d11">D28f16cd7a54c385b69ca.txt</data>
+      <data key="d12">1795369814</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ne6ddd40967a46112c8b9" target="N56eb25a25d389374758f">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the first registry entry is contained within the second registry entry.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">Db384c386a21952382238-chunk-000</data>
+      <data key="d11">Db384c386a21952382238.txt</data>
+      <data key="d12">1795370502</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nba3a0b991db4fb79cf0f" target="N250f79801241d60703ac">
+      <data key="d7">1.0</data>
+      <data key="d8">Registry entry states that the first identifier is not contained in the second identifier</data>
+      <data key="d9">not contained in</data>
+      <data key="d10">D51c37d21d0db8f1e9c74-chunk-000</data>
+      <data key="d11">D51c37d21d0db8f1e9c74.txt</data>
+      <data key="d12">1795370053</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N0b786528fec79853affc" target="N6d9ef794a20ca01bae">
+      <data key="d7">1.0</data>
+      <data key="d8">The entry N0b786528fec79853affc is contained within the entry N6d9ef794a20ca01bae.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D2934e038681cf53c6fbd-chunk-000</data>
+      <data key="d11">D2934e038681cf53c6fbd.txt</data>
+      <data key="d12">1795369817</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N0b786528fec79853affc" target="N6d9ef794a20ca01bae91">
+      <data key="d7">1.0</data>
+      <data key="d8">The entry N0b786528fec79853affc is contained within the entry N6d9ef794a20ca01bae91.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D2934e038681cf53c6fbd-chunk-000</data>
+      <data key="d11">D2934e038681cf53c6fbd.txt</data>
+      <data key="d12">1795369817</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N0b786528fec79853affc" target="N48d8423b237f1065adf8">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the first registry entry is contained within the second registry entry.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D36fb5058c4a46729efa4-chunk-000</data>
+      <data key="d11">D36fb5058c4a46729efa4.txt</data>
+      <data key="d12">1795369917</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nf96405a2392fdff9bb1e" target="N0281ead2d0c61309aff9">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the first registry entry does not come before the second in the fictional reference world.</data>
+      <data key="d9">does not precede</data>
+      <data key="d10">D29a62f45335d85618f92-chunk-000</data>
+      <data key="d11">D29a62f45335d85618f92.txt</data>
+      <data key="d12">1795369827</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N2d03a1f82ddd8c26d2d9" target="N4ac05f63fb6dd5f25107">
+      <data key="d7">1.0</data>
+      <data key="d8">The first registry entry occurs before the second entry in the fictional reference world.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">D2a2fa858c97ab6d6fbdc-chunk-000</data>
+      <data key="d11">D2a2fa858c97ab6d6fbdc.txt</data>
+      <data key="d12">1795369844</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N2d03a1f82ddd8c26d2d9" target="Nca4b0e1cb75f547231b1">
+      <data key="d7">1.0</data>
+      <data key="d8">N2d03a1f82ddd8c26d2d9 precedes Nca4b0e1cb75f547231b1 in the registry.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">De6504e4466c5e590a4d1-chunk-000</data>
+      <data key="d11">De6504e4466c5e590a4d1.txt</data>
+      <data key="d12">1795370833</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N7ec7642684931121b4cf" target="Nd9a8cd333510d81469e3">
+      <data key="d7">1.0</data>
+      <data key="d8">N7ec7642684931121b4cf occurs before Nd9a8cd333510d81469e3 in the registry.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">D2b63892f95f58fe7c8b5-chunk-000</data>
+      <data key="d11">D2b63892f95f58fe7c8b5.txt</data>
+      <data key="d12">1795369857</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N7ec7642684931121b4cf" target="Nb1ba64697e47691ad304">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry N7ec7642684931121b4cf is recorded as preceding the registry entry Nb1ba64697e47691ad304.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">D64e6b2be5897da8958a4-chunk-000</data>
+      <data key="d11">D64e6b2be5897da8958a4.txt</data>
+      <data key="d12">1795370182</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nd66233e3482844959e22" target="N9172d66180b0534b3189">
+      <data key="d7">2.0</data>
+      <data key="d8">Nd66233e3482844959e22 is stated to precede N9172d66180b0534b3189.&lt;SEP&gt;Nd66233e3482844959e22 does not precede N9172d66180b0534b3189.</data>
+      <data key="d9">negated,precedes</data>
+      <data key="d10">D307f61e2bb61c65dbffa-chunk-000&lt;SEP&gt;Ddd90b4110e833cad50f5-chunk-000</data>
+      <data key="d11">D307f61e2bb61c65dbffa.txt&lt;SEP&gt;Ddd90b4110e833cad50f5.txt</data>
+      <data key="d12">1795370737</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N90de20f96ad7dc946afb" target="Nf2d2929a65de8c7aae4c">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that N90de20f96ad7dc946afb is a subregion of Nf2d2929a65de8c7aae4c.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">D31d7efaecc9dac0459f5-chunk-000</data>
+      <data key="d11">D31d7efaecc9dac0459f5.txt</data>
+      <data key="d12">1795369874</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N90de20f96ad7dc946afb" target="N9932b69591573a3c46d1">
+      <data key="d7">1.0</data>
+      <data key="d8">N9932b69591573a3c46d1 is a subregion of N90de20f96ad7dc946afb.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">D9f759ab27061c634112b-chunk-000</data>
+      <data key="d11">D9f759ab27061c634112b.txt</data>
+      <data key="d12">1795370438</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nf2d2929a65de8c7aae4c" target="N9932b69591573a3c46d1">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the first identifier is not a subregion of the second identifier.</data>
+      <data key="d9">not subregion of</data>
+      <data key="d10">D606ed73f3866f2e4f0d1-chunk-000</data>
+      <data key="d11">D606ed73f3866f2e4f0d1.txt</data>
+      <data key="d12">1795370158</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N7e347bf05f241b885e0f" target="N71582801d1189684c2be">
+      <data key="d7">1.0</data>
+      <data key="d8">N7e347bf05f241b885e0f is a subregion of N71582801d1189684c2be.</data>
+      <data key="d9">subregion of</data>
+      <data key="d10">D32fee42740fc2d3298a6-chunk-000</data>
+      <data key="d11">D32fee42740fc2d3298a6.txt</data>
+      <data key="d12">1795369887</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N7e347bf05f241b885e0f" target="N51b1f65ecb20100c0101">
+      <data key="d7">1.0</data>
+      <data key="d8">N7e347bf05f241b885e0f is a subregion of N51b1f65ecb20100c0101 as stated in the registry entry.</data>
+      <data key="d9">subregion of</data>
+      <data key="d10">D5bd8e791b5bd39d8bab0-chunk-000</data>
+      <data key="d11">D5bd8e791b5bd39d8bab0.txt</data>
+      <data key="d12">1795370116</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N65700a2d6db36d25598a" target="N4f8b6237641fd828e3d1">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry N65700a2d6db36d25598a is contained within the registry entry N4f8b6237641fd828e3d1.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D3369302a126998523134-chunk-000</data>
+      <data key="d11">D3369302a126998523134.txt</data>
+      <data key="d12">1795369891</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N65700a2d6db36d25598a" target="N5df6c26f99d2dabea078">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the registry entry N65700a2d6db36d25598a is not contained within the registry entry N5df6c26f99d2dabea078.</data>
+      <data key="d9">containment,not contained</data>
+      <data key="d10">D42a6ad15e475e77a44ea-chunk-000</data>
+      <data key="d11">D42a6ad15e475e77a44ea.txt</data>
+      <data key="d12">1795369992</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N4f8b6237641fd828e3d1" target="N5fce270295be035aa745">
+      <data key="d7">1.0</data>
+      <data key="d8">The first identifier is contained within the second registry entry.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D810fe8668f225c16c82c-chunk-000</data>
+      <data key="d11">D810fe8668f225c16c82c.txt</data>
+      <data key="d12">1795370308</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nc86b9a88c224130195ad" target="Na446443ea668d6e1e6e7">
+      <data key="d7">1.0</data>
+      <data key="d8">The identifier Nc86b9a88c224130195ad is contained within the registry entry Na446443ea668d6e1e6e7.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D340ca21d12f63d1cd917-chunk-000</data>
+      <data key="d11">D340ca21d12f63d1cd917.txt</data>
+      <data key="d12">1795369904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nc86b9a88c224130195ad" target="N14289eaa346fdf8e2037">
+      <data key="d7">1.0</data>
+      <data key="d8">Nc86b9a88c224130195ad is contained within N14289eaa346fdf8e2037.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D4fecc98249c4af1af3ad-chunk-000</data>
+      <data key="d11">D4fecc98249c4af1af3ad.txt</data>
+      <data key="d12">1795370022</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N22028d647cf22f381221" target="Nc38812fc2d03821a4ca0">
+      <data key="d7">1.0</data>
+      <data key="d8">The entity N22028d647cf22f381221 is a subregion of the entity Nc38812fc2d03821a4ca0.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">D3836e288c402128f2f93-chunk-000</data>
+      <data key="d11">D3836e288c402128f2f93.txt</data>
+      <data key="d12">1795369934</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N22028d647cf22f381221" target="Nd949fe095751f5117a32">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the registry entry N22028d647cf22f381221 is a subregion of the registry entry Nd949fe095751f5117a32.</data>
+      <data key="d9">subregion</data>
+      <data key="d10">Dd6372989d953584ef556-chunk-000</data>
+      <data key="d11">Dd6372989d953584ef556.txt</data>
+      <data key="d12">1795370695</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N77f50f6eccafe2ccf18c" target="Nbc1e5d973b720d379e08">
+      <data key="d7">1.0</data>
+      <data key="d8">The identifier N77f50f6eccafe2ccf18c is stated to not precede the identifier Nbc1e5d973b720d379e08.</data>
+      <data key="d9">negated,precedes</data>
+      <data key="d10">D3987590ecfb6040326d8-chunk-000</data>
+      <data key="d11">D3987590ecfb6040326d8.txt</data>
+      <data key="d12">1795369950</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N77f50f6eccafe2ccf18c" target="Nd346fd5ffa2c8ee1067b">
+      <data key="d7">1.0</data>
+      <data key="d8">N77f50f6eccafe2ccf18c entry precedes Nd346fd5ffa2c8ee1067b entry.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">Db9e4de6b351db6a50856-chunk-000</data>
+      <data key="d11">Db9e4de6b351db6a50856.txt</data>
+      <data key="d12">1795370533</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nbc1e5d973b720d379e08" target="Nd346fd5ffa2c8ee1067b">
+      <data key="d7">1.0</data>
+      <data key="d8">Nd346fd5ffa2c8ee1067b is stated to precede Nbc1e5d973b720d379e08.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">Deb75e238ae54da5ebf3e-chunk-000</data>
+      <data key="d11">Deb75e238ae54da5ebf3e.txt</data>
+      <data key="d12">1795370890</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nf2b79bb0ae62811bda41" target="N1ccedfeba71398b7cdb9">
+      <data key="d7">1.0</data>
+      <data key="d8">Nf2b79bb0ae62811bda41 is a subregion of N1ccedfeba71398b7cdb9.</data>
+      <data key="d9">subregion of</data>
+      <data key="d10">D3bf755801edbd55b30c7-chunk-000</data>
+      <data key="d11">D3bf755801edbd55b30c7.txt</data>
+      <data key="d12">1795369963</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nf2b79bb0ae62811bda41" target="Nb41ba5e6f39521b6e691">
+      <data key="d7">1.0</data>
+      <data key="d8">Nf2b79bb0ae62811bda41 is a subregion of Nb41ba5e6f39521b6e691.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">Dd1b71a1b0a096adfd662-chunk-000</data>
+      <data key="d11">Dd1b71a1b0a096adfd662.txt</data>
+      <data key="d12">1795370665</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N4d25d1380a1dc3194e5f" target="N6c8a83ea31d62164b287">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that N6c8a83ea31d62164b287 is a subregion of N4d25d1380a1dc3194e5f.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">D84639360e642b7f63859-chunk-000</data>
+      <data key="d11">D84639360e642b7f63859.txt</data>
+      <data key="d12">1795370333</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ncbbbb26b53e20af47e6d" target="N608c6ed4328ab6d8bf66">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the first registry entry is contained within the second registry entry.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D4028633f7f07194a89fc-chunk-000</data>
+      <data key="d11">D4028633f7f07194a89fc.txt</data>
+      <data key="d12">1795369980</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ncbbbb26b53e20af47e6d" target="N53ae6479da267416f91d">
+      <data key="d7">1.0</data>
+      <data key="d8">The entry Ncbbbb26b53e20af47e6d is contained within the entry N53ae6479da267416f91d.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D92b87fb4dd790a9a0f2f-chunk-000</data>
+      <data key="d11">D92b87fb4dd790a9a0f2f.txt</data>
+      <data key="d12">1795370393</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N5df6c26f99d2dabea078" target="N5fce270295be035aa745">
+      <data key="d7">1.0</data>
+      <data key="d8">The first identifier is contained within the second registry entry.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D6d1b7dca231782eb5c7f-chunk-000</data>
+      <data key="d11">D6d1b7dca231782eb5c7f.txt</data>
+      <data key="d12">1795370260</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N250f79801241d60703ac" target="N56eb25a25d389374758f">
+      <data key="d7">1.0</data>
+      <data key="d8">The identifier N250f79801241d60703ac is contained within the identifier N56eb25a25d389374758f.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D47c49cfab181f97b6a71-chunk-000</data>
+      <data key="d11">D47c49cfab181f97b6a71.txt</data>
+      <data key="d12">1795370006</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N9e542f5f0372f5925428" target="Nce7afaa048239899b51b">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the first registry entry is not contained within the second registry entry.</data>
+      <data key="d9">containment,not contained</data>
+      <data key="d10">D484ceaf31f69109851b6-chunk-000</data>
+      <data key="d11">D484ceaf31f69109851b6.txt</data>
+      <data key="d12">1795370010</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N9e542f5f0372f5925428" target="Neba37e9f6d5110819858">
+      <data key="d7">1.0</data>
+      <data key="d8">The first identifier is contained within the second identifier.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">Dacb8c3df2f00f4b6989f-chunk-000</data>
+      <data key="d11">Dacb8c3df2f00f4b6989f.txt</data>
+      <data key="d12">1795370472</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nce7afaa048239899b51b" target="Neba37e9f6d5110819858">
+      <data key="d7">1.0</data>
+      <data key="d8">The entry Neba37e9f6d5110819858 is contained within the entry Nce7afaa048239899b51b.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">Df64f894e1735c6e17ae6-chunk-000</data>
+      <data key="d11">Df64f894e1735c6e17ae6.txt</data>
+      <data key="d12">1795370923</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N76575f0099b74a526d26" target="N9005dee13ae53e890c51">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry N76575f0099b74a526d26 is explicitly stated to not be a subregion of the registry entry N9005dee13ae53e890c51.</data>
+      <data key="d9">not subregion of</data>
+      <data key="d10">D5379b40bbb65d2149d75-chunk-000</data>
+      <data key="d11">D5379b40bbb65d2149d75.txt</data>
+      <data key="d12">1795370068</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N76575f0099b74a526d26" target="Nd47b24f40ae4a0788925">
+      <data key="d7">1.0</data>
+      <data key="d8">N76575f0099b74a526d26 is a subregion of Nd47b24f40ae4a0788925.</data>
+      <data key="d9">subregion of</data>
+      <data key="d10">Ddf4508c438a35f9493ca-chunk-000</data>
+      <data key="d11">Ddf4508c438a35f9493ca.txt</data>
+      <data key="d12">1795370743</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N9005dee13ae53e890c51" target="Nd47b24f40ae4a0788925">
+      <data key="d7">1.0</data>
+      <data key="d8">Nd47b24f40ae4a0788925 is a subregion of N9005dee13ae53e890c51.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">Dafb6461438342fc8247c-chunk-000</data>
+      <data key="d11">Dafb6461438342fc8247c.txt</data>
+      <data key="d12">1795370481</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N5527bdf69bd05b287e26" target="Nb2c5d62a052f8aef12e6">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that N5527bdf69bd05b287e26 is a subregion of Nb2c5d62a052f8aef12e6.</data>
+      <data key="d9">part_of,subregion</data>
+      <data key="d10">D53dcc127c5efac8b5871-chunk-000</data>
+      <data key="d11">D53dcc127c5efac8b5871.txt</data>
+      <data key="d12">1795370079</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N5527bdf69bd05b287e26" target="N35e91e1cecb1ca1d2d0c">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that N5527bdf69bd05b287e26 is a subregion of N35e91e1cecb1ca1d2d0c.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">Da7d93ca64ddb2385286a-chunk-000</data>
+      <data key="d11">Da7d93ca64ddb2385286a.txt</data>
+      <data key="d12">1795370466</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N022fd25e2d10ef843baf" target="Nf6af6bea55f905f52c6f">
+      <data key="d7">1.0</data>
+      <data key="d8">N022fd25e2d10ef843baf is contained in Nf6af6bea55f905f52c6f.</data>
+      <data key="d9">containment</data>
+      <data key="d10">D567f46f31d8d3db00fc1-chunk-000</data>
+      <data key="d11">D567f46f31d8d3db00fc1.txt</data>
+      <data key="d12">1795370086</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N022fd25e2d10ef843baf" target="N4cd9009c6402d4c37d26">
+      <data key="d7">1.0</data>
+      <data key="d8">The entry N022fd25e2d10ef843baf is contained within the entry N4cd9009c6402d4c37d26.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D6cace2e54ebc61628653-chunk-000</data>
+      <data key="d11">D6cace2e54ebc61628653.txt</data>
+      <data key="d12">1795370248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N893b47622caf56edcbc1" target="Ne3e274fe0cf169e80492">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the registry entry N893b47622caf56edcbc1 is ordered before the registry entry Ne3e274fe0cf169e80492.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">D57c55226860aadafa0aa-chunk-000</data>
+      <data key="d11">D57c55226860aadafa0aa.txt</data>
+      <data key="d12">1795370098</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N893b47622caf56edcbc1" target="Nac580aee5d40acb7977c">
+      <data key="d7">1.0</data>
+      <data key="d8">The entry Nac580aee5d40acb7977c is chronologically before the entry N893b47622caf56edcbc1.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">D608a30d0fb87af0d3f49-chunk-000</data>
+      <data key="d11">D608a30d0fb87af0d3f49.txt</data>
+      <data key="d12">1795370169</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ne3e274fe0cf169e80492" target="Nbee61c7b321945a2c257">
+      <data key="d7">1.0</data>
+      <data key="d8">Nbee61c7b321945a2c257 is not positioned before Ne3e274fe0cf169e80492.</data>
+      <data key="d9">precedence</data>
+      <data key="d10">Dd1555d1f4e34553d103d-chunk-000</data>
+      <data key="d11">Dd1555d1f4e34553d103d.txt</data>
+      <data key="d12">1795370647</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N50a946b25b186c5bc4a1" target="N3348662b17667059bb08">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that N50a946b25b186c5bc4a1 occurs before N3348662b17667059bb08 in the registry entry.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">D580955e60cfcced500f1-chunk-000</data>
+      <data key="d11">D580955e60cfcced500f1.txt</data>
+      <data key="d12">1795370109</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N50a946b25b186c5bc4a1" target="N75c4a51de4e9bc2ba616">
+      <data key="d7">1.0</data>
+      <data key="d8">Identifier N50a946b25b186c5bc4a1 precedes identifier N75c4a51de4e9bc2ba616 in the registry entry.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">D6af3230e4a34d9d96ade-chunk-000</data>
+      <data key="d11">D6af3230e4a34d9d96ade.txt</data>
+      <data key="d12">1795370229</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N93f78a4e6d0265362062" target="Nd87b5f5caec8e6812340">
+      <data key="d7">1.0</data>
+      <data key="d8">The entry N93f78a4e6d0265362062 is contained within the registry entry Nd87b5f5caec8e6812340.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D5e36db57ddaf9a79ea52-chunk-000</data>
+      <data key="d11">D5e36db57ddaf9a79ea52.txt</data>
+      <data key="d12">1795370128</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N93f78a4e6d0265362062" target="N099894cda8f2f6a2b5b2">
+      <data key="d7">1.0</data>
+      <data key="d8">N93f78a4e6d0265362062 is contained within N099894cda8f2f6a2b5b2.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">Dd1960a17d8787a3b1cee-chunk-000</data>
+      <data key="d11">Dd1960a17d8787a3b1cee.txt</data>
+      <data key="d12">1795370651</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N68233fd84827a175ff68" target="N0c8b08d1d71a0e68da23">
+      <data key="d7">1.0</data>
+      <data key="d8">The identifier N68233fd84827a175ff68 is contained within the identifier N0c8b08d1d71a0e68da23.</data>
+      <data key="d9">contained_in</data>
+      <data key="d10">D5ef6a4f1888edcc4ba21-chunk-000</data>
+      <data key="d11">D5ef6a4f1888edcc4ba21.txt</data>
+      <data key="d12">1795370139</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N68233fd84827a175ff68" target="N809fff7bccb145da2c73">
+      <data key="d7">1.0</data>
+      <data key="d8">N68233fd84827a175ff68 is contained in N809fff7bccb145da2c73.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">Ddc7a70b23d3d5d8f9979-chunk-000</data>
+      <data key="d11">Ddc7a70b23d3d5d8f9979.txt</data>
+      <data key="d12">1795370724</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N88fadab90a854a2b8210" target="N8f5bae419445ccead139">
+      <data key="d7">1.0</data>
+      <data key="d8">The entry N8f5bae419445ccead139 is contained within the entry N88fadab90a854a2b8210.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">Dcdabb513ad63e698f478-chunk-000</data>
+      <data key="d11">Dcdabb513ad63e698f478.txt</data>
+      <data key="d12">1795370605</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nac580aee5d40acb7977c" target="Nbee61c7b321945a2c257">
+      <data key="d7">1.0</data>
+      <data key="d8">The first registry entry occurs before the second registry entry in the fictional reference world.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">D6807e269f2e431450192-chunk-000</data>
+      <data key="d11">D6807e269f2e431450192.txt</data>
+      <data key="d12">1795370188</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N9f8e15093ef70a5dad32" target="Ne355e96ee6408c2dd382">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that N9f8e15093ef70a5dad32 is a subregion of Ne355e96ee6408c2dd382.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">D69ab7fa586361d0bba4c-chunk-000</data>
+      <data key="d11">D69ab7fa586361d0bba4c.txt</data>
+      <data key="d12">1795370200</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N9f8e15093ef70a5dad32" target="N85b67e18c541fe99adfa">
+      <data key="d7">1.0</data>
+      <data key="d8">N9f8e15093ef70a5dad32 is a subregion of N85b67e18c541fe99adfa.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">D6bb1b6280699474cd4da-chunk-000</data>
+      <data key="d11">D6bb1b6280699474cd4da.txt</data>
+      <data key="d12">1795370243</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nde4605c89d3cdd2fc4ed" target="N0d9c5caa04e6347c154b">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that Nde4605c89d3cdd2fc4ed is a subregion of N0d9c5caa04e6347c154b.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">D6ae5922c2a4aebab2026-chunk-000</data>
+      <data key="d11">D6ae5922c2a4aebab2026.txt</data>
+      <data key="d12">1795370218</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nde4605c89d3cdd2fc4ed" target="N04980f6d1f81f0aefb91">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that Nde4605c89d3cdd2fc4ed is a subregion of N04980f6d1f81f0aefb91.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">Db8ef2d8f24e3cb70b9e7-chunk-000</data>
+      <data key="d11">Db8ef2d8f24e3cb70b9e7.txt</data>
+      <data key="d12">1795370526</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N4142a55c2d046b158499" target="Ne66dd9afcc8a121e916d">
+      <data key="d7">2.0</data>
+      <data key="d8">N4142a55c2d046b158499 is a subregion of Ne66dd9afcc8a121e916d.&lt;SEP&gt;N4142a55c2d046b158499 is not a subregion of Ne66dd9afcc8a121e916d.</data>
+      <data key="d9">not_subregion_of,subregion_of</data>
+      <data key="d10">D76413fefe6657c0277f5-chunk-000&lt;SEP&gt;Dcf6378293bf1ac388f4e-chunk-000</data>
+      <data key="d11">D76413fefe6657c0277f5.txt&lt;SEP&gt;Dcf6378293bf1ac388f4e.txt</data>
+      <data key="d12">1795370622</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nc2c0024edfa5578510dc" target="Nb311850e0d6f1dfede25">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that Nc2c0024edfa5578510dc is a subregion of Nb311850e0d6f1dfede25.</data>
+      <data key="d9">relationship,subregion</data>
+      <data key="d10">D79e87d2f4d1f958bca1f-chunk-000</data>
+      <data key="d11">D79e87d2f4d1f958bca1f.txt</data>
+      <data key="d12">1795370293</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nc2c0024edfa5578510dc" target="N73aab90ad43a1c44d8b8">
+      <data key="d7">1.0</data>
+      <data key="d8">Nc2c0024edfa5578510dc is not a subregion of N73aab90ad43a1c44d8b8.</data>
+      <data key="d9">not_subregion_of</data>
+      <data key="d10">Da175516fb4d2dd15b1c8-chunk-000</data>
+      <data key="d11">Da175516fb4d2dd15b1c8.txt</data>
+      <data key="d12">1795370451</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nb311850e0d6f1dfede25" target="N73aab90ad43a1c44d8b8">
+      <data key="d7">1.0</data>
+      <data key="d8">Nb311850e0d6f1dfede25 is designated as a subregion of N73aab90ad43a1c44d8b8.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">De251762bf8dc191c5046-chunk-000</data>
+      <data key="d11">De251762bf8dc191c5046.txt</data>
+      <data key="d12">1795370775</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N394641f8aa4c154a2289" target="N5feecaf16ad1883937a8">
+      <data key="d7">1.0</data>
+      <data key="d8">N394641f8aa4c154a2289 is a subregion of N5feecaf16ad1883937a8.</data>
+      <data key="d9">subregion of</data>
+      <data key="d10">D813a5727276cc4bd97d1-chunk-000</data>
+      <data key="d11">D813a5727276cc4bd97d1.txt</data>
+      <data key="d12">1795370324</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N394641f8aa4c154a2289" target="Ne3baeb4e132f3fbdb536">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that N394641f8aa4c154a2289 is a subregion of Ne3baeb4e132f3fbdb536.</data>
+      <data key="d9">subregion of</data>
+      <data key="d10">Dc3ec77827ceea4dcff0a-chunk-000</data>
+      <data key="d11">Dc3ec77827ceea4dcff0a.txt</data>
+      <data key="d12">1795370575</data>
+      <data key="d13" />
+    </edge>
+    <edge source="registry entry" target="fictional reference world">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the registry entry describes the fictional reference world.</data>
+      <data key="d9">describes_in</data>
+      <data key="d10">D84639360e642b7f63859-chunk-000</data>
+      <data key="d11">D84639360e642b7f63859.txt</data>
+      <data key="d12">1795370333</data>
+      <data key="d13" />
+    </edge>
+    <edge source="registry entry" target="source assertion">
+      <data key="d7">1.0</data>
+      <data key="d8">Shows that the registry entry contains a source assertion.</data>
+      <data key="d9">contains</data>
+      <data key="d10">D84639360e642b7f63859-chunk-000</data>
+      <data key="d11">D84639360e642b7f63859.txt</data>
+      <data key="d12">1795370333</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nf8b1c7505d9b986a8b38" target="N3a17ed1d7b8c474915fd">
+      <data key="d7">1.0</data>
+      <data key="d8">Establishes a preceding order between the two registry entries.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">D871bca2b3ebe8857e3c7-chunk-000</data>
+      <data key="d11">D871bca2b3ebe8857e3c7.txt</data>
+      <data key="d12">1795370338</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nf8b1c7505d9b986a8b38" target="N0a1e47343b8c7af38d5a">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the first registry entry occurs before the second in the registry.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">Df08f83e6fbc691cf3e31-chunk-000</data>
+      <data key="d11">Df08f83e6fbc691cf3e31.txt</data>
+      <data key="d12">1795370894</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N6f3308560cee97d3b9e5" target="Na45fe2dc5514ade260d4">
+      <data key="d7">1.0</data>
+      <data key="d8">N6f3308560cee97d3b9e5 is contained in Na45fe2dc5514ade260d4.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D87e6c533b79da8158b89-chunk-000</data>
+      <data key="d11">D87e6c533b79da8158b89.txt</data>
+      <data key="d12">1795370354</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N6f3308560cee97d3b9e5" target="N25bda654e37ec2f0a046">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that the registry entry N6f3308560cee97d3b9e5 is stored within or associated with the registry entry N25bda654e37ec2f0a046.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">De4e2983cbee815e6065b-chunk-000</data>
+      <data key="d11">De4e2983cbee815e6065b.txt</data>
+      <data key="d12">1795370803</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N78393c88903f75efa53e" target="N9c09fa856f253442f548">
+      <data key="d7">1.0</data>
+      <data key="d8">N78393c88903f75efa53e is contained in N9c09fa856f253442f548.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D8c8029e8c48a14776585-chunk-000</data>
+      <data key="d11">D8c8029e8c48a14776585.txt</data>
+      <data key="d12">1795370366</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N78393c88903f75efa53e" target="N276de54cc68d39328341">
+      <data key="d7">1.0</data>
+      <data key="d8">N78393c88903f75efa53e is contained in N276de54cc68d39328341.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">D999f35a71e98b3acc633-chunk-000</data>
+      <data key="d11">D999f35a71e98b3acc633.txt</data>
+      <data key="d12">1795370408</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N05b206f4e6dc4af2486b" target="N592bdd6359cf7d78ac5e">
+      <data key="d7">1.0</data>
+      <data key="d8">Indicates that N592bdd6359cf7d78ac5e is a subregion of N05b206f4e6dc4af2486b.</data>
+      <data key="d9">subregion_of</data>
+      <data key="d10">Dd1e9c4f46e9c0f800549-chunk-000</data>
+      <data key="d11">Dd1e9c4f46e9c0f800549.txt</data>
+      <data key="d12">1795370680</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N5c25ba15012717d75075" target="N8b16c886321739295ac2">
+      <data key="d7">2.0</data>
+      <data key="d8">N5c25ba15012717d75075 is contained in N8b16c886321739295ac2.&lt;SEP&gt;N5c25ba15012717d75075 is not contained within N8b16c886321739295ac2.</data>
+      <data key="d9">contained in,containment,not contained</data>
+      <data key="d10">D9af1d40ddbb5b93c6ddf-chunk-000&lt;SEP&gt;Df5eb887b15569304836e-chunk-000</data>
+      <data key="d11">D9af1d40ddbb5b93c6ddf.txt&lt;SEP&gt;Df5eb887b15569304836e.txt</data>
+      <data key="d12">1795370920</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nb7e9348d316c6a286896" target="N0c65c4abc3b732a7934d">
+      <data key="d7">2.0</data>
+      <data key="d8">The first registry entry occurs before the second registry entry.&lt;SEP&gt;The first registry entry is stated to not precede the second registry entry.</data>
+      <data key="d9">does not precede,precedes</data>
+      <data key="d10">Dc91305e56ad8347c54e2-chunk-000&lt;SEP&gt;De86dcf6f0a1c8071d14f-chunk-000</data>
+      <data key="d11">Dc91305e56ad8347c54e2.txt&lt;SEP&gt;De86dcf6f0a1c8071d14f.txt</data>
+      <data key="d12">1795370861</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N8b368e8ce401a33308d5" target="Na2022016b5a2dce20bf4">
+      <data key="d7">1.0</data>
+      <data key="d8">N8b368e8ce401a33308d5 is contained in Na2022016b5a2dce20bf4.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">Dd9fb9c37159b590d129d-chunk-000</data>
+      <data key="d11">Dd9fb9c37159b590d129d.txt</data>
+      <data key="d12">1795370712</data>
+      <data key="d13" />
+    </edge>
+    <edge source="N8b368e8ce401a33308d5" target="Ne141e08ab8016fa7e93a">
+      <data key="d7">1.0</data>
+      <data key="d8">The registry entry identified by N8b368e8ce401a33308d5 is contained within the registry entry identified by Ne141e08ab8016fa7e93a.</data>
+      <data key="d9">contained in</data>
+      <data key="d10">Dfa8525393f12be468392-chunk-000</data>
+      <data key="d11">Dfa8525393f12be468392.txt</data>
+      <data key="d12">1795370950</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ncbb3d58bd325d505e920" target="N961ec60d0a387f13599d">
+      <data key="d7">1.0</data>
+      <data key="d8">The first identifier precedes the second identifier.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">De3f35bb5cd2daf23678e-chunk-000</data>
+      <data key="d11">De3f35bb5cd2daf23678e.txt</data>
+      <data key="d12">1795370797</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ncbb3d58bd325d505e920" target="Nefd4733e55e655e415d1">
+      <data key="d7">1.0</data>
+      <data key="d8">Identifier Ncbb3d58bd325d505e920 precedes identifier Nefd4733e55e655e415d1.</data>
+      <data key="d9">precedes</data>
+      <data key="d10">De791e97b2b1adf07df4f-chunk-000</data>
+      <data key="d11">De791e97b2b1adf07df4f.txt</data>
+      <data key="d12">1795370846</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

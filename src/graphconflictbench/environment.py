@@ -14,7 +14,7 @@ from urllib.parse import quote
 from dotenv import load_dotenv
 
 _SECRETS = set()
-_KEY_NAMES = ("GEMINI_API_KEY", "GOOGLE_API_KEY", "OPENAI_API_KEY")
+_KEY_NAMES = ("GEMINI_API_KEY", "GOOGLE_API_KEY", "OPENAI_API_KEY", "GROQ_API_KEY")
 
 
 def register_secret(value):
@@ -22,8 +22,16 @@ def register_secret(value):
         _SECRETS.add(value)
 
 
+def groq_key_pool():
+    raw = os.environ.get("GROQ_API_KEYS", "")
+    keys = tuple(key.strip() for key in raw.split(",") if key.strip())
+    return tuple(dict.fromkeys(keys))
+
+
 def secret_variants():
-    secrets = _SECRETS | {os.environ[n] for n in _KEY_NAMES if os.environ.get(n)}
+    secrets = _SECRETS | set(groq_key_pool()) | {
+        os.environ[n] for n in _KEY_NAMES if os.environ.get(n)
+    }
     return sorted({v for s in secrets for v in (s, quote(s, safe=""), json.dumps(s)[1:-1])},
                   key=len, reverse=True)
 
@@ -66,4 +74,6 @@ def load_environment(dotenv_path=None):
     load_dotenv(dotenv_path=path, override=False, interpolate=False, verbose=False)
     for name in _KEY_NAMES:
         register_secret(os.environ.get(name))
+    for key in groq_key_pool():
+        register_secret(key)
     install_log_redaction()

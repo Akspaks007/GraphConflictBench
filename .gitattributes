@@ -1,0 +1,6 @@
+configs/architectures/groq-policy.json text eol=lf
+assets/tokenizers/*.tiktoken text eol=lf
+data/generated/pilot/**/*.json text eol=lf
+data/generated/pilot/**/*.jsonl text eol=lf
+data/generated/pilot/human_audit.csv -text
+indexed_graphs/** -text

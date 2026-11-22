@@ -5,6 +5,7 @@ import json
 
 import pytest
 
+from graphconflictbench.groq_models import GroqModels
 from graphconflictbench.manifests import file_hash
 from graphconflictbench.models import OpenAIModels
 from graphconflictbench.provider_control import ProviderControl, audited_http_client
@@ -31,6 +32,72 @@ def control(tmp_path):
 def completion(control, **updates):
     return {"model": control.policy.llm_model, "max_tokens": 100,
             "messages": [{"role": "user", "content": "text"}], **updates}
+
+
+@pytest.mark.parametrize("rotate", [False, True])
+def test_groq_sdk_dispatch_and_local_embedding(control, monkeypatch, rotate):
+    import numpy as np
+
+    policy = control.policy.model_dump()
+    policy.update(base_url=GroqModels.base_url, llm_model="openai/gpt-oss-20b",
+                  embedding_model="BAAI/bge-small-en-v1.5", embedding_nanodollars_per_token=0,
+                  state_directory="groq-ledger")
+    control.policy_file.write_text(json.dumps(policy))
+    control = ProviderControl(control.policy_file)
+    control.initialize()
+    dispatched = []
+
+    def dispatch(request):
+        assert str(request.url) == f"{GroqModels.base_url}/chat/completions"
+        dispatched.append(request.headers["authorization"])
+        body = json.loads(request.content)
+        assert body["max_completion_tokens"] == policy["max_completion_tokens"]
+        assert body["reasoning_effort"] == "low"
+        assert body["response_format"] == {"type": "json_object"}
+        return httpx.Response(200, json={
+            "id": "offline", "object": "chat.completion", "created": 0, "model": body["model"],
+            "choices": [{"index": 0, "message": {"role": "assistant", "content": "{}"},
+                         "finish_reason": "stop"}],
+            "usage": {"prompt_tokens": 10, "completion_tokens": 2, "total_tokens": 12},
+        })
+
+    class LocalEmbedding:
+        def embed(self, texts):
+            return (np.ones(384) for _ in texts)
+
+    monkeypatch.setenv("GROQ_API_KEY", "offline-groq-key")
+    monkeypatch.delenv("GROQ_API_KEYS", raising=False)
+    if rotate:
+        monkeypatch.setenv(
+            "GROQ_API_KEYS", "offline-first, offline-second, offline-third, offline-first"
+        )
+    monkeypatch.setattr(httpx, "AsyncHTTPTransport", lambda **kw: httpx.MockTransport(dispatch))
+    config = {**policy, "provider_control_file": str(control.policy_file),
+              "provider_control_sha256": file_hash(control.policy_file), "embedding_dimension": 384}
+
+    async def invoke():
+        models = GroqModels(config)
+        models.local_embedding = LocalEmbedding()
+        async with models.client:
+            assert await models.llm("Return a JSON object", keyword_extraction=True) == "{}"
+            assert (await models.embedding(["Text"])).shape == (1, 384)
+        # A new client reads the shared sequence instead of starting with key one.
+        models = GroqModels(config)
+        async with models.client:
+            for _ in range(3):
+                assert await models.llm("Return a JSON object", keyword_extraction=True) == "{}"
+
+    asyncio.run(invoke())
+    expected = ["offline-first", "offline-second", "offline-third", "offline-first"] if rotate else [
+        "offline-groq-key"
+    ] * 4
+    assert dispatched == [f"Bearer {key}" for key in expected]
+    status = control.verify()
+    assert status["requests"] == 4
+    assert status["charged_nanodollars"] == 4 * 2700
+    for request in (control.root / "requests").glob("*/request.json"):
+        assert "authorization" not in json.loads(request.read_text())["headers"]
+        assert all(key not in request.read_text() for key in expected)
 
 
 def test_actual_sdk_callbacks_capture_every_stage_in_shared_ledger(control, monkeypatch):

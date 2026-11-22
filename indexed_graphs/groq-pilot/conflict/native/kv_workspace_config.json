@@ -1,0 +1,66 @@
+{
+  "$meta/storage_identity": {
+    "schema_version": 1,
+    "updated_at": "2026-11-22T17:47:24.779611+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "uuid": "392a5661-c92e-4fcf-8dd6-ef260c2fcf32"
+    },
+    "create_time": 1795369644,
+    "update_time": 1795369644,
+    "_id": "$meta/storage_identity"
+  },
+  "$meta/json_shard": {
+    "schema_version": 1,
+    "updated_at": "2026-11-22T17:47:24.779611+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "workspace": ""
+    },
+    "create_time": 1795369644,
+    "update_time": 1795369644,
+    "_id": "$meta/json_shard"
+  },
+  "$default/embedding/entities": {
+    "schema_version": 1,
+    "workspace": "",
+    "updated_at": "2026-11-22T17:47:24.814444+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "model": "BAAI/bge-small-en-v1.5",
+      "dim": 384,
+      "origin": "empty"
+    },
+    "create_time": 1795369644,
+    "update_time": 1795369644,
+    "_id": "$default/embedding/entities"
+  },
+  "$default/embedding/relationships": {
+    "schema_version": 1,
+    "workspace": "",
+    "updated_at": "2026-11-22T17:47:24.818637+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "model": "BAAI/bge-small-en-v1.5",
+      "dim": 384,
+      "origin": "empty"
+    },
+    "create_time": 1795369644,
+    "update_time": 1795369644,
+    "_id": "$default/embedding/relationships"
+  },
+  "$default/embedding/chunks": {
+    "schema_version": 1,
+    "workspace": "",
+    "updated_at": "2026-11-22T17:47:24.822938+00:00",
+    "updated_by": "lightrag.initialize_storages",
+    "value": {
+      "model": "BAAI/bge-small-en-v1.5",
+      "dim": 384,
+      "origin": "empty"
+    },
+    "create_time": 1795369644,
+    "update_time": 1795369644,
+    "_id": "$default/embedding/chunks"
+  }
+}

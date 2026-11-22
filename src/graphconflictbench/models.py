@@ -62,6 +62,9 @@ async def fixture_embedding(texts, dimension=256, **kwargs):
 
 
 class OpenAIModels:
+    key_name = "OPENAI_API_KEY"
+    base_url = "https://api.openai.com/v1"
+
     def __init__(self, config):
         if not config.get("provider_control_file") or not config.get("provider_control_sha256"):
             raise ValueError("real provider requires a frozen capture/spending policy")
@@ -75,18 +78,29 @@ class OpenAIModels:
         if (config["llm_model"] != policy.llm_model
                 or config["embedding_model"] != policy.embedding_model):
             raise ValueError("configured provider models differ from priced policy")
-        if os.environ.get("OPENAI_BASE_URL", policy.base_url).rstrip("/") != policy.base_url:
+        if policy.base_url != self.base_url:
+            raise ValueError("provider origin differs from priced policy")
+        if (self.key_name == "OPENAI_API_KEY"
+                and os.environ.get("OPENAI_BASE_URL", policy.base_url).rstrip("/") != policy.base_url):
             raise ValueError("provider policy does not price this OPENAI_BASE_URL")
-        if not os.environ.get("OPENAI_API_KEY"):
-            raise ValueError("OPENAI_API_KEY is required for provider=openai")
+        keys = self.api_keys()
         from openai import AsyncOpenAI
 
         self.config = config
         self.client = AsyncOpenAI(
-            max_retries=0, timeout=120, base_url=policy.base_url,
-            http_client=audited_http_client(self.control),
+            api_key=keys[0], max_retries=0, timeout=120, base_url=policy.base_url,
+            http_client=audited_http_client(self.control, rotating_keys=keys if len(keys) > 1 else ()),
         )
         self.usage = []
+
+    def api_keys(self):
+        api_key = os.environ.get(self.key_name)
+        if not api_key:
+            raise ValueError(f"{self.key_name} is required for the configured provider")
+        return (api_key,)
+
+    def completion_options(self):
+        return {"max_tokens": self.control.policy.max_completion_tokens}
 
     async def llm(self, prompt, system_prompt=None, history_messages=None, **kwargs):
         messages = [{"role": "system", "content": system_prompt}] if system_prompt else []
@@ -96,7 +110,7 @@ class OpenAIModels:
             model=self.config["llm_model"],
             messages=messages,
             temperature=0,
-            max_tokens=self.control.policy.max_completion_tokens,
+            **self.completion_options(),
             **(
                 {"response_format": {"type": "json_object"}}
                 if kwargs.get("keyword_extraction")

@@ -26,7 +26,7 @@ from ..schemas import Record
 
 class AdapterConfig(Record):
     architecture: Literal["lightrag"]
-    provider: Literal["fixture", "openai", "gemini"]
+    provider: Literal["fixture", "openai", "gemini", "groq"]
     upstream_repository: str
     upstream_commit: str = Field(pattern=r"^[0-9a-f]{40}$")
     upstream_license: str
@@ -53,7 +53,7 @@ class AdapterConfig(Record):
     embedding_task_type: Literal["SEMANTIC_SIMILARITY"] | None = None
 
     @model_validator(mode="after")
-    def gemini_configuration(self):
+    def provider_configuration(self):
         if self.provider == "gemini":
             if self.llm_model != "gemini-2.5-flash" or self.embedding_model != "gemini-embedding-001":
                 raise ValueError("Gemini model substitution requires a reviewed integration change")
@@ -65,6 +65,11 @@ class AdapterConfig(Record):
                 raise ValueError("Gemini smoke requires zero retries and concurrency one")
             if self.benchmark_eligible:
                 raise ValueError("Gemini readiness smoke is not benchmark eligible")
+        if self.provider == "groq":
+            if self.embedding_model != "BAAI/bge-small-en-v1.5" or self.embedding_dimension != 384:
+                raise ValueError("Groq requires the configured 384-dimensional local BGE model")
+            if self.max_retries != 0 or self.max_concurrency != 1 or self.benchmark_eligible:
+                raise ValueError("Groq smoke requires zero retries and concurrency one")
         return self
 
 
@@ -158,7 +163,9 @@ class LightRAGAdapter:
             "implementation_hash": implementation_hash(),
         }
 
-    def index(self, corpus_manifest, index_dir, resume=False):
+    def index(self, corpus_manifest, index_dir, resume=False, batch_size=None):
+        if batch_size is not None and batch_size <= 0:
+            raise ValueError("index batch size must be positive")
         corpus_manifest = Path(corpus_manifest).resolve()
         cm = json.loads(corpus_manifest.read_text())
         if cm["condition"] not in ("conflict", "control"):
@@ -186,6 +193,8 @@ class LightRAGAdapter:
                     raise ValueError("index exists or cache identity changed; use a new directory")
                 verify_checksums(index_dir, manifest["checksums"])
                 return manifest
+            if batch_size is not None:
+                return self._index_batch(index_dir, identity, rows, batch_size, resume)
             if any(p.name != ".job.lock" for p in index_dir.iterdir()):
                 raise ValueError(
                     "incomplete index directory; use a fresh path after inspecting logs"
@@ -209,6 +218,62 @@ class LightRAGAdapter:
             }
             write_json(saved, manifest)
             return manifest
+
+    def _index_batch(self, index_dir, identity, rows, batch_size, resume):
+        path = index_dir / "index_checkpoint.json"
+        corpus = index_dir / "corpus.jsonl"
+        if path.exists():
+            checkpoint = json.loads(path.read_bytes())
+            if not resume or checkpoint["identity"] != identity or digest(read_jsonl(corpus)) != digest(rows):
+                raise ValueError("index checkpoint differs or --resume was omitted")
+        else:
+            if any(p.name != ".job.lock" for p in index_dir.iterdir()):
+                raise ValueError("existing index directory has no batch checkpoint")
+            write_jsonl(corpus, rows)
+            checkpoint = {"identity": identity, "documents_processed": 0}
+            write_json(path, checkpoint)
+
+        done = checkpoint["documents_processed"]
+        previous = index_dir / checkpoint["batch"] / "native" if done else None
+        if previous:
+            verify_checksums(previous, checkpoint["checksums"])
+        if done < len(rows):
+            staging = index_dir / "batches"
+            staging.mkdir(exist_ok=True)
+            attempt = Path(tempfile.mkdtemp(prefix=f"{done:04d}-", dir=staging))
+            native = attempt / "native"
+            if previous:
+                shutil.copytree(previous, native)
+            batch = rows[done:done + batch_size]
+            write_jsonl(attempt / "corpus.jsonl", batch)
+            build = self._call("index", attempt / "build", native_dir=str(native),
+                               corpus_file=str(attempt / "corpus.jsonl"),
+                               expected_document_count=done + len(batch))
+            done = build["documents_processed"]
+            checkpoint = {"identity": identity, "documents_processed": done,
+                          "batch": attempt.relative_to(index_dir).as_posix(),
+                          "checksums": tree_checksums(native)}
+            write_json(path, checkpoint)
+            previous = native
+        result = {"status": "partial", "index_key": digest(identity),
+                  "documents_processed": done, "documents_total": len(rows)}
+        if done < len(rows):
+            return result
+        native = index_dir / "native"
+        if not native.exists():
+            temporary = Path(tempfile.mkdtemp(prefix="finalize-", dir=index_dir / "batches"))
+            shutil.copytree(previous, temporary / "native")
+            (temporary / "native").rename(native)
+        verify_checksums(native, checkpoint["checksums"])
+        manifest = {
+            **result, "schema_version": "1.0", "architecture": "lightrag",
+            "identity": identity, "status": "complete",
+            "build_result": {"status": "complete", "documents_processed": done,
+                             "native": identity["native"], "usage": []},
+            "checksums": tree_checksums(index_dir, exclude=("index_manifest.json",)),
+        }
+        write_json(index_dir / "index_manifest.json", manifest)
+        return manifest
 
     def retrieve(self, query, index_dir, budget=4096, trace=True, trace_dir=None):
         if not trace:
