@@ -111,6 +111,10 @@ quotas and the model's December 2026 rerouting deadline remain approval checks.
 
 ## Scope and layout
 
+For a team handoff after the Groq integration, start with
+[shared project context](PROJECT_CONTEXT.md) and the
+[prompt for adding a native adapter](docs/adapter_handoff_prompt.md).
+
 `src/graphconflictbench/` holds the implementation. `configs/` contains ontology,
 models and prompt settings. `data/generated/pilot/` contains 24 families/48 cases,
 144 unique source documents and separate corpus exports. `tests/fixtures/` holds
