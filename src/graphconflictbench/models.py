@@ -86,10 +86,14 @@ class OpenAIModels:
         keys = self.api_keys()
         from openai import AsyncOpenAI
 
+        paced_groq = self.key_name == "GROQ_API_KEY" and os.environ.get(
+            "GCB_GROQ_MIN_KEY_INTERVAL_SECONDS"
+        )
+        rotation = keys if len(keys) > 1 or paced_groq else ()
         self.config = config
         self.client = AsyncOpenAI(
             api_key=keys[0], max_retries=0, timeout=120, base_url=policy.base_url,
-            http_client=audited_http_client(self.control, rotating_keys=keys if len(keys) > 1 else ()),
+            http_client=audited_http_client(self.control, rotating_keys=rotation),
         )
         self.usage = []
 
@@ -106,17 +110,24 @@ class OpenAIModels:
         messages = [{"role": "system", "content": system_prompt}] if system_prompt else []
         messages.extend(history_messages or [])
         messages.append({"role": "user", "content": prompt})
+        response_format = {"type": "json_object"} if kwargs.get("keyword_extraction") else (
+            kwargs.get("response_format")
+        )
+        response = await self.chat(messages, response_format=response_format)
+        return response.choices[0].message.content or ""
+
+    async def chat(self, messages, *, response_format=None, max_output_tokens=None):
+        options = self.completion_options()
+        if max_output_tokens is not None:
+            limit = "max_completion_tokens" if "max_completion_tokens" in options else "max_tokens"
+            options[limit] = min(options[limit], max_output_tokens)
+        if response_format == {"type": "json_object"}:
+            options["response_format"] = response_format
         response = await self.client.chat.completions.create(
             model=self.config["llm_model"],
             messages=messages,
             temperature=0,
-            **self.completion_options(),
-            **(
-                {"response_format": {"type": "json_object"}}
-                if kwargs.get("keyword_extraction")
-                or kwargs.get("response_format") == {"type": "json_object"}
-                else {}
-            ),
+            **options,
         )
         self.usage.append(
             {
@@ -125,7 +136,7 @@ class OpenAIModels:
                 "tokens": response.usage.model_dump() if response.usage else None,
             }
         )
-        return response.choices[0].message.content or ""
+        return response
 
     async def embedding(self, texts, **kwargs):
         import numpy as np

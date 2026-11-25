@@ -1,0 +1,95 @@
+{
+  "architecture": "pathrag",
+  "benchmark_eligible": false,
+  "dataset_manifest_sha256": "f0b94cbbe23c0d0cee243738a16b808890d6687c2a06911545b05e72d1002e9d",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "evidence_budget": 3072,
+  "implementation_hash": "cd3f2bb6dba5fd0ed72955cd9da845c2d90215d57416898f189d32df30b5229b",
+  "model": "openai/gpt-oss-20b",
+  "prompt_sha256": "6f72ad9e8086e3b57ff9d4d6b78c26d58396e2e336cf1e0775016474c0998cd0",
+  "provider": "groq",
+  "rows": [
+    {
+      "cases": 8,
+      "complete_proof_retrieved": 1,
+      "condition": "conflict",
+      "error": 1,
+      "exact_proofs": 0,
+      "fn": 7,
+      "fp": 0,
+      "hops": 1,
+      "tn": 0,
+      "tp": 0
+    },
+    {
+      "cases": 8,
+      "complete_proof_retrieved": 0,
+      "condition": "conflict",
+      "error": 0,
+      "exact_proofs": 0,
+      "fn": 8,
+      "fp": 0,
+      "hops": 2,
+      "tn": 0,
+      "tp": 0
+    },
+    {
+      "cases": 8,
+      "complete_proof_retrieved": 0,
+      "condition": "conflict",
+      "error": 0,
+      "exact_proofs": 0,
+      "fn": 8,
+      "fp": 0,
+      "hops": 3,
+      "tn": 0,
+      "tp": 0
+    },
+    {
+      "cases": 8,
+      "complete_proof_retrieved": null,
+      "condition": "control",
+      "error": 0,
+      "exact_proofs": 0,
+      "fn": 0,
+      "fp": 0,
+      "hops": 1,
+      "tn": 8,
+      "tp": 0
+    },
+    {
+      "cases": 8,
+      "complete_proof_retrieved": null,
+      "condition": "control",
+      "error": 0,
+      "exact_proofs": 0,
+      "fn": 0,
+      "fp": 0,
+      "hops": 2,
+      "tn": 8,
+      "tp": 0
+    },
+    {
+      "cases": 8,
+      "complete_proof_retrieved": null,
+      "condition": "control",
+      "error": 0,
+      "exact_proofs": 0,
+      "fn": 0,
+      "fp": 0,
+      "hops": 3,
+      "tn": 8,
+      "tp": 0
+    }
+  ],
+  "runs": {
+    "conflict": {
+      "index_key": "610fb28a26ed9435fd6a2189e470b7f75d6307fc6803906054a9cf429cce24ad",
+      "run_id": "082b3612c1ae17dcde69"
+    },
+    "control": {
+      "index_key": "5bc8f6c81e855991bd5f4986e718a6c3a29b03c0456daad2b291e30cb542ccb4",
+      "run_id": "191d1a58674adeca9917"
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "architecture": "hipporag2",
+  "benchmark_eligible": false,
+  "by_hop_and_condition": [
+    {
+      "cases": 8,
+      "complete_proof_delivered": 5,
+      "condition": "conflict",
+      "error": 0,
+      "fn": 3,
+      "fp": 0,
+      "hops": 1,
+      "role_aware_exact_proofs": 5,
+      "tn": 0,
+      "tp": 5
+    },
+    {
+      "cases": 8,
+      "complete_proof_delivered": 1,
+      "condition": "conflict",
+      "error": 0,
+      "fn": 7,
+      "fp": 0,
+      "hops": 2,
+      "role_aware_exact_proofs": 1,
+      "tn": 0,
+      "tp": 1
+    },
+    {
+      "cases": 8,
+      "complete_proof_delivered": 2,
+      "condition": "conflict",
+      "error": 0,
+      "fn": 6,
+      "fp": 0,
+      "hops": 3,
+      "role_aware_exact_proofs": 2,
+      "tn": 0,
+      "tp": 2
+    },
+    {
+      "cases": 8,
+      "complete_proof_delivered": null,
+      "condition": "control",
+      "error": 0,
+      "fn": 0,
+      "fp": 0,
+      "hops": 1,
+      "role_aware_exact_proofs": 0,
+      "tn": 8,
+      "tp": 0
+    },
+    {
+      "cases": 8,
+      "complete_proof_delivered": null,
+      "condition": "control",
+      "error": 0,
+      "fn": 0,
+      "fp": 0,
+      "hops": 2,
+      "role_aware_exact_proofs": 0,
+      "tn": 8,
+      "tp": 0
+    },
+    {
+      "cases": 8,
+      "complete_proof_delivered": null,
+      "condition": "control",
+      "error": 0,
+      "fn": 0,
+      "fp": 0,
+      "hops": 3,
+      "role_aware_exact_proofs": 0,
+      "tn": 8,
+      "tp": 0
+    }
+  ],
+  "conditions": {
+    "conflict": {
+      "delivered_exact_source_passages": 912,
+      "graph_edges": 387,
+      "graph_vertices": 264,
+      "index_key": "83a7c7b7b4d55ee6a235dcdb55f34788a2f8eaff1aaae89b0d5041d9cfa1b0e5",
+      "index_manifest": "runs/hipporag2-fixture-20261124-v2/indexes/conflict/index_manifest.json",
+      "indexed_documents": 120,
+      "max_evidence_tokens": 3041,
+      "queries_with_native_graph_seeds": 24,
+      "raw_ranked_passages": 960,
+      "run_id": "54041ba19f9eba4468f8",
+      "run_manifest": "runs/hipporag2-fixture-20261124-v2/results/conflict/run_manifest.json",
+      "valid_answers": 24
+    },
+    "control": {
+      "delivered_exact_source_passages": 912,
+      "graph_edges": 407,
+      "graph_vertices": 288,
+      "index_key": "df278f9e1ea4719b2bc487dae3af7f9e4680ccfb76a94b77f38cba833f76dfb9",
+      "index_manifest": "runs/hipporag2-fixture-20261124-v2/indexes/control/index_manifest.json",
+      "indexed_documents": 120,
+      "max_evidence_tokens": 3019,
+      "queries_with_native_graph_seeds": 24,
+      "raw_ranked_passages": 960,
+      "run_id": "7b273f0440e86ac264d5",
+      "run_manifest": "runs/hipporag2-fixture-20261124-v2/results/control/run_manifest.json",
+      "valid_answers": 24
+    }
+  },
+  "config": "configs/architectures/hipporag2-fixture.yaml",
+  "dataset_manifest": "data/generated/pilot/dataset_manifest.json",
+  "dataset_manifest_sha256": "f0b94cbbe23c0d0cee243738a16b808890d6687c2a06911545b05e72d1002e9d",
+  "earlier_failed_builds": {
+    "directory": "runs/hipporag2-fixture-20261124/indexes",
+    "error": "PyArrow 26.0.1 requires NumPy 2.0+, with NumPy 1.26.4 installed"
+  },
+  "evidence_budget": 3072,
+  "implementation_hash": "d3f4511cb11cccf0351ba964a8d42ccd6a4d5d030b653ec106f4c9e8e5bb4cf2",
+  "live_provider_requests": 0,
+  "native": {
+    "commit": "d5c8329422e0a0b834a15874545cb6a74b4f9b26",
+    "dependencies": {
+      "igraph": "0.11.8",
+      "numpy": "1.26.4",
+      "pandas": "3.0.6",
+      "pyarrow": "22.0.0",
+      "torch": "2.5.1"
+    },
+    "python": "3.12.1",
+    "url": "https://github.com/OSU-NLP-Group/HippoRAG.git",
+    "version": "2.0.0a5"
+  },
+  "provider": "fixture",
+  "result_kind": "fixture_integration_check",
+  "verification": {
+    "checkpoint_test": {
+      "final_count": 30,
+      "first_batch": 15,
+      "manifest": "runs/hipporag2-fixture-20261124-v2/checkpoint-check/index_manifest.json"
+    },
+    "dataset_audit": "passed",
+    "gemini_native_and_transport": {
+      "passed": 15
+    },
+    "groq_mock_transport": {
+      "requests": 2,
+      "verified_http_429_capture": true
+    },
+    "hipporag2_native": {
+      "fixture_cases": 12,
+      "passed": 1,
+      "verified_resume": true
+    },
+    "lightrag_native_and_provider_transport": {
+      "passed": 11
+    },
+    "ruff": "passed",
+    "unit_tests": {
+      "environment_error": "test_worker_interpreter_preserves_venv_symlink WinError 1314",
+      "failed": 1,
+      "passed": 94
+    }
+  },
+  "worker_dependency_lock": "requirements-locks/hipporag2-windows.txt"
+}

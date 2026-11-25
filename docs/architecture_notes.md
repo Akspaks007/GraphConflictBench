@@ -24,6 +24,6 @@ The adapter does not expose native relation-path IDs or claim-survival audits.
 Those fields remain unobservable. Exact edge mappings refer to canonical source
 assertions justified by delivered text, not an invented native graph alignment.
 
-Only LightRAG is installed/integrated in this scope. HippoRAG 2, PathRAG and
-Microsoft GraphRAG are intentionally absent from the CLI and from headline claims.
+This document records the original LightRAG integration. The
+[HippoRAG 2 integration](hipporag2.md) has its own native CLI profile and worker.
 

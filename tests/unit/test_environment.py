@@ -54,7 +54,7 @@ def test_native_subprocess_inherits_key_without_serializing_environment(tmp_path
         request = json.loads(Path(command[-1]).read_text())
         Path(request["response_file"]).write_text('{"status":"offline"}')
         return subprocess.CompletedProcess(command, 0)
-    monkeypatch.setattr("graphconflictbench.adapters.lightrag_adapter.subprocess.run", fake_run)
+    monkeypatch.setattr(subprocess, "run", fake_run)
     trace = tmp_path / "trace"
     assert adapter._call("healthcheck", trace)["status"] == "offline"
     assert key not in (trace / "request.json").read_text()

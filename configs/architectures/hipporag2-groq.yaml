@@ -1,0 +1,14 @@
+architecture: hipporag2
+provider: groq
+upstream_repository: https://github.com/OSU-NLP-Group/HippoRAG
+upstream_commit: d5c8329422e0a0b834a15874545cb6a74b4f9b26
+upstream_license: MIT
+llm_model: openai/gpt-oss-20b
+embedding_model: BAAI/bge-small-en-v1.5
+embedding_dimension: 384
+retrieval_top_k: 40
+linking_top_k: 5
+evidence_budget: 3072
+benchmark_eligible: false
+provider_control_file: configs/architectures/groq-policy.json
+provider_control_sha256: c61f4b0399a4619c6bce20e475147f86bed2887828dc51ac5cbdf8f84b9fdc87

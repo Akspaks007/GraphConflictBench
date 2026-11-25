@@ -6,7 +6,7 @@ from pathlib import Path
 
 import tiktoken
 
-from .adapters.lightrag_adapter import implementation_hash
+from .adapters.base import implementation_hash
 from .evidence_mapper import map_chunk
 from .inference import generate_prediction, serialize_prediction
 from .manifests import (
@@ -25,13 +25,14 @@ from .schemas import Retrieval
 from .validator import Dataset
 
 
-def normalize(raw, dataset, case, run_id, elapsed, budget, eligible):
+def normalize(raw, dataset, case, run_id, elapsed, budget, eligible, *, architecture="lightrag"):
     encoder = tiktoken.get_encoding("cl100k_base")
     payload = raw.get("data", {})
     visible_graph = model_visible_graph(payload)
     items, graph = [], {"entities": [], "relationships": [], "references": []}
     retrieval = Retrieval(
         run_id=run_id,
+        architecture=architecture,
         case_id=case.case_id,
         retrieval_ms=elapsed,
         context_tokens=0,
@@ -88,6 +89,8 @@ def run(
     if not cases:
         raise ValueError("no cases selected")
     index = json.loads((Path(index_dir) / "index_manifest.json").read_text())
+    if index["architecture"] != adapter.config["architecture"]:
+        raise ValueError("requested adapter and index have different architectures")
     if index["identity"]["condition"] != condition or index["identity"]["split"] != split:
         raise ValueError("requested cases and index have different condition/split")
     cm = Path(dataset_dir) / "corpora" / split / condition / "corpus_manifest.json"
@@ -146,6 +149,7 @@ def run(
                     elapsed,
                     budget,
                     adapter.config["benchmark_eligible"],
+                    architecture=adapter.config["architecture"],
                 )
                 system, prompt, prompt_hash = build_prompt(case, r, ontology, prompt_file)
                 attempt_dir = job / f"attempt-{attempt}"

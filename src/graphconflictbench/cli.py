@@ -1,4 +1,4 @@
-"""CLI for the implemented Step 1–4 scope; unsupported architectures fail early."""
+"""CLI for dataset validation and native GraphRAG architecture runs."""
 
 import argparse
 import asyncio
@@ -8,7 +8,9 @@ from pathlib import Path
 
 import yaml
 
+from .adapters.hipporag2_adapter import HippoRAGAdapter
 from .adapters.lightrag_adapter import LightRAGAdapter
+from .adapters.pathrag_adapter import PathRAGAdapter
 from .environment import load_environment, redact
 from .gemini_control import GeminiControl
 from .generator import save_dataset
@@ -18,11 +20,15 @@ from .reasoner import Ontology
 from .runner import run
 from .validator import validate_dataset
 
+ARCHITECTURES = {
+    "lightrag": (LightRAGAdapter, ".venv-lightrag"),
+    "hipporag2": (HippoRAGAdapter, ".venv-hipporag"),
+    "pathrag": (PathRAGAdapter, ".venv-pathrag"),
+}
+
 
 def parser():
-    p = argparse.ArgumentParser(
-        description="GraphConflictBench through native LightRAG integration"
-    )
+    p = argparse.ArgumentParser(description="GraphConflictBench native GraphRAG benchmark")
     sub = p.add_subparsers(dest="command", required=True)
     ontology = sub.add_parser("validate-ontology", help="validate declared relation semantics")
     ontology.add_argument("--config", default="configs/ontology.yaml")
@@ -52,9 +58,9 @@ def parser():
     check.add_argument("--output-dir", required=True)
     for name in ("healthcheck", "index", "run", "smoke-adapters"):
         command = sub.add_parser(name)
-        command.add_argument("--arch", choices=["lightrag"], default="lightrag")
-        command.add_argument("--config", default="configs/architectures/lightrag-fixture.yaml")
-        command.add_argument("--worker-python", default=".venv-lightrag/bin/python")
+        command.add_argument("--arch", choices=ARCHITECTURES, default="lightrag")
+        command.add_argument("--config")
+        command.add_argument("--worker-python")
         if name == "healthcheck":
             continue
         command.add_argument("--dataset", default="data/generated/pilot")
@@ -80,6 +86,11 @@ def parser():
 
 
 def dispatch(args):
+    if hasattr(args, "arch"):
+        args.config = args.config or f"configs/architectures/{args.arch}-fixture.yaml"
+        interpreter = "Scripts/python.exe" if sys.platform == "win32" else "bin/python"
+        _, venv = ARCHITECTURES[args.arch]
+        args.worker_python = args.worker_python or f"{venv}/{interpreter}"
     if args.dry_run:
         return {"dry_run": True, "plan": vars(args)}
     if args.command == "validate-ontology":
@@ -125,13 +136,14 @@ def dispatch(args):
         if args.write_report:
             write_json(Path(args.output_dir) / "audit.json", report)
         return report
-    adapter = LightRAGAdapter(args.config, args.worker_python)
+    adapter_type, _ = ARCHITECTURES[args.arch]
+    adapter = adapter_type(args.config, args.worker_python)
     if args.command == "healthcheck":
         return adapter.healthcheck()
     ontology = Ontology.load(args.ontology)
     validate_dataset(args.dataset, ontology)
     if args.command == "index":
-        output = args.output_dir or f"indexes/lightrag/{args.split}/{args.condition}"
+        output = args.output_dir or f"indexes/{args.arch}/{args.split}/{args.condition}"
         manifest = adapter.index(
             Path(args.dataset) / "corpora" / args.split / args.condition / "corpus_manifest.json",
             output,
@@ -156,13 +168,13 @@ def dispatch(args):
             args.split,
             args.condition,
             args.index_dir,
-            args.output_dir or f"runs/lightrag/{args.split}/{args.condition}",
+            args.output_dir or f"runs/{args.arch}/{args.split}/{args.condition}",
             args.prompt,
             budget,
             args.limit,
             args.resume,
         )
-    output = Path(args.output_dir or "results/lightrag-smoke")
+    output = Path(args.output_dir or f"results/{args.arch}-smoke")
     summaries = {}
     for condition in ("conflict", "control"):
         index_dir = output / "indexes" / condition

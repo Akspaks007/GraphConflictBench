@@ -119,6 +119,14 @@ def test_role_citation_can_match_earlier_chunk_from_same_document(tmp_path, onto
     assert score["role_aware_exact_proof_set"]
 
 
+def test_invalid_answer_does_not_hide_complete_retrieved_proof(tmp_path, ontology):
+    ds, case, _, retrieval = evidence(tmp_path, ontology)
+    score = score_case(case, retrieval, None, ds.documents, ds.assertions)
+    assert score["outcome"] == "error"
+    assert score["complete_proof_retrieved"] is True
+    assert score["role_aware_exact_proof_set"] is False
+
+
 def test_native_trace_refuses_overwrite(tmp_path):
     from graphconflictbench.adapters.lightrag_adapter import LightRAGAdapter
 
@@ -136,12 +144,12 @@ def test_failed_generation_preserves_attempt_prompt_and_retrieval(tmp_path, onto
     ds, case, raw, _ = evidence(tmp_path, ontology)
     cm = json.loads((tmp_path / "data/corpora/pilot/conflict/corpus_manifest.json").read_text())
     index = tmp_path / "index"
-    write_json(index / "index_manifest.json", {"index_key": "offline", "identity": {
-        "condition": "conflict", "split": "pilot", "corpus_hash": cm["corpus_hash"],
+    write_json(index / "index_manifest.json", {"architecture": "lightrag", "index_key": "offline",
+        "identity": {"condition": "conflict", "split": "pilot", "corpus_hash": cm["corpus_hash"],
     }})
 
     class Adapter:
-        config = {"provider": "fixture", "benchmark_eligible": False}
+        config = {"architecture": "lightrag", "provider": "fixture", "benchmark_eligible": False}
 
         def retrieve(self, query, directory, budget, trace_dir):
             write_json(Path(trace_dir) / "response.json", {"raw": raw})

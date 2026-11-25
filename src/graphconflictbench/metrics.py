@@ -14,19 +14,19 @@ def prf(predicted, expected):
 
 def score_case(case, retrieval, prediction, documents, assertions):
     roles = score_roles(case, retrieval, prediction, documents, assertions)
+    delivered = {a for i in retrieval.retrieved_items for a in i.mapped_assertion_ids}
+    complete = any(set(p) <= delivered for p in case.gold_proof_sets) if case.gold_label else None
     if prediction is None:
         return {
             "case_id": case.case_id,
             "outcome": "error",
             "localization_f1": 0.0,
             "exact_proof_set": False,
-            "complete_proof_retrieved": False,
+            "complete_proof_retrieved": complete,
             "failure": "generation_error",
             **roles,
         }
     mapped, errors = align_citations(prediction, retrieval, documents, assertions)
-    delivered = {a for i in retrieval.retrieved_items for a in i.mapped_assertion_ids}
-    complete = any(set(p) <= delivered for p in case.gold_proof_sets) if case.gold_label else None
     outcome = (
         ("tp" if prediction.conflict_detected else "fn")
         if case.gold_label

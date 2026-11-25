@@ -46,9 +46,10 @@ between uses of each key, indexes in checkpointed batches, and resumes completed
 work when repeated with the same output path. The interval is per key, so only
 use it to aggregate capacity when the keys have separate quota buckets.
 The script uses 30 seconds between index calls on the same key and 60 seconds
-between scoring calls. Use `--evidence-budget 3072` for the observed 8,000 TPM
-bucket. The reduced budget writes a separate scoring directory and reuses any
-complete indexes.
+between scoring calls. Use `--key-slot 1` to pace only the first configured key.
+Use `--evidence-budget 3072` for the observed 8,000 TPM bucket. The reduced budget
+writes a separate scoring directory and reuses any complete indexes.
+[HippoRAG 2 pilot instructions](hipporag2.md#groq-configuration)
 
 After a captured 429, wait for the affected quota to refill and run
 `provider-control recover-groq-rate-limit --policy $policy` before resuming.

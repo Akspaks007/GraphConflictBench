@@ -1,0 +1,12 @@
+architecture: hipporag2
+provider: fixture
+upstream_repository: https://github.com/OSU-NLP-Group/HippoRAG
+upstream_commit: d5c8329422e0a0b834a15874545cb6a74b4f9b26
+upstream_license: MIT
+llm_model: fixture-hipporag2-openie-v1
+embedding_model: fixture-hash-v1
+embedding_dimension: 256
+retrieval_top_k: 40
+linking_top_k: 5
+evidence_budget: 3072
+benchmark_eligible: false

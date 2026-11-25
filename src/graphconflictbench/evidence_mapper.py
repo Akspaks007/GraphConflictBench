@@ -25,6 +25,7 @@ def map_chunk(chunk, documents, assertions, rank):
         rank=rank,
         doc_id=doc_id if doc_id in docs else None,
         text=text,
+        native_score=chunk.get("native_score"),
         native_chunk_id=chunk.get("chunk_id"),
         mapped_assertion_ids=mapped,
         mapping_status="exact_quote" if mapped else "unmapped",

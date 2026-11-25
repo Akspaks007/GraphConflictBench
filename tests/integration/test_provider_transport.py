@@ -34,8 +34,8 @@ def completion(control, **updates):
             "messages": [{"role": "user", "content": "text"}], **updates}
 
 
-@pytest.mark.parametrize("rotate", [False, True])
-def test_groq_sdk_dispatch_and_local_embedding(control, monkeypatch, rotate):
+@pytest.mark.parametrize(("rotate", "pace"), [(False, False), (True, False), (False, True)])
+def test_groq_sdk_dispatch_and_local_embedding(control, monkeypatch, rotate, pace):
     import numpy as np
 
     policy = control.policy.model_dump()
@@ -67,6 +67,14 @@ def test_groq_sdk_dispatch_and_local_embedding(control, monkeypatch, rotate):
 
     monkeypatch.setenv("GROQ_API_KEY", "offline-groq-key")
     monkeypatch.delenv("GROQ_API_KEYS", raising=False)
+    monkeypatch.delenv("GCB_GROQ_MIN_KEY_INTERVAL_SECONDS", raising=False)
+    delays = []
+    if pace:
+        async def capture_delay(seconds):
+            delays.append(seconds)
+
+        monkeypatch.setenv("GCB_GROQ_MIN_KEY_INTERVAL_SECONDS", "30")
+        monkeypatch.setattr(asyncio, "sleep", capture_delay)
     if rotate:
         monkeypatch.setenv(
             "GROQ_API_KEYS", "offline-first, offline-second, offline-third, offline-first"
@@ -92,6 +100,8 @@ def test_groq_sdk_dispatch_and_local_embedding(control, monkeypatch, rotate):
         "offline-groq-key"
     ] * 4
     assert dispatched == [f"Bearer {key}" for key in expected]
+    if pace:
+        assert len(delays) == 3 and 0 < delays[0] <= 30
     status = control.verify()
     assert status["requests"] == 4
     assert status["charged_nanodollars"] == 4 * 2700

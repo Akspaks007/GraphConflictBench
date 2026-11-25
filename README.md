@@ -1,15 +1,18 @@
-# GraphConflictBench — implementation through Step 4
+# GraphConflictBench
 
 This repository implements the requested vertical slice: package and schemas,
 typed ontology and shortest-proof verification, a deterministic paired dataset,
 and an adapter for the **official LightRAG SDK**. It includes a small shared JSON
 generation/scoring seam so retrieval can be exercised end to end.
 
-The included native smoke uses deterministic **test models** for extraction,
+The original LightRAG smoke uses deterministic **test models** for extraction,
 embeddings and answers. It tests real LightRAG indexing/retrieval and provenance
 handling. These outputs are tagged `benchmark_eligible=false`; they are **not
-research results about an LLM or LightRAG accuracy**. An OpenAI-compatible provider
-configuration is included, but no paid inference run was performed.
+research results about an LLM or LightRAG accuracy**. The subsequent live Groq
+pilot is recorded in [the shared project context](PROJECT_CONTEXT.md#lightrag-pilot-baseline).
+
+HippoRAG 2 and PathRAG have dedicated native workers and fixture profiles.
+See [HippoRAG 2 setup](docs/hipporag2.md) and [PathRAG setup](docs/pathrag.md).
 
 ## Quickstart
 
@@ -71,7 +74,7 @@ See [the v2 control contract](docs/step4_validity_v2.md) and
 They use fresh condition-isolated paths, a stratified 12-case subset copied from
 the original pilot, and the installed Windows native environment for model
 dependencies. Human signoff and explicit paid-execution approval remain pending.
-No paid provider calls have been made. The local $2 reservation ceiling is
+The prepared OpenAI smoke had no live provider calls. The local $2 reservation ceiling is
 conditional on the frozen prices/token bounds; it is not an account-wide billing
 guarantee. No automatic full-scale experiment is scheduled.
 
@@ -119,13 +122,12 @@ For a team handoff after the Groq integration, start with
 models and prompt settings. `data/generated/pilot/` contains 24 families/48 cases,
 144 unique source documents and separate corpus exports. `tests/fixtures/` holds
 12 manually specified logical cases. `docs/` records the protocol, decisions and
-environment. `requirements-locks/` pins the two environments.
+environment. `requirements-locks/` pins the core and native worker environments.
 
 The research-plan PDF's 240-case full target is available as `generate --size
 full`; the handbook's 360-case alternative is `--size handbook-full`. Neither is
 an approved/frozen final study. The delivered dataset is the 48-case pilot.
 
-HippoRAG 2, PathRAG, Microsoft GraphRAG, oracle ablations, full statistical
-evaluation, resolution and a dashboard are outside this delivery. The CLI exposes
-only implemented commands; use `--help` and subcommand `--help` for details.
+Microsoft GraphRAG, oracle ablations, full statistical evaluation,
+resolution and a dashboard remain follow-on work. Use `--help` for CLI options.
 

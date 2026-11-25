@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "graphconflictbench"
 version = "0.1.0"
-description = "Verified paired graph-conflict datasets and a native LightRAG integration"
+description = "Verified paired graph-conflict datasets and native GraphRAG integrations"
 requires-python = ">=3.11"
 dependencies = ["pydantic>=2.10,<3", "PyYAML>=6,<7", "tiktoken>=0.7,<1", "python-dotenv>=1.2,<2"]
 
@@ -23,7 +23,7 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-markers = ["native: executes the installed official LightRAG SDK"]
+markers = ["native: executes an installed official GraphRAG SDK"]
 
 [tool.ruff]
 target-version = "py311"
