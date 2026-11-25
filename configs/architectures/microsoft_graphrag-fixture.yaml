@@ -1,0 +1,12 @@
+architecture: microsoft_graphrag
+provider: fixture
+upstream_version: 3.1.0
+upstream_commit: 7fc6607edda3d387d23e52ededbf8a75b6730f97
+llm_model: fixture-microsoft-graphrag-v1
+embedding_model: fixture-hash-v1
+embedding_dimension: 256
+top_k_entities: 40
+top_k_relationships: 40
+community_level: 2
+evidence_budget: 3072
+benchmark_eligible: false

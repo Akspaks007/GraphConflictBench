@@ -1,0 +1,95 @@
+{
+  "architecture": "microsoft_graphrag",
+  "benchmark_eligible": false,
+  "dataset_manifest_sha256": "f0b94cbbe23c0d0cee243738a16b808890d6687c2a06911545b05e72d1002e9d",
+  "embedding_model": "fixture-hash-v1",
+  "evidence_budget": 3072,
+  "implementation_hash": "cffc0a6bd99cba502ea15f3e5f0e5aaaea794c085b297f91d812b7495c361903",
+  "model": "fixture-microsoft-graphrag-v1",
+  "prompt_sha256": "6f72ad9e8086e3b57ff9d4d6b78c26d58396e2e336cf1e0775016474c0998cd0",
+  "provider": "fixture",
+  "rows": [
+    {
+      "cases": 8,
+      "complete_proof_retrieved": 0,
+      "condition": "conflict",
+      "error": 0,
+      "exact_proofs": 0,
+      "fn": 8,
+      "fp": 0,
+      "hops": 1,
+      "tn": 0,
+      "tp": 0
+    },
+    {
+      "cases": 8,
+      "complete_proof_retrieved": 0,
+      "condition": "conflict",
+      "error": 0,
+      "exact_proofs": 0,
+      "fn": 8,
+      "fp": 0,
+      "hops": 2,
+      "tn": 0,
+      "tp": 0
+    },
+    {
+      "cases": 8,
+      "complete_proof_retrieved": 1,
+      "condition": "conflict",
+      "error": 0,
+      "exact_proofs": 1,
+      "fn": 7,
+      "fp": 0,
+      "hops": 3,
+      "tn": 0,
+      "tp": 1
+    },
+    {
+      "cases": 8,
+      "complete_proof_retrieved": null,
+      "condition": "control",
+      "error": 0,
+      "exact_proofs": 0,
+      "fn": 0,
+      "fp": 0,
+      "hops": 1,
+      "tn": 8,
+      "tp": 0
+    },
+    {
+      "cases": 8,
+      "complete_proof_retrieved": null,
+      "condition": "control",
+      "error": 0,
+      "exact_proofs": 0,
+      "fn": 0,
+      "fp": 0,
+      "hops": 2,
+      "tn": 8,
+      "tp": 0
+    },
+    {
+      "cases": 8,
+      "complete_proof_retrieved": null,
+      "condition": "control",
+      "error": 0,
+      "exact_proofs": 0,
+      "fn": 0,
+      "fp": 0,
+      "hops": 3,
+      "tn": 8,
+      "tp": 0
+    }
+  ],
+  "runs": {
+    "conflict": {
+      "index_key": "10a2d0a9fd06112f03229102d8ca1df463e05903a4dbb190075cc964ac16ef01",
+      "run_id": "347b6791e91f166ae630"
+    },
+    "control": {
+      "index_key": "9a9f73dc9bf93bb0506c108c5b5d34b4768785710007983c993db78a57982a40",
+      "run_id": "0f1fee6ab5be9564b50d"
+    }
+  }
+}

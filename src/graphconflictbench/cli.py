@@ -10,6 +10,7 @@ import yaml
 
 from .adapters.hipporag2_adapter import HippoRAGAdapter
 from .adapters.lightrag_adapter import LightRAGAdapter
+from .adapters.microsoft_graphrag_adapter import MicrosoftGraphRAGAdapter
 from .adapters.pathrag_adapter import PathRAGAdapter
 from .environment import load_environment, redact
 from .gemini_control import GeminiControl
@@ -24,6 +25,7 @@ ARCHITECTURES = {
     "lightrag": (LightRAGAdapter, ".venv-lightrag"),
     "hipporag2": (HippoRAGAdapter, ".venv-hipporag"),
     "pathrag": (PathRAGAdapter, ".venv-pathrag"),
+    "microsoft_graphrag": (MicrosoftGraphRAGAdapter, ".venv-microsoft-graphrag"),
 }
 
 

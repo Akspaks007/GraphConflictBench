@@ -31,9 +31,12 @@ def verify_bge_cache(repo):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--arch", choices=("lightrag", "hipporag2", "pathrag"), default="lightrag")
+    parser.add_argument(
+        "--arch", choices=("lightrag", "hipporag2", "pathrag", "microsoft_graphrag"),
+        default="lightrag",
+    )
     parser.add_argument("--output-root", type=Path)
-    parser.add_argument("--batch-size", type=int, default=10)
+    parser.add_argument("--batch-size", type=int)
     parser.add_argument("--key-interval-seconds", type=int, default=30, choices=range(1, 61))
     parser.add_argument("--query-key-interval-seconds", type=int, default=60, choices=range(1, 61))
     parser.add_argument("--evidence-budget", type=int)
@@ -51,8 +54,16 @@ def main():
         "runs/groq-pilot-checkpointed" if baseline else f"runs/{args.arch}-groq-pilot"
     )
     budget = args.evidence_budget if args.evidence_budget is not None else (4096 if baseline else 3072)
-    if args.batch_size <= 0 or budget <= 0 or (args.key_slot is not None and args.key_slot < 1):
+    if ((args.batch_size is not None and args.batch_size <= 0)
+            or budget <= 0 or (args.key_slot is not None and args.key_slot < 1)):
         parser.error("batch size, evidence budget and key slot must be positive")
+    if args.arch == "microsoft_graphrag":
+        if args.batch_size is not None:
+            parser.error("Microsoft GraphRAG builds communities over the complete corpus")
+        if budget != 3072:
+            parser.error("Microsoft GraphRAG uses the 3,072-token pilot evidence budget")
+    elif args.batch_size is None:
+        args.batch_size = 10
     slot = args.key_slot or (1 if args.rotate_on_quota else None)
     results = root / ("results" if budget == 4096 else f"results-{budget}")
     if args.dry_run:
@@ -116,15 +127,16 @@ def run_pilot(args, repo, config, root, results, budget, env):
               "--worker-python", sys.executable, "--resume"]
     verify = [*cli, "provider-control", "verify", "--policy", POLICY]
     subprocess.run(verify, cwd=repo, env=env, check=True)
+    batch = ["--batch-size", str(args.batch_size)] if args.batch_size is not None else []
 
     for condition in ("conflict", "control"):
         env["GCB_GROQ_MIN_KEY_INTERVAL_SECONDS"] = str(args.key_interval_seconds)
         index = str(root / "indexes" / condition)
         while True:
-            print(f"Indexing {condition} batch", flush=True)
+            print(f"Indexing {condition}" + (" batch" if batch else ""), flush=True)
             result = subprocess.run(
                 [*cli, "index", *common, "--condition", condition, "--output-dir", index,
-                 "--batch-size", str(args.batch_size)],
+                 *batch],
                 cwd=repo, env=env, check=True, stdout=subprocess.PIPE, encoding="utf-8",
             )
             print(result.stdout, end="", flush=True)

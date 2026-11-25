@@ -11,8 +11,10 @@ handling. These outputs are tagged `benchmark_eligible=false`; they are **not
 research results about an LLM or LightRAG accuracy**. The subsequent live Groq
 pilot is recorded in [the shared project context](PROJECT_CONTEXT.md#lightrag-pilot-baseline).
 
-HippoRAG 2 and PathRAG have dedicated native workers and fixture profiles.
-See [HippoRAG 2 setup](docs/hipporag2.md) and [PathRAG setup](docs/pathrag.md).
+HippoRAG 2, PathRAG and Microsoft GraphRAG Local Search have dedicated native
+workers and fixture profiles.
+[HippoRAG 2 setup](docs/hipporag2.md) · [PathRAG setup](docs/pathrag.md) ·
+[Microsoft GraphRAG setup](docs/microsoft_graphrag.md)
 
 ## Quickstart
 
@@ -128,6 +130,6 @@ The research-plan PDF's 240-case full target is available as `generate --size
 full`; the handbook's 360-case alternative is `--size handbook-full`. Neither is
 an approved/frozen final study. The delivered dataset is the 48-case pilot.
 
-Microsoft GraphRAG, oracle ablations, full statistical evaluation,
-resolution and a dashboard remain follow-on work. Use `--help` for CLI options.
+Oracle ablations, full statistical evaluation, resolution and a dashboard
+remain follow-on work. Use `--help` for CLI options.
 

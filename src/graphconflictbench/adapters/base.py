@@ -59,6 +59,9 @@ class NativeSubprocessAdapter:
     def _worker_timeout(self, operation):
         return 1800
 
+    def _index_worker_options(self, index_dir):
+        return {}
+
     def _call(self, operation, directory, **kwargs):
         directory = Path(directory).resolve()
         try:
@@ -198,7 +201,8 @@ class NativeSubprocessAdapter:
             write_jsonl(attempt / "corpus.jsonl", batch)
             build = self._call("index", attempt / "build", native_dir=str(native),
                                corpus_file=str(attempt / "corpus.jsonl"),
-                               expected_document_count=done + len(batch))
+                               expected_document_count=done + len(batch),
+                               **self._index_worker_options(index_dir))
             done = build["documents_processed"]
             checkpoint = {"identity": identity, "documents_processed": done,
                           "batch": attempt.relative_to(index_dir).as_posix(),

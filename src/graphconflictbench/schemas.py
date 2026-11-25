@@ -88,7 +88,7 @@ class RetrievedItem(Record):
 
 class Retrieval(Record):
     run_id: str
-    architecture: Literal["lightrag", "hipporag2", "pathrag"] = "lightrag"
+    architecture: Literal["lightrag", "hipporag2", "pathrag", "microsoft_graphrag"] = "lightrag"
     case_id: str
     retrieval_ms: float
     context_tokens: int

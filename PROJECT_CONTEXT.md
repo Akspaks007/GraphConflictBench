@@ -1,9 +1,9 @@
 # GraphConflictBench shared project context
 
-Updated 25 November 2026. The repository has native LightRAG and HippoRAG 2
-adapters. The LightRAG Groq pilot and its two saved indexes are available as
-historical artifacts. Each additional architecture needs its own native index
-and retrieval adapter. [Adapter handoff](docs/adapter_handoff_prompt.md)
+Updated 25 November 2026. The repository has native LightRAG, HippoRAG 2,
+PathRAG and Microsoft GraphRAG Local Search adapters. The saved LightRAG pilot
+and its two indexes are available as historical artifacts.
+[Adapter handoff](docs/adapter_handoff_prompt.md)
 
 ## Benchmark contract
 
@@ -259,11 +259,118 @@ of $0.013801425 under the $2 cap. That ledger includes prior experiments
 and key checks.
 [Verified live per-hop report](results/pathrag-groq-pilot-20261125/results_by_hop.json)
 
+An offline audit of the saved PathRAG traces found a full verbatim proof
+in 14 of 24 native conflict retrievals. Only one proof reached the
+shared 3,072-token envelope. The native context returned a median of
+75 source passages and the envelope kept a median of 38. All 1,804 raw
+conflict passages mapped to their source text. The one case with a full
+delivered proof returned a conflict verdict with `evidence_status=insufficient`
+and failed schema validation. Replaying all 24 conflict queries with the
+saved keyword responses and local BGE produced the same 14 raw proofs
+and one packed proof at both cosine cutoffs, -1.0 and the upstream 0.2.
+
+## Microsoft GraphRAG Local Search
+
+The adapter pins upstream release `3.1.0`, commit
+`7fc6607edda3d387d23e52ededbf8a75b6730f97`. Release 3.1.2 requires a
+LiteLLM source build on this Windows setup. Release 3.1.0 provides the
+same native standard indexing and Local Search context APIs and installs
+with Windows wheels. The worker calls `graphrag.api.build_index` and
+the context builder returned by `get_local_search_engine`.
+[Setup and commands](docs/microsoft_graphrag.md)
+
+The worker indexes only raw documents and neutral source IDs in each
+condition. It uses 512-token chunks, one extraction pass, community level 2,
+40 mapped entities, 40 relationships and an 8,000-token native context limit.
+It records the raw context and traces source rows back to native Parquet
+document and text-unit IDs. The shared scoring envelope uses the 3,072-token
+budget and the same final prompt. Groq GPT-OSS 20B and the 384-dimensional
+local BGE model use the existing guarded provider. Whole-corpus builds
+reuse cached completions after an interruption, and each completed native
+snapshot has checksums.
+
+The Windows Python 3.12.1 runtime passed the native health check and
+`pip check`. A fixture integration test recovered an interrupted
+30-document build using all 34 cached completions, built a separate
+control index, scored 12 cases and verified completed index and scoring
+reuse. It verified exact source attribution and the 3,072-token cap in
+both conditions. The local BGE weights matched the LightRAG checksums
+and the worker environment produced a 384-dimensional embedding offline.
+Ruff and all 30 integration tests passed. The unit suite passed 94 tests
+and hit the existing Windows symlink privilege error.
+[Windows dependency lock](requirements-locks/microsoft-graphrag-windows.txt)
+
+The frozen fixture run built two independent 120-document indexes and
+scored all 48 cases. Both native indexes and runs passed checksum
+verification. All 48 fixture answers parsed, all 177 delivered source
+passages mapped exactly, and the largest evidence envelope was 702 tokens.
+
+| Hops | Conflicts detected | Full proofs delivered | Exact proof citations | Control false alarms | Invalid answers |
+|---|---:|---:|---:|---:|---:|
+| 1 | 0/8 | 0/8 | 0/8 | 0/8 | 0/16 |
+| 2 | 0/8 | 0/8 | 0/8 | 0/8 | 0/16 |
+| 3 | 1/8 | 1/8 | 1/8 | 0/8 | 0/16 |
+
+Fixture outputs have `benchmark_eligible=false`. The indexes and run
+traces are under `runs/microsoft_graphrag-fixture-20261125/`.
+[Fixture report](results/microsoft_graphrag-fixture-20261125/results_by_hop.json)
+
+The live pilot started on 25 November 2026 with
+`scripts/run_groq_pilot.py --arch microsoft_graphrag --key-slot 1 --rotate-on-quota`.
+It uses the shared $2 ledger, 30-second indexing pace and 60-second
+scoring pace. Slot 1 hit a daily token limit during the conflict build.
+The runner honored the captured 26-second Retry-After and resumed with
+slot 2. The successful
+conflict build reused 119 cached completions and verified all 120 documents,
+145 entities, 71 relationships and two community reports.
+
+Slot 2 hit a daily token limit during control extraction. The runner
+honored the captured 45-second Retry-After and resumed using slot 3.
+The control cache reached 97 of 120 extractions before slot 3 hit its
+daily token limit. The runner honored the captured 404-second
+Retry-After and resumed with slot 4. All 120 control extraction
+responses were cached. The successful control build reused 97 completions
+and verified all 120 documents, 169 entities, 67 relationships and two
+community reports. Slot 4 reached 19 control cases before a daily token
+limit. The runner honored the captured 204-second Retry-After, and slot 5
+completed the remaining five cases on 25 November 2026. Both native indexes
+and both scored runs passed checksum verification. The provisional live
+report matches the HippoRAG 2 and PathRAG dataset and prompt hashes, chat
+and embedding models, and evidence budget.
+
+| Hops | Conflicts detected | Missed | Invalid conflicts | Full proof delivered | Exact proof citations | Control false alarms | Invalid controls |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 0/8 | 8/8 | 0/8 | 0/8 | 0/8 | 0/8 | 0/8 |
+| 2 | 0/8 | 8/8 | 0/8 | 0/8 | 0/8 | 0/8 | 0/8 |
+| 3 | 0/8 | 8/8 | 0/8 | 0/8 | 0/8 | 0/8 | 0/8 |
+
+All 48 answers parsed. The 24 conflict cases and one control returned
+native evidence, with 35 exact source passages delivered across both
+conditions. The largest evidence envelope used 679 tokens. For the 23
+empty controls, the raw native context contained no sources, entities,
+relationships or reports. GraphRAG's default largest-component clustering
+and level-2 entity filter made 4 of 145 conflict entities and 5 of 169
+control entities eligible. An offline replay with the same BGE model and
+native vector search confirmed that 23 control queries had zero eligible
+matches among their 80 native vector candidates.
+
+An offline diagnostic replay over the same saved indexes omitted the
+community-level filter. With the same local BGE weights and 3,072-token
+packing budget, all 48 cases had delivered sources and 11 of 24 conflict
+cases had a complete proof. The diagnostic measured retrieval only.
+
+The ledger verified $0.071945100 in settled requests during this pilot
+and $0.226396875 cumulatively across experiments. The shared $2 ledger
+held $0.020738250 in reservations at completion. Native indexes, build
+attempts and case traces are under `runs/microsoft_graphrag-groq-pilot/`.
+[Verified live per-hop report](results/microsoft_graphrag-groq-pilot-20261125/results_by_hop.json)
+
 ## Current scope and shared updates
 
 The original delivery covered LightRAG through Step 4. HippoRAG 2 and
-PathRAG are implemented, and both live pilots are complete.
-Microsoft GraphRAG Local Search is pending.
+PathRAG are implemented, and both live pilots are complete. Microsoft
+GraphRAG Local Search also completed native and fixture verification and
+the 48-case live pilot.
 Each implementation should expose its native capabilities and
 record unavailable evidence or provenance fields explicitly. Full statistical
 evaluation, resolution, oracle ablations and a dashboard remain follow-on work.
